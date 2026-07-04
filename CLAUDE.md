@@ -3,7 +3,7 @@
 Persistent project context. Read first in a new session.
 
 ## What this project is
-<1-2 câu mô tả project  Eđiền sau khi install>. Adopted **AI Work System MVP v1.0.5** as working methodology (since 2026-07-04). Live tree ềE`.ai-work/` tại project root.
+Hermes PoC là dự án proof-of-concept để xây dựng và kiểm chứng quy trình làm việc với AI Work System trong bối cảnh phát triển phần mềm thực tế. Dự án tập trung vào chuẩn hóa workflow theo AIP, quản trị tri thức qua wiki source, và đảm bảo tính truy vết trong quá trình thực thi. Adopted **AI Work System MVP v1.0.5** as working methodology (since 2026-07-04). Live tree ềE`.ai-work/` tại project root.
 
 ## Adopted canonical knowledge
 
