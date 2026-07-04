@@ -1,0 +1,9 @@
+# TEMPLATE — context/source_references.yaml (Detailed Design v0.2 §7.2).
+source_documents:
+  - path: <docs folder>
+    type: <requirement_docs | basic_design_docs | ...>
+    priority: <high | medium | low>
+source_code:
+  - path: <src folder>
+    type: <application_source | db_migrations | ...>
+    priority: <high | medium | low>

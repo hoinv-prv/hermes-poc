@@ -1,0 +1,32 @@
+profile_id: knowledge_object
+description: >
+  Shared profile for node_kind=object metas (Knowledge Objects): a logical entity
+  hand-authored like a source artifact (artifact_locator: __OBJECT__, no backing file).
+  The object subtype rides source_type (open-union, Knowledge_Object_Model_Spec DP2);
+  the values below are the ACTIVE object kinds (DP3 §3bis.1). CR-AIWS-2026-06-004.
+# Active object kinds (DP3 §3bis.1). business_rule is DEFERRED (CR-AIWS-2026-06-003);
+# re-activate by adding `- business_rule` here — DATA edit, no CR (open-union). Project
+# kinds extend with a `prj_`-prefixed value here, also no CR.
+# CR-AIWS-2026-06-043 Change A: optional per-source-type lookup-key stopwords (project-generic terms
+# too broad for THIS source type). Empty = no effect. Project-wide terms → project_stopwords.yml.
+extra_stopwords: []
+source_types:
+  - function
+  - screen
+  - api
+  - batch
+  - table
+  - module
+  - concept
+knowledge_targets:
+  - object_identity
+  - object_relations
+# Object out-edges use the relation registers (Knowledge_Relationship Spec), NOT documentary
+# roles: representation (represented_by) + domain (x:calls / x:part_of / x:reads), navigation-only.
+# Hint only — objects are hand-authored (DP6), so the builder does not scaffold them.
+related_sources:
+  emit_scaffold: false
+  expected_roles:
+    - represented_by
+    - x:calls
+    - x:part_of
