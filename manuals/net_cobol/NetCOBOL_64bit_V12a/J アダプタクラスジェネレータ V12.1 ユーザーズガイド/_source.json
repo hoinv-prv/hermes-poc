@@ -1,0 +1,504 @@
+{
+  "source_file": "jadpwu64.pdf",
+  "title": "ユーザーズガイド",
+  "product": "J アダプタクラスジェネレータ V12.1",
+  "full_title": "J アダプタクラスジェネレータ V12.1 ユーザーズガイド",
+  "pages": 64,
+  "approx_chars": 98066,
+  "outline_entries_total": 98,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 100
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 3423
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 5,
+      "approx_chars": 16897
+    },
+    {
+      "level": 1,
+      "title": "第1章 Jアダプタクラスジェネレータの概要",
+      "page": 7,
+      "approx_chars": 3428
+    },
+    {
+      "level": 2,
+      "title": "1.1 Jアダプタクラスジェネレータとは",
+      "page": 7,
+      "approx_chars": 808
+    },
+    {
+      "level": 2,
+      "title": "1.2 できること",
+      "page": 8,
+      "approx_chars": 789
+    },
+    {
+      "level": 2,
+      "title": "1.3 できないこと",
+      "page": 8,
+      "approx_chars": 1026
+    },
+    {
+      "level": 2,
+      "title": "1.4 準備するもの",
+      "page": 9,
+      "approx_chars": 713
+    },
+    {
+      "level": 1,
+      "title": "第2章 Jアダプタクラスジェネレータの仕組み",
+      "page": 10,
+      "approx_chars": 882
+    },
+    {
+      "level": 2,
+      "title": "2.1 アダプタクラス",
+      "page": 10,
+      "approx_chars": 331
+    },
+    {
+      "level": 2,
+      "title": "2.2 アダプタオブジェクト",
+      "page": 10,
+      "approx_chars": 463
+    },
+    {
+      "level": 1,
+      "title": "第3章 開発方法",
+      "page": 11,
+      "approx_chars": 18385
+    },
+    {
+      "level": 2,
+      "title": "3.1 アダプタクラスの作成",
+      "page": 11,
+      "approx_chars": 5888
+    },
+    {
+      "level": 3,
+      "title": "3.1.1 Javaクラスの調査",
+      "page": 11,
+      "approx_chars": 326
+    },
+    {
+      "level": 3,
+      "title": "3.1.2 アダプタクラスのソース生成",
+      "page": 11,
+      "approx_chars": 1206
+    },
+    {
+      "level": 3,
+      "title": "3.1.3 アダプタクラスの構築",
+      "page": 12,
+      "approx_chars": 1165
+    },
+    {
+      "level": 3,
+      "title": "3.1.4 クラスファイルがない場合の生成方法",
+      "page": 13,
+      "approx_chars": 716
+    },
+    {
+      "level": 3,
+      "title": "3.1.5 アダプタクラスのサイズ縮小",
+      "page": 13,
+      "approx_chars": 2266
+    },
+    {
+      "level": 2,
+      "title": "3.2 アダプタクラスを利用するアプリケーションの開発",
+      "page": 15,
+      "approx_chars": 11606
+    },
+    {
+      "level": 3,
+      "title": "3.2.1 プログラムの書き方",
+      "page": 15,
+      "approx_chars": 10145
+    },
+    {
+      "level": 3,
+      "title": "3.2.2 プログラムの構築",
+      "page": 22,
+      "approx_chars": 1359
+    },
+    {
+      "level": 2,
+      "title": "3.3 プログラムの実行",
+      "page": 23,
+      "approx_chars": 389
+    },
+    {
+      "level": 2,
+      "title": "3.4 Java2への移行",
+      "page": 23,
+      "approx_chars": 438
+    },
+    {
+      "level": 1,
+      "title": "第4章 ジェネレータの使い方",
+      "page": 24,
+      "approx_chars": 14452
+    },
+    {
+      "level": 2,
+      "title": "4.1 起動方法",
+      "page": 24,
+      "approx_chars": 6119
+    },
+    {
+      "level": 3,
+      "title": "4.1.1 コマンドの形式",
+      "page": 24,
+      "approx_chars": 610
+    },
+    {
+      "level": 3,
+      "title": "4.1.2 オプション",
+      "page": 24,
+      "approx_chars": 4089
+    },
+    {
+      "level": 3,
+      "title": "4.1.3 環境変数",
+      "page": 26,
+      "approx_chars": 101
+    },
+    {
+      "level": 3,
+      "title": "4.1.4 注意事項",
+      "page": 26,
+      "approx_chars": 601
+    },
+    {
+      "level": 3,
+      "title": "4.1.5 使用例",
+      "page": 27,
+      "approx_chars": 693
+    },
+    {
+      "level": 2,
+      "title": "4.2 オプションファイル",
+      "page": 27,
+      "approx_chars": 5543
+    },
+    {
+      "level": 3,
+      "title": "4.2.1 形式",
+      "page": 27,
+      "approx_chars": 4750
+    },
+    {
+      "level": 3,
+      "title": "4.2.2 例",
+      "page": 32,
+      "approx_chars": 272
+    },
+    {
+      "level": 3,
+      "title": "4.2.3 注意事項",
+      "page": 32,
+      "approx_chars": 180
+    },
+    {
+      "level": 2,
+      "title": "4.3 出力",
+      "page": 32,
+      "approx_chars": 2650
+    },
+    {
+      "level": 3,
+      "title": "4.3.1 アダプタクラスのソースファイル",
+      "page": 32,
+      "approx_chars": 1058
+    },
+    {
+      "level": 3,
+      "title": "4.3.2 生成名管理ファイル",
+      "page": 33,
+      "approx_chars": 360
+    },
+    {
+      "level": 3,
+      "title": "4.3.3 メソッド名対応表ファイル",
+      "page": 33,
+      "approx_chars": 987
+    },
+    {
+      "level": 3,
+      "title": "4.3.4 注意事項",
+      "page": 34,
+      "approx_chars": 153
+    },
+    {
+      "level": 1,
+      "title": "第5章 アダプタクラスリファレンス",
+      "page": 35,
+      "approx_chars": 27828
+    },
+    {
+      "level": 2,
+      "title": "5.1 クラス構成",
+      "page": 35,
+      "approx_chars": 679
+    },
+    {
+      "level": 2,
+      "title": "5.2 FJ-JAVA-BASEクラス",
+      "page": 35,
+      "approx_chars": 1297
+    },
+    {
+      "level": 3,
+      "title": "5.2.1 J-NARROWメソッド（ファクトリメソッド）",
+      "page": 36,
+      "approx_chars": 323
+    },
+    {
+      "level": 3,
+      "title": "5.2.2 J-DUPLICATEメソッド（オブジェクトメソッド）",
+      "page": 36,
+      "approx_chars": 374
+    },
+    {
+      "level": 3,
+      "title": "5.2.3 J-EQUALSメソッド（オブジェクトメソッド）",
+      "page": 36,
+      "approx_chars": 320
+    },
+    {
+      "level": 2,
+      "title": "5.3 FJ-JAVA-CONTROLクラス",
+      "page": 37,
+      "approx_chars": 2420
+    },
+    {
+      "level": 3,
+      "title": "5.3.1 JVM-INITメソッド（ファクトリメソッド）",
+      "page": 37,
+      "approx_chars": 1236
+    },
+    {
+      "level": 3,
+      "title": "5.3.2 JVM-TERMINATEメソッド（ファクトリメソッド）",
+      "page": 38,
+      "approx_chars": 212
+    },
+    {
+      "level": 3,
+      "title": "5.3.3 JVM-ATTACHメソッド（ファクトリメソッド）",
+      "page": 38,
+      "approx_chars": 455
+    },
+    {
+      "level": 3,
+      "title": "5.3.4 JVM-DETACHメソッド（ファクトリメソッド）",
+      "page": 39,
+      "approx_chars": 197
+    },
+    {
+      "level": 2,
+      "title": "5.4 FJ-JAVA-ERRORクラス",
+      "page": 39,
+      "approx_chars": 1552
+    },
+    {
+      "level": 3,
+      "title": "5.4.1 GET-MESSAGEメソッド（オブジェクトメソッド）",
+      "page": 39,
+      "approx_chars": 324
+    },
+    {
+      "level": 3,
+      "title": "5.4.2 GET-CODEメソッド（オブジェクトメソッド）",
+      "page": 39,
+      "approx_chars": 213
+    },
+    {
+      "level": 3,
+      "title": "5.4.3 GET-EXCEPTIONメソッド（オブジェクトメソッド）",
+      "page": 40,
+      "approx_chars": 591
+    },
+    {
+      "level": 2,
+      "title": "5.5 クラス／インタフェースのアダプタクラス",
+      "page": 40,
+      "approx_chars": 10665
+    },
+    {
+      "level": 3,
+      "title": "5.5.1 データ型",
+      "page": 41,
+      "approx_chars": 695
+    },
+    {
+      "level": 3,
+      "title": "5.5.2 クラス／インタフェース",
+      "page": 41,
+      "approx_chars": 1731
+    },
+    {
+      "level": 3,
+      "title": "5.5.3 コンストラクタ",
+      "page": 43,
+      "approx_chars": 1894
+    },
+    {
+      "level": 3,
+      "title": "5.5.4 クラス変数",
+      "page": 44,
+      "approx_chars": 1412
+    },
+    {
+      "level": 3,
+      "title": "5.5.5 クラスメソッド",
+      "page": 45,
+      "approx_chars": 1446
+    },
+    {
+      "level": 3,
+      "title": "5.5.6 インスタンス変数",
+      "page": 46,
+      "approx_chars": 1554
+    },
+    {
+      "level": 3,
+      "title": "5.5.7 インスタンスメソッド",
+      "page": 47,
+      "approx_chars": 1405
+    },
+    {
+      "level": 2,
+      "title": "5.6 java-lang-Stringクラス",
+      "page": 48,
+      "approx_chars": 3805
+    },
+    {
+      "level": 3,
+      "title": "5.6.1 NEW-STRING-Xメソッド（ファクトリメソッド）",
+      "page": 49,
+      "approx_chars": 980
+    },
+    {
+      "level": 3,
+      "title": "5.6.2 NEW-STRING-Nメソッド（ファクトリメソッド）",
+      "page": 50,
+      "approx_chars": 982
+    },
+    {
+      "level": 3,
+      "title": "5.6.3 GET-STRING-Xメソッド（オブジェクトメソッド）",
+      "page": 50,
+      "approx_chars": 365
+    },
+    {
+      "level": 3,
+      "title": "5.6.4 GET-STRING-Nメソッド（オブジェクトメソッド）",
+      "page": 51,
+      "approx_chars": 359
+    },
+    {
+      "level": 3,
+      "title": "5.6.5 GET-STRING-LENGTH-Xメソッド（オブジェクトメソッド）",
+      "page": 51,
+      "approx_chars": 312
+    },
+    {
+      "level": 3,
+      "title": "5.6.6 GET-STRING-LENGTH-Nメソッド（オブジェクトメソッド）",
+      "page": 51,
+      "approx_chars": 318
+    },
+    {
+      "level": 2,
+      "title": "5.7 配列のアダプタクラス",
+      "page": 52,
+      "approx_chars": 3796
+    },
+    {
+      "level": 3,
+      "title": "5.7.1 配列クラス",
+      "page": 52,
+      "approx_chars": 1790
+    },
+    {
+      "level": 3,
+      "title": "5.7.2 NEW-ARRAYメソッド（ファクトリメソッド）",
+      "page": 53,
+      "approx_chars": 946
+    },
+    {
+      "level": 3,
+      "title": "5.7.3 GET-ARRAY-LENGTHメソッド（オブジェクトメソッド）",
+      "page": 54,
+      "approx_chars": 256
+    },
+    {
+      "level": 3,
+      "title": "5.7.4 GET-ARRAY-ELEMENTメソッド（オブジェクトメソッド）",
+      "page": 54,
+      "approx_chars": 335
+    },
+    {
+      "level": 3,
+      "title": "5.7.5 SET-ARRAY-ELEMENTメソッド（オブジェクトメソッド）",
+      "page": 55,
+      "approx_chars": 317
+    },
+    {
+      "level": 2,
+      "title": "5.8 名前の番号付け",
+      "page": 55,
+      "approx_chars": 3453
+    },
+    {
+      "level": 3,
+      "title": "5.8.1 名前の有効範囲",
+      "page": 55,
+      "approx_chars": 347
+    },
+    {
+      "level": 3,
+      "title": "5.8.2 生成規則により必ず一意になる名前",
+      "page": 56,
+      "approx_chars": 188
+    },
+    {
+      "level": 3,
+      "title": "5.8.3 スーパークラス・サブクラス間で一意にする名前",
+      "page": 56,
+      "approx_chars": 879
+    },
+    {
+      "level": 3,
+      "title": "5.8.4 実行単位全体で一意にする名前",
+      "page": 56,
+      "approx_chars": 1664
+    },
+    {
+      "level": 1,
+      "title": "付録A 例外種別一覧",
+      "page": 59,
+      "approx_chars": 3228
+    },
+    {
+      "level": 1,
+      "title": "索 引",
+      "page": 63,
+      "approx_chars": 9443
+    }
+  ]
+}

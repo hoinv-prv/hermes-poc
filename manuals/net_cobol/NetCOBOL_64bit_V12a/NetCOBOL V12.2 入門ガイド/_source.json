@@ -1,0 +1,1122 @@
+{
+  "source_file": "cobwstart64.pdf",
+  "title": "入門ガイド",
+  "product": "NetCOBOL V12.2",
+  "full_title": "NetCOBOL V12.2 入門ガイド",
+  "pages": 210,
+  "approx_chars": 194505,
+  "outline_entries_total": 219,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 90
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 3537
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 5,
+      "approx_chars": 37980
+    },
+    {
+      "level": 1,
+      "title": "第1章 NetCOBOLとは",
+      "page": 9,
+      "approx_chars": 4776
+    },
+    {
+      "level": 2,
+      "title": "1.1 NetCOBOLの特長",
+      "page": 9,
+      "approx_chars": 766
+    },
+    {
+      "level": 2,
+      "title": "1.2 NetCOBOLと先端技術",
+      "page": 10,
+      "approx_chars": 1951
+    },
+    {
+      "level": 2,
+      "title": "1.3 製品体系",
+      "page": 11,
+      "approx_chars": 1645
+    },
+    {
+      "level": 1,
+      "title": "第2章 NetCOBOLアプリケーション開発の基礎",
+      "page": 14,
+      "approx_chars": 12754
+    },
+    {
+      "level": 2,
+      "title": "2.1 概要",
+      "page": 14,
+      "approx_chars": 2078
+    },
+    {
+      "level": 3,
+      "title": "2.1.1 NetCOBOLの開発環境",
+      "page": 14,
+      "approx_chars": 1489
+    },
+    {
+      "level": 3,
+      "title": "2.1.2 作成するアプリケーションについて",
+      "page": 15,
+      "approx_chars": 368
+    },
+    {
+      "level": 3,
+      "title": "2.1.3 アプリケーション開発の流れ",
+      "page": 15,
+      "approx_chars": 133
+    },
+    {
+      "level": 2,
+      "title": "2.2 NetCOBOL Studioの起動",
+      "page": 16,
+      "approx_chars": 504
+    },
+    {
+      "level": 2,
+      "title": "2.3 プロジェクトの作成",
+      "page": 17,
+      "approx_chars": 1155
+    },
+    {
+      "level": 2,
+      "title": "2.4 ソースプログラム、登録集の作成",
+      "page": 22,
+      "approx_chars": 1574
+    },
+    {
+      "level": 2,
+      "title": "2.5 ビルド",
+      "page": 26,
+      "approx_chars": 2330
+    },
+    {
+      "level": 3,
+      "title": "2.5.1 翻訳オプションの設定",
+      "page": 26,
+      "approx_chars": 1304
+    },
+    {
+      "level": 3,
+      "title": "2.5.2 リンクオプションの設定",
+      "page": 29,
+      "approx_chars": 335
+    },
+    {
+      "level": 3,
+      "title": "2.5.3 ビルド操作",
+      "page": 30,
+      "approx_chars": 450
+    },
+    {
+      "level": 2,
+      "title": "2.6 実行",
+      "page": 31,
+      "approx_chars": 1658
+    },
+    {
+      "level": 3,
+      "title": "2.6.1 実行環境情報の設定",
+      "page": 31,
+      "approx_chars": 1347
+    },
+    {
+      "level": 3,
+      "title": "2.6.2 プログラムの実行",
+      "page": 33,
+      "approx_chars": 265
+    },
+    {
+      "level": 2,
+      "title": "2.7 デバッグ",
+      "page": 33,
+      "approx_chars": 3205
+    },
+    {
+      "level": 3,
+      "title": "2.7.1 デバッグの準備",
+      "page": 34,
+      "approx_chars": 450
+    },
+    {
+      "level": 3,
+      "title": "2.7.2 デバッグの開始",
+      "page": 35,
+      "approx_chars": 945
+    },
+    {
+      "level": 3,
+      "title": "2.7.3 デバッグ操作",
+      "page": 37,
+      "approx_chars": 1466
+    },
+    {
+      "level": 3,
+      "title": "2.7.4 デバッグの終了",
+      "page": 42,
+      "approx_chars": 68
+    },
+    {
+      "level": 2,
+      "title": "2.8 NetCOBOL Studioの終了",
+      "page": 42,
+      "approx_chars": 121
+    },
+    {
+      "level": 1,
+      "title": "第3章 画面帳票アプリケーションの開発",
+      "page": 43,
+      "approx_chars": 20251
+    },
+    {
+      "level": 2,
+      "title": "3.1 概要",
+      "page": 43,
+      "approx_chars": 1547
+    },
+    {
+      "level": 3,
+      "title": "3.1.1 画面帳票アプリケーションの概要",
+      "page": 43,
+      "approx_chars": 1172
+    },
+    {
+      "level": 3,
+      "title": "3.1.2 作成するアプリケーションについて",
+      "page": 44,
+      "approx_chars": 192
+    },
+    {
+      "level": 3,
+      "title": "3.1.3 アプリケーション開発の流れ",
+      "page": 44,
+      "approx_chars": 94
+    },
+    {
+      "level": 2,
+      "title": "3.2 表示ファイルのプログラミング",
+      "page": 45,
+      "approx_chars": 8167
+    },
+    {
+      "level": 3,
+      "title": "3.2.1 環境部(ENVIRONMENT DIVISION)",
+      "page": 47,
+      "approx_chars": 1897
+    },
+    {
+      "level": 3,
+      "title": "3.2.2 データ部(DATA DIVISION)",
+      "page": 48,
+      "approx_chars": 890
+    },
+    {
+      "level": 3,
+      "title": "3.2.3 手続き部(PROCEDURE DIVISION)",
+      "page": 49,
+      "approx_chars": 1459
+    },
+    {
+      "level": 3,
+      "title": "3.2.4 エラー処理",
+      "page": 50,
+      "approx_chars": 720
+    },
+    {
+      "level": 2,
+      "title": "3.3 画面帳票定義体の作成",
+      "page": 50,
+      "approx_chars": 7921
+    },
+    {
+      "level": 3,
+      "title": "3.3.1 画面定義体の作成",
+      "page": 50,
+      "approx_chars": 4288
+    },
+    {
+      "level": 3,
+      "title": "3.3.2 帳票定義体の作成",
+      "page": 61,
+      "approx_chars": 3533
+    },
+    {
+      "level": 2,
+      "title": "3.4 プロジェクトの作成",
+      "page": 68,
+      "approx_chars": 934
+    },
+    {
+      "level": 3,
+      "title": "3.4.1 各種ファイルの登録",
+      "page": 69,
+      "approx_chars": 556
+    },
+    {
+      "level": 2,
+      "title": "3.5 ビルド",
+      "page": 71,
+      "approx_chars": 354
+    },
+    {
+      "level": 3,
+      "title": "3.5.1 ビルド操作",
+      "page": 71,
+      "approx_chars": 136
+    },
+    {
+      "level": 2,
+      "title": "3.6 実行",
+      "page": 71,
+      "approx_chars": 704
+    },
+    {
+      "level": 3,
+      "title": "3.6.1 実行環境情報の設定",
+      "page": 71,
+      "approx_chars": 573
+    },
+    {
+      "level": 3,
+      "title": "3.6.2 プログラムの実行",
+      "page": 72,
+      "approx_chars": 110
+    },
+    {
+      "level": 2,
+      "title": "3.7 デバッグ",
+      "page": 72,
+      "approx_chars": 499
+    },
+    {
+      "level": 3,
+      "title": "3.7.1 デバッグの準備",
+      "page": 72,
+      "approx_chars": 134
+    },
+    {
+      "level": 3,
+      "title": "3.7.2 デバッグの開始",
+      "page": 72,
+      "approx_chars": 62
+    },
+    {
+      "level": 3,
+      "title": "3.7.3 デバッグ操作",
+      "page": 72,
+      "approx_chars": 144
+    },
+    {
+      "level": 3,
+      "title": "3.7.4 デバッグの終了",
+      "page": 72,
+      "approx_chars": 87
+    },
+    {
+      "level": 1,
+      "title": "第4章 MeFt/Webアプリケーションの構築",
+      "page": 73,
+      "approx_chars": 21451
+    },
+    {
+      "level": 2,
+      "title": "4.1 概要",
+      "page": 73,
+      "approx_chars": 1391
+    },
+    {
+      "level": 3,
+      "title": "4.1.1 MeFt/Webの概要",
+      "page": 73,
+      "approx_chars": 1015
+    },
+    {
+      "level": 3,
+      "title": "4.1.2 構築するアプリケーションについて",
+      "page": 74,
+      "approx_chars": 235
+    },
+    {
+      "level": 3,
+      "title": "4.1.3 構築作業の流れ",
+      "page": 74,
+      "approx_chars": 74
+    },
+    {
+      "level": 2,
+      "title": "4.2 MeFt/Webサーバのセットアップ",
+      "page": 75,
+      "approx_chars": 2943
+    },
+    {
+      "level": 3,
+      "title": "4.2.1 MeFt/Web動作環境の設定",
+      "page": 75,
+      "approx_chars": 2050
+    },
+    {
+      "level": 3,
+      "title": "4.2.2 権限の設定",
+      "page": 77,
+      "approx_chars": 775
+    },
+    {
+      "level": 2,
+      "title": "4.3 MeFt/Web環境への移行",
+      "page": 79,
+      "approx_chars": 7959
+    },
+    {
+      "level": 3,
+      "title": "4.3.1 MeFt/Web移行時のアプリケーションの対応",
+      "page": 79,
+      "approx_chars": 3679
+    },
+    {
+      "level": 3,
+      "title": "4.3.2 アプリケーション資産の配置と環境設定",
+      "page": 83,
+      "approx_chars": 4181
+    },
+    {
+      "level": 2,
+      "title": "4.4 HTMLの作成",
+      "page": 88,
+      "approx_chars": 3911
+    },
+    {
+      "level": 2,
+      "title": "4.5 リモート実行",
+      "page": 92,
+      "approx_chars": 1345
+    },
+    {
+      "level": 3,
+      "title": "4.5.1 HTMLの表示",
+      "page": 92,
+      "approx_chars": 489
+    },
+    {
+      "level": 3,
+      "title": "4.5.2 プログラムの実行",
+      "page": 93,
+      "approx_chars": 770
+    },
+    {
+      "level": 2,
+      "title": "4.6 デバッグ",
+      "page": 96,
+      "approx_chars": 1722
+    },
+    {
+      "level": 3,
+      "title": "4.6.1 MeFt/Webアプリケーションのデバッグについて",
+      "page": 96,
+      "approx_chars": 137
+    },
+    {
+      "level": 3,
+      "title": "4.6.2 デバッグの準備",
+      "page": 96,
+      "approx_chars": 810
+    },
+    {
+      "level": 3,
+      "title": "4.6.3 デバッグの開始",
+      "page": 97,
+      "approx_chars": 514
+    },
+    {
+      "level": 3,
+      "title": "4.6.4 デバッグ操作",
+      "page": 97,
+      "approx_chars": 124
+    },
+    {
+      "level": 3,
+      "title": "4.6.5 デバッグの終了",
+      "page": 97,
+      "approx_chars": 74
+    },
+    {
+      "level": 2,
+      "title": "4.7 通信が切断されるパターンについて",
+      "page": 98,
+      "approx_chars": 2024
+    },
+    {
+      "level": 1,
+      "title": "第5章 効率のよいプログラムのテクニック",
+      "page": 100,
+      "approx_chars": 9335
+    },
+    {
+      "level": 2,
+      "title": "5.1 一般的なテクニック",
+      "page": 100,
+      "approx_chars": 764
+    },
+    {
+      "level": 3,
+      "title": "5.1.1 作業場所節の項目",
+      "page": 100,
+      "approx_chars": 304
+    },
+    {
+      "level": 3,
+      "title": "5.1.2 ループの最適化",
+      "page": 100,
+      "approx_chars": 250
+    },
+    {
+      "level": 3,
+      "title": "5.1.3 複合条件の判定順序",
+      "page": 100,
+      "approx_chars": 175
+    },
+    {
+      "level": 2,
+      "title": "5.2 データ項目の属性を理解して使う",
+      "page": 100,
+      "approx_chars": 1252
+    },
+    {
+      "level": 3,
+      "title": "5.2.1 英数字項目と数字項目",
+      "page": 100,
+      "approx_chars": 219
+    },
+    {
+      "level": 3,
+      "title": "5.2.2 USAGE DISPLAYの数字項目(外部10進項目)",
+      "page": 100,
+      "approx_chars": 246
+    },
+    {
+      "level": 3,
+      "title": "5.2.3 USAGE PACKED-DECIMALの数字項目(内部10進項目)",
+      "page": 101,
+      "approx_chars": 217
+    },
+    {
+      "level": 3,
+      "title": "5.2.4 USAGE BINARY/COMP/COMP-5の数字項目(2進項目)",
+      "page": 101,
+      "approx_chars": 279
+    },
+    {
+      "level": 3,
+      "title": "5.2.5 数字項目の符号",
+      "page": 101,
+      "approx_chars": 244
+    },
+    {
+      "level": 2,
+      "title": "5.3 数字転記・数字比較・算術演算の処理時間を短くする",
+      "page": 101,
+      "approx_chars": 1355
+    },
+    {
+      "level": 3,
+      "title": "5.3.1 属性",
+      "page": 101,
+      "approx_chars": 343
+    },
+    {
+      "level": 3,
+      "title": "5.3.2 桁数",
+      "page": 101,
+      "approx_chars": 81
+    },
+    {
+      "level": 3,
+      "title": "5.3.3 べき乗の指数",
+      "page": 101,
+      "approx_chars": 136
+    },
+    {
+      "level": 3,
+      "title": "5.3.4 ROUNDED指定",
+      "page": 101,
+      "approx_chars": 132
+    },
+    {
+      "level": 3,
+      "title": "5.3.5 ON SIZE ERROR指定",
+      "page": 102,
+      "approx_chars": 231
+    },
+    {
+      "level": 3,
+      "title": "5.3.6 TRUNCオプション",
+      "page": 102,
+      "approx_chars": 367
+    },
+    {
+      "level": 2,
+      "title": "5.4 英数字転記・英数字比較を効率よく行う",
+      "page": 102,
+      "approx_chars": 545
+    },
+    {
+      "level": 3,
+      "title": "5.4.1 境界合せ",
+      "page": 102,
+      "approx_chars": 211
+    },
+    {
+      "level": 3,
+      "title": "5.4.2 項目長",
+      "page": 102,
+      "approx_chars": 185
+    },
+    {
+      "level": 3,
+      "title": "5.4.3 転記の統合",
+      "page": 102,
+      "approx_chars": 96
+    },
+    {
+      "level": 2,
+      "title": "5.5 入出力におけるテクニック",
+      "page": 102,
+      "approx_chars": 576
+    },
+    {
+      "level": 3,
+      "title": "5.5.1 SAME RECORD AREA句",
+      "page": 102,
+      "approx_chars": 235
+    },
+    {
+      "level": 3,
+      "title": "5.5.2 ACCEPT文、DISPLAY文",
+      "page": 102,
+      "approx_chars": 168
+    },
+    {
+      "level": 3,
+      "title": "5.5.3 OPEN文、CLOSE文",
+      "page": 103,
+      "approx_chars": 132
+    },
+    {
+      "level": 2,
+      "title": "5.6 プログラム間連絡におけるテクニック",
+      "page": 103,
+      "approx_chars": 1077
+    },
+    {
+      "level": 3,
+      "title": "5.6.1 副プログラムの分割の基準",
+      "page": 103,
+      "approx_chars": 324
+    },
+    {
+      "level": 3,
+      "title": "5.6.2 動的プログラム構造と動的リンク構造",
+      "page": 103,
+      "approx_chars": 441
+    },
+    {
+      "level": 3,
+      "title": "5.6.3 CANCEL文",
+      "page": 103,
+      "approx_chars": 75
+    },
+    {
+      "level": 3,
+      "title": "5.6.4 パラメタの個数",
+      "page": 103,
+      "approx_chars": 186
+    },
+    {
+      "level": 2,
+      "title": "5.7 デバッグ機能を使用する",
+      "page": 103,
+      "approx_chars": 691
+    },
+    {
+      "level": 2,
+      "title": "5.8 数字項目の標準規則",
+      "page": 104,
+      "approx_chars": 2396
+    },
+    {
+      "level": 3,
+      "title": "5.8.1 10進項目",
+      "page": 104,
+      "approx_chars": 1067
+    },
+    {
+      "level": 3,
+      "title": "5.8.2 2進項目",
+      "page": 104,
+      "approx_chars": 513
+    },
+    {
+      "level": 3,
+      "title": "5.8.3 浮動小数点項目",
+      "page": 105,
+      "approx_chars": 158
+    },
+    {
+      "level": 3,
+      "title": "5.8.4 乗除算の混合時の小数部桁数",
+      "page": 105,
+      "approx_chars": 433
+    },
+    {
+      "level": 3,
+      "title": "5.8.5 絶対値がとられる転記",
+      "page": 105,
+      "approx_chars": 149
+    },
+    {
+      "level": 2,
+      "title": "5.9 注意事項",
+      "page": 105,
+      "approx_chars": 287
+    },
+    {
+      "level": 1,
+      "title": "第6章 サンプルプログラム",
+      "page": 106,
+      "approx_chars": 74088
+    },
+    {
+      "level": 2,
+      "title": "6.1 NetCOBOL Studioでサンプルを利用するための事前準備",
+      "page": 107,
+      "approx_chars": 2021
+    },
+    {
+      "level": 3,
+      "title": "6.1.1 NetCOBOL Studioの基本概念を理解する",
+      "page": 107,
+      "approx_chars": 513
+    },
+    {
+      "level": 3,
+      "title": "6.1.2 サンプルを利用するための事前準備",
+      "page": 107,
+      "approx_chars": 1179
+    },
+    {
+      "level": 3,
+      "title": "6.1.3 サンプルを利用する上での注意事項",
+      "page": 108,
+      "approx_chars": 248
+    },
+    {
+      "level": 2,
+      "title": "6.2 標準入出力を使ったデータ処理(Sample01)",
+      "page": 108,
+      "approx_chars": 2070
+    },
+    {
+      "level": 3,
+      "title": "6.2.1 NetCOBOL Studioを利用する場合",
+      "page": 109,
+      "approx_chars": 888
+    },
+    {
+      "level": 3,
+      "title": "6.2.2 COBOLコマンドとリンクコマンドを利用する場合",
+      "page": 110,
+      "approx_chars": 371
+    },
+    {
+      "level": 3,
+      "title": "6.2.3 MAKEファイルを利用する場合",
+      "page": 110,
+      "approx_chars": 289
+    },
+    {
+      "level": 2,
+      "title": "6.3 行順ファイルと索引ファイルの操作(Sample02)",
+      "page": 111,
+      "approx_chars": 2941
+    },
+    {
+      "level": 3,
+      "title": "6.3.1 NetCOBOL Studioを利用する場合",
+      "page": 112,
+      "approx_chars": 1932
+    },
+    {
+      "level": 3,
+      "title": "6.3.2 MAKEファイルを利用する場合",
+      "page": 114,
+      "approx_chars": 323
+    },
+    {
+      "level": 2,
+      "title": "6.4 表示ファイル機能を使ったプログラム(Sample03)",
+      "page": 114,
+      "approx_chars": 3719
+    },
+    {
+      "level": 3,
+      "title": "6.4.1 NetCOBOL Studioを利用する場合",
+      "page": 116,
+      "approx_chars": 2086
+    },
+    {
+      "level": 3,
+      "title": "6.4.2 MAKEファイルを利用する場合",
+      "page": 119,
+      "approx_chars": 330
+    },
+    {
+      "level": 2,
+      "title": "6.5 スクリーン操作機能を使った画面入出力(Sample04)",
+      "page": 120,
+      "approx_chars": 2810
+    },
+    {
+      "level": 3,
+      "title": "6.5.1 NetCOBOL Studioを利用する場合",
+      "page": 120,
+      "approx_chars": 1915
+    },
+    {
+      "level": 3,
+      "title": "6.5.2 MAKEファイルを利用する場合",
+      "page": 123,
+      "approx_chars": 330
+    },
+    {
+      "level": 2,
+      "title": "6.6 COBOLプログラム間の呼出し(Sample05)",
+      "page": 124,
+      "approx_chars": 6487
+    },
+    {
+      "level": 3,
+      "title": "6.6.1 NetCOBOL Studioを利用する場合",
+      "page": 126,
+      "approx_chars": 3883
+    },
+    {
+      "level": 3,
+      "title": "6.6.2 MAKEファイルを利用する",
+      "page": 135,
+      "approx_chars": 396
+    },
+    {
+      "level": 2,
+      "title": "6.7 コマンド行引数の受取り方(Sample06)",
+      "page": 135,
+      "approx_chars": 2454
+    },
+    {
+      "level": 3,
+      "title": "6.7.1 NetCOBOL Studioを利用する場合",
+      "page": 136,
+      "approx_chars": 1180
+    },
+    {
+      "level": 3,
+      "title": "6.7.2 MAKEファイルを利用する",
+      "page": 139,
+      "approx_chars": 556
+    },
+    {
+      "level": 2,
+      "title": "6.8 環境変数の操作(Sample07)",
+      "page": 139,
+      "approx_chars": 3435
+    },
+    {
+      "level": 3,
+      "title": "6.8.1 NetCOBOL Studioを利用する場合",
+      "page": 140,
+      "approx_chars": 2317
+    },
+    {
+      "level": 3,
+      "title": "6.8.2 MAKEファイルを利用する場合",
+      "page": 143,
+      "approx_chars": 330
+    },
+    {
+      "level": 2,
+      "title": "6.9 印刷ファイルを使ったプログラム(Sample08)",
+      "page": 144,
+      "approx_chars": 1833
+    },
+    {
+      "level": 3,
+      "title": "6.9.1 NetCOBOL Studioを利用する場合",
+      "page": 144,
+      "approx_chars": 1042
+    },
+    {
+      "level": 3,
+      "title": "6.9.2 MAKEファイルを利用する場合",
+      "page": 146,
+      "approx_chars": 289
+    },
+    {
+      "level": 2,
+      "title": "6.10 印刷ファイルを使ったプログラム（応用編）(Sample09)",
+      "page": 147,
+      "approx_chars": 4138
+    },
+    {
+      "level": 3,
+      "title": "6.10.1 NetCOBOL Studioを利用する場合",
+      "page": 148,
+      "approx_chars": 1656
+    },
+    {
+      "level": 3,
+      "title": "6.10.2 MAKEファイルを利用する場合",
+      "page": 150,
+      "approx_chars": 325
+    },
+    {
+      "level": 2,
+      "title": "6.11 FORMAT句付き印刷ファイルを使ったプログラム(Sample10)",
+      "page": 150,
+      "approx_chars": 4744
+    },
+    {
+      "level": 3,
+      "title": "6.11.1 NetCOBOL Studioを利用する場合",
+      "page": 153,
+      "approx_chars": 2660
+    },
+    {
+      "level": 3,
+      "title": "6.11.2 MAKEファイルを利用する場合",
+      "page": 156,
+      "approx_chars": 373
+    },
+    {
+      "level": 2,
+      "title": "6.12 データベース機能を使ったプログラム(Sample11)",
+      "page": 156,
+      "approx_chars": 3441
+    },
+    {
+      "level": 3,
+      "title": "6.12.1 NetCOBOL Studioを利用する場合",
+      "page": 158,
+      "approx_chars": 1538
+    },
+    {
+      "level": 3,
+      "title": "6.12.2 MAKEファイルを利用する場合",
+      "page": 160,
+      "approx_chars": 327
+    },
+    {
+      "level": 2,
+      "title": "6.13 データベース機能を使ったプログラム（応用編）(Sample12)",
+      "page": 160,
+      "approx_chars": 4149
+    },
+    {
+      "level": 3,
+      "title": "6.13.1 NetCOBOL Studioを利用する場合",
+      "page": 162,
+      "approx_chars": 2057
+    },
+    {
+      "level": 3,
+      "title": "6.13.2 MAKEファイルを利用する場合",
+      "page": 165,
+      "approx_chars": 327
+    },
+    {
+      "level": 2,
+      "title": "6.14 Visual Basicからの呼出し(Sample13)",
+      "page": 165,
+      "approx_chars": 3321
+    },
+    {
+      "level": 3,
+      "title": "6.14.1 NetCOBOL Studioを利用する場合",
+      "page": 166,
+      "approx_chars": 1684
+    },
+    {
+      "level": 3,
+      "title": "6.14.2 MAKEファイルを利用する場合",
+      "page": 168,
+      "approx_chars": 435
+    },
+    {
+      "level": 2,
+      "title": "6.15 Visual Basicを使った簡易ATM端末処理機能(Sample14)",
+      "page": 168,
+      "approx_chars": 5820
+    },
+    {
+      "level": 3,
+      "title": "6.15.1 NetCOBOL Studioを利用する場合",
+      "page": 171,
+      "approx_chars": 2471
+    },
+    {
+      "level": 3,
+      "title": "6.15.2 MAKEファイルを利用する場合",
+      "page": 176,
+      "approx_chars": 425
+    },
+    {
+      "level": 2,
+      "title": "6.16 オブジェクト指向プログラム（初級編）(Sample15)",
+      "page": 176,
+      "approx_chars": 2200
+    },
+    {
+      "level": 3,
+      "title": "6.16.1 NetCOBOL Studioを利用する場合",
+      "page": 177,
+      "approx_chars": 827
+    },
+    {
+      "level": 3,
+      "title": "6.16.2 MAKEファイルを利用する場合",
+      "page": 179,
+      "approx_chars": 286
+    },
+    {
+      "level": 2,
+      "title": "6.17 コレクションクラス（クラスライブラリ）(Sample16)",
+      "page": 180,
+      "approx_chars": 6343
+    },
+    {
+      "level": 3,
+      "title": "6.17.1 NetCOBOL Studioを利用する場合",
+      "page": 185,
+      "approx_chars": 978
+    },
+    {
+      "level": 3,
+      "title": "6.17.2 MAKEファイルを利用する場合",
+      "page": 187,
+      "approx_chars": 263
+    },
+    {
+      "level": 2,
+      "title": "6.18 Unicodeを使用するプログラム(Sample30)",
+      "page": 187,
+      "approx_chars": 3218
+    },
+    {
+      "level": 3,
+      "title": "6.18.1 NetCOBOL Studioを利用する場合",
+      "page": 188,
+      "approx_chars": 2132
+    },
+    {
+      "level": 3,
+      "title": "6.18.2 MAKEファイルを利用する場合",
+      "page": 193,
+      "approx_chars": 327
+    },
+    {
+      "level": 2,
+      "title": "6.19 メッセージボックスの出力(Sample31)",
+      "page": 193,
+      "approx_chars": 2945
+    },
+    {
+      "level": 3,
+      "title": "6.19.1 NetCOBOL Studioを利用する場合",
+      "page": 194,
+      "approx_chars": 1482
+    },
+    {
+      "level": 3,
+      "title": "6.19.2 MAKEファイルを利用する場合",
+      "page": 196,
+      "approx_chars": 272
+    },
+    {
+      "level": 2,
+      "title": "6.20 他のプログラムの起動(Sample32)",
+      "page": 196,
+      "approx_chars": 2520
+    },
+    {
+      "level": 3,
+      "title": "6.20.1 NetCOBOL Studioを利用する場合",
+      "page": 197,
+      "approx_chars": 1492
+    },
+    {
+      "level": 3,
+      "title": "6.20.2 MAKEファイルを利用する場合",
+      "page": 201,
+      "approx_chars": 293
+    },
+    {
+      "level": 2,
+      "title": "6.21 エンコード方式を使用するプログラム(Sample33)",
+      "page": 202,
+      "approx_chars": 2284
+    },
+    {
+      "level": 3,
+      "title": "6.21.1 NetCOBOL Studioを利用する場合",
+      "page": 203,
+      "approx_chars": 1238
+    },
+    {
+      "level": 3,
+      "title": "6.21.2 MAKEファイルを利用する場合",
+      "page": 205,
+      "approx_chars": 293
+    },
+    {
+      "level": 1,
+      "title": "第7章 COBOLファイルアクセスルーチンのサンプルプログラム",
+      "page": 206,
+      "approx_chars": 2687
+    },
+    {
+      "level": 2,
+      "title": "7.1 行順ファイルの読込み(FCFA01)",
+      "page": 206,
+      "approx_chars": 1052
+    },
+    {
+      "level": 2,
+      "title": "7.2 行順ファイルの読込みと索引ファイルの書出し(FCFA02)",
+      "page": 207,
+      "approx_chars": 769
+    },
+    {
+      "level": 2,
+      "title": "7.3 索引ファイルの情報の取得(FCFA03)",
+      "page": 207,
+      "approx_chars": 744
+    },
+    {
+      "level": 1,
+      "title": "索 引",
+      "page": 209,
+      "approx_chars": 7556
+    }
+  ]
+}

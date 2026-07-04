@@ -1,0 +1,192 @@
+{
+  "source_file": "cobwifrm64.pdf",
+  "title": "Migration CJC for INTARFRM 連携機能運用ガイド",
+  "product": "NetCOBOL V12.2",
+  "full_title": "NetCOBOL V12.2 Migration CJC for INTARFRM 連携機能運用ガイド",
+  "pages": 32,
+  "approx_chars": 47167,
+  "outline_entries_total": 47,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 122
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 2313
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 4,
+      "approx_chars": 7946
+    },
+    {
+      "level": 1,
+      "title": "第1章 はじめに",
+      "page": 5,
+      "approx_chars": 713
+    },
+    {
+      "level": 1,
+      "title": "第2章 連携機能の概要",
+      "page": 6,
+      "approx_chars": 3387
+    },
+    {
+      "level": 1,
+      "title": "第3章 連携機能の使い方",
+      "page": 10,
+      "approx_chars": 29738
+    },
+    {
+      "level": 2,
+      "title": "3.1 作業概要",
+      "page": 10,
+      "approx_chars": 729
+    },
+    {
+      "level": 2,
+      "title": "3.2 作業手順",
+      "page": 10,
+      "approx_chars": 1055
+    },
+    {
+      "level": 2,
+      "title": "3.3 管理サービスの動作環境設定",
+      "page": 11,
+      "approx_chars": 7767
+    },
+    {
+      "level": 3,
+      "title": "3.3.1 設定情報ファイル",
+      "page": 11,
+      "approx_chars": 5441
+    },
+    {
+      "level": 3,
+      "title": "3.3.2 仮想フォルダ一覧ファイルの記述内容",
+      "page": 14,
+      "approx_chars": 2187
+    },
+    {
+      "level": 2,
+      "title": "3.4 セションタイムアウト値の設定",
+      "page": 16,
+      "approx_chars": 769
+    },
+    {
+      "level": 2,
+      "title": "3.5 管理者機能",
+      "page": 17,
+      "approx_chars": 4764
+    },
+    {
+      "level": 3,
+      "title": "3.5.1 Webインターフェース",
+      "page": 17,
+      "approx_chars": 2119
+    },
+    {
+      "level": 3,
+      "title": "3.5.2 コマンドインターフェース",
+      "page": 19,
+      "approx_chars": 2164
+    },
+    {
+      "level": 2,
+      "title": "3.6 プレビュー機能",
+      "page": 22,
+      "approx_chars": 6129
+    },
+    {
+      "level": 3,
+      "title": "3.6.1 動作環境",
+      "page": 22,
+      "approx_chars": 606
+    },
+    {
+      "level": 3,
+      "title": "3.6.2 プレビュー機能の印刷イメージ",
+      "page": 22,
+      "approx_chars": 634
+    },
+    {
+      "level": 3,
+      "title": "3.6.3 指定方法",
+      "page": 23,
+      "approx_chars": 4385
+    },
+    {
+      "level": 3,
+      "title": "3.6.4 注意事項",
+      "page": 25,
+      "approx_chars": 256
+    },
+    {
+      "level": 2,
+      "title": "3.7 ログ",
+      "page": 25,
+      "approx_chars": 783
+    },
+    {
+      "level": 3,
+      "title": "3.7.1 ログファイルの出力形式",
+      "page": 25,
+      "approx_chars": 265
+    },
+    {
+      "level": 3,
+      "title": "3.7.2 ログの仕様",
+      "page": 26,
+      "approx_chars": 138
+    },
+    {
+      "level": 2,
+      "title": "3.8 エラーについて",
+      "page": 26,
+      "approx_chars": 7679
+    },
+    {
+      "level": 3,
+      "title": "3.8.1 管理サービスが出力するエラー",
+      "page": 26,
+      "approx_chars": 1038
+    },
+    {
+      "level": 3,
+      "title": "3.8.2 管理者機能が出力するエラー",
+      "page": 26,
+      "approx_chars": 1458
+    },
+    {
+      "level": 3,
+      "title": "3.8.3 入出力状態",
+      "page": 28,
+      "approx_chars": 3628
+    },
+    {
+      "level": 3,
+      "title": "3.8.4 実行時メッセージ",
+      "page": 30,
+      "approx_chars": 456
+    },
+    {
+      "level": 3,
+      "title": "3.8.5 システムのエラーコード",
+      "page": 31,
+      "approx_chars": 922
+    },
+    {
+      "level": 1,
+      "title": "索 引",
+      "page": 32,
+      "approx_chars": 2948
+    }
+  ]
+}

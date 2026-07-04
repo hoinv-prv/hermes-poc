@@ -1,0 +1,48 @@
+{
+  "source_file": "cobwmap64.pdf",
+  "title": "マニュアル体系と読み方",
+  "product": "NetCOBOL V12.2",
+  "full_title": "NetCOBOL V12.2 マニュアル体系と読み方",
+  "pages": 11,
+  "approx_chars": 9414,
+  "outline_entries_total": 6,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 96
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 2791
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 5,
+      "approx_chars": 518
+    },
+    {
+      "level": 1,
+      "title": "第1章 マニュアルの読み方",
+      "page": 6,
+      "approx_chars": 609
+    },
+    {
+      "level": 1,
+      "title": "第2章 マニュアル体系",
+      "page": 7,
+      "approx_chars": 4200
+    },
+    {
+      "level": 1,
+      "title": "付録A V10以前のマニュアル体系の対比",
+      "page": 11,
+      "approx_chars": 1200
+    }
+  ]
+}

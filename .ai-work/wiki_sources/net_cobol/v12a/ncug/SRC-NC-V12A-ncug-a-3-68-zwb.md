@@ -1,0 +1,34 @@
+---
+artifact_type: wiki_source_meta
+source_id: SRC-NC-V12A-ncug-a-3-68-zwb
+title: ZWB（符号付き外部10進項目と英数字項目の比較） — ユーザーズガイド V12.2
+source_type: net_cobol_vendor_manual
+artifact_locator: __PROJECT_ROOT__/manuals/net_cobol/NetCOBOL_64bit_V12a/NetCOBOL V12.2 ユーザーズガイド/NetCOBOL V12.2 ユーザーズガイド.md
+profile_id: net_cobol
+status: active
+updated_at: 2026-06-26
+---
+# Wiki Source Meta — ZWB（符号付き外部10進項目と英数字項目の比較） — ユーザーズガイド V12.2
+
+## Summary
+ZWB（符号付き外部10進項目と英数字項目の比較） — đơn vị xử lý/option NetCOBOL V12.2 (ユーザーズガイド). Backing reference cho conversion/review ASP COBOL → NetCOBOL; KHÔNG duplicate migration_policy.
+
+## Knowledge Targets
+- reference
+- domain
+- pattern
+
+## Lookup Keys
+- ZWB
+- ZWB option
+- NetCOBOL V12.2
+- 翻訳オプション
+- コンパイルオプション
+- 翻訳
+- コンパイル
+
+## Source-Specific Hints
+- Section A.3.68 «ZWB» — page 630 trong NetCOBOL V12.2 ユーザーズガイド.md.
+
+## Related Sources
+- **SRC-NC-V12A-users-guide-v12-2** — role: part_of — Đơn vị thuộc ユーザーズガイド V12.2 (manual gốc).

@@ -1,0 +1,522 @@
+{
+  "source_file": "cobwle64.pdf",
+  "title": "LEサブルーチン ユーザーズガイド",
+  "product": "NetCOBOL V12.2",
+  "full_title": "NetCOBOL V12.2 LEサブルーチン ユーザーズガイド",
+  "pages": 82,
+  "approx_chars": 99402,
+  "outline_entries_total": 85,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 102
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 3504
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 5,
+      "approx_chars": 15700
+    },
+    {
+      "level": 1,
+      "title": "第1章 NetCOBOL LEサブルーチンとは",
+      "page": 7,
+      "approx_chars": 966
+    },
+    {
+      "level": 1,
+      "title": "第2章 ビット操作サブルーチン",
+      "page": 8,
+      "approx_chars": 4272
+    },
+    {
+      "level": 2,
+      "title": "2.1 CEESICLR",
+      "page": 8,
+      "approx_chars": 1019
+    },
+    {
+      "level": 2,
+      "title": "2.2 CEESISET",
+      "page": 9,
+      "approx_chars": 1013
+    },
+    {
+      "level": 2,
+      "title": "2.3 CEESISHF",
+      "page": 9,
+      "approx_chars": 1147
+    },
+    {
+      "level": 2,
+      "title": "2.4 CEESITST",
+      "page": 10,
+      "approx_chars": 1055
+    },
+    {
+      "level": 1,
+      "title": "第3章 条件処理サブルーチン",
+      "page": 12,
+      "approx_chars": 4762
+    },
+    {
+      "level": 2,
+      "title": "3.1 CEEDCOD",
+      "page": 12,
+      "approx_chars": 2149
+    },
+    {
+      "level": 2,
+      "title": "3.2 CEENCOD",
+      "page": 13,
+      "approx_chars": 2577
+    },
+    {
+      "level": 1,
+      "title": "第4章 日付および時刻サブルーチン",
+      "page": 16,
+      "approx_chars": 17318
+    },
+    {
+      "level": 2,
+      "title": "4.1 CEECBLDY",
+      "page": 16,
+      "approx_chars": 1614
+    },
+    {
+      "level": 2,
+      "title": "4.2 CEEDATE",
+      "page": 17,
+      "approx_chars": 1350
+    },
+    {
+      "level": 2,
+      "title": "4.3 CEEDATM",
+      "page": 18,
+      "approx_chars": 1429
+    },
+    {
+      "level": 2,
+      "title": "4.4 CEEDAYS",
+      "page": 19,
+      "approx_chars": 1510
+    },
+    {
+      "level": 2,
+      "title": "4.5 CEEDYWK",
+      "page": 20,
+      "approx_chars": 888
+    },
+    {
+      "level": 2,
+      "title": "4.6 CEEGMT",
+      "page": 21,
+      "approx_chars": 926
+    },
+    {
+      "level": 2,
+      "title": "4.7 CEEGMTO",
+      "page": 22,
+      "approx_chars": 1003
+    },
+    {
+      "level": 2,
+      "title": "4.8 CEEISEC",
+      "page": 23,
+      "approx_chars": 1710
+    },
+    {
+      "level": 2,
+      "title": "4.9 CEELOCT",
+      "page": 24,
+      "approx_chars": 1091
+    },
+    {
+      "level": 2,
+      "title": "4.10 CEEQCEN",
+      "page": 25,
+      "approx_chars": 890
+    },
+    {
+      "level": 2,
+      "title": "4.11 CEESCEN",
+      "page": 26,
+      "approx_chars": 774
+    },
+    {
+      "level": 2,
+      "title": "4.12 CEESECI",
+      "page": 27,
+      "approx_chars": 1526
+    },
+    {
+      "level": 2,
+      "title": "4.13 CEESECS",
+      "page": 28,
+      "approx_chars": 1663
+    },
+    {
+      "level": 2,
+      "title": "4.14 CEEUTC",
+      "page": 30,
+      "approx_chars": 902
+    },
+    {
+      "level": 1,
+      "title": "第5章 動的記憶域サブルーチン",
+      "page": 31,
+      "approx_chars": 5716
+    },
+    {
+      "level": 2,
+      "title": "5.1 CEECRHP",
+      "page": 31,
+      "approx_chars": 1626
+    },
+    {
+      "level": 2,
+      "title": "5.2 CEECZST",
+      "page": 32,
+      "approx_chars": 1181
+    },
+    {
+      "level": 2,
+      "title": "5.3 CEEDSHP",
+      "page": 33,
+      "approx_chars": 858
+    },
+    {
+      "level": 2,
+      "title": "5.4 CEEFRST",
+      "page": 34,
+      "approx_chars": 837
+    },
+    {
+      "level": 2,
+      "title": "5.5 CEEGTST",
+      "page": 34,
+      "approx_chars": 1176
+    },
+    {
+      "level": 1,
+      "title": "第6章 一般サブルーチン",
+      "page": 36,
+      "approx_chars": 4016
+    },
+    {
+      "level": 2,
+      "title": "6.1 CEE3PRM",
+      "page": 36,
+      "approx_chars": 925
+    },
+    {
+      "level": 2,
+      "title": "6.2 CEE3USR",
+      "page": 36,
+      "approx_chars": 1189
+    },
+    {
+      "level": 2,
+      "title": "6.3 CEEGPID",
+      "page": 37,
+      "approx_chars": 816
+    },
+    {
+      "level": 2,
+      "title": "6.4 CEERAN0",
+      "page": 38,
+      "approx_chars": 1054
+    },
+    {
+      "level": 1,
+      "title": "第7章 初期化および終了サブルーチン",
+      "page": 40,
+      "approx_chars": 321
+    },
+    {
+      "level": 2,
+      "title": "7.1 CEE3ABD",
+      "page": 40,
+      "approx_chars": 277
+    },
+    {
+      "level": 1,
+      "title": "第8章 数学サブルーチン",
+      "page": 41,
+      "approx_chars": 24408
+    },
+    {
+      "level": 2,
+      "title": "8.1 CEESxABS",
+      "page": 41,
+      "approx_chars": 909
+    },
+    {
+      "level": 2,
+      "title": "8.2 CEESxACS",
+      "page": 41,
+      "approx_chars": 915
+    },
+    {
+      "level": 2,
+      "title": "8.3 CEESxASN",
+      "page": 42,
+      "approx_chars": 890
+    },
+    {
+      "level": 2,
+      "title": "8.4 CEESxATH",
+      "page": 43,
+      "approx_chars": 931
+    },
+    {
+      "level": 2,
+      "title": "8.5 CEESxATN",
+      "page": 44,
+      "approx_chars": 925
+    },
+    {
+      "level": 2,
+      "title": "8.6 CEESxAT2",
+      "page": 45,
+      "approx_chars": 1142
+    },
+    {
+      "level": 2,
+      "title": "8.7 CEESxCOS",
+      "page": 46,
+      "approx_chars": 961
+    },
+    {
+      "level": 2,
+      "title": "8.8 CEESxCSH",
+      "page": 47,
+      "approx_chars": 894
+    },
+    {
+      "level": 2,
+      "title": "8.9 CEESxCTN",
+      "page": 48,
+      "approx_chars": 972
+    },
+    {
+      "level": 2,
+      "title": "8.10 CEESxDIM",
+      "page": 49,
+      "approx_chars": 1002
+    },
+    {
+      "level": 2,
+      "title": "8.11 CEESxEXP",
+      "page": 50,
+      "approx_chars": 1090
+    },
+    {
+      "level": 2,
+      "title": "8.12 CEESxINT",
+      "page": 51,
+      "approx_chars": 868
+    },
+    {
+      "level": 2,
+      "title": "8.13 CEESxLG1",
+      "page": 52,
+      "approx_chars": 893
+    },
+    {
+      "level": 2,
+      "title": "8.14 CEESxLG2",
+      "page": 52,
+      "approx_chars": 898
+    },
+    {
+      "level": 2,
+      "title": "8.15 CEESxLOG",
+      "page": 53,
+      "approx_chars": 943
+    },
+    {
+      "level": 2,
+      "title": "8.16 CEESxMOD",
+      "page": 54,
+      "approx_chars": 1011
+    },
+    {
+      "level": 2,
+      "title": "8.17 CEESxNIN",
+      "page": 55,
+      "approx_chars": 898
+    },
+    {
+      "level": 2,
+      "title": "8.18 CEESxNWN",
+      "page": 56,
+      "approx_chars": 864
+    },
+    {
+      "level": 2,
+      "title": "8.19 CEESxSGN",
+      "page": 57,
+      "approx_chars": 1002
+    },
+    {
+      "level": 2,
+      "title": "8.20 CEESxSIN",
+      "page": 58,
+      "approx_chars": 963
+    },
+    {
+      "level": 2,
+      "title": "8.21 CEESxSNH",
+      "page": 59,
+      "approx_chars": 893
+    },
+    {
+      "level": 2,
+      "title": "8.22 CEESxSQT",
+      "page": 60,
+      "approx_chars": 876
+    },
+    {
+      "level": 2,
+      "title": "8.23 CEESxTAN",
+      "page": 61,
+      "approx_chars": 1049
+    },
+    {
+      "level": 2,
+      "title": "8.24 CEESxTNH",
+      "page": 62,
+      "approx_chars": 862
+    },
+    {
+      "level": 2,
+      "title": "8.25 CEESxXPx",
+      "page": 63,
+      "approx_chars": 1725
+    },
+    {
+      "level": 1,
+      "title": "第9章 メッセージ処理サブルーチン",
+      "page": 65,
+      "approx_chars": 1149
+    },
+    {
+      "level": 2,
+      "title": "9.1 CEEMOUT",
+      "page": 65,
+      "approx_chars": 1107
+    },
+    {
+      "level": 1,
+      "title": "第10章 国別言語サポートサブルーチン",
+      "page": 66,
+      "approx_chars": 9029
+    },
+    {
+      "level": 2,
+      "title": "10.1 CEE3CTY",
+      "page": 66,
+      "approx_chars": 1320
+    },
+    {
+      "level": 2,
+      "title": "10.2 CEE3LNG",
+      "page": 67,
+      "approx_chars": 1450
+    },
+    {
+      "level": 2,
+      "title": "10.3 CEE3MCS",
+      "page": 68,
+      "approx_chars": 957
+    },
+    {
+      "level": 2,
+      "title": "10.4 CEE3MDS",
+      "page": 69,
+      "approx_chars": 1004
+    },
+    {
+      "level": 2,
+      "title": "10.5 CEE3MTS",
+      "page": 70,
+      "approx_chars": 1015
+    },
+    {
+      "level": 2,
+      "title": "10.6 CEEFMDA",
+      "page": 71,
+      "approx_chars": 1015
+    },
+    {
+      "level": 2,
+      "title": "10.7 CEEFMDT",
+      "page": 72,
+      "approx_chars": 1056
+    },
+    {
+      "level": 2,
+      "title": "10.8 CEEFMTM",
+      "page": 73,
+      "approx_chars": 1118
+    },
+    {
+      "level": 1,
+      "title": "第11章 その他",
+      "page": 75,
+      "approx_chars": 565
+    },
+    {
+      "level": 2,
+      "title": "11.1 その他のサブルーチンの利用",
+      "page": 75,
+      "approx_chars": 541
+    },
+    {
+      "level": 1,
+      "title": "第12章 実行環境変数の利用",
+      "page": 76,
+      "approx_chars": 1778
+    },
+    {
+      "level": 2,
+      "title": "12.1 @CBR_LE_COUNTRY(デフォルト国別コードの指定)",
+      "page": 76,
+      "approx_chars": 82
+    },
+    {
+      "level": 2,
+      "title": "12.2 @CBR_LE_STORAGE(ヒープの獲得時および解放時にヒープ領域を初期化する文字の指定)",
+      "page": 76,
+      "approx_chars": 981
+    },
+    {
+      "level": 2,
+      "title": "12.3 @CBR_LE_HEAP (ヒープ獲得時の初期サイズおよび拡張サイズの指定)",
+      "page": 77,
+      "approx_chars": 402
+    },
+    {
+      "level": 2,
+      "title": "12.4 @CBR_LE_MSGFILE (メッセージファイル名の指定)",
+      "page": 77,
+      "approx_chars": 243
+    },
+    {
+      "level": 1,
+      "title": "付録A LEサブルーチン一覧",
+      "page": 78,
+      "approx_chars": 5796
+    }
+  ]
+}

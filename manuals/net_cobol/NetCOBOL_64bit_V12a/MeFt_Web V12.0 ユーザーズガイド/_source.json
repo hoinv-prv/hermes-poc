@@ -1,0 +1,804 @@
+{
+  "source_file": "mwebwu64.pdf",
+  "title": "MeFt/Web V12.0 ユーザーズガイド",
+  "product": "",
+  "full_title": "MeFt/Web V12.0 ユーザーズガイド",
+  "pages": 121,
+  "approx_chars": 149799,
+  "outline_entries_total": 132,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 97
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 2327
+    },
+    {
+      "level": 1,
+      "title": "目次",
+      "page": 4,
+      "approx_chars": 8268
+    },
+    {
+      "level": 1,
+      "title": "第1章 MeFt/Web とは",
+      "page": 6,
+      "approx_chars": 13351
+    },
+    {
+      "level": 2,
+      "title": "1.1 MeFt/Web とは",
+      "page": 7,
+      "approx_chars": 702
+    },
+    {
+      "level": 2,
+      "title": "1.2 MeFt/Web の概要",
+      "page": 8,
+      "approx_chars": 8125
+    },
+    {
+      "level": 3,
+      "title": "1.2.1 リモート実行機能",
+      "page": 9,
+      "approx_chars": 2198
+    },
+    {
+      "level": 3,
+      "title": "1.2.2 画面機能",
+      "page": 12,
+      "approx_chars": 111
+    },
+    {
+      "level": 3,
+      "title": "1.2.3 ハイパーリンク先指定",
+      "page": 12,
+      "approx_chars": 589
+    },
+    {
+      "level": 3,
+      "title": "1.2.4 プレビュー機能",
+      "page": 13,
+      "approx_chars": 856
+    },
+    {
+      "level": 3,
+      "title": "1.2.5 クライアント印刷",
+      "page": 14,
+      "approx_chars": 422
+    },
+    {
+      "level": 3,
+      "title": "1.2.6 サーバ印刷",
+      "page": 14,
+      "approx_chars": 1679
+    },
+    {
+      "level": 3,
+      "title": "1.2.7 スプール機能",
+      "page": 16,
+      "approx_chars": 960
+    },
+    {
+      "level": 3,
+      "title": "1.2.8 スプール再生機能",
+      "page": 17,
+      "approx_chars": 139
+    },
+    {
+      "level": 3,
+      "title": "1.2.9 サービスマネージャ機能",
+      "page": 17,
+      "approx_chars": 264
+    },
+    {
+      "level": 2,
+      "title": "1.3 MeFt/Webクライアント",
+      "page": 18,
+      "approx_chars": 2464
+    },
+    {
+      "level": 3,
+      "title": "1.3.1 MeFt/Webプラグイン",
+      "page": 18,
+      "approx_chars": 351
+    },
+    {
+      "level": 3,
+      "title": "1.3.2 MeFt/Webコントロール",
+      "page": 18,
+      "approx_chars": 408
+    },
+    {
+      "level": 3,
+      "title": "1.3.3 MeFt/Webプラグインとコントロールの違い",
+      "page": 18,
+      "approx_chars": 1571
+    },
+    {
+      "level": 2,
+      "title": "1.4 ソフトウェア環境",
+      "page": 20,
+      "approx_chars": 1157
+    },
+    {
+      "level": 3,
+      "title": "1.4.1 MeFt/Web クライアント",
+      "page": 20,
+      "approx_chars": 741
+    },
+    {
+      "level": 3,
+      "title": "1.4.2 MeFt/Web サーバ",
+      "page": 20,
+      "approx_chars": 378
+    },
+    {
+      "level": 1,
+      "title": "第2章 セットアップ",
+      "page": 21,
+      "approx_chars": 27394
+    },
+    {
+      "level": 2,
+      "title": "2.1 Web環境の構築と環境設定",
+      "page": 22,
+      "approx_chars": 8403
+    },
+    {
+      "level": 3,
+      "title": "2.1.1 IISを使用する場合に必要な設定",
+      "page": 22,
+      "approx_chars": 1545
+    },
+    {
+      "level": 3,
+      "title": "2.1.2 IIS環境設定コマンド",
+      "page": 23,
+      "approx_chars": 6722
+    },
+    {
+      "level": 2,
+      "title": "2.2 MeFt/Web の動作環境を設定する",
+      "page": 28,
+      "approx_chars": 2021
+    },
+    {
+      "level": 2,
+      "title": "2.3 利用者プログラムの指定",
+      "page": 30,
+      "approx_chars": 2100
+    },
+    {
+      "level": 3,
+      "title": "2.3.1 利用者プログラム指定ファイルの編集",
+      "page": 30,
+      "approx_chars": 1684
+    },
+    {
+      "level": 2,
+      "title": "2.4 サーバ側のトレースログ環境を設定する",
+      "page": 32,
+      "approx_chars": 899
+    },
+    {
+      "level": 2,
+      "title": "2.5 権限設定",
+      "page": 33,
+      "approx_chars": 2098
+    },
+    {
+      "level": 3,
+      "title": "2.5.1 利用者プログラムの権限を設定する",
+      "page": 33,
+      "approx_chars": 1092
+    },
+    {
+      "level": 3,
+      "title": "2.5.2 ディレクトリの権限を設定する",
+      "page": 34,
+      "approx_chars": 981
+    },
+    {
+      "level": 2,
+      "title": "2.6 クライアントのセットアップ",
+      "page": 35,
+      "approx_chars": 2302
+    },
+    {
+      "level": 3,
+      "title": "2.6.1 MeFt/Webプラグインのセットアップ",
+      "page": 35,
+      "approx_chars": 168
+    },
+    {
+      "level": 3,
+      "title": "2.6.2 MeFt/Web コントロールのダウンロード",
+      "page": 35,
+      "approx_chars": 227
+    },
+    {
+      "level": 3,
+      "title": "2.6.3 クライアント側のトレースログ環境を設定する",
+      "page": 35,
+      "approx_chars": 1855
+    },
+    {
+      "level": 2,
+      "title": "2.7 サンプルプログラム",
+      "page": 37,
+      "approx_chars": 8133
+    },
+    {
+      "level": 3,
+      "title": "2.7.1 スタンドアロン環境",
+      "page": 37,
+      "approx_chars": 1286
+    },
+    {
+      "level": 3,
+      "title": "2.7.2 Web 連携環境",
+      "page": 38,
+      "approx_chars": 6524
+    },
+    {
+      "level": 1,
+      "title": "第3章 MeFt/Web プラグイン",
+      "page": 43,
+      "approx_chars": 6776
+    },
+    {
+      "level": 2,
+      "title": "3.1 MeFt/Web プラグインとは",
+      "page": 44,
+      "approx_chars": 453
+    },
+    {
+      "level": 2,
+      "title": "3.2 MeFt/Webプラグインのセットアップ",
+      "page": 45,
+      "approx_chars": 1578
+    },
+    {
+      "level": 3,
+      "title": "3.2.1 MeFt/Web プラグインをインストールする",
+      "page": 45,
+      "approx_chars": 480
+    },
+    {
+      "level": 3,
+      "title": "3.2.2 MeFt/Web プラグインをアンインストールする",
+      "page": 45,
+      "approx_chars": 983
+    },
+    {
+      "level": 2,
+      "title": "3.3 MeFt/Web ドキュメント",
+      "page": 46,
+      "approx_chars": 4049
+    },
+    {
+      "level": 1,
+      "title": "第4章 MeFt/Web コントロール",
+      "page": 49,
+      "approx_chars": 18572
+    },
+    {
+      "level": 2,
+      "title": "4.1 MeFt/Web コントロールをサーバ上からダウンロード する",
+      "page": 50,
+      "approx_chars": 1745
+    },
+    {
+      "level": 2,
+      "title": "4.2 MeFt/Web コントロールをクライアントマシンから削 除する方法",
+      "page": 51,
+      "approx_chars": 1919
+    },
+    {
+      "level": 2,
+      "title": "4.3 MeFt/Web コントロールの表示形式",
+      "page": 53,
+      "approx_chars": 1148
+    },
+    {
+      "level": 3,
+      "title": "4.3.1 ツールバー",
+      "page": 53,
+      "approx_chars": 824
+    },
+    {
+      "level": 3,
+      "title": "4.3.2 印刷イメージと定義体サイズ",
+      "page": 54,
+      "approx_chars": 264
+    },
+    {
+      "level": 2,
+      "title": "4.4 プロパティ",
+      "page": 55,
+      "approx_chars": 9228
+    },
+    {
+      "level": 3,
+      "title": "4.4.1 プロパティ一覧",
+      "page": 55,
+      "approx_chars": 232
+    },
+    {
+      "level": 3,
+      "title": "4.4.2 Web サーバの指定方法（hostname/port/gatewaypathname）",
+      "page": 55,
+      "approx_chars": 1718
+    },
+    {
+      "level": 3,
+      "title": "4.4.3 利用者プログラムの指定方法 （pathname/argument/environment/funcname）",
+      "page": 56,
+      "approx_chars": 1261
+    },
+    {
+      "level": 3,
+      "title": "4.4.4 メッセージ（message）",
+      "page": 56,
+      "approx_chars": 881
+    },
+    {
+      "level": 3,
+      "title": "4.4.5 SSL（ssl）",
+      "page": 57,
+      "approx_chars": 114
+    },
+    {
+      "level": 3,
+      "title": "4.4.6 画面表示形式の指定方法（displaywindow）",
+      "page": 57,
+      "approx_chars": 1799
+    },
+    {
+      "level": 3,
+      "title": "4.4.7 ハイパーリンク先の指定方法（hyperlink/hyperlinktarget）",
+      "page": 59,
+      "approx_chars": 393
+    },
+    {
+      "level": 3,
+      "title": "4.4.8 画面データ圧縮（dspcompress）",
+      "page": 59,
+      "approx_chars": 156
+    },
+    {
+      "level": 3,
+      "title": "4.4.9 帳票処理実行モードの指定方法（printmode）",
+      "page": 59,
+      "approx_chars": 166
+    },
+    {
+      "level": 3,
+      "title": "4.4.10 印刷イメージの画面表示形式（previewwindow）",
+      "page": 59,
+      "approx_chars": 822
+    },
+    {
+      "level": 3,
+      "title": "4.4.11 印刷イメージの表示位置（previewdrawpos）",
+      "page": 60,
+      "approx_chars": 200
+    },
+    {
+      "level": 3,
+      "title": "4.4.12 印刷イメージ生成時に使用するデバイスの指定方法（previewdc）",
+      "page": 60,
+      "approx_chars": 240
+    },
+    {
+      "level": 3,
+      "title": "4.4.13 ズーム率の指定方法（previewrate）",
+      "page": 60,
+      "approx_chars": 208
+    },
+    {
+      "level": 3,
+      "title": "4.4.14 印刷ボタン表示（hideprtbtn）",
+      "page": 60,
+      "approx_chars": 1010
+    },
+    {
+      "level": 2,
+      "title": "4.5 メソッド",
+      "page": 61,
+      "approx_chars": 1425
+    },
+    {
+      "level": 3,
+      "title": "4.5.1 メソッド一覧",
+      "page": 61,
+      "approx_chars": 89
+    },
+    {
+      "level": 3,
+      "title": "4.5.2 起動（submit）",
+      "page": 61,
+      "approx_chars": 238
+    },
+    {
+      "level": 3,
+      "title": "4.5.3 利用者プログラムの中断（Quit）",
+      "page": 61,
+      "approx_chars": 1070
+    },
+    {
+      "level": 2,
+      "title": "4.6 イベント",
+      "page": 62,
+      "approx_chars": 1891
+    },
+    {
+      "level": 3,
+      "title": "4.6.1 イベント一覧",
+      "page": 62,
+      "approx_chars": 83
+    },
+    {
+      "level": 3,
+      "title": "4.6.2 利用者プログラムの終了（Terminate）",
+      "page": 62,
+      "approx_chars": 1522
+    },
+    {
+      "level": 3,
+      "title": "4.6.3 ハイパーリンクの通知（hyperlink）",
+      "page": 63,
+      "approx_chars": 260
+    },
+    {
+      "level": 1,
+      "title": "第5章 リモート実行機能を利用する",
+      "page": 64,
+      "approx_chars": 27714
+    },
+    {
+      "level": 2,
+      "title": "5.1 作業の流れ",
+      "page": 65,
+      "approx_chars": 655
+    },
+    {
+      "level": 2,
+      "title": "5.2 処理の流れ",
+      "page": 66,
+      "approx_chars": 695
+    },
+    {
+      "level": 2,
+      "title": "5.3 利用者プログラムを開発する",
+      "page": 67,
+      "approx_chars": 7159
+    },
+    {
+      "level": 3,
+      "title": "5.3.1 利用者プログラム作成上の注意点",
+      "page": 67,
+      "approx_chars": 2788
+    },
+    {
+      "level": 3,
+      "title": "5.3.2 環境変数",
+      "page": 68,
+      "approx_chars": 1151
+    },
+    {
+      "level": 3,
+      "title": "5.3.3 別プロセスの起動方法",
+      "page": 69,
+      "approx_chars": 1761
+    },
+    {
+      "level": 3,
+      "title": "5.3.4 利用者プログラムのデバッグ方法",
+      "page": 70,
+      "approx_chars": 693
+    },
+    {
+      "level": 3,
+      "title": "5.3.5 ウィンドウ情報ファイルとプリンタ情報ファイルのキーワード",
+      "page": 70,
+      "approx_chars": 678
+    },
+    {
+      "level": 2,
+      "title": "5.4 ユーザ資源の指定方法",
+      "page": 71,
+      "approx_chars": 3136
+    },
+    {
+      "level": 2,
+      "title": "5.5 Unicode アプリケーションの使用方法",
+      "page": 74,
+      "approx_chars": 796
+    },
+    {
+      "level": 3,
+      "title": "5.5.1 Web ブラウザ",
+      "page": 74,
+      "approx_chars": 152
+    },
+    {
+      "level": 3,
+      "title": "5.5.2 翻訳、リンク方法について",
+      "page": 74,
+      "approx_chars": 75
+    },
+    {
+      "level": 3,
+      "title": "5.5.3 実行時の注意点",
+      "page": 74,
+      "approx_chars": 456
+    },
+    {
+      "level": 2,
+      "title": "5.6 MeFt の追加通知コード",
+      "page": 75,
+      "approx_chars": 1730
+    },
+    {
+      "level": 2,
+      "title": "5.7 プロセス型プログラムからスレッド型プログラムへ の移行方法",
+      "page": 77,
+      "approx_chars": 3509
+    },
+    {
+      "level": 3,
+      "title": "5.7.1 プログラム修正",
+      "page": 77,
+      "approx_chars": 812
+    },
+    {
+      "level": 3,
+      "title": "5.7.2 翻訳、リンク方法について",
+      "page": 77,
+      "approx_chars": 863
+    },
+    {
+      "level": 3,
+      "title": "5.7.3 実行",
+      "page": 78,
+      "approx_chars": 1602
+    },
+    {
+      "level": 2,
+      "title": "5.8 MeFt/Web ドキュメントを作成する",
+      "page": 79,
+      "approx_chars": 1062
+    },
+    {
+      "level": 2,
+      "title": "5.9 HTML を作成する",
+      "page": 80,
+      "approx_chars": 3573
+    },
+    {
+      "level": 2,
+      "title": "5.10 帳票の電子化",
+      "page": 84,
+      "approx_chars": 343
+    },
+    {
+      "level": 2,
+      "title": "5.11 SSL で通信データを保護する",
+      "page": 84,
+      "approx_chars": 3000
+    },
+    {
+      "level": 3,
+      "title": "5.11.1 SSL とは",
+      "page": 84,
+      "approx_chars": 342
+    },
+    {
+      "level": 3,
+      "title": "5.11.2 Web サーバとWeb ブラウザでSSL を有効にするための作業",
+      "page": 84,
+      "approx_chars": 1190
+    },
+    {
+      "level": 3,
+      "title": "5.11.3 MeFt/Web でSSL を有効にするための作業",
+      "page": 85,
+      "approx_chars": 1418
+    },
+    {
+      "level": 1,
+      "title": "第6章 MeFt/Web サーバサービスマネージャ",
+      "page": 86,
+      "approx_chars": 5501
+    },
+    {
+      "level": 2,
+      "title": "6.1 起動方法",
+      "page": 87,
+      "approx_chars": 1217
+    },
+    {
+      "level": 2,
+      "title": "6.2 プログラム起動",
+      "page": 88,
+      "approx_chars": 794
+    },
+    {
+      "level": 2,
+      "title": "6.3 プロセス一覧",
+      "page": 89,
+      "approx_chars": 428
+    },
+    {
+      "level": 2,
+      "title": "6.4 スプール一覧",
+      "page": 90,
+      "approx_chars": 664
+    },
+    {
+      "level": 2,
+      "title": "6.5 MeFt/Web ドキュメント編集",
+      "page": 91,
+      "approx_chars": 1226
+    },
+    {
+      "level": 1,
+      "title": "第7章 注意事項",
+      "page": 92,
+      "approx_chars": 18147
+    },
+    {
+      "level": 2,
+      "title": "7.1 MeFt/Web プラグイン",
+      "page": 93,
+      "approx_chars": 1046
+    },
+    {
+      "level": 2,
+      "title": "7.2 MeFt/Web コントロール",
+      "page": 94,
+      "approx_chars": 1109
+    },
+    {
+      "level": 2,
+      "title": "7.3 MeFt/Web プラグインとコントロール共通",
+      "page": 95,
+      "approx_chars": 1353
+    },
+    {
+      "level": 2,
+      "title": "7.4 MeFt",
+      "page": 96,
+      "approx_chars": 4261
+    },
+    {
+      "level": 2,
+      "title": "7.5 Internet Explorer",
+      "page": 98,
+      "approx_chars": 700
+    },
+    {
+      "level": 2,
+      "title": "7.6 システム構築上の注意",
+      "page": 99,
+      "approx_chars": 830
+    },
+    {
+      "level": 2,
+      "title": "7.7 CGIアクセス",
+      "page": 100,
+      "approx_chars": 3664
+    },
+    {
+      "level": 3,
+      "title": "7.7.1 CGIアクセスとは",
+      "page": 100,
+      "approx_chars": 353
+    },
+    {
+      "level": 3,
+      "title": "7.7.2 CGIアクセスを使用するための準備",
+      "page": 100,
+      "approx_chars": 3279
+    },
+    {
+      "level": 2,
+      "title": "7.8 セキュリティ",
+      "page": 103,
+      "approx_chars": 2592
+    },
+    {
+      "level": 3,
+      "title": "7.8.1 運用環境",
+      "page": 103,
+      "approx_chars": 118
+    },
+    {
+      "level": 3,
+      "title": "7.8.2 Webサーバの環境設定",
+      "page": 103,
+      "approx_chars": 635
+    },
+    {
+      "level": 3,
+      "title": "7.8.3 MeFt/Webの環境設定",
+      "page": 103,
+      "approx_chars": 566
+    },
+    {
+      "level": 3,
+      "title": "7.8.4 MeFt/Webの機能",
+      "page": 104,
+      "approx_chars": 705
+    },
+    {
+      "level": 3,
+      "title": "7.8.5 その他",
+      "page": 104,
+      "approx_chars": 345
+    },
+    {
+      "level": 2,
+      "title": "7.9 IIS",
+      "page": 105,
+      "approx_chars": 312
+    },
+    {
+      "level": 2,
+      "title": "7.10 その他",
+      "page": 105,
+      "approx_chars": 273
+    },
+    {
+      "level": 1,
+      "title": "第8章 トラブルシューティング",
+      "page": 106,
+      "approx_chars": 13844
+    },
+    {
+      "level": 2,
+      "title": "8.1 トラブルシューティング",
+      "page": 107,
+      "approx_chars": 11308
+    },
+    {
+      "level": 2,
+      "title": "8.2 MeFt/Web導入時チェックリスト",
+      "page": 115,
+      "approx_chars": 2051
+    },
+    {
+      "level": 1,
+      "title": "付録",
+      "page": 117,
+      "approx_chars": 1841
+    },
+    {
+      "level": 2,
+      "title": "MeFt/Web クライアントのトレースログ",
+      "page": 118,
+      "approx_chars": 830
+    },
+    {
+      "level": 2,
+      "title": "MeFt/Web サーバのトレースログ",
+      "page": 119,
+      "approx_chars": 621
+    },
+    {
+      "level": 1,
+      "title": "索引",
+      "page": 120,
+      "approx_chars": 5967
+    }
+  ]
+}

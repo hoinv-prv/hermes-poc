@@ -1,0 +1,732 @@
+{
+  "source_file": "release.pdf",
+  "title": "リリース情報",
+  "product": "NetCOBOL V12a",
+  "full_title": "NetCOBOL V12a リリース情報",
+  "pages": 80,
+  "approx_chars": 118417,
+  "outline_entries_total": 123,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 100
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 5180
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 6,
+      "approx_chars": 20755
+    },
+    {
+      "level": 1,
+      "title": "第1章 追加機能の概要",
+      "page": 9,
+      "approx_chars": 30087
+    },
+    {
+      "level": 2,
+      "title": "1.1 コンポーネント共通",
+      "page": 9,
+      "approx_chars": 1078
+    },
+    {
+      "level": 3,
+      "title": "1.1.1 コンポーネント共通の追加機能概要",
+      "page": 9,
+      "approx_chars": 644
+    },
+    {
+      "level": 2,
+      "title": "1.2 NetCOBOL",
+      "page": 9,
+      "approx_chars": 13722
+    },
+    {
+      "level": 3,
+      "title": "1.2.1 NetCOBOL V12の新機能概要",
+      "page": 10,
+      "approx_chars": 4104
+    },
+    {
+      "level": 3,
+      "title": "1.2.2 NetCOBOL V11の追加機能概要",
+      "page": 13,
+      "approx_chars": 4971
+    },
+    {
+      "level": 3,
+      "title": "1.2.3 NetCOBOL V10の追加機能概要",
+      "page": 16,
+      "approx_chars": 4210
+    },
+    {
+      "level": 2,
+      "title": "1.3 Jアダプタクラスジェネレータ",
+      "page": 19,
+      "approx_chars": 1364
+    },
+    {
+      "level": 3,
+      "title": "1.3.1 Jアダプタクラスジェネレータ V12の追加機能概要",
+      "page": 19,
+      "approx_chars": 396
+    },
+    {
+      "level": 3,
+      "title": "1.3.2 Jアダプタクラスジェネレータ V11の追加機能概要",
+      "page": 19,
+      "approx_chars": 294
+    },
+    {
+      "level": 3,
+      "title": "1.3.3 Jアダプタクラスジェネレータ V10の追加機能概要",
+      "page": 19,
+      "approx_chars": 413
+    },
+    {
+      "level": 2,
+      "title": "1.4 FORM",
+      "page": 20,
+      "approx_chars": 942
+    },
+    {
+      "level": 3,
+      "title": "1.4.1 FORM V11の追加機能概要",
+      "page": 20,
+      "approx_chars": 441
+    },
+    {
+      "level": 3,
+      "title": "1.4.2 FORM V10の追加機能概要",
+      "page": 20,
+      "approx_chars": 362
+    },
+    {
+      "level": 2,
+      "title": "1.5 MeFt",
+      "page": 20,
+      "approx_chars": 2470
+    },
+    {
+      "level": 3,
+      "title": "1.5.1 MeFt V12の追加機能概要",
+      "page": 21,
+      "approx_chars": 307
+    },
+    {
+      "level": 3,
+      "title": "1.5.2 MeFt V11の追加機能概要",
+      "page": 21,
+      "approx_chars": 1869
+    },
+    {
+      "level": 2,
+      "title": "1.6 MeFt/Web",
+      "page": 22,
+      "approx_chars": 1338
+    },
+    {
+      "level": 3,
+      "title": "1.6.1 MeFt/Web V12の追加機能概要",
+      "page": 22,
+      "approx_chars": 312
+    },
+    {
+      "level": 3,
+      "title": "1.6.2 MeFt/Web V11の追加機能概要",
+      "page": 23,
+      "approx_chars": 512
+    },
+    {
+      "level": 3,
+      "title": "1.6.3 MeFt/Web V10の追加機能概要",
+      "page": 23,
+      "approx_chars": 222
+    },
+    {
+      "level": 2,
+      "title": "1.7 MeFt/Web HTML変換方式",
+      "page": 23,
+      "approx_chars": 1785
+    },
+    {
+      "level": 3,
+      "title": "1.7.1 MeFt/Web HTML変換方式 V12 追加機能概要",
+      "page": 23,
+      "approx_chars": 1458
+    },
+    {
+      "level": 2,
+      "title": "1.8 SIMPLIA/COBOL支援キット",
+      "page": 24,
+      "approx_chars": 4087
+    },
+    {
+      "level": 3,
+      "title": "1.8.1 TF-MDPORTの追加機能概要",
+      "page": 24,
+      "approx_chars": 1624
+    },
+    {
+      "level": 3,
+      "title": "1.8.2 TF-LINDAの追加機能概要",
+      "page": 25,
+      "approx_chars": 1309
+    },
+    {
+      "level": 3,
+      "title": "1.8.3 MF-STEPCOUNTERの追加機能概要",
+      "page": 26,
+      "approx_chars": 484
+    },
+    {
+      "level": 3,
+      "title": "1.8.4 TF-EXCOUNTERの追加機能概要",
+      "page": 26,
+      "approx_chars": 534
+    },
+    {
+      "level": 2,
+      "title": "1.9 富士通メインフレーム浮動小数点演算エミュレータ",
+      "page": 27,
+      "approx_chars": 676
+    },
+    {
+      "level": 3,
+      "title": "1.9.1 富士通メインフレーム浮動小数点演算エミュレータ V12追加機能概要",
+      "page": 27,
+      "approx_chars": 418
+    },
+    {
+      "level": 2,
+      "title": "1.10 PowerSORT Server",
+      "page": 27,
+      "approx_chars": 2495
+    },
+    {
+      "level": 3,
+      "title": "1.10.1 PowerSORT Server V8の追加機能概要",
+      "page": 27,
+      "approx_chars": 512
+    },
+    {
+      "level": 3,
+      "title": "1.10.2 PowerSORT Server V7の追加機能概要",
+      "page": 28,
+      "approx_chars": 857
+    },
+    {
+      "level": 3,
+      "title": "1.10.3 PowerSORT V6の追加機能概要",
+      "page": 28,
+      "approx_chars": 944
+    },
+    {
+      "level": 1,
+      "title": "第2章 互換に関する情報",
+      "page": 30,
+      "approx_chars": 50326
+    },
+    {
+      "level": 2,
+      "title": "2.1 NetCOBOL開発環境",
+      "page": 30,
+      "approx_chars": 12735
+    },
+    {
+      "level": 3,
+      "title": "2.1.1 NetCOBOL Studioが使用するJREについて",
+      "page": 30,
+      "approx_chars": 420
+    },
+    {
+      "level": 3,
+      "title": "2.1.2 PRINTER_n指定を書いたファイルの関連付けの変更",
+      "page": 30,
+      "approx_chars": 256
+    },
+    {
+      "level": 3,
+      "title": "2.1.3 リンクオプション/SUBSYSTEMの既定値の変更",
+      "page": 30,
+      "approx_chars": 496
+    },
+    {
+      "level": 3,
+      "title": "2.1.4 NetCOBOL Studioの正書法の設定について",
+      "page": 31,
+      "approx_chars": 330
+    },
+    {
+      "level": 3,
+      "title": "2.1.5 翻訳オプションENCODE指定時の実行時コード系について",
+      "page": 31,
+      "approx_chars": 860
+    },
+    {
+      "level": 3,
+      "title": "2.1.6 SQLCODE、SQLMSGおよびSQLERRDの定義場所",
+      "page": 32,
+      "approx_chars": 742
+    },
+    {
+      "level": 3,
+      "title": "2.1.7 規定外の外部10進項目同士の加減算の演算結果について",
+      "page": 32,
+      "approx_chars": 1227
+    },
+    {
+      "level": 3,
+      "title": "2.1.8 障害修正に関する互換情報について",
+      "page": 33,
+      "approx_chars": 8204
+    },
+    {
+      "level": 2,
+      "title": "2.2 NetCOBOL運用環境",
+      "page": 40,
+      "approx_chars": 9864
+    },
+    {
+      "level": 3,
+      "title": "2.2.1 文字コード範囲外のデータおよび不完全な文字のコード変換結果",
+      "page": 40,
+      "approx_chars": 1014
+    },
+    {
+      "level": 3,
+      "title": "2.2.2 コード変換の代替文字",
+      "page": 41,
+      "approx_chars": 247
+    },
+    {
+      "level": 3,
+      "title": "2.2.3 実行時メッセージの重大度コードの変更",
+      "page": 41,
+      "approx_chars": 304
+    },
+    {
+      "level": 3,
+      "title": "2.2.4 障害修正に関する互換情報について",
+      "page": 42,
+      "approx_chars": 7859
+    },
+    {
+      "level": 2,
+      "title": "2.3 Jアダプタクラスジェネレータ",
+      "page": 47,
+      "approx_chars": 1410
+    },
+    {
+      "level": 3,
+      "title": "2.3.1 実行時のコード変換について",
+      "page": 48,
+      "approx_chars": 310
+    },
+    {
+      "level": 3,
+      "title": "2.3.2 コード変換エラー時のエラーメッセージの出力について",
+      "page": 48,
+      "approx_chars": 397
+    },
+    {
+      "level": 3,
+      "title": "2.3.3 特定文字の変換結果の相違について",
+      "page": 48,
+      "approx_chars": 366
+    },
+    {
+      "level": 3,
+      "title": "2.3.4 障害修正に関する互換情報について",
+      "page": 49,
+      "approx_chars": 74
+    },
+    {
+      "level": 2,
+      "title": "2.4 FORM",
+      "page": 49,
+      "approx_chars": 3102
+    },
+    {
+      "level": 3,
+      "title": "2.4.1 項目ディクショナリ連携の非サポートについて",
+      "page": 49,
+      "approx_chars": 111
+    },
+    {
+      "level": 3,
+      "title": "2.4.2 文字ピッチの初期値について",
+      "page": 49,
+      "approx_chars": 201
+    },
+    {
+      "level": 3,
+      "title": "2.4.3 マウスカーソル形状について",
+      "page": 49,
+      "approx_chars": 140
+    },
+    {
+      "level": 3,
+      "title": "2.4.4 オーバレイ文字の配置方法の初期値について",
+      "page": 49,
+      "approx_chars": 242
+    },
+    {
+      "level": 3,
+      "title": "2.4.5 オーバレイ文字の文字間隔自動調整について",
+      "page": 49,
+      "approx_chars": 259
+    },
+    {
+      "level": 3,
+      "title": "2.4.6 オーバレイ文字の文字列方向の指定について",
+      "page": 50,
+      "approx_chars": 199
+    },
+    {
+      "level": 3,
+      "title": "2.4.7 オーバレイ文字の拡大/ 縮小について",
+      "page": 50,
+      "approx_chars": 219
+    },
+    {
+      "level": 3,
+      "title": "2.4.8 クライアント環境設定ツールについて",
+      "page": 50,
+      "approx_chars": 194
+    },
+    {
+      "level": 3,
+      "title": "2.4.9 アクセス関数変更コマンド（INSTSMD.EXE）について",
+      "page": 50,
+      "approx_chars": 159
+    },
+    {
+      "level": 3,
+      "title": "2.4.10 オーバレイパターンテーブル変換コマンドについて",
+      "page": 50,
+      "approx_chars": 170
+    },
+    {
+      "level": 3,
+      "title": "2.4.11 障害修正に関する互換情報について",
+      "page": 50,
+      "approx_chars": 900
+    },
+    {
+      "level": 2,
+      "title": "2.5 MeFt",
+      "page": 51,
+      "approx_chars": 7176
+    },
+    {
+      "level": 3,
+      "title": "2.5.1 プリンタ情報ファイルのBOMの扱い",
+      "page": 52,
+      "approx_chars": 632
+    },
+    {
+      "level": 3,
+      "title": "2.5.2 移行時の注意事項",
+      "page": 52,
+      "approx_chars": 3589
+    },
+    {
+      "level": 3,
+      "title": "2.5.3 未サポート機能",
+      "page": 54,
+      "approx_chars": 876
+    },
+    {
+      "level": 3,
+      "title": "2.5.4 障害修正に関する互換情報について",
+      "page": 55,
+      "approx_chars": 1650
+    },
+    {
+      "level": 2,
+      "title": "2.6 MeFt/Web",
+      "page": 57,
+      "approx_chars": 602
+    },
+    {
+      "level": 3,
+      "title": "2.6.1 IIS 環境設定コマンドについて",
+      "page": 57,
+      "approx_chars": 179
+    },
+    {
+      "level": 3,
+      "title": "2.6.2 サービスマネージャについて",
+      "page": 57,
+      "approx_chars": 174
+    },
+    {
+      "level": 2,
+      "title": "2.7 MeFt/Web HTML変換方式",
+      "page": 57,
+      "approx_chars": 284
+    },
+    {
+      "level": 2,
+      "title": "2.8 SIMPLIA/COBOL支援キット",
+      "page": 57,
+      "approx_chars": 384
+    },
+    {
+      "level": 3,
+      "title": "2.8.1 TF-MDPORT",
+      "page": 57,
+      "approx_chars": 57
+    },
+    {
+      "level": 3,
+      "title": "2.8.2 TF-LINDA",
+      "page": 57,
+      "approx_chars": 55
+    },
+    {
+      "level": 3,
+      "title": "2.8.3 MF-STEPCOUNTER",
+      "page": 57,
+      "approx_chars": 73
+    },
+    {
+      "level": 3,
+      "title": "2.8.4 TF-EXCOUNTER",
+      "page": 58,
+      "approx_chars": 63
+    },
+    {
+      "level": 2,
+      "title": "2.9 富士通メインフレーム浮動小数点エミュレータ",
+      "page": 58,
+      "approx_chars": 199
+    },
+    {
+      "level": 2,
+      "title": "2.10 PowerSORT Server",
+      "page": 58,
+      "approx_chars": 14497
+    },
+    {
+      "level": 3,
+      "title": "2.10.1 テキストファイル浮動フィールド指定のキーフィールドについて",
+      "page": 58,
+      "approx_chars": 592
+    },
+    {
+      "level": 3,
+      "title": "2.10.2 先入力先出力（FIFO）機能について",
+      "page": 59,
+      "approx_chars": 329
+    },
+    {
+      "level": 3,
+      "title": "2.10.3 マージ機能について",
+      "page": 59,
+      "approx_chars": 1009
+    },
+    {
+      "level": 3,
+      "title": "2.10.4 富士通COBOLファイルシステムの可変長レコード形式について",
+      "page": 60,
+      "approx_chars": 739
+    },
+    {
+      "level": 3,
+      "title": "2.10.5 「+0」と「-0」を表現できるデータ形式について",
+      "page": 60,
+      "approx_chars": 621
+    },
+    {
+      "level": 3,
+      "title": "2.10.6 メッセージの出力形式について",
+      "page": 61,
+      "approx_chars": 297
+    },
+    {
+      "level": 3,
+      "title": "2.10.7 一時ファイル容量不足時のメッセージについて",
+      "page": 61,
+      "approx_chars": 469
+    },
+    {
+      "level": 3,
+      "title": "2.10.8 処理定義ファイルについて",
+      "page": 61,
+      "approx_chars": 401
+    },
+    {
+      "level": 3,
+      "title": "2.10.9 アプリケーションログへのメッセージ出力について",
+      "page": 62,
+      "approx_chars": 703
+    },
+    {
+      "level": 3,
+      "title": "2.10.10 BSORT関数の定義値変更について",
+      "page": 62,
+      "approx_chars": 973
+    },
+    {
+      "level": 3,
+      "title": "2.10.11 障害修正に関する互換情報",
+      "page": 63,
+      "approx_chars": 8036
+    },
+    {
+      "level": 1,
+      "title": "第3章 プログラム修正一覧",
+      "page": 69,
+      "approx_chars": 2989
+    },
+    {
+      "level": 2,
+      "title": "3.1 NetCOBOL開発環境",
+      "page": 69,
+      "approx_chars": 360
+    },
+    {
+      "level": 2,
+      "title": "3.2 NetCOBOL運用環境",
+      "page": 69,
+      "approx_chars": 459
+    },
+    {
+      "level": 2,
+      "title": "3.3 Jアダプタクラスジェネレータ",
+      "page": 69,
+      "approx_chars": 286
+    },
+    {
+      "level": 2,
+      "title": "3.4 FORM",
+      "page": 70,
+      "approx_chars": 162
+    },
+    {
+      "level": 2,
+      "title": "3.5 MeFt",
+      "page": 70,
+      "approx_chars": 311
+    },
+    {
+      "level": 2,
+      "title": "3.6 MeFt/Web",
+      "page": 70,
+      "approx_chars": 268
+    },
+    {
+      "level": 2,
+      "title": "3.7 MeFt/Web HTML変換方式",
+      "page": 70,
+      "approx_chars": 286
+    },
+    {
+      "level": 2,
+      "title": "3.8 SIMPLIA/COBOL支援キット",
+      "page": 70,
+      "approx_chars": 382
+    },
+    {
+      "level": 3,
+      "title": "3.8.1 TF-MDPORT",
+      "page": 71,
+      "approx_chars": 59
+    },
+    {
+      "level": 3,
+      "title": "3.8.2 TF-LINDA",
+      "page": 71,
+      "approx_chars": 57
+    },
+    {
+      "level": 3,
+      "title": "3.8.3 MF-STEPCOUNTER",
+      "page": 71,
+      "approx_chars": 69
+    },
+    {
+      "level": 3,
+      "title": "3.8.4 TF-EXCOUNTER",
+      "page": 71,
+      "approx_chars": 65
+    },
+    {
+      "level": 2,
+      "title": "3.9 富士通メインフレーム浮動小数点演算エミュレータ",
+      "page": 71,
+      "approx_chars": 205
+    },
+    {
+      "level": 2,
+      "title": "3.10 PowerSORT Server",
+      "page": 71,
+      "approx_chars": 199
+    },
+    {
+      "level": 1,
+      "title": "第4章 COBOLアプリケーションを海外展開する際の留意事項",
+      "page": 72,
+      "approx_chars": 3826
+    },
+    {
+      "level": 2,
+      "title": "4.1 指針",
+      "page": 72,
+      "approx_chars": 123
+    },
+    {
+      "level": 2,
+      "title": "4.2 環境",
+      "page": 72,
+      "approx_chars": 546
+    },
+    {
+      "level": 2,
+      "title": "4.3 言語",
+      "page": 72,
+      "approx_chars": 696
+    },
+    {
+      "level": 2,
+      "title": "4.4 日本版と海外版の差異",
+      "page": 73,
+      "approx_chars": 2304
+    },
+    {
+      "level": 3,
+      "title": "4.4.1 連携製品",
+      "page": 73,
+      "approx_chars": 426
+    },
+    {
+      "level": 3,
+      "title": "4.4.2 機能仕様",
+      "page": 73,
+      "approx_chars": 1407
+    },
+    {
+      "level": 3,
+      "title": "4.4.3 MeFt",
+      "page": 75,
+      "approx_chars": 407
+    },
+    {
+      "level": 1,
+      "title": "付録A NetCOBOLシリーズの製品体系",
+      "page": 76,
+      "approx_chars": 5154
+    }
+  ]
+}

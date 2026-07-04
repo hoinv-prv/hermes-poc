@@ -1,0 +1,3564 @@
+{
+  "source_file": "cobwr64.pdf",
+  "title": "COBOL文法書",
+  "product": "NetCOBOL V12.2",
+  "full_title": "NetCOBOL V12.2 COBOL文法書",
+  "pages": 697,
+  "approx_chars": 1138564,
+  "outline_entries_total": 832,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 80
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 10448
+    },
+    {
+      "level": 1,
+      "title": "謝辞",
+      "page": 10,
+      "approx_chars": 609
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 11,
+      "approx_chars": 150399
+    },
+    {
+      "level": 1,
+      "title": "第1章 全般規定",
+      "page": 26,
+      "approx_chars": 45029
+    },
+    {
+      "level": 2,
+      "title": "1.1 文字と文字集合",
+      "page": 26,
+      "approx_chars": 1350
+    },
+    {
+      "level": 2,
+      "title": "1.2 言語の基本要素",
+      "page": 27,
+      "approx_chars": 18000
+    },
+    {
+      "level": 3,
+      "title": "1.2.1 分離符",
+      "page": 28,
+      "approx_chars": 1981
+    },
+    {
+      "level": 3,
+      "title": "1.2.2 COBOLの語",
+      "page": 30,
+      "approx_chars": 7082
+    },
+    {
+      "level": 3,
+      "title": "1.2.3 定数",
+      "page": 36,
+      "approx_chars": 5099
+    },
+    {
+      "level": 3,
+      "title": "1.2.4 表意定数",
+      "page": 40,
+      "approx_chars": 1409
+    },
+    {
+      "level": 3,
+      "title": "1.2.5 連結式",
+      "page": 41,
+      "approx_chars": 1092
+    },
+    {
+      "level": 3,
+      "title": "1.2.6 特殊な用途の定数",
+      "page": 42,
+      "approx_chars": 768
+    },
+    {
+      "level": 3,
+      "title": "1.2.7 PICTURE句の文字列",
+      "page": 43,
+      "approx_chars": 171
+    },
+    {
+      "level": 3,
+      "title": "1.2.8 注記項",
+      "page": 43,
+      "approx_chars": 120
+    },
+    {
+      "level": 2,
+      "title": "1.3 データ記述の概念",
+      "page": 43,
+      "approx_chars": 7276
+    },
+    {
+      "level": 3,
+      "title": "1.3.1 レベルの概念",
+      "page": 43,
+      "approx_chars": 349
+    },
+    {
+      "level": 3,
+      "title": "1.3.2 字類の概念",
+      "page": 43,
+      "approx_chars": 384
+    },
+    {
+      "level": 3,
+      "title": "1.3.3 型の概念",
+      "page": 44,
+      "approx_chars": 1849
+    },
+    {
+      "level": 3,
+      "title": "1.3.4 標準桁よせ規則",
+      "page": 45,
+      "approx_chars": 868
+    },
+    {
+      "level": 3,
+      "title": "1.3.5 データの境界調整",
+      "page": 45,
+      "approx_chars": 3771
+    },
+    {
+      "level": 2,
+      "title": "1.4 一意参照",
+      "page": 49,
+      "approx_chars": 10123
+    },
+    {
+      "level": 3,
+      "title": "1.4.1 修飾",
+      "page": 49,
+      "approx_chars": 3078
+    },
+    {
+      "level": 3,
+      "title": "1.4.2 添字付け",
+      "page": 52,
+      "approx_chars": 1868
+    },
+    {
+      "level": 3,
+      "title": "1.4.3 部分参照",
+      "page": 53,
+      "approx_chars": 1818
+    },
+    {
+      "level": 3,
+      "title": "1.4.4 ポインタ付け",
+      "page": 55,
+      "approx_chars": 1529
+    },
+    {
+      "level": 3,
+      "title": "1.4.5 一意名",
+      "page": 56,
+      "approx_chars": 585
+    },
+    {
+      "level": 3,
+      "title": "1.4.6 条件名の一意参照",
+      "page": 56,
+      "approx_chars": 598
+    },
+    {
+      "level": 3,
+      "title": "1.4.7 関数一意名",
+      "page": 57,
+      "approx_chars": 555
+    },
+    {
+      "level": 2,
+      "title": "1.5 正書法",
+      "page": 57,
+      "approx_chars": 6105
+    },
+    {
+      "level": 3,
+      "title": "1.5.1 1行の構成",
+      "page": 57,
+      "approx_chars": 1026
+    },
+    {
+      "level": 3,
+      "title": "1.5.2 A領域とB領域の正書法",
+      "page": 58,
+      "approx_chars": 945
+    },
+    {
+      "level": 3,
+      "title": "1.5.3 空白行",
+      "page": 59,
+      "approx_chars": 102
+    },
+    {
+      "level": 3,
+      "title": "1.5.4 注記行",
+      "page": 59,
+      "approx_chars": 252
+    },
+    {
+      "level": 3,
+      "title": "1.5.5 行のつなぎ",
+      "page": 59,
+      "approx_chars": 1157
+    },
+    {
+      "level": 3,
+      "title": "1.5.6 デバッグ行",
+      "page": 60,
+      "approx_chars": 405
+    },
+    {
+      "level": 3,
+      "title": "1.5.7 行内注記",
+      "page": 61,
+      "approx_chars": 290
+    },
+    {
+      "level": 3,
+      "title": "1.5.8 自由形式の正書法",
+      "page": 61,
+      "approx_chars": 1793
+    },
+    {
+      "level": 2,
+      "title": "1.6 プログラムの構成",
+      "page": 62,
+      "approx_chars": 1445
+    },
+    {
+      "level": 3,
+      "title": "1.6.1 プログラムの結果",
+      "page": 63,
+      "approx_chars": 177
+    },
+    {
+      "level": 2,
+      "title": "1.7 演算モード",
+      "page": 63,
+      "approx_chars": 676
+    },
+    {
+      "level": 1,
+      "title": "第2章 COBOLの機能",
+      "page": 64,
+      "approx_chars": 51962
+    },
+    {
+      "level": 2,
+      "title": "2.1 中核機能",
+      "page": 64,
+      "approx_chars": 12608
+    },
+    {
+      "level": 3,
+      "title": "2.1.1 データの転記",
+      "page": 66,
+      "approx_chars": 522
+    },
+    {
+      "level": 3,
+      "title": "2.1.2 算術演算",
+      "page": 66,
+      "approx_chars": 568
+    },
+    {
+      "level": 3,
+      "title": "2.1.3 選択処理と分岐",
+      "page": 67,
+      "approx_chars": 1301
+    },
+    {
+      "level": 3,
+      "title": "2.1.4 繰返し処理",
+      "page": 68,
+      "approx_chars": 1191
+    },
+    {
+      "level": 3,
+      "title": "2.1.5 表操作",
+      "page": 69,
+      "approx_chars": 3190
+    },
+    {
+      "level": 3,
+      "title": "2.1.6 データ項目の初期化",
+      "page": 72,
+      "approx_chars": 381
+    },
+    {
+      "level": 3,
+      "title": "2.1.7 文字列操作",
+      "page": 72,
+      "approx_chars": 884
+    },
+    {
+      "level": 3,
+      "title": "2.1.8 小入出力",
+      "page": 73,
+      "approx_chars": 341
+    },
+    {
+      "level": 3,
+      "title": "2.1.9 プログラムの実行の終了",
+      "page": 73,
+      "approx_chars": 103
+    },
+    {
+      "level": 3,
+      "title": "2.1.10 ポインタの操作",
+      "page": 73,
+      "approx_chars": 1013
+    },
+    {
+      "level": 3,
+      "title": "2.1.11 浮動小数点数の操作",
+      "page": 74,
+      "approx_chars": 1690
+    },
+    {
+      "level": 2,
+      "title": "2.2 入出力機能",
+      "page": 75,
+      "approx_chars": 10624
+    },
+    {
+      "level": 3,
+      "title": "2.2.1 ファイルの編成",
+      "page": 76,
+      "approx_chars": 1918
+    },
+    {
+      "level": 3,
+      "title": "2.2.2 ファイル結合子",
+      "page": 78,
+      "approx_chars": 304
+    },
+    {
+      "level": 3,
+      "title": "2.2.3 入出力文の動作",
+      "page": 78,
+      "approx_chars": 1476
+    },
+    {
+      "level": 3,
+      "title": "2.2.4 ファイル位置指示子",
+      "page": 79,
+      "approx_chars": 277
+    },
+    {
+      "level": 3,
+      "title": "2.2.5 ボリューム指示子",
+      "page": 79,
+      "approx_chars": 167
+    },
+    {
+      "level": 3,
+      "title": "2.2.6 ファイルの共用と排他",
+      "page": 79,
+      "approx_chars": 1016
+    },
+    {
+      "level": 3,
+      "title": "2.2.7 レコードのロック",
+      "page": 80,
+      "approx_chars": 1508
+    },
+    {
+      "level": 3,
+      "title": "2.2.8 入出力状態",
+      "page": 81,
+      "approx_chars": 1395
+    },
+    {
+      "level": 3,
+      "title": "2.2.9 レコード形式",
+      "page": 82,
+      "approx_chars": 948
+    },
+    {
+      "level": 3,
+      "title": "2.2.10 レコード領域",
+      "page": 82,
+      "approx_chars": 312
+    },
+    {
+      "level": 3,
+      "title": "2.2.11 特殊レジスタ",
+      "page": 82,
+      "approx_chars": 295
+    },
+    {
+      "level": 2,
+      "title": "2.3 プログラム間連絡機能",
+      "page": 83,
+      "approx_chars": 9427
+    },
+    {
+      "level": 3,
+      "title": "2.3.1 プログラムの呼出しと復帰",
+      "page": 83,
+      "approx_chars": 861
+    },
+    {
+      "level": 3,
+      "title": "2.3.2 大域名と局所名",
+      "page": 84,
+      "approx_chars": 539
+    },
+    {
+      "level": 3,
+      "title": "2.3.3 外部属性と内部属性",
+      "page": 84,
+      "approx_chars": 1060
+    },
+    {
+      "level": 3,
+      "title": "2.3.4 外部名と内部名",
+      "page": 85,
+      "approx_chars": 458
+    },
+    {
+      "level": 3,
+      "title": "2.3.5 活性状態",
+      "page": 85,
+      "approx_chars": 258
+    },
+    {
+      "level": 3,
+      "title": "2.3.6 プログラムの共通属性",
+      "page": 85,
+      "approx_chars": 294
+    },
+    {
+      "level": 3,
+      "title": "2.3.7 プログラムの初期状態",
+      "page": 85,
+      "approx_chars": 959
+    },
+    {
+      "level": 3,
+      "title": "2.3.8 プログラムの再帰属性",
+      "page": 86,
+      "approx_chars": 232
+    },
+    {
+      "level": 3,
+      "title": "2.3.9 パラメタの受渡し",
+      "page": 86,
+      "approx_chars": 807
+    },
+    {
+      "level": 3,
+      "title": "2.3.10 名前の範囲",
+      "page": 87,
+      "approx_chars": 1342
+    },
+    {
+      "level": 3,
+      "title": "2.3.11 プログラム名および二次入口名の名前の範囲",
+      "page": 88,
+      "approx_chars": 1059
+    },
+    {
+      "level": 3,
+      "title": "2.3.12 特殊レジスタ",
+      "page": 89,
+      "approx_chars": 625
+    },
+    {
+      "level": 2,
+      "title": "2.4 整列併合機能",
+      "page": 89,
+      "approx_chars": 3878
+    },
+    {
+      "level": 3,
+      "title": "2.4.1 整列の方法",
+      "page": 90,
+      "approx_chars": 473
+    },
+    {
+      "level": 3,
+      "title": "2.4.2 併合の方法",
+      "page": 90,
+      "approx_chars": 291
+    },
+    {
+      "level": 3,
+      "title": "2.4.3 入力手続き",
+      "page": 90,
+      "approx_chars": 313
+    },
+    {
+      "level": 3,
+      "title": "2.4.4 出力手続き",
+      "page": 90,
+      "approx_chars": 323
+    },
+    {
+      "level": 3,
+      "title": "2.4.5 整列併合用ファイル",
+      "page": 90,
+      "approx_chars": 276
+    },
+    {
+      "level": 3,
+      "title": "2.4.6 特殊レジスタ",
+      "page": 91,
+      "approx_chars": 1478
+    },
+    {
+      "level": 2,
+      "title": "2.5 原始文操作機能",
+      "page": 92,
+      "approx_chars": 432
+    },
+    {
+      "level": 2,
+      "title": "2.6 表示ファイル機能",
+      "page": 93,
+      "approx_chars": 4872
+    },
+    {
+      "level": 3,
+      "title": "2.6.1 あて先種別",
+      "page": 93,
+      "approx_chars": 282
+    },
+    {
+      "level": 3,
+      "title": "2.6.2 画面帳票定義体",
+      "page": 94,
+      "approx_chars": 378
+    },
+    {
+      "level": 3,
+      "title": "2.6.3 ファイルの編成と呼出し法",
+      "page": 94,
+      "approx_chars": 258
+    },
+    {
+      "level": 3,
+      "title": "2.6.4 入出力文の動作",
+      "page": 94,
+      "approx_chars": 422
+    },
+    {
+      "level": 3,
+      "title": "2.6.5 入出力状態",
+      "page": 94,
+      "approx_chars": 919
+    },
+    {
+      "level": 3,
+      "title": "2.6.6 特殊レジスタ",
+      "page": 95,
+      "approx_chars": 1711
+    },
+    {
+      "level": 2,
+      "title": "2.7 組込み関数機能",
+      "page": 96,
+      "approx_chars": 2092
+    },
+    {
+      "level": 2,
+      "title": "2.8 スクリーン操作機能",
+      "page": 98,
+      "approx_chars": 2693
+    },
+    {
+      "level": 3,
+      "title": "2.8.1 画面と画面項目",
+      "page": 98,
+      "approx_chars": 1551
+    },
+    {
+      "level": 3,
+      "title": "2.8.2 画面の入出力操作",
+      "page": 99,
+      "approx_chars": 441
+    },
+    {
+      "level": 3,
+      "title": "2.8.3 画面入力状態",
+      "page": 99,
+      "approx_chars": 226
+    },
+    {
+      "level": 2,
+      "title": "2.9 コマンド行引数と環境変数の操作機能",
+      "page": 99,
+      "approx_chars": 2695
+    },
+    {
+      "level": 3,
+      "title": "2.9.1 コマンド行引数の操作",
+      "page": 100,
+      "approx_chars": 1370
+    },
+    {
+      "level": 3,
+      "title": "2.9.2 環境変数の操作",
+      "page": 101,
+      "approx_chars": 848
+    },
+    {
+      "level": 2,
+      "title": "2.10 報告書作成機能",
+      "page": 101,
+      "approx_chars": 2411
+    },
+    {
+      "level": 3,
+      "title": "2.10.1 報告書ファイル",
+      "page": 102,
+      "approx_chars": 459
+    },
+    {
+      "level": 3,
+      "title": "2.10.2 特殊レジスタ",
+      "page": 102,
+      "approx_chars": 749
+    },
+    {
+      "level": 1,
+      "title": "第3章 見出し部とプログラム終わり見出し",
+      "page": 104,
+      "approx_chars": 4096
+    },
+    {
+      "level": 2,
+      "title": "3.1 見出し部の構成（IDENTIFICATION DIVISION）",
+      "page": 104,
+      "approx_chars": 2945
+    },
+    {
+      "level": 3,
+      "title": "3.1.1 プログラム名段落（PROGRAM-ID）",
+      "page": 104,
+      "approx_chars": 1689
+    },
+    {
+      "level": 3,
+      "title": "3.1.2 翻訳日付段落（DATE-COMPILED）",
+      "page": 105,
+      "approx_chars": 484
+    },
+    {
+      "level": 2,
+      "title": "3.2 プログラム終わり見出し（END PROGRAM）",
+      "page": 106,
+      "approx_chars": 1006
+    },
+    {
+      "level": 1,
+      "title": "第4章 環境部",
+      "page": 108,
+      "approx_chars": 67307
+    },
+    {
+      "level": 2,
+      "title": "4.1 環境部の構成（ENVIRONMENT DIVISION）",
+      "page": 108,
+      "approx_chars": 629
+    },
+    {
+      "level": 2,
+      "title": "4.2 構成節（CONFIGURATION SECTION）",
+      "page": 108,
+      "approx_chars": 22369
+    },
+    {
+      "level": 3,
+      "title": "4.2.1 翻訳用計算機段落（SOURCE-COMPUTER）",
+      "page": 108,
+      "approx_chars": 1195
+    },
+    {
+      "level": 3,
+      "title": "4.2.2 実行用計算機段落（OBJECT-COMPUTER）",
+      "page": 109,
+      "approx_chars": 2812
+    },
+    {
+      "level": 3,
+      "title": "4.2.3 特殊名段落（SPECIAL-NAMES）",
+      "page": 111,
+      "approx_chars": 18210
+    },
+    {
+      "level": 2,
+      "title": "4.3 入出力節（INPUT-OUTPUT SECTION）",
+      "page": 126,
+      "approx_chars": 44107
+    },
+    {
+      "level": 3,
+      "title": "4.3.1 ファイル管理段落（FILE-CONTROL）",
+      "page": 126,
+      "approx_chars": 38289
+    },
+    {
+      "level": 3,
+      "title": "4.3.2 入出力管理段落（I-O-CONTROL）",
+      "page": 157,
+      "approx_chars": 5697
+    },
+    {
+      "level": 1,
+      "title": "第5章 データ部",
+      "page": 162,
+      "approx_chars": 132487
+    },
+    {
+      "level": 2,
+      "title": "5.1 データ部の構成（DATA DIVISION）",
+      "page": 162,
+      "approx_chars": 3825
+    },
+    {
+      "level": 2,
+      "title": "5.2 ファイル記述項",
+      "page": 165,
+      "approx_chars": 14808
+    },
+    {
+      "level": 3,
+      "title": "5.2.1 BLOCK CONTAINS句（順ファイル・相対ファイル・索引ファイル・報告書作成）",
+      "page": 167,
+      "approx_chars": 410
+    },
+    {
+      "level": 3,
+      "title": "5.2.2 CODE-SET句（順ファイル・報告書作成）",
+      "page": 167,
+      "approx_chars": 751
+    },
+    {
+      "level": 3,
+      "title": "5.2.3 CONTROL RECORDS句（順ファイル）",
+      "page": 168,
+      "approx_chars": 671
+    },
+    {
+      "level": 3,
+      "title": "5.2.4 DATA RECORDS句（順ファイル・相対ファイル・索引ファイル）",
+      "page": 168,
+      "approx_chars": 462
+    },
+    {
+      "level": 3,
+      "title": "5.2.5 ENCODING句（順ファイル・相対ファイル・索引ファイル・表示ファイル）",
+      "page": 168,
+      "approx_chars": 725
+    },
+    {
+      "level": 3,
+      "title": "5.2.6 EXTERNAL句（順ファイル・相対ファイル・索引ファイル・表示ファイル・報告書作成）",
+      "page": 169,
+      "approx_chars": 552
+    },
+    {
+      "level": 3,
+      "title": "5.2.7 GLOBAL句（順ファイル・相対ファイル・索引ファイル・表示ファイル・報告書作成）",
+      "page": 170,
+      "approx_chars": 456
+    },
+    {
+      "level": 3,
+      "title": "5.2.8 LABEL RECORDS句（順ファイル・相対ファイル・索引ファイル・報告書作成）",
+      "page": 170,
+      "approx_chars": 425
+    },
+    {
+      "level": 3,
+      "title": "5.2.9 LINAGE句（順ファイル）",
+      "page": 170,
+      "approx_chars": 3129
+    },
+    {
+      "level": 3,
+      "title": "5.2.10 RECORD句（順ファイル・相対ファイル・索引ファイル）",
+      "page": 173,
+      "approx_chars": 3645
+    },
+    {
+      "level": 3,
+      "title": "5.2.11 RECORD句（表示ファイル）",
+      "page": 175,
+      "approx_chars": 544
+    },
+    {
+      "level": 3,
+      "title": "5.2.12 RECORD句（報告書作成）",
+      "page": 175,
+      "approx_chars": 483
+    },
+    {
+      "level": 3,
+      "title": "5.2.13 REPORT句（報告書作成）",
+      "page": 176,
+      "approx_chars": 779
+    },
+    {
+      "level": 3,
+      "title": "5.2.14 VALUE OF句（順ファイル・相対ファイル・索引ファイル・報告書作成）",
+      "page": 176,
+      "approx_chars": 508
+    },
+    {
+      "level": 2,
+      "title": "5.3 整列併合用ファイル記述項",
+      "page": 177,
+      "approx_chars": 825
+    },
+    {
+      "level": 2,
+      "title": "5.4 データ記述項",
+      "page": 177,
+      "approx_chars": 56053
+    },
+    {
+      "level": 3,
+      "title": "5.4.1 BASED ON句",
+      "page": 181,
+      "approx_chars": 907
+    },
+    {
+      "level": 3,
+      "title": "5.4.2 BLANK WHEN ZERO句",
+      "page": 181,
+      "approx_chars": 682
+    },
+    {
+      "level": 3,
+      "title": "5.4.3 CHARACTER TYPE句",
+      "page": 182,
+      "approx_chars": 4873
+    },
+    {
+      "level": 3,
+      "title": "5.4.4 ENCODING句",
+      "page": 185,
+      "approx_chars": 1696
+    },
+    {
+      "level": 3,
+      "title": "5.4.5 EXTERNAL句",
+      "page": 187,
+      "approx_chars": 1825
+    },
+    {
+      "level": 3,
+      "title": "5.4.6 GLOBAL句",
+      "page": 188,
+      "approx_chars": 753
+    },
+    {
+      "level": 3,
+      "title": "5.4.7 JUSTIFIED句",
+      "page": 189,
+      "approx_chars": 832
+    },
+    {
+      "level": 3,
+      "title": "5.4.8 OCCURS句",
+      "page": 189,
+      "approx_chars": 4075
+    },
+    {
+      "level": 3,
+      "title": "5.4.9 PICTURE句",
+      "page": 192,
+      "approx_chars": 12244
+    },
+    {
+      "level": 3,
+      "title": "5.4.10 PRINTING POSITION句",
+      "page": 200,
+      "approx_chars": 1393
+    },
+    {
+      "level": 3,
+      "title": "5.4.11 REDEFINES句",
+      "page": 201,
+      "approx_chars": 2528
+    },
+    {
+      "level": 3,
+      "title": "5.4.12 RENAMES句",
+      "page": 203,
+      "approx_chars": 1935
+    },
+    {
+      "level": 3,
+      "title": "5.4.13 SIGN句",
+      "page": 204,
+      "approx_chars": 1420
+    },
+    {
+      "level": 3,
+      "title": "5.4.14 SYNCHRONIZED句",
+      "page": 205,
+      "approx_chars": 2031
+    },
+    {
+      "level": 3,
+      "title": "5.4.15 TYPE句",
+      "page": 206,
+      "approx_chars": 1212
+    },
+    {
+      "level": 3,
+      "title": "5.4.16 TYPEDEF句",
+      "page": 207,
+      "approx_chars": 1035
+    },
+    {
+      "level": 3,
+      "title": "5.4.17 USAGE句",
+      "page": 208,
+      "approx_chars": 9145
+    },
+    {
+      "level": 3,
+      "title": "5.4.18 VALUE句",
+      "page": 214,
+      "approx_chars": 3376
+    },
+    {
+      "level": 2,
+      "title": "5.5 画面データ記述項",
+      "page": 217,
+      "approx_chars": 18870
+    },
+    {
+      "level": 3,
+      "title": "5.5.1 AUTO句",
+      "page": 219,
+      "approx_chars": 509
+    },
+    {
+      "level": 3,
+      "title": "5.5.2 BACKGROUND-COLOR句",
+      "page": 219,
+      "approx_chars": 879
+    },
+    {
+      "level": 3,
+      "title": "5.5.3 BELL句",
+      "page": 220,
+      "approx_chars": 351
+    },
+    {
+      "level": 3,
+      "title": "5.5.4 BLANK LINE句",
+      "page": 221,
+      "approx_chars": 475
+    },
+    {
+      "level": 3,
+      "title": "5.5.5 BLANK SCREEN句",
+      "page": 221,
+      "approx_chars": 786
+    },
+    {
+      "level": 3,
+      "title": "5.5.6 BLANK WHEN ZERO句",
+      "page": 221,
+      "approx_chars": 686
+    },
+    {
+      "level": 3,
+      "title": "5.5.7 BLINK句",
+      "page": 222,
+      "approx_chars": 403
+    },
+    {
+      "level": 3,
+      "title": "5.5.8 COLUMN NUMBER句",
+      "page": 222,
+      "approx_chars": 1364
+    },
+    {
+      "level": 3,
+      "title": "5.5.9 ERASE句",
+      "page": 223,
+      "approx_chars": 862
+    },
+    {
+      "level": 3,
+      "title": "5.5.10 FOREGROUND-COLOR句",
+      "page": 224,
+      "approx_chars": 877
+    },
+    {
+      "level": 3,
+      "title": "5.5.11 FULL句",
+      "page": 224,
+      "approx_chars": 962
+    },
+    {
+      "level": 3,
+      "title": "5.5.12 HIGHLIGHT句",
+      "page": 225,
+      "approx_chars": 545
+    },
+    {
+      "level": 3,
+      "title": "5.5.13 JUSTIFIED句",
+      "page": 225,
+      "approx_chars": 787
+    },
+    {
+      "level": 3,
+      "title": "5.5.14 LINE NUMBER句",
+      "page": 226,
+      "approx_chars": 1212
+    },
+    {
+      "level": 3,
+      "title": "5.5.15 LOWLIGHT句",
+      "page": 227,
+      "approx_chars": 437
+    },
+    {
+      "level": 3,
+      "title": "5.5.16 PICTURE句",
+      "page": 227,
+      "approx_chars": 1753
+    },
+    {
+      "level": 3,
+      "title": "5.5.17 REQUIRED句",
+      "page": 228,
+      "approx_chars": 772
+    },
+    {
+      "level": 3,
+      "title": "5.5.18 REVERSE-VIDEO句",
+      "page": 229,
+      "approx_chars": 432
+    },
+    {
+      "level": 3,
+      "title": "5.5.19 SECURE句",
+      "page": 229,
+      "approx_chars": 492
+    },
+    {
+      "level": 3,
+      "title": "5.5.20 SIGN句",
+      "page": 230,
+      "approx_chars": 469
+    },
+    {
+      "level": 3,
+      "title": "5.5.21 UNDERLINE句",
+      "page": 230,
+      "approx_chars": 397
+    },
+    {
+      "level": 3,
+      "title": "5.5.22 USAGE句",
+      "page": 230,
+      "approx_chars": 759
+    },
+    {
+      "level": 3,
+      "title": "5.5.23 VALUE句",
+      "page": 231,
+      "approx_chars": 405
+    },
+    {
+      "level": 2,
+      "title": "5.6 報告書記述項",
+      "page": 231,
+      "approx_chars": 6258
+    },
+    {
+      "level": 3,
+      "title": "5.6.1 CODE句",
+      "page": 233,
+      "approx_chars": 525
+    },
+    {
+      "level": 3,
+      "title": "5.6.2 CONTROL句",
+      "page": 233,
+      "approx_chars": 1208
+    },
+    {
+      "level": 3,
+      "title": "5.6.3 PAGE句",
+      "page": 234,
+      "approx_chars": 2604
+    },
+    {
+      "level": 2,
+      "title": "5.7 報告集団記述項",
+      "page": 236,
+      "approx_chars": 18794
+    },
+    {
+      "level": 3,
+      "title": "5.7.1 COLUMN NUMBER句",
+      "page": 238,
+      "approx_chars": 719
+    },
+    {
+      "level": 3,
+      "title": "5.7.2 GROUP INDICATE句",
+      "page": 239,
+      "approx_chars": 715
+    },
+    {
+      "level": 3,
+      "title": "5.7.3 LINE NUMBER句",
+      "page": 239,
+      "approx_chars": 1516
+    },
+    {
+      "level": 3,
+      "title": "5.7.4 NEXT GROUP句",
+      "page": 240,
+      "approx_chars": 960
+    },
+    {
+      "level": 3,
+      "title": "5.7.5 SIGN句",
+      "page": 241,
+      "approx_chars": 1138
+    },
+    {
+      "level": 3,
+      "title": "5.7.6 SOURCE句",
+      "page": 242,
+      "approx_chars": 759
+    },
+    {
+      "level": 3,
+      "title": "5.7.7 SUM句",
+      "page": 242,
+      "approx_chars": 3051
+    },
+    {
+      "level": 3,
+      "title": "5.7.8 TYPE句",
+      "page": 244,
+      "approx_chars": 5281
+    },
+    {
+      "level": 3,
+      "title": "5.7.9 USAGE句",
+      "page": 247,
+      "approx_chars": 642
+    },
+    {
+      "level": 3,
+      "title": "5.7.10 VALUE句",
+      "page": 248,
+      "approx_chars": 1117
+    },
+    {
+      "level": 2,
+      "title": "5.8 報告集団の表示規則",
+      "page": 248,
+      "approx_chars": 12829
+    },
+    {
+      "level": 3,
+      "title": "5.8.1 表示規則表の見かた",
+      "page": 248,
+      "approx_chars": 2204
+    },
+    {
+      "level": 3,
+      "title": "5.8.2 報告書頭書き報告集団の表示規則",
+      "page": 250,
+      "approx_chars": 1874
+    },
+    {
+      "level": 3,
+      "title": "5.8.3 ページ頭書き報告集団の表示規則",
+      "page": 251,
+      "approx_chars": 1205
+    },
+    {
+      "level": 3,
+      "title": "5.8.4 本体集団の表示規則",
+      "page": 252,
+      "approx_chars": 4689
+    },
+    {
+      "level": 3,
+      "title": "5.8.5 ページ脚書き報告集団の表示規則",
+      "page": 254,
+      "approx_chars": 1169
+    },
+    {
+      "level": 3,
+      "title": "5.8.6 報告書脚書き報告集団の表示規則",
+      "page": 255,
+      "approx_chars": 1493
+    },
+    {
+      "level": 1,
+      "title": "第6章 手続き部",
+      "page": 257,
+      "approx_chars": 239403
+    },
+    {
+      "level": 2,
+      "title": "6.1 手続き部の構成（PROCEDURE DIVISION）",
+      "page": 257,
+      "approx_chars": 4861
+    },
+    {
+      "level": 2,
+      "title": "6.2 手続き部の見出し",
+      "page": 261,
+      "approx_chars": 2756
+    },
+    {
+      "level": 2,
+      "title": "6.3 文に関する共通の規則",
+      "page": 263,
+      "approx_chars": 28056
+    },
+    {
+      "level": 3,
+      "title": "6.3.1 算術式",
+      "page": 263,
+      "approx_chars": 1432
+    },
+    {
+      "level": 3,
+      "title": "6.3.2 ブール式",
+      "page": 265,
+      "approx_chars": 1451
+    },
+    {
+      "level": 3,
+      "title": "6.3.3 条件式",
+      "page": 266,
+      "approx_chars": 9415
+    },
+    {
+      "level": 3,
+      "title": "6.3.4 比較の規則",
+      "page": 277,
+      "approx_chars": 4007
+    },
+    {
+      "level": 3,
+      "title": "6.3.5 転記の規則",
+      "page": 281,
+      "approx_chars": 3803
+    },
+    {
+      "level": 3,
+      "title": "6.3.6 算術文",
+      "page": 284,
+      "approx_chars": 404
+    },
+    {
+      "level": 3,
+      "title": "6.3.7 算術文における複数個の答",
+      "page": 284,
+      "approx_chars": 653
+    },
+    {
+      "level": 3,
+      "title": "6.3.8 ROUNDED指定",
+      "page": 285,
+      "approx_chars": 499
+    },
+    {
+      "level": 3,
+      "title": "6.3.9 ON SIZE ERROR指定",
+      "page": 285,
+      "approx_chars": 1666
+    },
+    {
+      "level": 3,
+      "title": "6.3.10 CORRESPONDING指定",
+      "page": 286,
+      "approx_chars": 904
+    },
+    {
+      "level": 3,
+      "title": "6.3.11 作用対象の重なり",
+      "page": 287,
+      "approx_chars": 238
+    },
+    {
+      "level": 3,
+      "title": "6.3.12 INVALID KEY指定",
+      "page": 287,
+      "approx_chars": 1686
+    },
+    {
+      "level": 3,
+      "title": "6.3.13 AT END指定",
+      "page": 288,
+      "approx_chars": 1634
+    },
+    {
+      "level": 3,
+      "title": "6.3.14 矛盾するデータ",
+      "page": 289,
+      "approx_chars": 181
+    },
+    {
+      "level": 2,
+      "title": "6.4 文",
+      "page": 289,
+      "approx_chars": 169949
+    },
+    {
+      "level": 3,
+      "title": "6.4.1 ACCEPT文（中核）",
+      "page": 289,
+      "approx_chars": 2037
+    },
+    {
+      "level": 3,
+      "title": "6.4.2 ACCEPT文（スクリーン操作）",
+      "page": 290,
+      "approx_chars": 1786
+    },
+    {
+      "level": 3,
+      "title": "6.4.3 ACCEPT文（コマンド行引数と環境変数の操作）",
+      "page": 292,
+      "approx_chars": 1553
+    },
+    {
+      "level": 3,
+      "title": "6.4.4 ADD文（中核）",
+      "page": 293,
+      "approx_chars": 1397
+    },
+    {
+      "level": 3,
+      "title": "6.4.5 ALTER文（中核）",
+      "page": 294,
+      "approx_chars": 516
+    },
+    {
+      "level": 3,
+      "title": "6.4.6 CALL文（プログラム間連絡）",
+      "page": 294,
+      "approx_chars": 7134
+    },
+    {
+      "level": 3,
+      "title": "6.4.7 CANCEL文（プログラム間連絡）",
+      "page": 299,
+      "approx_chars": 1538
+    },
+    {
+      "level": 3,
+      "title": "6.4.8 CLOSE文（順ファイル・相対ファイル・索引ファイル・表示ファイル・報告書作成）",
+      "page": 300,
+      "approx_chars": 4400
+    },
+    {
+      "level": 3,
+      "title": "6.4.9 COMPUTE文（中核）",
+      "page": 304,
+      "approx_chars": 1073
+    },
+    {
+      "level": 3,
+      "title": "6.4.10 CONTINUE文（中核）",
+      "page": 305,
+      "approx_chars": 360
+    },
+    {
+      "level": 3,
+      "title": "6.4.11 DELETE文（相対ファイル・索引ファイル）",
+      "page": 305,
+      "approx_chars": 2057
+    },
+    {
+      "level": 3,
+      "title": "6.4.12 DISPLAY文（中核）",
+      "page": 306,
+      "approx_chars": 2781
+    },
+    {
+      "level": 3,
+      "title": "6.4.13 DISPLAY文（スクリーン操作）",
+      "page": 308,
+      "approx_chars": 1221
+    },
+    {
+      "level": 3,
+      "title": "6.4.14 DISPLAY文（コマンド行引数と環境変数の操作）",
+      "page": 309,
+      "approx_chars": 1621
+    },
+    {
+      "level": 3,
+      "title": "6.4.15 DIVIDE文（中核）",
+      "page": 310,
+      "approx_chars": 2339
+    },
+    {
+      "level": 3,
+      "title": "6.4.16 ENTRY文（プログラム間連絡）",
+      "page": 312,
+      "approx_chars": 1111
+    },
+    {
+      "level": 3,
+      "title": "6.4.17 EVALUATE文（中核）",
+      "page": 313,
+      "approx_chars": 4719
+    },
+    {
+      "level": 3,
+      "title": "6.4.18 EXIT文（中核）",
+      "page": 317,
+      "approx_chars": 731
+    },
+    {
+      "level": 3,
+      "title": "6.4.19 EXIT PERFORM文（中核）",
+      "page": 318,
+      "approx_chars": 753
+    },
+    {
+      "level": 3,
+      "title": "6.4.20 EXIT PROGRAM文（プログラム間連絡）",
+      "page": 318,
+      "approx_chars": 936
+    },
+    {
+      "level": 3,
+      "title": "6.4.21 GENERATE文（報告書作成）",
+      "page": 319,
+      "approx_chars": 2161
+    },
+    {
+      "level": 3,
+      "title": "6.4.22 GO TO文（中核）",
+      "page": 320,
+      "approx_chars": 943
+    },
+    {
+      "level": 3,
+      "title": "6.4.23 IF文（中核）",
+      "page": 321,
+      "approx_chars": 1499
+    },
+    {
+      "level": 3,
+      "title": "6.4.24 INITIALIZE文（中核）",
+      "page": 323,
+      "approx_chars": 2682
+    },
+    {
+      "level": 3,
+      "title": "6.4.25 INITIATE文（報告書作成）",
+      "page": 325,
+      "approx_chars": 820
+    },
+    {
+      "level": 3,
+      "title": "6.4.26 INSPECT文",
+      "page": 326,
+      "approx_chars": 9159
+    },
+    {
+      "level": 3,
+      "title": "6.4.27 MERGE文（整列併合）",
+      "page": 333,
+      "approx_chars": 6443
+    },
+    {
+      "level": 3,
+      "title": "6.4.28 MOVE文（中核）",
+      "page": 337,
+      "approx_chars": 3064
+    },
+    {
+      "level": 3,
+      "title": "6.4.29 MULTIPLY文（中核）",
+      "page": 339,
+      "approx_chars": 983
+    },
+    {
+      "level": 3,
+      "title": "6.4.30 OPEN文（順ファイル・相対ファイル・索引ファイル）",
+      "page": 340,
+      "approx_chars": 6356
+    },
+    {
+      "level": 3,
+      "title": "6.4.31 OPEN文（表示ファイル）",
+      "page": 344,
+      "approx_chars": 1258
+    },
+    {
+      "level": 3,
+      "title": "6.4.32 OPEN文（報告書作成）",
+      "page": 345,
+      "approx_chars": 628
+    },
+    {
+      "level": 3,
+      "title": "6.4.33 PERFORM文（中核）",
+      "page": 345,
+      "approx_chars": 6446
+    },
+    {
+      "level": 3,
+      "title": "6.4.34 READ文（順ファイル・相対ファイル・索引ファイル）",
+      "page": 353,
+      "approx_chars": 9740
+    },
+    {
+      "level": 3,
+      "title": "6.4.35 READ文（表示ファイル）",
+      "page": 359,
+      "approx_chars": 2152
+    },
+    {
+      "level": 3,
+      "title": "6.4.36 RELEASE文（整列併合）",
+      "page": 360,
+      "approx_chars": 912
+    },
+    {
+      "level": 3,
+      "title": "6.4.37 RETURN文（整列併合）",
+      "page": 361,
+      "approx_chars": 1883
+    },
+    {
+      "level": 3,
+      "title": "6.4.38 REWRITE文（順ファイル・相対ファイル・索引ファイル）",
+      "page": 362,
+      "approx_chars": 5215
+    },
+    {
+      "level": 3,
+      "title": "6.4.39 SEARCH文（中核）",
+      "page": 365,
+      "approx_chars": 4744
+    },
+    {
+      "level": 3,
+      "title": "6.4.40 SET文（中核）",
+      "page": 369,
+      "approx_chars": 2348
+    },
+    {
+      "level": 3,
+      "title": "6.4.41 SORT文（整列併合）",
+      "page": 371,
+      "approx_chars": 7073
+    },
+    {
+      "level": 3,
+      "title": "6.4.42 START文（相対ファイル）",
+      "page": 375,
+      "approx_chars": 1787
+    },
+    {
+      "level": 3,
+      "title": "6.4.43 START文（索引ファイル）",
+      "page": 376,
+      "approx_chars": 6785
+    },
+    {
+      "level": 3,
+      "title": "6.4.44 STOP文（中核）",
+      "page": 381,
+      "approx_chars": 779
+    },
+    {
+      "level": 3,
+      "title": "6.4.45 STRING文（中核）",
+      "page": 382,
+      "approx_chars": 7946
+    },
+    {
+      "level": 3,
+      "title": "6.4.46 SUBTRACT文（中核）",
+      "page": 387,
+      "approx_chars": 1474
+    },
+    {
+      "level": 3,
+      "title": "6.4.47 SUPPRESS文（報告書作成）",
+      "page": 388,
+      "approx_chars": 669
+    },
+    {
+      "level": 3,
+      "title": "6.4.48 TERMINATE文（報告書作成）",
+      "page": 389,
+      "approx_chars": 1157
+    },
+    {
+      "level": 3,
+      "title": "6.4.49 UNLOCK文（順ファイル・相対ファイル・索引ファイル）",
+      "page": 390,
+      "approx_chars": 499
+    },
+    {
+      "level": 3,
+      "title": "6.4.50 UNSTRING文（中核）",
+      "page": 390,
+      "approx_chars": 11722
+    },
+    {
+      "level": 3,
+      "title": "6.4.51 USE文（順ファイル・相対ファイル・索引ファイル・表示ファイル・報告書作成）",
+      "page": 399,
+      "approx_chars": 2758
+    },
+    {
+      "level": 3,
+      "title": "6.4.52 USE BEFORE REPORTING文（報告書作成）",
+      "page": 401,
+      "approx_chars": 1378
+    },
+    {
+      "level": 3,
+      "title": "6.4.53 USE FOR DEAD-LOCK文",
+      "page": 402,
+      "approx_chars": 1248
+    },
+    {
+      "level": 3,
+      "title": "6.4.54 WRITE文（順ファイル）",
+      "page": 402,
+      "approx_chars": 8957
+    },
+    {
+      "level": 3,
+      "title": "6.4.55 WRITE文（相対ファイル・索引ファイル）",
+      "page": 407,
+      "approx_chars": 5012
+    },
+    {
+      "level": 3,
+      "title": "6.4.56 WRITE文（表示ファイル）",
+      "page": 410,
+      "approx_chars": 1167
+    },
+    {
+      "level": 2,
+      "title": "6.5 関数の全般規則",
+      "page": 411,
+      "approx_chars": 2801
+    },
+    {
+      "level": 3,
+      "title": "6.5.1 関数の呼出し形式",
+      "page": 411,
+      "approx_chars": 447
+    },
+    {
+      "level": 3,
+      "title": "6.5.2 引数の型",
+      "page": 411,
+      "approx_chars": 710
+    },
+    {
+      "level": 3,
+      "title": "6.5.3 引数に表を指定する場合の規則",
+      "page": 412,
+      "approx_chars": 555
+    },
+    {
+      "level": 3,
+      "title": "6.5.4 関数の型",
+      "page": 412,
+      "approx_chars": 976
+    },
+    {
+      "level": 2,
+      "title": "6.6 関数",
+      "page": 413,
+      "approx_chars": 30867
+    },
+    {
+      "level": 3,
+      "title": "6.6.1 ACOS関数",
+      "page": 413,
+      "approx_chars": 441
+    },
+    {
+      "level": 3,
+      "title": "6.6.2 ADDR関数",
+      "page": 414,
+      "approx_chars": 558
+    },
+    {
+      "level": 3,
+      "title": "6.6.3 ANNUITY関数",
+      "page": 415,
+      "approx_chars": 569
+    },
+    {
+      "level": 3,
+      "title": "6.6.4 ASIN関数",
+      "page": 415,
+      "approx_chars": 451
+    },
+    {
+      "level": 3,
+      "title": "6.6.5 ATAN関数",
+      "page": 416,
+      "approx_chars": 394
+    },
+    {
+      "level": 3,
+      "title": "6.6.6 CAST-ALPHANUMERIC関数",
+      "page": 416,
+      "approx_chars": 582
+    },
+    {
+      "level": 3,
+      "title": "6.6.7 CHAR関数",
+      "page": 417,
+      "approx_chars": 633
+    },
+    {
+      "level": 3,
+      "title": "6.6.8 COS関数",
+      "page": 417,
+      "approx_chars": 453
+    },
+    {
+      "level": 3,
+      "title": "6.6.9 CURRENT-DATE関数",
+      "page": 418,
+      "approx_chars": 1045
+    },
+    {
+      "level": 3,
+      "title": "6.6.10 DATE-OF-INTEGER関数",
+      "page": 418,
+      "approx_chars": 568
+    },
+    {
+      "level": 3,
+      "title": "6.6.11 DAY-OF-INTEGER関数",
+      "page": 419,
+      "approx_chars": 499
+    },
+    {
+      "level": 3,
+      "title": "6.6.12 DISPLAY-OF関数",
+      "page": 419,
+      "approx_chars": 1002
+    },
+    {
+      "level": 3,
+      "title": "6.6.13 FACTORIAL関数",
+      "page": 420,
+      "approx_chars": 417
+    },
+    {
+      "level": 3,
+      "title": "6.6.14 INTEGER関数",
+      "page": 420,
+      "approx_chars": 425
+    },
+    {
+      "level": 3,
+      "title": "6.6.15 INTEGER-OF-DATE関数",
+      "page": 421,
+      "approx_chars": 795
+    },
+    {
+      "level": 3,
+      "title": "6.6.16 INTEGER-OF-DAY関数",
+      "page": 421,
+      "approx_chars": 682
+    },
+    {
+      "level": 3,
+      "title": "6.6.17 INTEGER-PART関数",
+      "page": 422,
+      "approx_chars": 518
+    },
+    {
+      "level": 3,
+      "title": "6.6.18 LENG関数",
+      "page": 423,
+      "approx_chars": 565
+    },
+    {
+      "level": 3,
+      "title": "6.6.19 LENGTH関数",
+      "page": 423,
+      "approx_chars": 1001
+    },
+    {
+      "level": 3,
+      "title": "6.6.20 LOG関数",
+      "page": 424,
+      "approx_chars": 382
+    },
+    {
+      "level": 3,
+      "title": "6.6.21 LOG10関数",
+      "page": 425,
+      "approx_chars": 386
+    },
+    {
+      "level": 3,
+      "title": "6.6.22 LOWER-CASE関数",
+      "page": 425,
+      "approx_chars": 578
+    },
+    {
+      "level": 3,
+      "title": "6.6.23 MAX関数",
+      "page": 425,
+      "approx_chars": 641
+    },
+    {
+      "level": 3,
+      "title": "6.6.24 MEAN関数",
+      "page": 426,
+      "approx_chars": 372
+    },
+    {
+      "level": 3,
+      "title": "6.6.25 MEDIAN関数",
+      "page": 426,
+      "approx_chars": 502
+    },
+    {
+      "level": 3,
+      "title": "6.6.26 MIDRANGE関数",
+      "page": 427,
+      "approx_chars": 447
+    },
+    {
+      "level": 3,
+      "title": "6.6.27 MIN関数",
+      "page": 427,
+      "approx_chars": 641
+    },
+    {
+      "level": 3,
+      "title": "6.6.28 MOD関数",
+      "page": 428,
+      "approx_chars": 542
+    },
+    {
+      "level": 3,
+      "title": "6.6.29 NATIONAL関数",
+      "page": 429,
+      "approx_chars": 670
+    },
+    {
+      "level": 3,
+      "title": "6.6.30 NATIONAL-OF関数",
+      "page": 429,
+      "approx_chars": 974
+    },
+    {
+      "level": 3,
+      "title": "6.6.31 NUMVAL関数",
+      "page": 430,
+      "approx_chars": 719
+    },
+    {
+      "level": 3,
+      "title": "6.6.32 NUMVAL-C関数",
+      "page": 431,
+      "approx_chars": 986
+    },
+    {
+      "level": 3,
+      "title": "6.6.33 ORD関数",
+      "page": 431,
+      "approx_chars": 489
+    },
+    {
+      "level": 3,
+      "title": "6.6.34 ORD-MAX関数",
+      "page": 432,
+      "approx_chars": 625
+    },
+    {
+      "level": 3,
+      "title": "6.6.35 ORD-MIN関数",
+      "page": 433,
+      "approx_chars": 618
+    },
+    {
+      "level": 3,
+      "title": "6.6.36 PRESENT-VALUE関数",
+      "page": 433,
+      "approx_chars": 521
+    },
+    {
+      "level": 3,
+      "title": "6.6.37 RANDOM関数",
+      "page": 434,
+      "approx_chars": 705
+    },
+    {
+      "level": 3,
+      "title": "6.6.38 RANGE関数",
+      "page": 434,
+      "approx_chars": 463
+    },
+    {
+      "level": 3,
+      "title": "6.6.39 REM関数",
+      "page": 435,
+      "approx_chars": 531
+    },
+    {
+      "level": 3,
+      "title": "6.6.40 REVERSE関数",
+      "page": 435,
+      "approx_chars": 581
+    },
+    {
+      "level": 3,
+      "title": "6.6.41 SIN関数",
+      "page": 436,
+      "approx_chars": 448
+    },
+    {
+      "level": 3,
+      "title": "6.6.42 SQRT関数",
+      "page": 436,
+      "approx_chars": 376
+    },
+    {
+      "level": 3,
+      "title": "6.6.43 STANDARD-DEVIATION関数",
+      "page": 437,
+      "approx_chars": 556
+    },
+    {
+      "level": 3,
+      "title": "6.6.44 STORED-CHAR-LENGTH関数",
+      "page": 437,
+      "approx_chars": 824
+    },
+    {
+      "level": 3,
+      "title": "6.6.45 SUM関数",
+      "page": 438,
+      "approx_chars": 431
+    },
+    {
+      "level": 3,
+      "title": "6.6.46 TAN関数",
+      "page": 438,
+      "approx_chars": 415
+    },
+    {
+      "level": 3,
+      "title": "6.6.47 UCS2-OF関数",
+      "page": 439,
+      "approx_chars": 771
+    },
+    {
+      "level": 3,
+      "title": "6.6.48 UPPER-CASE関数",
+      "page": 439,
+      "approx_chars": 552
+    },
+    {
+      "level": 3,
+      "title": "6.6.49 UTF8-OF関数",
+      "page": 440,
+      "approx_chars": 766
+    },
+    {
+      "level": 3,
+      "title": "6.6.50 VARIANCE関数",
+      "page": 441,
+      "approx_chars": 462
+    },
+    {
+      "level": 3,
+      "title": "6.6.51 WHEN-COMPILED関数",
+      "page": 441,
+      "approx_chars": 1192
+    },
+    {
+      "level": 1,
+      "title": "第7章 原始文操作",
+      "page": 443,
+      "approx_chars": 11068
+    },
+    {
+      "level": 2,
+      "title": "7.1 COPY文",
+      "page": 443,
+      "approx_chars": 7780
+    },
+    {
+      "level": 2,
+      "title": "7.2 REPLACE文",
+      "page": 448,
+      "approx_chars": 2388
+    },
+    {
+      "level": 1,
+      "title": "第8章 データベース（SQL）",
+      "page": 451,
+      "approx_chars": 42902
+    },
+    {
+      "level": 2,
+      "title": "8.1 埋込みSQLの正書法",
+      "page": 451,
+      "approx_chars": 464
+    },
+    {
+      "level": 3,
+      "title": "8.1.1 全般規定",
+      "page": 451,
+      "approx_chars": 174
+    },
+    {
+      "level": 3,
+      "title": "8.1.2 行のつなぎ",
+      "page": 451,
+      "approx_chars": 100
+    },
+    {
+      "level": 3,
+      "title": "8.1.3 COBOLの注記行および行内注記",
+      "page": 451,
+      "approx_chars": 126
+    },
+    {
+      "level": 2,
+      "title": "8.2 データ部",
+      "page": 452,
+      "approx_chars": 6229
+    },
+    {
+      "level": 3,
+      "title": "8.2.1 埋込みSQL宣言節",
+      "page": 452,
+      "approx_chars": 788
+    },
+    {
+      "level": 3,
+      "title": "8.2.2 ホスト変数定義",
+      "page": 452,
+      "approx_chars": 2705
+    },
+    {
+      "level": 3,
+      "title": "8.2.3 ホスト変数の参照",
+      "page": 454,
+      "approx_chars": 302
+    },
+    {
+      "level": 3,
+      "title": "8.2.4 SQLSTATE/SQLCODE",
+      "page": 455,
+      "approx_chars": 922
+    },
+    {
+      "level": 3,
+      "title": "8.2.5 SQLMSG",
+      "page": 455,
+      "approx_chars": 366
+    },
+    {
+      "level": 3,
+      "title": "8.2.6 SQLERRD",
+      "page": 455,
+      "approx_chars": 1086
+    },
+    {
+      "level": 2,
+      "title": "8.3 手続き部",
+      "page": 456,
+      "approx_chars": 15650
+    },
+    {
+      "level": 3,
+      "title": "8.3.1 文字",
+      "page": 457,
+      "approx_chars": 233
+    },
+    {
+      "level": 3,
+      "title": "8.3.2 定数",
+      "page": 457,
+      "approx_chars": 2096
+    },
+    {
+      "level": 3,
+      "title": "8.3.3 トークン",
+      "page": 459,
+      "approx_chars": 832
+    },
+    {
+      "level": 3,
+      "title": "8.3.4 名前",
+      "page": 460,
+      "approx_chars": 678
+    },
+    {
+      "level": 3,
+      "title": "8.3.5 値指定と相手指定",
+      "page": 460,
+      "approx_chars": 2701
+    },
+    {
+      "level": 3,
+      "title": "8.3.6 列指定",
+      "page": 462,
+      "approx_chars": 73
+    },
+    {
+      "level": 3,
+      "title": "8.3.7 集合関数指定",
+      "page": 462,
+      "approx_chars": 418
+    },
+    {
+      "level": 3,
+      "title": "8.3.8 値式",
+      "page": 463,
+      "approx_chars": 1016
+    },
+    {
+      "level": 3,
+      "title": "8.3.9 述語",
+      "page": 464,
+      "approx_chars": 3259
+    },
+    {
+      "level": 3,
+      "title": "8.3.10 探索条件",
+      "page": 467,
+      "approx_chars": 409
+    },
+    {
+      "level": 3,
+      "title": "8.3.11 表式",
+      "page": 467,
+      "approx_chars": 1665
+    },
+    {
+      "level": 3,
+      "title": "8.3.12 問合せ指定",
+      "page": 469,
+      "approx_chars": 441
+    },
+    {
+      "level": 3,
+      "title": "8.3.13 問合せ式",
+      "page": 469,
+      "approx_chars": 334
+    },
+    {
+      "level": 3,
+      "title": "8.3.14 副問合せ",
+      "page": 470,
+      "approx_chars": 330
+    },
+    {
+      "level": 3,
+      "title": "8.3.15 FOR句",
+      "page": 470,
+      "approx_chars": 808
+    },
+    {
+      "level": 2,
+      "title": "8.4 埋込み例外宣言",
+      "page": 471,
+      "approx_chars": 603
+    },
+    {
+      "level": 2,
+      "title": "8.5 非カーソル系データ操作文",
+      "page": 471,
+      "approx_chars": 3663
+    },
+    {
+      "level": 3,
+      "title": "8.5.1 SELECT文",
+      "page": 471,
+      "approx_chars": 878
+    },
+    {
+      "level": 3,
+      "title": "8.5.2 DELETE文（探索）",
+      "page": 472,
+      "approx_chars": 655
+    },
+    {
+      "level": 3,
+      "title": "8.5.3 INSERT文",
+      "page": 473,
+      "approx_chars": 1049
+    },
+    {
+      "level": 3,
+      "title": "8.5.4 UPDATE文（探索）",
+      "page": 474,
+      "approx_chars": 1004
+    },
+    {
+      "level": 2,
+      "title": "8.6 カーソル系データ操作文",
+      "page": 474,
+      "approx_chars": 4948
+    },
+    {
+      "level": 3,
+      "title": "8.6.1 カーソル宣言",
+      "page": 475,
+      "approx_chars": 1420
+    },
+    {
+      "level": 3,
+      "title": "8.6.2 OPEN文",
+      "page": 476,
+      "approx_chars": 383
+    },
+    {
+      "level": 3,
+      "title": "8.6.3 CLOSE文",
+      "page": 476,
+      "approx_chars": 368
+    },
+    {
+      "level": 3,
+      "title": "8.6.4 FETCH文",
+      "page": 477,
+      "approx_chars": 1506
+    },
+    {
+      "level": 3,
+      "title": "8.6.5 DELETE文（位置付け）",
+      "page": 478,
+      "approx_chars": 430
+    },
+    {
+      "level": 3,
+      "title": "8.6.6 UPDATE文（位置付け）",
+      "page": 478,
+      "approx_chars": 761
+    },
+    {
+      "level": 2,
+      "title": "8.7 動的SQL",
+      "page": 479,
+      "approx_chars": 6348
+    },
+    {
+      "level": 3,
+      "title": "8.7.1 INTO句/USING句",
+      "page": 479,
+      "approx_chars": 344
+    },
+    {
+      "level": 3,
+      "title": "8.7.2 PREPARE文",
+      "page": 479,
+      "approx_chars": 697
+    },
+    {
+      "level": 3,
+      "title": "8.7.3 EXECUTE文",
+      "page": 480,
+      "approx_chars": 1093
+    },
+    {
+      "level": 3,
+      "title": "8.7.4 EXECUTE IMMEDIATE文",
+      "page": 481,
+      "approx_chars": 600
+    },
+    {
+      "level": 3,
+      "title": "8.7.5 動的SELECT文",
+      "page": 481,
+      "approx_chars": 136
+    },
+    {
+      "level": 3,
+      "title": "8.7.6 動的カーソル宣言",
+      "page": 482,
+      "approx_chars": 604
+    },
+    {
+      "level": 3,
+      "title": "8.7.7 動的OPEN文",
+      "page": 482,
+      "approx_chars": 683
+    },
+    {
+      "level": 3,
+      "title": "8.7.8 動的CLOSE文",
+      "page": 483,
+      "approx_chars": 420
+    },
+    {
+      "level": 3,
+      "title": "8.7.9 動的FETCH文",
+      "page": 483,
+      "approx_chars": 505
+    },
+    {
+      "level": 3,
+      "title": "8.7.10 動的DELETE文（位置付け）",
+      "page": 484,
+      "approx_chars": 575
+    },
+    {
+      "level": 3,
+      "title": "8.7.11 動的UPDATE文（位置付け）",
+      "page": 484,
+      "approx_chars": 642
+    },
+    {
+      "level": 2,
+      "title": "8.8 セション制御文",
+      "page": 485,
+      "approx_chars": 689
+    },
+    {
+      "level": 3,
+      "title": "8.8.1 COMMIT文",
+      "page": 485,
+      "approx_chars": 329
+    },
+    {
+      "level": 3,
+      "title": "8.8.2 ROLLBACK文",
+      "page": 485,
+      "approx_chars": 329
+    },
+    {
+      "level": 2,
+      "title": "8.9 コネクション制御文",
+      "page": 485,
+      "approx_chars": 2596
+    },
+    {
+      "level": 3,
+      "title": "8.9.1 CONNECT文",
+      "page": 485,
+      "approx_chars": 1230
+    },
+    {
+      "level": 3,
+      "title": "8.9.2 SET CONNECTION文",
+      "page": 486,
+      "approx_chars": 576
+    },
+    {
+      "level": 3,
+      "title": "8.9.3 DISCONNECT文",
+      "page": 487,
+      "approx_chars": 755
+    },
+    {
+      "level": 2,
+      "title": "8.10 ストアドプロシージャ",
+      "page": 487,
+      "approx_chars": 760
+    },
+    {
+      "level": 3,
+      "title": "8.10.1 CALL文",
+      "page": 487,
+      "approx_chars": 721
+    },
+    {
+      "level": 1,
+      "title": "第9章 通信データベース",
+      "page": 489,
+      "approx_chars": 8896
+    },
+    {
+      "level": 2,
+      "title": "9.1 埋込みDCSQLの基本要素",
+      "page": 489,
+      "approx_chars": 3160
+    },
+    {
+      "level": 3,
+      "title": "9.1.1 使用できる文字",
+      "page": 490,
+      "approx_chars": 284
+    },
+    {
+      "level": 3,
+      "title": "9.1.2 引用符、キーワードおよび分離符号",
+      "page": 490,
+      "approx_chars": 207
+    },
+    {
+      "level": 3,
+      "title": "9.1.3 通信データベース名",
+      "page": 490,
+      "approx_chars": 124
+    },
+    {
+      "level": 3,
+      "title": "9.1.4 サービス名",
+      "page": 490,
+      "approx_chars": 105
+    },
+    {
+      "level": 3,
+      "title": "9.1.5 テーブル名",
+      "page": 490,
+      "approx_chars": 112
+    },
+    {
+      "level": 3,
+      "title": "9.1.6 ホスト変数名",
+      "page": 491,
+      "approx_chars": 201
+    },
+    {
+      "level": 3,
+      "title": "9.1.7 定数",
+      "page": 491,
+      "approx_chars": 2036
+    },
+    {
+      "level": 2,
+      "title": "9.2 埋込みDCSQLの正書法",
+      "page": 493,
+      "approx_chars": 798
+    },
+    {
+      "level": 3,
+      "title": "9.2.1 記述の全般規定",
+      "page": 493,
+      "approx_chars": 188
+    },
+    {
+      "level": 3,
+      "title": "9.2.2 行のつなぎ",
+      "page": 493,
+      "approx_chars": 106
+    },
+    {
+      "level": 3,
+      "title": "9.2.3 COBOLの注記行および行内注記",
+      "page": 493,
+      "approx_chars": 143
+    },
+    {
+      "level": 3,
+      "title": "9.2.4 埋込みDCSQLの注釈",
+      "page": 493,
+      "approx_chars": 275
+    },
+    {
+      "level": 2,
+      "title": "9.3 埋込みDCSQL",
+      "page": 493,
+      "approx_chars": 3344
+    },
+    {
+      "level": 3,
+      "title": "9.3.1 データ部",
+      "page": 493,
+      "approx_chars": 3056
+    },
+    {
+      "level": 3,
+      "title": "9.3.2 手続き部",
+      "page": 496,
+      "approx_chars": 172
+    },
+    {
+      "level": 1,
+      "title": "第10章 Micro Focus固有機能",
+      "page": 497,
+      "approx_chars": 27053
+    },
+    {
+      "level": 2,
+      "title": "10.1 名前付き定数",
+      "page": 497,
+      "approx_chars": 1475
+    },
+    {
+      "level": 3,
+      "title": "10.1.1 利用者語",
+      "page": 497,
+      "approx_chars": 278
+    },
+    {
+      "level": 3,
+      "title": "10.1.2 名前の範囲",
+      "page": 497,
+      "approx_chars": 179
+    },
+    {
+      "level": 3,
+      "title": "10.1.3 データ記述項",
+      "page": 497,
+      "approx_chars": 853
+    },
+    {
+      "level": 2,
+      "title": "10.2 16進数字定数",
+      "page": 498,
+      "approx_chars": 666
+    },
+    {
+      "level": 2,
+      "title": "10.3 スクリーン操作機能",
+      "page": 498,
+      "approx_chars": 12618
+    },
+    {
+      "level": 3,
+      "title": "10.3.1 環境部",
+      "page": 499,
+      "approx_chars": 850
+    },
+    {
+      "level": 3,
+      "title": "10.3.2 データ部",
+      "page": 499,
+      "approx_chars": 6621
+    },
+    {
+      "level": 3,
+      "title": "10.3.3 手続き部",
+      "page": 506,
+      "approx_chars": 4983
+    },
+    {
+      "level": 2,
+      "title": "10.4 日本語機能",
+      "page": 511,
+      "approx_chars": 787
+    },
+    {
+      "level": 3,
+      "title": "10.4.1 手続き部",
+      "page": 511,
+      "approx_chars": 720
+    },
+    {
+      "level": 2,
+      "title": "10.5 入出力文",
+      "page": 512,
+      "approx_chars": 8360
+    },
+    {
+      "level": 3,
+      "title": "10.5.1 手続き部",
+      "page": 512,
+      "approx_chars": 8296
+    },
+    {
+      "level": 2,
+      "title": "10.6 プログラム間連絡機能",
+      "page": 518,
+      "approx_chars": 1277
+    },
+    {
+      "level": 3,
+      "title": "10.6.1 手続き部",
+      "page": 518,
+      "approx_chars": 1238
+    },
+    {
+      "level": 2,
+      "title": "10.7 符号の領域がない内部10進項目",
+      "page": 520,
+      "approx_chars": 1396
+    },
+    {
+      "level": 3,
+      "title": "10.7.1 データ記述項",
+      "page": 520,
+      "approx_chars": 1177
+    },
+    {
+      "level": 3,
+      "title": "10.7.2 適合の規則",
+      "page": 521,
+      "approx_chars": 92
+    },
+    {
+      "level": 2,
+      "title": "10.8 Micro Focus同義語互換モード",
+      "page": 521,
+      "approx_chars": 385
+    },
+    {
+      "level": 1,
+      "title": "第11章 オブジェクト指向プログラミング機能",
+      "page": 522,
+      "approx_chars": 75025
+    },
+    {
+      "level": 2,
+      "title": "11.1 機能",
+      "page": 522,
+      "approx_chars": 415
+    },
+    {
+      "level": 2,
+      "title": "11.2 用語の説明",
+      "page": 522,
+      "approx_chars": 3388
+    },
+    {
+      "level": 2,
+      "title": "11.3 全般規定",
+      "page": 524,
+      "approx_chars": 11594
+    },
+    {
+      "level": 3,
+      "title": "11.3.1 言語の基本要素",
+      "page": 525,
+      "approx_chars": 875
+    },
+    {
+      "level": 3,
+      "title": "11.3.2 データ記述の概念",
+      "page": 525,
+      "approx_chars": 288
+    },
+    {
+      "level": 3,
+      "title": "11.3.3 一意参照",
+      "page": 526,
+      "approx_chars": 9667
+    },
+    {
+      "level": 3,
+      "title": "11.3.4 正書法",
+      "page": 533,
+      "approx_chars": 620
+    },
+    {
+      "level": 2,
+      "title": "11.4 プログラム構造",
+      "page": 533,
+      "approx_chars": 9434
+    },
+    {
+      "level": 3,
+      "title": "11.4.1 プログラムの構成",
+      "page": 533,
+      "approx_chars": 4352
+    },
+    {
+      "level": 3,
+      "title": "11.4.2 外部リポジトリ",
+      "page": 537,
+      "approx_chars": 224
+    },
+    {
+      "level": 3,
+      "title": "11.4.3 プログラムの構成とプログラム間連絡",
+      "page": 537,
+      "approx_chars": 4255
+    },
+    {
+      "level": 3,
+      "title": "11.4.4 オブジェクトの寿命",
+      "page": 540,
+      "approx_chars": 387
+    },
+    {
+      "level": 3,
+      "title": "11.4.5 ファクトリオブジェクトの寿命",
+      "page": 540,
+      "approx_chars": 109
+    },
+    {
+      "level": 2,
+      "title": "11.5 見出し部と終わり見出し",
+      "page": 540,
+      "approx_chars": 7719
+    },
+    {
+      "level": 3,
+      "title": "11.5.1 見出し部の構成（IDENTIFICATION DIVISION）",
+      "page": 540,
+      "approx_chars": 5323
+    },
+    {
+      "level": 3,
+      "title": "11.5.2 終わり見出し",
+      "page": 543,
+      "approx_chars": 2306
+    },
+    {
+      "level": 2,
+      "title": "11.6 環境部",
+      "page": 545,
+      "approx_chars": 3819
+    },
+    {
+      "level": 3,
+      "title": "11.6.1 構成節（CONFIGURATION SECTION）",
+      "page": 545,
+      "approx_chars": 3086
+    },
+    {
+      "level": 3,
+      "title": "11.6.2 入出力節（INPUT-OUTPUT SECTION）",
+      "page": 547,
+      "approx_chars": 661
+    },
+    {
+      "level": 2,
+      "title": "11.7 データ部",
+      "page": 548,
+      "approx_chars": 10282
+    },
+    {
+      "level": 3,
+      "title": "11.7.1 ファイル節（FILE SECTION）",
+      "page": 548,
+      "approx_chars": 346
+    },
+    {
+      "level": 3,
+      "title": "11.7.2 連絡節（LINKAGE SECTION）",
+      "page": 548,
+      "approx_chars": 446
+    },
+    {
+      "level": 3,
+      "title": "11.7.3 ファイル記述項",
+      "page": 548,
+      "approx_chars": 338
+    },
+    {
+      "level": 3,
+      "title": "11.7.4 データ記述項",
+      "page": 549,
+      "approx_chars": 9084
+    },
+    {
+      "level": 2,
+      "title": "11.8 手続き部",
+      "page": 556,
+      "approx_chars": 24408
+    },
+    {
+      "level": 3,
+      "title": "11.8.1 手続き部の構成（PROCEDURE DIVISION）",
+      "page": 556,
+      "approx_chars": 786
+    },
+    {
+      "level": 3,
+      "title": "11.8.2 手続き部の見出し",
+      "page": 557,
+      "approx_chars": 1870
+    },
+    {
+      "level": 3,
+      "title": "11.8.3 文に関する共通の規則",
+      "page": 558,
+      "approx_chars": 668
+    },
+    {
+      "level": 3,
+      "title": "11.8.4 実行",
+      "page": 559,
+      "approx_chars": 2229
+    },
+    {
+      "level": 3,
+      "title": "11.8.5 適合",
+      "page": 560,
+      "approx_chars": 8613
+    },
+    {
+      "level": 3,
+      "title": "11.8.6 文",
+      "page": 565,
+      "approx_chars": 10174
+    },
+    {
+      "level": 2,
+      "title": "11.9 データベース（SQL）",
+      "page": 572,
+      "approx_chars": 1581
+    },
+    {
+      "level": 3,
+      "title": "11.9.1 埋込みSQLの正書法",
+      "page": 572,
+      "approx_chars": 90
+    },
+    {
+      "level": 3,
+      "title": "11.9.2 データ部",
+      "page": 572,
+      "approx_chars": 164
+    },
+    {
+      "level": 3,
+      "title": "11.9.3 埋込み例外宣言",
+      "page": 572,
+      "approx_chars": 174
+    },
+    {
+      "level": 3,
+      "title": "11.9.4 カーソル系データ操作文",
+      "page": 573,
+      "approx_chars": 262
+    },
+    {
+      "level": 3,
+      "title": "11.9.5 動的SQL",
+      "page": 573,
+      "approx_chars": 701
+    },
+    {
+      "level": 2,
+      "title": "11.10 COBOLシステムクラス",
+      "page": 573,
+      "approx_chars": 2192
+    },
+    {
+      "level": 3,
+      "title": "11.10.1 FJBASEクラス",
+      "page": 573,
+      "approx_chars": 1849
+    },
+    {
+      "level": 3,
+      "title": "11.10.2 NULLクラスとNULLオブジェクト",
+      "page": 575,
+      "approx_chars": 248
+    },
+    {
+      "level": 1,
+      "title": "付録A 予約語一覧",
+      "page": 576,
+      "approx_chars": 17637
+    },
+    {
+      "level": 1,
+      "title": "付録B システムの定量制限",
+      "page": 595,
+      "approx_chars": 2641
+    },
+    {
+      "level": 2,
+      "title": "B.1 正書法",
+      "page": 595,
+      "approx_chars": 69
+    },
+    {
+      "level": 2,
+      "title": "B.2 中核のデータ部",
+      "page": 595,
+      "approx_chars": 476
+    },
+    {
+      "level": 2,
+      "title": "B.3 中核の手続き部",
+      "page": 595,
+      "approx_chars": 674
+    },
+    {
+      "level": 2,
+      "title": "B.4 順ファイル",
+      "page": 596,
+      "approx_chars": 84
+    },
+    {
+      "level": 2,
+      "title": "B.5 相対ファイル",
+      "page": 596,
+      "approx_chars": 57
+    },
+    {
+      "level": 2,
+      "title": "B.6 索引ファイル",
+      "page": 596,
+      "approx_chars": 317
+    },
+    {
+      "level": 2,
+      "title": "B.7 プログラム間連絡",
+      "page": 596,
+      "approx_chars": 161
+    },
+    {
+      "level": 2,
+      "title": "B.8 整列併合",
+      "page": 596,
+      "approx_chars": 367
+    },
+    {
+      "level": 2,
+      "title": "B.9 原始文操作",
+      "page": 597,
+      "approx_chars": 124
+    },
+    {
+      "level": 2,
+      "title": "B.10 表示ファイル",
+      "page": 597,
+      "approx_chars": 59
+    },
+    {
+      "level": 2,
+      "title": "B.11 オブジェクト指向プログラミング",
+      "page": 597,
+      "approx_chars": 122
+    },
+    {
+      "level": 1,
+      "title": "付録C コード表",
+      "page": 598,
+      "approx_chars": 918
+    },
+    {
+      "level": 2,
+      "title": "C.1 EBCDICにおける文字の内部コード",
+      "page": 598,
+      "approx_chars": 155
+    },
+    {
+      "level": 2,
+      "title": "C.2 ASCIIにおける文字の内部コード",
+      "page": 599,
+      "approx_chars": 121
+    },
+    {
+      "level": 2,
+      "title": "C.3 JIS8単位コードにおける文字の内部コード",
+      "page": 600,
+      "approx_chars": 87
+    },
+    {
+      "level": 1,
+      "title": "付録D 中間結果",
+      "page": 601,
+      "approx_chars": 6616
+    },
+    {
+      "level": 2,
+      "title": "D.1 中間結果の属性と精度",
+      "page": 601,
+      "approx_chars": 322
+    },
+    {
+      "level": 2,
+      "title": "D.2 四則演算の中間結果",
+      "page": 601,
+      "approx_chars": 4110
+    },
+    {
+      "level": 3,
+      "title": "D.2.1 固定小数点属性の四則演算の中間結果の精度",
+      "page": 602,
+      "approx_chars": 2999
+    },
+    {
+      "level": 3,
+      "title": "D.2.2 浮動小数点属性の四則演算の中間結果の精度",
+      "page": 606,
+      "approx_chars": 182
+    },
+    {
+      "level": 2,
+      "title": "D.3 べき乗の中間結果",
+      "page": 606,
+      "approx_chars": 625
+    },
+    {
+      "level": 3,
+      "title": "D.3.1 固定小数点属性のべき乗の中間結果の精度",
+      "page": 606,
+      "approx_chars": 407
+    },
+    {
+      "level": 3,
+      "title": "D.3.2 浮動小数点属性のべき乗の中間結果の精度",
+      "page": 607,
+      "approx_chars": 89
+    },
+    {
+      "level": 2,
+      "title": "D.4 関数値の属性と精度",
+      "page": 607,
+      "approx_chars": 1205
+    },
+    {
+      "level": 1,
+      "title": "付録E 機能差",
+      "page": 609,
+      "approx_chars": 4810
+    },
+    {
+      "level": 2,
+      "title": "E.1 自由形式の正書法",
+      "page": 609,
+      "approx_chars": 169
+    },
+    {
+      "level": 2,
+      "title": "E.2 順ファイル",
+      "page": 609,
+      "approx_chars": 425
+    },
+    {
+      "level": 2,
+      "title": "E.3 データ項目定義",
+      "page": 609,
+      "approx_chars": 539
+    },
+    {
+      "level": 2,
+      "title": "E.4 定数",
+      "page": 610,
+      "approx_chars": 217
+    },
+    {
+      "level": 2,
+      "title": "E.5 表示ファイル",
+      "page": 610,
+      "approx_chars": 476
+    },
+    {
+      "level": 2,
+      "title": "E.6 プログラム間連絡",
+      "page": 611,
+      "approx_chars": 973
+    },
+    {
+      "level": 2,
+      "title": "E.7 文",
+      "page": 612,
+      "approx_chars": 468
+    },
+    {
+      "level": 2,
+      "title": "E.8 関数",
+      "page": 612,
+      "approx_chars": 360
+    },
+    {
+      "level": 2,
+      "title": "E.9 データベース",
+      "page": 613,
+      "approx_chars": 298
+    },
+    {
+      "level": 2,
+      "title": "E.10 通信データベース",
+      "page": 613,
+      "approx_chars": 81
+    },
+    {
+      "level": 2,
+      "title": "E.11 Micro Focus固有機能",
+      "page": 613,
+      "approx_chars": 343
+    },
+    {
+      "level": 2,
+      "title": "E.12 オブジェクト指向プログラミング機能",
+      "page": 613,
+      "approx_chars": 194
+    },
+    {
+      "level": 2,
+      "title": "E.13 .NETプログラミング機能",
+      "page": 613,
+      "approx_chars": 84
+    },
+    {
+      "level": 2,
+      "title": "E.14 システムの定量制限",
+      "page": 614,
+      "approx_chars": 139
+    },
+    {
+      "level": 1,
+      "title": "付録F 制御レコード",
+      "page": 615,
+      "approx_chars": 6045
+    },
+    {
+      "level": 2,
+      "title": "F.1 I制御レコード",
+      "page": 615,
+      "approx_chars": 5277
+    },
+    {
+      "level": 2,
+      "title": "F.2 S制御レコード",
+      "page": 619,
+      "approx_chars": 614
+    },
+    {
+      "level": 1,
+      "title": "付録G 型を使用したデータ項目の定義",
+      "page": 620,
+      "approx_chars": 7377
+    },
+    {
+      "level": 2,
+      "title": "G.1 型",
+      "page": 620,
+      "approx_chars": 2789
+    },
+    {
+      "level": 3,
+      "title": "G.1.1 基本項目の型",
+      "page": 620,
+      "approx_chars": 1080
+    },
+    {
+      "level": 3,
+      "title": "G.1.2 集団項目の型",
+      "page": 621,
+      "approx_chars": 1576
+    },
+    {
+      "level": 2,
+      "title": "G.2 強い型",
+      "page": 622,
+      "approx_chars": 2577
+    },
+    {
+      "level": 2,
+      "title": "G.3 他の型を参照する型",
+      "page": 624,
+      "approx_chars": 1490
+    },
+    {
+      "level": 2,
+      "title": "G.4 型を使用したデータ定義の有効な使い方",
+      "page": 626,
+      "approx_chars": 217
+    },
+    {
+      "level": 1,
+      "title": "付録H サンプル集",
+      "page": 627,
+      "approx_chars": 122128
+    },
+    {
+      "level": 2,
+      "title": "H.1 連結式",
+      "page": 627,
+      "approx_chars": 1467
+    },
+    {
+      "level": 2,
+      "title": "H.2 修飾",
+      "page": 627,
+      "approx_chars": 1678
+    },
+    {
+      "level": 2,
+      "title": "H.3 添字付け",
+      "page": 628,
+      "approx_chars": 2920
+    },
+    {
+      "level": 2,
+      "title": "H.4 部分参照",
+      "page": 630,
+      "approx_chars": 2722
+    },
+    {
+      "level": 2,
+      "title": "H.5 ポインタ付け",
+      "page": 631,
+      "approx_chars": 1484
+    },
+    {
+      "level": 2,
+      "title": "H.6 条件名の一意参照",
+      "page": 632,
+      "approx_chars": 2027
+    },
+    {
+      "level": 2,
+      "title": "H.7 行のつなぎ",
+      "page": 633,
+      "approx_chars": 1471
+    },
+    {
+      "level": 2,
+      "title": "H.8 自由形式の正書法",
+      "page": 633,
+      "approx_chars": 1384
+    },
+    {
+      "level": 2,
+      "title": "H.9 PROGRAM COLLATING SEQUENCE句",
+      "page": 634,
+      "approx_chars": 1714
+    },
+    {
+      "level": 2,
+      "title": "H.10 機能名-1句",
+      "page": 635,
+      "approx_chars": 1907
+    },
+    {
+      "level": 2,
+      "title": "H.11 機能名-2句",
+      "page": 636,
+      "approx_chars": 1347
+    },
+    {
+      "level": 2,
+      "title": "H.12 機能名-3句",
+      "page": 637,
+      "approx_chars": 2526
+    },
+    {
+      "level": 2,
+      "title": "H.13 ALPHABET句",
+      "page": 638,
+      "approx_chars": 2030
+    },
+    {
+      "level": 2,
+      "title": "H.14 CLASS句",
+      "page": 639,
+      "approx_chars": 1368
+    },
+    {
+      "level": 2,
+      "title": "H.15 CURRENCY SIGN句",
+      "page": 639,
+      "approx_chars": 1413
+    },
+    {
+      "level": 2,
+      "title": "H.16 DECIMAL-POINT IS COMMA句",
+      "page": 640,
+      "approx_chars": 1506
+    },
+    {
+      "level": 2,
+      "title": "H.17 POSITIONING UNIT句",
+      "page": 641,
+      "approx_chars": 2105
+    },
+    {
+      "level": 2,
+      "title": "H.18 PRINTING MODE句",
+      "page": 642,
+      "approx_chars": 1879
+    },
+    {
+      "level": 2,
+      "title": "H.19 SYMBOLIC CHARACTERS句",
+      "page": 643,
+      "approx_chars": 1700
+    },
+    {
+      "level": 2,
+      "title": "H.20 SYMBOLIC CONSTANT句",
+      "page": 643,
+      "approx_chars": 1511
+    },
+    {
+      "level": 2,
+      "title": "H.21 RENAMES句",
+      "page": 644,
+      "approx_chars": 1783
+    },
+    {
+      "level": 2,
+      "title": "H.22 VALUE句",
+      "page": 645,
+      "approx_chars": 1637
+    },
+    {
+      "level": 2,
+      "title": "H.23 BLANK WHEN ZERO句",
+      "page": 646,
+      "approx_chars": 1536
+    },
+    {
+      "level": 2,
+      "title": "H.24 GLOBAL句",
+      "page": 646,
+      "approx_chars": 2575
+    },
+    {
+      "level": 2,
+      "title": "H.25 JUSTIFIED句",
+      "page": 648,
+      "approx_chars": 1545
+    },
+    {
+      "level": 2,
+      "title": "H.26 OCCURS句",
+      "page": 648,
+      "approx_chars": 3143
+    },
+    {
+      "level": 2,
+      "title": "H.27 PICTURE句",
+      "page": 650,
+      "approx_chars": 1726
+    },
+    {
+      "level": 2,
+      "title": "H.28 REDEFINES句",
+      "page": 651,
+      "approx_chars": 1106
+    },
+    {
+      "level": 2,
+      "title": "H.29 SIGN句",
+      "page": 651,
+      "approx_chars": 2959
+    },
+    {
+      "level": 2,
+      "title": "H.30 TYPEDEF句",
+      "page": 652,
+      "approx_chars": 2234
+    },
+    {
+      "level": 2,
+      "title": "H.31 TYPE句",
+      "page": 654,
+      "approx_chars": 2231
+    },
+    {
+      "level": 2,
+      "title": "H.32 BASED ON句",
+      "page": 655,
+      "approx_chars": 2088
+    },
+    {
+      "level": 2,
+      "title": "H.33 ブール式",
+      "page": 656,
+      "approx_chars": 2906
+    },
+    {
+      "level": 2,
+      "title": "H.34 字類条件",
+      "page": 657,
+      "approx_chars": 1592
+    },
+    {
+      "level": 2,
+      "title": "H.35 組合せ比較条件の略記法",
+      "page": 658,
+      "approx_chars": 1732
+    },
+    {
+      "level": 2,
+      "title": "H.36 COMPUTE文",
+      "page": 659,
+      "approx_chars": 2844
+    },
+    {
+      "level": 2,
+      "title": "H.37 INITIALIZE文",
+      "page": 660,
+      "approx_chars": 1648
+    },
+    {
+      "level": 2,
+      "title": "H.38 INSPECT文",
+      "page": 661,
+      "approx_chars": 2150
+    },
+    {
+      "level": 2,
+      "title": "H.39 MOVE文",
+      "page": 662,
+      "approx_chars": 1367
+    },
+    {
+      "level": 2,
+      "title": "H.40 SEARCH文",
+      "page": 663,
+      "approx_chars": 5271
+    },
+    {
+      "level": 2,
+      "title": "H.41 STRING文",
+      "page": 665,
+      "approx_chars": 1478
+    },
+    {
+      "level": 2,
+      "title": "H.42 UNSTRING文",
+      "page": 666,
+      "approx_chars": 1645
+    },
+    {
+      "level": 2,
+      "title": "H.43 USE文",
+      "page": 667,
+      "approx_chars": 1937
+    },
+    {
+      "level": 2,
+      "title": "H.44 SIN関数",
+      "page": 668,
+      "approx_chars": 2742
+    },
+    {
+      "level": 2,
+      "title": "H.45 COS関数",
+      "page": 669,
+      "approx_chars": 2742
+    },
+    {
+      "level": 2,
+      "title": "H.46 TAN関数",
+      "page": 670,
+      "approx_chars": 2742
+    },
+    {
+      "level": 2,
+      "title": "H.47 ADDR関数",
+      "page": 671,
+      "approx_chars": 2989
+    },
+    {
+      "level": 2,
+      "title": "H.48 LENG関数",
+      "page": 672,
+      "approx_chars": 3040
+    },
+    {
+      "level": 2,
+      "title": "H.49 NATIONAL関数",
+      "page": 674,
+      "approx_chars": 1100
+    },
+    {
+      "level": 2,
+      "title": "H.50 CURRENT-DATE関数",
+      "page": 674,
+      "approx_chars": 2026
+    },
+    {
+      "level": 2,
+      "title": "H.51 SUM関数",
+      "page": 675,
+      "approx_chars": 2556
+    },
+    {
+      "level": 2,
+      "title": "H.52 REM関数",
+      "page": 677,
+      "approx_chars": 1437
+    },
+    {
+      "level": 2,
+      "title": "H.53 INTEGER-OF-DATE関数",
+      "page": 677,
+      "approx_chars": 1535
+    },
+    {
+      "level": 2,
+      "title": "H.54 DATE-OF-INTEGER関数",
+      "page": 678,
+      "approx_chars": 1535
+    },
+    {
+      "level": 2,
+      "title": "H.55 LOWER-CASE関数",
+      "page": 679,
+      "approx_chars": 1209
+    },
+    {
+      "level": 2,
+      "title": "H.56 UPPER-CASE関数",
+      "page": 679,
+      "approx_chars": 1216
+    },
+    {
+      "level": 2,
+      "title": "H.57 MAX関数",
+      "page": 680,
+      "approx_chars": 1303
+    },
+    {
+      "level": 2,
+      "title": "H.58 MIN関数",
+      "page": 681,
+      "approx_chars": 1296
+    },
+    {
+      "level": 2,
+      "title": "H.59 REVERSE関数",
+      "page": 681,
+      "approx_chars": 998
+    },
+    {
+      "level": 2,
+      "title": "H.60 STORED-CHAR-LENGTH関数",
+      "page": 682,
+      "approx_chars": 1571
+    },
+    {
+      "level": 2,
+      "title": "H.61 WHEN-COMPILED関数",
+      "page": 682,
+      "approx_chars": 1356
+    },
+    {
+      "level": 2,
+      "title": "H.62 COPY文",
+      "page": 683,
+      "approx_chars": 3263
+    },
+    {
+      "level": 1,
+      "title": "索 引",
+      "page": 686,
+      "approx_chars": 103628
+    }
+  ]
+}

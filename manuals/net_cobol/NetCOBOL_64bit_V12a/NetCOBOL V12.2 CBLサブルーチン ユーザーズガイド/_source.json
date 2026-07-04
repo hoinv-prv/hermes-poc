@@ -1,0 +1,696 @@
+{
+  "source_file": "cobwcbl64.pdf",
+  "title": "CBLサブルーチン ユーザーズガイド",
+  "product": "NetCOBOL V12.2",
+  "full_title": "NetCOBOL V12.2 CBLサブルーチン ユーザーズガイド",
+  "pages": 89,
+  "approx_chars": 88251,
+  "outline_entries_total": 114,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 103
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 3743
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 5,
+      "approx_chars": 20690
+    },
+    {
+      "level": 1,
+      "title": "第1章 NetCOBOL CBLサブルーチンとは",
+      "page": 8,
+      "approx_chars": 842
+    },
+    {
+      "level": 1,
+      "title": "第2章 Byte-stream File Routines",
+      "page": 9,
+      "approx_chars": 5829
+    },
+    {
+      "level": 2,
+      "title": "2.1 CBL_CLOSE_FILE",
+      "page": 9,
+      "approx_chars": 397
+    },
+    {
+      "level": 2,
+      "title": "2.2 CBL_CREATE_FILE",
+      "page": 9,
+      "approx_chars": 795
+    },
+    {
+      "level": 2,
+      "title": "2.3 CBL_CREATE_FILE2",
+      "page": 10,
+      "approx_chars": 838
+    },
+    {
+      "level": 2,
+      "title": "2.4 CBL_FLUSH_FILE",
+      "page": 12,
+      "approx_chars": 430
+    },
+    {
+      "level": 2,
+      "title": "2.5 CBL_OPEN_FILE",
+      "page": 12,
+      "approx_chars": 740
+    },
+    {
+      "level": 2,
+      "title": "2.6 CBL_OPEN_FILE2",
+      "page": 13,
+      "approx_chars": 778
+    },
+    {
+      "level": 2,
+      "title": "2.7 CBL_READ_FILE",
+      "page": 14,
+      "approx_chars": 754
+    },
+    {
+      "level": 2,
+      "title": "2.8 CBL_WRITE_FILE",
+      "page": 15,
+      "approx_chars": 716
+    },
+    {
+      "level": 1,
+      "title": "第3章 Filename Routines",
+      "page": 17,
+      "approx_chars": 3574
+    },
+    {
+      "level": 2,
+      "title": "3.1 CBL_JOIN_FILENAME",
+      "page": 17,
+      "approx_chars": 1768
+    },
+    {
+      "level": 2,
+      "title": "3.2 CBL_SPLIT_FILENAME",
+      "page": 18,
+      "approx_chars": 1607
+    },
+    {
+      "level": 1,
+      "title": "第4章 File Routines",
+      "page": 21,
+      "approx_chars": 14350
+    },
+    {
+      "level": 2,
+      "title": "4.1 CBL_CHANGE_DIR",
+      "page": 21,
+      "approx_chars": 325
+    },
+    {
+      "level": 2,
+      "title": "4.2 CBL_CHANGE_DIR2",
+      "page": 22,
+      "approx_chars": 356
+    },
+    {
+      "level": 2,
+      "title": "4.3 CBL_CHECK_FILE_EXIST",
+      "page": 22,
+      "approx_chars": 748
+    },
+    {
+      "level": 2,
+      "title": "4.4 CBL_CHECK_FILE_EXIST2",
+      "page": 23,
+      "approx_chars": 793
+    },
+    {
+      "level": 2,
+      "title": "4.5 CBL_COPY_FILE",
+      "page": 24,
+      "approx_chars": 509
+    },
+    {
+      "level": 2,
+      "title": "4.6 CBL_COPY_FILE2",
+      "page": 24,
+      "approx_chars": 548
+    },
+    {
+      "level": 2,
+      "title": "4.7 CBL_CREATE_DIR",
+      "page": 25,
+      "approx_chars": 312
+    },
+    {
+      "level": 2,
+      "title": "4.8 CBL_CREATE_DIR2",
+      "page": 25,
+      "approx_chars": 354
+    },
+    {
+      "level": 2,
+      "title": "4.9 CBL_DELETE_DIR",
+      "page": 26,
+      "approx_chars": 311
+    },
+    {
+      "level": 2,
+      "title": "4.10 CBL_DELETE_DIR2",
+      "page": 26,
+      "approx_chars": 356
+    },
+    {
+      "level": 2,
+      "title": "4.11 CBL_DELETE_FILE",
+      "page": 27,
+      "approx_chars": 352
+    },
+    {
+      "level": 2,
+      "title": "4.12 CBL_DELETE_FILE2",
+      "page": 27,
+      "approx_chars": 400
+    },
+    {
+      "level": 2,
+      "title": "4.13 CBL_LOCATE_FILE",
+      "page": 28,
+      "approx_chars": 1465
+    },
+    {
+      "level": 2,
+      "title": "4.14 CBL_LOCATE_FILE2",
+      "page": 29,
+      "approx_chars": 1520
+    },
+    {
+      "level": 2,
+      "title": "4.15 CBL_READ_DIR",
+      "page": 31,
+      "approx_chars": 359
+    },
+    {
+      "level": 2,
+      "title": "4.16 CBL_RENAME_FILE",
+      "page": 31,
+      "approx_chars": 419
+    },
+    {
+      "level": 2,
+      "title": "4.17 CBL_RENAME_FILE2",
+      "page": 32,
+      "approx_chars": 458
+    },
+    {
+      "level": 2,
+      "title": "4.18 PC_FIND_DRIVES",
+      "page": 32,
+      "approx_chars": 233
+    },
+    {
+      "level": 2,
+      "title": "4.19 PC_READ_DRIVE",
+      "page": 33,
+      "approx_chars": 300
+    },
+    {
+      "level": 2,
+      "title": "4.20 PC_SET_DRIVE",
+      "page": 33,
+      "approx_chars": 289
+    },
+    {
+      "level": 2,
+      "title": "4.21 CBL_DIR_SCAN_START",
+      "page": 34,
+      "approx_chars": 1460
+    },
+    {
+      "level": 2,
+      "title": "4.22 CBL_DIR_SCAN_READ",
+      "page": 35,
+      "approx_chars": 1250
+    },
+    {
+      "level": 2,
+      "title": "4.23 CBL_DIR_SCAN_END",
+      "page": 36,
+      "approx_chars": 418
+    },
+    {
+      "level": 1,
+      "title": "第5章 Memory Allocation Routines",
+      "page": 37,
+      "approx_chars": 1113
+    },
+    {
+      "level": 2,
+      "title": "5.1 CBL_ALLOC_MEM",
+      "page": 37,
+      "approx_chars": 594
+    },
+    {
+      "level": 2,
+      "title": "5.2 CBL_FREE_MEM2",
+      "page": 38,
+      "approx_chars": 312
+    },
+    {
+      "level": 1,
+      "title": "第6章 Virtual Heap Routines",
+      "page": 39,
+      "approx_chars": 1954
+    },
+    {
+      "level": 2,
+      "title": "6.1 CBL_OPEN_VFILE",
+      "page": 39,
+      "approx_chars": 364
+    },
+    {
+      "level": 2,
+      "title": "6.2 CBL_CLOSE_VFILE",
+      "page": 39,
+      "approx_chars": 306
+    },
+    {
+      "level": 2,
+      "title": "6.3 CBL_WRITE_VFILE",
+      "page": 40,
+      "approx_chars": 501
+    },
+    {
+      "level": 2,
+      "title": "6.4 CBL_READ_VFILE",
+      "page": 41,
+      "approx_chars": 516
+    },
+    {
+      "level": 1,
+      "title": "第7章 Operating System Information Routines",
+      "page": 42,
+      "approx_chars": 1378
+    },
+    {
+      "level": 2,
+      "title": "7.1 CBL_GET_OS_INFO",
+      "page": 42,
+      "approx_chars": 1164
+    },
+    {
+      "level": 1,
+      "title": "第8章 Run-unit Handling Routines",
+      "page": 44,
+      "approx_chars": 342
+    },
+    {
+      "level": 2,
+      "title": "8.1 CBL_YIELD_RUN_UNIT",
+      "page": 44,
+      "approx_chars": 155
+    },
+    {
+      "level": 1,
+      "title": "第9章 Text Routines",
+      "page": 45,
+      "approx_chars": 879
+    },
+    {
+      "level": 2,
+      "title": "9.1 CBL_TOUPPER",
+      "page": 45,
+      "approx_chars": 353
+    },
+    {
+      "level": 2,
+      "title": "9.2 CBL_TOLOWER",
+      "page": 45,
+      "approx_chars": 365
+    },
+    {
+      "level": 1,
+      "title": "第10章 Logical Operator Routines",
+      "page": 47,
+      "approx_chars": 2754
+    },
+    {
+      "level": 2,
+      "title": "10.1 CBL_AND",
+      "page": 47,
+      "approx_chars": 420
+    },
+    {
+      "level": 2,
+      "title": "10.2 CBL_EQ",
+      "page": 47,
+      "approx_chars": 429
+    },
+    {
+      "level": 2,
+      "title": "10.3 CBL_IMP",
+      "page": 48,
+      "approx_chars": 430
+    },
+    {
+      "level": 2,
+      "title": "10.4 CBL_NOT",
+      "page": 49,
+      "approx_chars": 360
+    },
+    {
+      "level": 2,
+      "title": "10.5 CBL_OR",
+      "page": 49,
+      "approx_chars": 423
+    },
+    {
+      "level": 2,
+      "title": "10.6 CBL_XOR",
+      "page": 50,
+      "approx_chars": 436
+    },
+    {
+      "level": 1,
+      "title": "第11章 Screen Routines",
+      "page": 51,
+      "approx_chars": 17428
+    },
+    {
+      "level": 2,
+      "title": "11.1 CBL_GET_CSR_POS",
+      "page": 51,
+      "approx_chars": 447
+    },
+    {
+      "level": 2,
+      "title": "11.2 CBL_SET_CSR_POS",
+      "page": 52,
+      "approx_chars": 457
+    },
+    {
+      "level": 2,
+      "title": "11.3 CBL_SET_CSR_SHAPE",
+      "page": 53,
+      "approx_chars": 378
+    },
+    {
+      "level": 2,
+      "title": "11.4 CBL_CREATE_SCR",
+      "page": 53,
+      "approx_chars": 231
+    },
+    {
+      "level": 2,
+      "title": "11.5 CBL_WRITE_SCR_TTY_CHAR",
+      "page": 54,
+      "approx_chars": 327
+    },
+    {
+      "level": 2,
+      "title": "11.6 CBL_WRITE_SCR_TTY",
+      "page": 54,
+      "approx_chars": 399
+    },
+    {
+      "level": 2,
+      "title": "11.7 CBL_CLEAR_SCR",
+      "page": 55,
+      "approx_chars": 396
+    },
+    {
+      "level": 2,
+      "title": "11.8 CBL_GET_SCR_SIZE",
+      "page": 55,
+      "approx_chars": 399
+    },
+    {
+      "level": 2,
+      "title": "11.9 CBL_GET_SCR_GRAPHICS",
+      "page": 56,
+      "approx_chars": 1131
+    },
+    {
+      "level": 2,
+      "title": "11.10 CBL_GET_SCR_LINE_DRAW",
+      "page": 57,
+      "approx_chars": 1215
+    },
+    {
+      "level": 2,
+      "title": "11.11 CBL_ALARM_SOUND",
+      "page": 58,
+      "approx_chars": 151
+    },
+    {
+      "level": 2,
+      "title": "11.12 CBL_BELL_SOUND",
+      "page": 58,
+      "approx_chars": 130
+    },
+    {
+      "level": 2,
+      "title": "11.13 CBL_GET_VGA_MODE",
+      "page": 58,
+      "approx_chars": 435
+    },
+    {
+      "level": 2,
+      "title": "11.14 CBL_WRITE_SCR_ATTRS",
+      "page": 59,
+      "approx_chars": 707
+    },
+    {
+      "level": 2,
+      "title": "11.15 CBL_WRITE_SCR_CHARS",
+      "page": 60,
+      "approx_chars": 524
+    },
+    {
+      "level": 2,
+      "title": "11.16 CBL_WRITE_SCR_CHARS_ATTR",
+      "page": 61,
+      "approx_chars": 655
+    },
+    {
+      "level": 2,
+      "title": "11.17 CBL_WRITE_SCR_CHATTRS",
+      "page": 62,
+      "approx_chars": 669
+    },
+    {
+      "level": 2,
+      "title": "11.18 CBL_WRITE_SCR_N_ATTR",
+      "page": 62,
+      "approx_chars": 576
+    },
+    {
+      "level": 2,
+      "title": "11.19 CBL_WRITE_SCR_N_CHAR",
+      "page": 63,
+      "approx_chars": 521
+    },
+    {
+      "level": 2,
+      "title": "11.20 CBL_WRITE_SCR_N_CHATTR",
+      "page": 64,
+      "approx_chars": 629
+    },
+    {
+      "level": 2,
+      "title": "11.21 CBL_READ_SCR_ATTRS",
+      "page": 65,
+      "approx_chars": 599
+    },
+    {
+      "level": 2,
+      "title": "11.22 CBL_READ_SCR_CHARS",
+      "page": 65,
+      "approx_chars": 528
+    },
+    {
+      "level": 2,
+      "title": "11.23 CBL_READ_SCR_CHATTRS",
+      "page": 66,
+      "approx_chars": 670
+    },
+    {
+      "level": 2,
+      "title": "11.24 CBL_SWAP_SCR_CHATTRS",
+      "page": 67,
+      "approx_chars": 700
+    },
+    {
+      "level": 2,
+      "title": "11.25 CBL_SET_SCR_TERMKEY",
+      "page": 68,
+      "approx_chars": 789
+    },
+    {
+      "level": 2,
+      "title": "11.26 CBL_SET_SCR_KEYFILE",
+      "page": 69,
+      "approx_chars": 511
+    },
+    {
+      "level": 2,
+      "title": "11.27 CBL_READ_SCR_KEY",
+      "page": 69,
+      "approx_chars": 1046
+    },
+    {
+      "level": 2,
+      "title": "11.28 CBL_GET_SCR_KEY_STATUS",
+      "page": 71,
+      "approx_chars": 466
+    },
+    {
+      "level": 2,
+      "title": "11.29 CBL_INIT_SCR_ACCEPT_ATTR",
+      "page": 71,
+      "approx_chars": 477
+    },
+    {
+      "level": 1,
+      "title": "第12章 Mouse Routines",
+      "page": 73,
+      "approx_chars": 6141
+    },
+    {
+      "level": 2,
+      "title": "12.1 CBL_GET_MOUSE_MASK",
+      "page": 73,
+      "approx_chars": 495
+    },
+    {
+      "level": 2,
+      "title": "12.2 CBL_GET_MOUSE_POSITION",
+      "page": 74,
+      "approx_chars": 550
+    },
+    {
+      "level": 2,
+      "title": "12.3 CBL_GET_MOUSE_STATUS",
+      "page": 74,
+      "approx_chars": 412
+    },
+    {
+      "level": 2,
+      "title": "12.4 CBL_HIDE_MOUSE",
+      "page": 75,
+      "approx_chars": 311
+    },
+    {
+      "level": 2,
+      "title": "12.5 CBL_INIT_MOUSE",
+      "page": 75,
+      "approx_chars": 314
+    },
+    {
+      "level": 2,
+      "title": "12.6 CBL_READ_MOUSE_EVENT",
+      "page": 76,
+      "approx_chars": 671
+    },
+    {
+      "level": 2,
+      "title": "12.7 CBL_SET_MOUSE_MASK",
+      "page": 77,
+      "approx_chars": 521
+    },
+    {
+      "level": 2,
+      "title": "12.8 CBL_SET_MOUSE_POSITION",
+      "page": 77,
+      "approx_chars": 540
+    },
+    {
+      "level": 2,
+      "title": "12.9 CBL_SHOW_MOUSE",
+      "page": 78,
+      "approx_chars": 310
+    },
+    {
+      "level": 2,
+      "title": "12.10 CBL_TERM_MOUSE",
+      "page": 78,
+      "approx_chars": 333
+    },
+    {
+      "level": 2,
+      "title": "12.11 WIN_GET_MOUSE_SHAPE",
+      "page": 79,
+      "approx_chars": 532
+    },
+    {
+      "level": 2,
+      "title": "12.12 WIN_SET_MOUSE_SHAPE",
+      "page": 79,
+      "approx_chars": 550
+    },
+    {
+      "level": 1,
+      "title": "第13章 KeyBoard Routines",
+      "page": 81,
+      "approx_chars": 872
+    },
+    {
+      "level": 2,
+      "title": "13.1 CBL_GET_KBD_STATUS",
+      "page": 81,
+      "approx_chars": 354
+    },
+    {
+      "level": 2,
+      "title": "13.2 CBL_READ_KBD_CHAR",
+      "page": 81,
+      "approx_chars": 316
+    },
+    {
+      "level": 1,
+      "title": "第14章 Bit-packing Routines",
+      "page": 83,
+      "approx_chars": 1143
+    },
+    {
+      "level": 2,
+      "title": "14.1 CBL_XF4",
+      "page": 83,
+      "approx_chars": 461
+    },
+    {
+      "level": 2,
+      "title": "14.2 CBL_XF5",
+      "page": 83,
+      "approx_chars": 513
+    },
+    {
+      "level": 1,
+      "title": "第15章 Miscellaneous Routines",
+      "page": 85,
+      "approx_chars": 389
+    },
+    {
+      "level": 2,
+      "title": "15.1 CBL_XE5",
+      "page": 85,
+      "approx_chars": 233
+    },
+    {
+      "level": 1,
+      "title": "付録A CBLサブルーチン一覧",
+      "page": 86,
+      "approx_chars": 4727
+    }
+  ]
+}

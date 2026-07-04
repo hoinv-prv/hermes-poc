@@ -1,0 +1,3012 @@
+{
+  "source_file": "cobwu64.pdf",
+  "title": "ユーザーズガイド",
+  "product": "NetCOBOL V12.2",
+  "full_title": "NetCOBOL V12.2 ユーザーズガイド",
+  "pages": 885,
+  "approx_chars": 1224561,
+  "outline_entries_total": 1036,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 93
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 6765
+    },
+    {
+      "level": 1,
+      "title": "謝辞",
+      "page": 7,
+      "approx_chars": 608
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 8,
+      "approx_chars": 176467
+    },
+    {
+      "level": 1,
+      "title": "第1部 NetCOBOLとは",
+      "page": 27,
+      "approx_chars": 10690
+    },
+    {
+      "level": 2,
+      "title": "第1章 NetCOBOLの概要",
+      "page": 28,
+      "approx_chars": 10500
+    },
+    {
+      "level": 3,
+      "title": "1.1 NetCOBOLの機能",
+      "page": 28,
+      "approx_chars": 2014
+    },
+    {
+      "level": 3,
+      "title": "1.2 開発環境",
+      "page": 30,
+      "approx_chars": 6828
+    },
+    {
+      "level": 3,
+      "title": "1.3 プログラム開発",
+      "page": 36,
+      "approx_chars": 762
+    },
+    {
+      "level": 3,
+      "title": "1.4 リモート開発",
+      "page": 37,
+      "approx_chars": 803
+    },
+    {
+      "level": 1,
+      "title": "第2部 プログラムの編集から翻訳・リンク・実行まで",
+      "page": 38,
+      "approx_chars": 46081
+    },
+    {
+      "level": 2,
+      "title": "第2章 プログラムを作成・編集する",
+      "page": 39,
+      "approx_chars": 2763
+    },
+    {
+      "level": 3,
+      "title": "2.1 プログラムの作成",
+      "page": 39,
+      "approx_chars": 2666
+    },
+    {
+      "level": 2,
+      "title": "第3章 プログラムを翻訳する",
+      "page": 42,
+      "approx_chars": 4568
+    },
+    {
+      "level": 3,
+      "title": "3.1 サンプルプログラムの翻訳",
+      "page": 42,
+      "approx_chars": 866
+    },
+    {
+      "level": 3,
+      "title": "3.2 翻訳に必要な資源",
+      "page": 42,
+      "approx_chars": 2684
+    },
+    {
+      "level": 3,
+      "title": "3.3 翻訳の手順",
+      "page": 45,
+      "approx_chars": 92
+    },
+    {
+      "level": 3,
+      "title": "3.4 翻訳コマンド",
+      "page": 45,
+      "approx_chars": 825
+    },
+    {
+      "level": 2,
+      "title": "第4章 プログラムをリンクする",
+      "page": 46,
+      "approx_chars": 11429
+    },
+    {
+      "level": 3,
+      "title": "4.1 サンプルプログラムのリンク",
+      "page": 46,
+      "approx_chars": 505
+    },
+    {
+      "level": 3,
+      "title": "4.2 リンクに必要な資源",
+      "page": 46,
+      "approx_chars": 1788
+    },
+    {
+      "level": 3,
+      "title": "4.3 プログラム構造",
+      "page": 47,
+      "approx_chars": 2285
+    },
+    {
+      "level": 3,
+      "title": "4.4 リンクコマンドを使ったリンク操作",
+      "page": 50,
+      "approx_chars": 6734
+    },
+    {
+      "level": 2,
+      "title": "第5章 プログラムを実行する",
+      "page": 57,
+      "approx_chars": 26565
+    },
+    {
+      "level": 3,
+      "title": "5.1 サンプルプログラムの実行",
+      "page": 57,
+      "approx_chars": 1185
+    },
+    {
+      "level": 3,
+      "title": "5.2 実行の手順",
+      "page": 58,
+      "approx_chars": 392
+    },
+    {
+      "level": 3,
+      "title": "5.3 実行環境情報の設定",
+      "page": 58,
+      "approx_chars": 1413
+    },
+    {
+      "level": 3,
+      "title": "5.4 プログラムの実行",
+      "page": 59,
+      "approx_chars": 4536
+    },
+    {
+      "level": 3,
+      "title": "5.5 実行用の初期化ファイル",
+      "page": 63,
+      "approx_chars": 7781
+    },
+    {
+      "level": 3,
+      "title": "5.6 エントリ情報",
+      "page": 69,
+      "approx_chars": 3262
+    },
+    {
+      "level": 3,
+      "title": "5.7 実行環境設定ツール",
+      "page": 76,
+      "approx_chars": 3336
+    },
+    {
+      "level": 3,
+      "title": "5.8 実行時オプション",
+      "page": 79,
+      "approx_chars": 2051
+    },
+    {
+      "level": 3,
+      "title": "5.9 注意事項",
+      "page": 81,
+      "approx_chars": 2521
+    },
+    {
+      "level": 1,
+      "title": "第3部 アプリケーションの開発と運用",
+      "page": 86,
+      "approx_chars": 397766
+    },
+    {
+      "level": 2,
+      "title": "第6章 文字コード",
+      "page": 87,
+      "approx_chars": 17271
+    },
+    {
+      "level": 3,
+      "title": "6.1 文字コードの概念",
+      "page": 87,
+      "approx_chars": 1899
+    },
+    {
+      "level": 3,
+      "title": "6.2 文字コードの指定",
+      "page": 89,
+      "approx_chars": 7265
+    },
+    {
+      "level": 3,
+      "title": "6.3 言語要素",
+      "page": 95,
+      "approx_chars": 2510
+    },
+    {
+      "level": 3,
+      "title": "6.4 UTF-32エンコードを使用できない機能",
+      "page": 96,
+      "approx_chars": 116
+    },
+    {
+      "level": 3,
+      "title": "6.5 実行時の注意点",
+      "page": 96,
+      "approx_chars": 668
+    },
+    {
+      "level": 3,
+      "title": "6.6 関連製品連携",
+      "page": 97,
+      "approx_chars": 4760
+    },
+    {
+      "level": 2,
+      "title": "第7章 ファイルの処理",
+      "page": 102,
+      "approx_chars": 59066
+    },
+    {
+      "level": 3,
+      "title": "7.1 ファイルの種類",
+      "page": 102,
+      "approx_chars": 4740
+    },
+    {
+      "level": 3,
+      "title": "7.2 レコード順ファイルの使い方",
+      "page": 107,
+      "approx_chars": 4628
+    },
+    {
+      "level": 3,
+      "title": "7.3 行順ファイルの使い方",
+      "page": 111,
+      "approx_chars": 4244
+    },
+    {
+      "level": 3,
+      "title": "7.4 相対ファイルの使い方",
+      "page": 115,
+      "approx_chars": 4974
+    },
+    {
+      "level": 3,
+      "title": "7.5 索引ファイルの使い方",
+      "page": 121,
+      "approx_chars": 6230
+    },
+    {
+      "level": 3,
+      "title": "7.6 入出力エラー処理",
+      "page": 128,
+      "approx_chars": 3653
+    },
+    {
+      "level": 3,
+      "title": "7.7 ファイル処理の実行",
+      "page": 130,
+      "approx_chars": 11579
+    },
+    {
+      "level": 3,
+      "title": "7.8 COBOLファイルユーティリティ",
+      "page": 146,
+      "approx_chars": 9155
+    },
+    {
+      "level": 3,
+      "title": "7.9 他のファイルシステムの使用法",
+      "page": 157,
+      "approx_chars": 9131
+    },
+    {
+      "level": 3,
+      "title": "7.10 索引ファイルの復旧",
+      "page": 164,
+      "approx_chars": 365
+    },
+    {
+      "level": 3,
+      "title": "7.11 COBOLファイルアクセスルーチン",
+      "page": 164,
+      "approx_chars": 260
+    },
+    {
+      "level": 2,
+      "title": "第8章 印刷処理",
+      "page": 165,
+      "approx_chars": 67873
+    },
+    {
+      "level": 3,
+      "title": "8.1 印刷方法の種類",
+      "page": 165,
+      "approx_chars": 33533
+    },
+    {
+      "level": 3,
+      "title": "8.2 行単位のデータを印刷する方法",
+      "page": 194,
+      "approx_chars": 5036
+    },
+    {
+      "level": 3,
+      "title": "8.3 フォームオーバレイおよびFCBを使う方法",
+      "page": 203,
+      "approx_chars": 5044
+    },
+    {
+      "level": 3,
+      "title": "8.4 帳票定義体を使う印刷ファイルの使い方",
+      "page": 207,
+      "approx_chars": 7884
+    },
+    {
+      "level": 3,
+      "title": "8.5 表示ファイル（帳票印刷）の使い方",
+      "page": 216,
+      "approx_chars": 6522
+    },
+    {
+      "level": 3,
+      "title": "8.6 電子帳票出力機能を使う方法",
+      "page": 222,
+      "approx_chars": 9783
+    },
+    {
+      "level": 2,
+      "title": "第9章 画面を使った入出力",
+      "page": 231,
+      "approx_chars": 16701
+    },
+    {
+      "level": 3,
+      "title": "9.1 画面を使った入出力の種類",
+      "page": 231,
+      "approx_chars": 642
+    },
+    {
+      "level": 3,
+      "title": "9.2 表示ファイル（画面入出力）の使い方",
+      "page": 231,
+      "approx_chars": 7932
+    },
+    {
+      "level": 3,
+      "title": "9.3 スクリーン操作機能の使い方",
+      "page": 239,
+      "approx_chars": 8045
+    },
+    {
+      "level": 2,
+      "title": "第10章 サブプログラムを呼び出す～プログラム間連絡機能～",
+      "page": 247,
+      "approx_chars": 33629
+    },
+    {
+      "level": 3,
+      "title": "10.1 呼出し関係の概要",
+      "page": 247,
+      "approx_chars": 7258
+    },
+    {
+      "level": 3,
+      "title": "10.2 COBOLプログラムからCOBOLプログラムを呼び出す",
+      "page": 257,
+      "approx_chars": 7531
+    },
+    {
+      "level": 3,
+      "title": "10.3 C言語プログラムとの結合",
+      "page": 264,
+      "approx_chars": 18716
+    },
+    {
+      "level": 2,
+      "title": "第11章 ACCEPT文およびDISPLAY文の使い方",
+      "page": 279,
+      "approx_chars": 26347
+    },
+    {
+      "level": 3,
+      "title": "11.1 小入出力機能",
+      "page": 279,
+      "approx_chars": 21054
+    },
+    {
+      "level": 3,
+      "title": "11.2 コマンド行引数の取出し",
+      "page": 297,
+      "approx_chars": 2844
+    },
+    {
+      "level": 3,
+      "title": "11.3 環境変数の操作機能",
+      "page": 300,
+      "approx_chars": 2345
+    },
+    {
+      "level": 2,
+      "title": "第12章 SORT文およびMERGE文の使い方～整列併合機能～",
+      "page": 302,
+      "approx_chars": 7931
+    },
+    {
+      "level": 3,
+      "title": "12.1 ソート・マージ処理の概要",
+      "page": 302,
+      "approx_chars": 236
+    },
+    {
+      "level": 3,
+      "title": "12.2 ソートの使い方",
+      "page": 303,
+      "approx_chars": 4263
+    },
+    {
+      "level": 3,
+      "title": "12.3 マージの使い方",
+      "page": 306,
+      "approx_chars": 3254
+    },
+    {
+      "level": 2,
+      "title": "第13章 CSV形式データの操作",
+      "page": 310,
+      "approx_chars": 7674
+    },
+    {
+      "level": 3,
+      "title": "13.1 CSV形式データとは",
+      "page": 310,
+      "approx_chars": 1554
+    },
+    {
+      "level": 3,
+      "title": "13.2 CSV形式データの作成（STRING文）",
+      "page": 311,
+      "approx_chars": 2133
+    },
+    {
+      "level": 3,
+      "title": "13.3 CSV形式データの分解（UNSTRING文）",
+      "page": 312,
+      "approx_chars": 2443
+    },
+    {
+      "level": 3,
+      "title": "13.4 CSV形式のバリエーション",
+      "page": 314,
+      "approx_chars": 1386
+    },
+    {
+      "level": 2,
+      "title": "第14章 システムプログラムを記述するための機能～SD機能～",
+      "page": 316,
+      "approx_chars": 3769
+    },
+    {
+      "level": 3,
+      "title": "14.1 SD機能の種類",
+      "page": 316,
+      "approx_chars": 655
+    },
+    {
+      "level": 3,
+      "title": "14.2 ポインタ付けの使い方",
+      "page": 316,
+      "approx_chars": 1360
+    },
+    {
+      "level": 3,
+      "title": "14.3 ADDR関数およびLENG関数の使い方",
+      "page": 317,
+      "approx_chars": 867
+    },
+    {
+      "level": 3,
+      "title": "14.4 終了条件なしのPERFORM文の使い方",
+      "page": 318,
+      "approx_chars": 771
+    },
+    {
+      "level": 2,
+      "title": "第15章 リモートデータベースアクセス",
+      "page": 319,
+      "approx_chars": 80170
+    },
+    {
+      "level": 3,
+      "title": "15.1 プリコンパイラを使用したアクセス",
+      "page": 319,
+      "approx_chars": 160
+    },
+    {
+      "level": 3,
+      "title": "15.2 ODBC経由によるアクセス",
+      "page": 319,
+      "approx_chars": 79569
+    },
+    {
+      "level": 2,
+      "title": "第16章 オブジェクト指向プログラミング機能",
+      "page": 387,
+      "approx_chars": 75837
+    },
+    {
+      "level": 3,
+      "title": "16.1 基本的な使い方",
+      "page": 387,
+      "approx_chars": 30268
+    },
+    {
+      "level": 3,
+      "title": "16.2 オブジェクト指向プログラミングの開発",
+      "page": 431,
+      "approx_chars": 13115
+    },
+    {
+      "level": 3,
+      "title": "16.3 オブジェクト指向プログラミング機能～さらに進んだ使い方～",
+      "page": 447,
+      "approx_chars": 30139
+    },
+    {
+      "level": 3,
+      "title": "16.4 オブジェクト指向と従来機能の組合せ",
+      "page": 475,
+      "approx_chars": 2262
+    },
+    {
+      "level": 1,
+      "title": "第4部 サーバサイドアプリケーションの開発と運用",
+      "page": 477,
+      "approx_chars": 49757
+    },
+    {
+      "level": 2,
+      "title": "第17章 サーバ・タイプのアプリケーション",
+      "page": 478,
+      "approx_chars": 6520
+    },
+    {
+      "level": 3,
+      "title": "17.1 バックグラウンド処理",
+      "page": 478,
+      "approx_chars": 4338
+    },
+    {
+      "level": 3,
+      "title": "17.2 イベントログ",
+      "page": 480,
+      "approx_chars": 2098
+    },
+    {
+      "level": 2,
+      "title": "第18章 マルチスレッド",
+      "page": 482,
+      "approx_chars": 42895
+    },
+    {
+      "level": 3,
+      "title": "18.1 概要",
+      "page": 482,
+      "approx_chars": 945
+    },
+    {
+      "level": 3,
+      "title": "18.2 マルチスレッドのメリット",
+      "page": 482,
+      "approx_chars": 1120
+    },
+    {
+      "level": 3,
+      "title": "18.3 マルチスレッドプログラムの基本動作",
+      "page": 484,
+      "approx_chars": 5079
+    },
+    {
+      "level": 3,
+      "title": "18.4 スレッド間の資源の共有",
+      "page": 492,
+      "approx_chars": 4808
+    },
+    {
+      "level": 3,
+      "title": "18.5 基本的な使い方",
+      "page": 499,
+      "approx_chars": 7393
+    },
+    {
+      "level": 3,
+      "title": "18.6 少し進んだ使い方",
+      "page": 506,
+      "approx_chars": 15007
+    },
+    {
+      "level": 3,
+      "title": "18.7 翻訳から実行までの方法",
+      "page": 524,
+      "approx_chars": 4035
+    },
+    {
+      "level": 3,
+      "title": "18.8 マルチスレッドプログラムのデバッグ方法",
+      "page": 529,
+      "approx_chars": 2543
+    },
+    {
+      "level": 3,
+      "title": "18.9 スレッド同期制御サブルーチン",
+      "page": 532,
+      "approx_chars": 166
+    },
+    {
+      "level": 3,
+      "title": "18.10 注意事項",
+      "page": 532,
+      "approx_chars": 1636
+    },
+    {
+      "level": 1,
+      "title": "第5部 開発支援機能／保守支援機能",
+      "page": 534,
+      "approx_chars": 74070
+    },
+    {
+      "level": 2,
+      "title": "第19章 テスト支援機能",
+      "page": 535,
+      "approx_chars": 25936
+    },
+    {
+      "level": 3,
+      "title": "19.1 NetCOBOL Studioのデバッグ機能",
+      "page": 536,
+      "approx_chars": 282
+    },
+    {
+      "level": 3,
+      "title": "19.2 CHECK機能",
+      "page": 536,
+      "approx_chars": 10571
+    },
+    {
+      "level": 3,
+      "title": "19.3 TRACE機能",
+      "page": 544,
+      "approx_chars": 4188
+    },
+    {
+      "level": 3,
+      "title": "19.4 COUNT機能",
+      "page": 548,
+      "approx_chars": 7558
+    },
+    {
+      "level": 3,
+      "title": "19.5 メモリチェック機能",
+      "page": 553,
+      "approx_chars": 1713
+    },
+    {
+      "level": 2,
+      "title": "第20章 デバッグ支援機能",
+      "page": 555,
+      "approx_chars": 46133
+    },
+    {
+      "level": 3,
+      "title": "20.1 診断機能",
+      "page": 555,
+      "approx_chars": 19056
+    },
+    {
+      "level": 3,
+      "title": "20.2 翻訳リストとデバッグツールを使ったデバッグ",
+      "page": 570,
+      "approx_chars": 26424
+    },
+    {
+      "level": 2,
+      "title": "第21章 プログラム改修支援機能",
+      "page": 587,
+      "approx_chars": 1523
+    },
+    {
+      "level": 3,
+      "title": "21.1 複数のソースファイルから実行可能ファイルの作成に使用したソースファイルを特定する方法",
+      "page": 587,
+      "approx_chars": 839
+    },
+    {
+      "level": 3,
+      "title": "21.2 不要な再翻訳の回避によるテスト効率化",
+      "page": 589,
+      "approx_chars": 395
+    },
+    {
+      "level": 1,
+      "title": "付録A 翻訳オプション",
+      "page": 590,
+      "approx_chars": 51549
+    },
+    {
+      "level": 2,
+      "title": "A.1 翻訳オプションの指定方法と優先順位",
+      "page": 590,
+      "approx_chars": 881
+    },
+    {
+      "level": 2,
+      "title": "A.2 翻訳オプションの指定形式",
+      "page": 591,
+      "approx_chars": 656
+    },
+    {
+      "level": 2,
+      "title": "A.3 翻訳オプション一覧",
+      "page": 591,
+      "approx_chars": 49258
+    },
+    {
+      "level": 3,
+      "title": "A.3.1 ALPHAL（英小文字の扱い）",
+      "page": 594,
+      "approx_chars": 690
+    },
+    {
+      "level": 3,
+      "title": "A.3.2 ARITHMETIC（演算モードの指定）",
+      "page": 594,
+      "approx_chars": 910
+    },
+    {
+      "level": 3,
+      "title": "A.3.3 ASCOMP5（2進項目の解釈の指定）",
+      "page": 595,
+      "approx_chars": 639
+    },
+    {
+      "level": 3,
+      "title": "A.3.4 BINARY（2進項目の扱い）",
+      "page": 595,
+      "approx_chars": 953
+    },
+    {
+      "level": 3,
+      "title": "A.3.5 CHECK（CHECK機能の使用の可否）",
+      "page": 596,
+      "approx_chars": 2116
+    },
+    {
+      "level": 3,
+      "title": "A.3.6 CONF（規格の違いによるメッセージの出力の可否）",
+      "page": 598,
+      "approx_chars": 727
+    },
+    {
+      "level": 3,
+      "title": "A.3.7 CONVCHAR（コンパイラが使用するコード変換ライブラリ）",
+      "page": 598,
+      "approx_chars": 989
+    },
+    {
+      "level": 3,
+      "title": "A.3.8 COPY（登録集原文の表示）",
+      "page": 599,
+      "approx_chars": 411
+    },
+    {
+      "level": 3,
+      "title": "A.3.9 COUNT（COUNT機能の使用の可否）",
+      "page": 599,
+      "approx_chars": 528
+    },
+    {
+      "level": 3,
+      "title": "A.3.10 CREATE（創成ファイルの指定）",
+      "page": 600,
+      "approx_chars": 471
+    },
+    {
+      "level": 3,
+      "title": "A.3.11 CURRENCY（通貨編集用文字の扱い）",
+      "page": 600,
+      "approx_chars": 352
+    },
+    {
+      "level": 3,
+      "title": "A.3.12 DATAAREA(データ領域の獲得方法の指定)",
+      "page": 600,
+      "approx_chars": 850
+    },
+    {
+      "level": 3,
+      "title": "A.3.13 DLOAD（プログラム構造の指定）",
+      "page": 601,
+      "approx_chars": 401
+    },
+    {
+      "level": 3,
+      "title": "A.3.14 DNTB（DISPLAY-OF関数およびNATIONAL-OF関数における後置空白の扱い）",
+      "page": 601,
+      "approx_chars": 420
+    },
+    {
+      "level": 3,
+      "title": "A.3.15 DUPCHAR（重複文字の扱い）",
+      "page": 602,
+      "approx_chars": 551
+    },
+    {
+      "level": 3,
+      "title": "A.3.16 ENCODE(データ項目のエンコードの指定)",
+      "page": 602,
+      "approx_chars": 2058
+    },
+    {
+      "level": 3,
+      "title": "A.3.17 EQUALS（SORT文での同一キーデータの処理方法）",
+      "page": 604,
+      "approx_chars": 525
+    },
+    {
+      "level": 3,
+      "title": "A.3.18 FILELIT（ファイル識別名定数の扱い）",
+      "page": 604,
+      "approx_chars": 426
+    },
+    {
+      "level": 3,
+      "title": "A.3.19 FLAG（診断メッセージのレベル）",
+      "page": 604,
+      "approx_chars": 657
+    },
+    {
+      "level": 3,
+      "title": "A.3.20 FLAGSW（COBOL文法の言語要素に対しての指摘メッセージ表示の可否）",
+      "page": 605,
+      "approx_chars": 733
+    },
+    {
+      "level": 3,
+      "title": "A.3.21 FLOAT（内部浮動小数点項目の内部表現形式の指定）",
+      "page": 606,
+      "approx_chars": 979
+    },
+    {
+      "level": 3,
+      "title": "A.3.22 FLOATCHK（実行時の内部浮動小数点項目の内部表現の混在チェックの指定）",
+      "page": 606,
+      "approx_chars": 443
+    },
+    {
+      "level": 3,
+      "title": "A.3.23 FORMLIB（画面帳票定義体ファイルのフォルダの指定）",
+      "page": 607,
+      "approx_chars": 616
+    },
+    {
+      "level": 3,
+      "title": "A.3.24 INITVALUE（作業場所節でのVALUE句なし項目の扱い）",
+      "page": 607,
+      "approx_chars": 424
+    },
+    {
+      "level": 3,
+      "title": "A.3.25 LANGLVL（ANSI COBOL規格の指定）",
+      "page": 608,
+      "approx_chars": 445
+    },
+    {
+      "level": 3,
+      "title": "A.3.26 LIB（登録集ファイルのフォルダの指定）",
+      "page": 608,
+      "approx_chars": 561
+    },
+    {
+      "level": 3,
+      "title": "A.3.27 LINECOUNT（翻訳リストの1ページあたりの行数）",
+      "page": 609,
+      "approx_chars": 419
+    },
+    {
+      "level": 3,
+      "title": "A.3.28 LINESIZE（翻訳リストの1行あたりの文字数）",
+      "page": 609,
+      "approx_chars": 610
+    },
+    {
+      "level": 3,
+      "title": "A.3.29 LIST（目的プログラムリストの出力の可否）",
+      "page": 609,
+      "approx_chars": 530
+    },
+    {
+      "level": 3,
+      "title": "A.3.30 MAIN（主プログラム/副プログラムの指定）",
+      "page": 610,
+      "approx_chars": 1114
+    },
+    {
+      "level": 3,
+      "title": "A.3.31 MAP（データマップリスト、プログラム制御情報リストおよびセクションサイズリストの出力の可否）",
+      "page": 610,
+      "approx_chars": 609
+    },
+    {
+      "level": 3,
+      "title": "A.3.32 MESSAGE（オプション情報リスト、翻訳単位統計情報リストの出力の可否）",
+      "page": 611,
+      "approx_chars": 379
+    },
+    {
+      "level": 3,
+      "title": "A.3.33 MF(Micro Focus互換モードの指定)",
+      "page": 611,
+      "approx_chars": 531
+    },
+    {
+      "level": 3,
+      "title": "A.3.34 MODE（ACCEPT文の動作の指定）",
+      "page": 611,
+      "approx_chars": 489
+    },
+    {
+      "level": 3,
+      "title": "A.3.35 NAME（翻訳単位ごとのオブジェクトファイルの出力の可否）",
+      "page": 612,
+      "approx_chars": 553
+    },
+    {
+      "level": 3,
+      "title": "A.3.36 NCW（日本語利用者語の文字集合の指定）",
+      "page": 612,
+      "approx_chars": 735
+    },
+    {
+      "level": 3,
+      "title": "A.3.37 NSP（日本語項目における空白の扱い）",
+      "page": 613,
+      "approx_chars": 416
+    },
+    {
+      "level": 3,
+      "title": "A.3.38 NSPCOMP（日本語空白の比較方法の指定）",
+      "page": 613,
+      "approx_chars": 1375
+    },
+    {
+      "level": 3,
+      "title": "A.3.39 NUMBER（ソースプログラムの一連番号領域の指定）",
+      "page": 614,
+      "approx_chars": 807
+    },
+    {
+      "level": 3,
+      "title": "A.3.40 OBJECT（目的プログラムの出力の可否）",
+      "page": 615,
+      "approx_chars": 1009
+    },
+    {
+      "level": 3,
+      "title": "A.3.41 OPTIMIZE（広域最適化の扱い）",
+      "page": 615,
+      "approx_chars": 691
+    },
+    {
+      "level": 3,
+      "title": "A.3.42 PGMNAME（登録集の項目名の展開方法の指定）",
+      "page": 616,
+      "approx_chars": 453
+    },
+    {
+      "level": 3,
+      "title": "A.3.43 PRECONV(翻訳前ソース変換機能の使用の可否)",
+      "page": 616,
+      "approx_chars": 577
+    },
+    {
+      "level": 3,
+      "title": "A.3.44 PRINT（各種翻訳リストの出力の可否および出力先の指定）",
+      "page": 617,
+      "approx_chars": 374
+    },
+    {
+      "level": 3,
+      "title": "A.3.45 QUOTE/APOST（表意定数QUOTEの扱い）",
+      "page": 617,
+      "approx_chars": 466
+    },
+    {
+      "level": 3,
+      "title": "A.3.46 RCS（実行時コード系の指定）",
+      "page": 617,
+      "approx_chars": 1073
+    },
+    {
+      "level": 3,
+      "title": "A.3.47 REP（リポジトリファイルの入出力先フォルダの指定）",
+      "page": 618,
+      "approx_chars": 616
+    },
+    {
+      "level": 3,
+      "title": "A.3.48 REPIN（リポジトリファイルの入力先フォルダの指定）",
+      "page": 619,
+      "approx_chars": 678
+    },
+    {
+      "level": 3,
+      "title": "A.3.49 RSV（予約語の種類）",
+      "page": 619,
+      "approx_chars": 755
+    },
+    {
+      "level": 3,
+      "title": "A.3.50 SAI（ソース解析情報ファイルの出力の可否）",
+      "page": 620,
+      "approx_chars": 476
+    },
+    {
+      "level": 3,
+      "title": "A.3.51 SCS（ソースファイルのコード系）",
+      "page": 621,
+      "approx_chars": 591
+    },
+    {
+      "level": 3,
+      "title": "A.3.52 SDS（符号付き10進項目の符号の整形の可否）",
+      "page": 621,
+      "approx_chars": 642
+    },
+    {
+      "level": 3,
+      "title": "A.3.53 SHREXT（マルチスレッドプログラムの外部属性に関する扱い）",
+      "page": 622,
+      "approx_chars": 507
+    },
+    {
+      "level": 3,
+      "title": "A.3.54 SMSIZE（PowerSORTが使用するメモリ容量を指定）",
+      "page": 622,
+      "approx_chars": 790
+    },
+    {
+      "level": 3,
+      "title": "A.3.55 SOURCE（ソースプログラムリストの出力の可否）",
+      "page": 623,
+      "approx_chars": 539
+    },
+    {
+      "level": 3,
+      "title": "A.3.56 SQLGRP（SQLのホスト変数定義の拡張）",
+      "page": 623,
+      "approx_chars": 741
+    },
+    {
+      "level": 3,
+      "title": "A.3.57 SRF（正書法の種類）",
+      "page": 624,
+      "approx_chars": 597
+    },
+    {
+      "level": 3,
+      "title": "A.3.58 SSIN（ACCEPT文のデータの入力先）",
+      "page": 624,
+      "approx_chars": 568
+    },
+    {
+      "level": 3,
+      "title": "A.3.59 SSOUT（DISPLAY文のデータの出力先）",
+      "page": 625,
+      "approx_chars": 571
+    },
+    {
+      "level": 3,
+      "title": "A.3.60 STD1（英数字の文字の大小順序の指定）",
+      "page": 625,
+      "approx_chars": 561
+    },
+    {
+      "level": 3,
+      "title": "A.3.61 SYNC（SYNCHRONIZED句を指定したデータ項目の境界の扱い）",
+      "page": 626,
+      "approx_chars": 1452
+    },
+    {
+      "level": 3,
+      "title": "A.3.62 TAB（タブの扱い）",
+      "page": 627,
+      "approx_chars": 334
+    },
+    {
+      "level": 3,
+      "title": "A.3.63 TEST（デバッグ機能および診断機能の使用の可否）",
+      "page": 627,
+      "approx_chars": 818
+    },
+    {
+      "level": 3,
+      "title": "A.3.64 THREAD（マルチスレッドプログラム作成の指定）",
+      "page": 628,
+      "approx_chars": 467
+    },
+    {
+      "level": 3,
+      "title": "A.3.65 TRACE（TRACE機能の使用の可否）",
+      "page": 628,
+      "approx_chars": 638
+    },
+    {
+      "level": 3,
+      "title": "A.3.66 TRUNC（桁落とし処理の可否）",
+      "page": 629,
+      "approx_chars": 1000
+    },
+    {
+      "level": 3,
+      "title": "A.3.67 XREF（相互参照リストの出力の可否）",
+      "page": 630,
+      "approx_chars": 591
+    },
+    {
+      "level": 3,
+      "title": "A.3.68 ZWB（符号付き外部10進項目と英数字項目の比較）",
+      "page": 630,
+      "approx_chars": 577
+    },
+    {
+      "level": 2,
+      "title": "A.4 プログラム定義にだけ指定可能な翻訳オプション",
+      "page": 631,
+      "approx_chars": 212
+    },
+    {
+      "level": 2,
+      "title": "A.5 メソッド原型定義と分離されたメソッド定義間での翻訳オプション",
+      "page": 631,
+      "approx_chars": 436
+    },
+    {
+      "level": 1,
+      "title": "付録B 翻訳リスト",
+      "page": 633,
+      "approx_chars": 15436
+    },
+    {
+      "level": 2,
+      "title": "B.1 診断メッセージリスト",
+      "page": 633,
+      "approx_chars": 376
+    },
+    {
+      "level": 2,
+      "title": "B.2 オプション情報リスト、翻訳単位統計情報リスト",
+      "page": 633,
+      "approx_chars": 1095
+    },
+    {
+      "level": 2,
+      "title": "B.3 相互参照リスト",
+      "page": 634,
+      "approx_chars": 855
+    },
+    {
+      "level": 2,
+      "title": "B.4 ソースプログラムリスト",
+      "page": 635,
+      "approx_chars": 1294
+    },
+    {
+      "level": 2,
+      "title": "B.5 目的プログラムリスト",
+      "page": 636,
+      "approx_chars": 3141
+    },
+    {
+      "level": 2,
+      "title": "B.6 データエリアに関するリスト",
+      "page": 638,
+      "approx_chars": 8034
+    },
+    {
+      "level": 3,
+      "title": "B.6.1 データマップリスト",
+      "page": 638,
+      "approx_chars": 2820
+    },
+    {
+      "level": 3,
+      "title": "B.6.2 プログラム制御情報リスト",
+      "page": 641,
+      "approx_chars": 4691
+    },
+    {
+      "level": 3,
+      "title": "B.6.3 セクションサイズリスト",
+      "page": 644,
+      "approx_chars": 430
+    },
+    {
+      "level": 1,
+      "title": "付録C 環境変数情報",
+      "page": 645,
+      "approx_chars": 63067
+    },
+    {
+      "level": 2,
+      "title": "C.1 環境変数情報の優先順位",
+      "page": 645,
+      "approx_chars": 151
+    },
+    {
+      "level": 2,
+      "title": "C.2 環境変数情報一覧",
+      "page": 645,
+      "approx_chars": 62846
+    },
+    {
+      "level": 3,
+      "title": "C.2.1 @AllFileExclusive（ファイルの排他処理の指定）",
+      "page": 648,
+      "approx_chars": 540
+    },
+    {
+      "level": 3,
+      "title": "C.2.2 @CBR_ATTACH_TOOL（アタッチ形式のデバッグを行う指定）",
+      "page": 648,
+      "approx_chars": 1023
+    },
+    {
+      "level": 3,
+      "title": "C.2.3 @CBR_CBRFILE（実行用の初期化ファイルの指定）",
+      "page": 649,
+      "approx_chars": 510
+    },
+    {
+      "level": 3,
+      "title": "C.2.4 @CBR_CBRINFO（簡略化した動作状態を出力する指定）",
+      "page": 649,
+      "approx_chars": 437
+    },
+    {
+      "level": 3,
+      "title": "C.2.5 @CBR_ClassInfFile（クラス情報ファイルの指定）",
+      "page": 649,
+      "approx_chars": 482
+    },
+    {
+      "level": 3,
+      "title": "C.2.6 @CBR_CODE_SET(ファイルのコード系の指定）",
+      "page": 650,
+      "approx_chars": 794
+    },
+    {
+      "level": 3,
+      "title": "C.2.7 @CBR_COMPOSER_CONSOLE（Interstage Business Application Serverのログ定義ファイルで定義されている管理名の指定）",
+      "page": 650,
+      "approx_chars": 630
+    },
+    {
+      "level": 3,
+      "title": "C.2.8 @CBR_COMPOSER_MESS（実行時メッセージをInterstage Business Application Serverの汎用ログに出力する指定）",
+      "page": 651,
+      "approx_chars": 663
+    },
+    {
+      "level": 3,
+      "title": "C.2.9 @CBR_COMPOSER_SYSERR（Interstage Business Application Serverのログ定義ファイルで定義されている管理名の指定）",
+      "page": 651,
+      "approx_chars": 638
+    },
+    {
+      "level": 3,
+      "title": "C.2.10 @CBR_COMPOSER_SYSOUT（Interstage Business Application Serverのログ定義ファイルで定義されている管理名の指定）",
+      "page": 652,
+      "approx_chars": 633
+    },
+    {
+      "level": 3,
+      "title": "C.2.11 @CBR_CONSOLE（コンソールウィンドウの種別の指定）",
+      "page": 652,
+      "approx_chars": 670
+    },
+    {
+      "level": 3,
+      "title": "C.2.12 @CBR_CONVERT_CHARACTER（コード変換ライブラリの指定）",
+      "page": 652,
+      "approx_chars": 887
+    },
+    {
+      "level": 3,
+      "title": "C.2.13 @CBR_CSV_OVERFLOW_MESSAGE（CSV形式データ操作時のメッセージ抑止指定）",
+      "page": 653,
+      "approx_chars": 422
+    },
+    {
+      "level": 3,
+      "title": "C.2.14 @CBR_CSV_TYPE（生成するCSV形式のバリエーション）",
+      "page": 653,
+      "approx_chars": 440
+    },
+    {
+      "level": 3,
+      "title": "C.2.15 @CBR_DISPLAY_CONSOLE_EVENTLOG_LEVEL（DISPLAY UPON CONSOLEのイベントログ出力時のイベント種類指定）",
+      "page": 653,
+      "approx_chars": 840
+    },
+    {
+      "level": 3,
+      "title": "C.2.16 @CBR_DISPLAY_CONSOLE_EVENTLOG_SRCNAME（DISPLAY UPON CONSOLEのイベントログ出力時のイベントソース名指定）",
+      "page": 654,
+      "approx_chars": 670
+    },
+    {
+      "level": 3,
+      "title": "C.2.17 @CBR_DISPLAY_CONSOLE_OUTPUT（DISPLAY UPON CONSOLEのイベントログ出力指定）",
+      "page": 655,
+      "approx_chars": 706
+    },
+    {
+      "level": 3,
+      "title": "C.2.18 @CBR_DISPLAY_SYSERR_EVENTLOG_LEVEL（DISPLAY UPON SYSERRのイベントログ出力時のイベント種類指定）",
+      "page": 655,
+      "approx_chars": 830
+    },
+    {
+      "level": 3,
+      "title": "C.2.19 @CBR_DISPLAY_SYSERR_EVENTLOG_SRCNAME（DISPLAY UPON SYSERRのイベントログ出力時のイベントソース名指定）",
+      "page": 656,
+      "approx_chars": 655
+    },
+    {
+      "level": 3,
+      "title": "C.2.20 @CBR_DISPLAY_SYSERR_OUTPUT（DISPLAY UPON SYSERRのイベントログ出力指定）",
+      "page": 656,
+      "approx_chars": 700
+    },
+    {
+      "level": 3,
+      "title": "C.2.21 @CBR_DISPLAY_SYSOUT_EVENTLOG_LEVEL（DISPLAY UPON SYSOUTのイベントログ出力時のイベント種類指定）",
+      "page": 656,
+      "approx_chars": 830
+    },
+    {
+      "level": 3,
+      "title": "C.2.22 @CBR_DISPLAY_SYSOUT_EVENTLOG_SRCNAME（DISPLAY UPON SYSOUTのイベントログ出力時のイベントソース名指定）",
+      "page": 657,
+      "approx_chars": 662
+    },
+    {
+      "level": 3,
+      "title": "C.2.23 @CBR_DISPLAY_SYSOUT_OUTPUT（DISPLAY UPON SYSOUTのイベントログ出力指定）",
+      "page": 658,
+      "approx_chars": 700
+    },
+    {
+      "level": 3,
+      "title": "C.2.24 @CBR_DocumentName_xxxx（I制御レコードによる文書名の指定）",
+      "page": 658,
+      "approx_chars": 713
+    },
+    {
+      "level": 3,
+      "title": "C.2.25 @CBR_ENTRYFILE（エントリ情報ファイルの指定）",
+      "page": 658,
+      "approx_chars": 539
+    },
+    {
+      "level": 3,
+      "title": "C.2.26 @CBR_EXFH_API（外部ファイルハンドラで結合するファイルシステムの入り口名の指定）",
+      "page": 659,
+      "approx_chars": 435
+    },
+    {
+      "level": 3,
+      "title": "C.2.27 @CBR_EXFH_LOAD（外部ファイルハンドラで結合するファイルシステムのDLL名の指定）",
+      "page": 659,
+      "approx_chars": 466
+    },
+    {
+      "level": 3,
+      "title": "C.2.28 @CBR_FILE_BOM_READ（Unicodeの行順ファイルを参照する時の識別コードの扱いの指定）",
+      "page": 659,
+      "approx_chars": 814
+    },
+    {
+      "level": 3,
+      "title": "C.2.29 @CBR_FILE_LFS_ACCESS（COBOLファイルのサイズを拡張する指定）",
+      "page": 660,
+      "approx_chars": 650
+    },
+    {
+      "level": 3,
+      "title": "C.2.30 @CBR_FILE_SEQUENTIAL_ACCESS（ファイルの高速処理を一括して有効にする指定）",
+      "page": 660,
+      "approx_chars": 397
+    },
+    {
+      "level": 3,
+      "title": "C.2.31 @CBR_FILE_USE_MESSAGE（入出力エラーの実行時メッセージの出力）",
+      "page": 661,
+      "approx_chars": 358
+    },
+    {
+      "level": 3,
+      "title": "C.2.32 @CBR_FLOAT_OPTION（FLOATオプション混在チェックの指定）",
+      "page": 661,
+      "approx_chars": 630
+    },
+    {
+      "level": 3,
+      "title": "C.2.33 @CBR_FUNCTION_NATIONAL（NATIONAL関数の変換モードの指定）",
+      "page": 661,
+      "approx_chars": 1681
+    },
+    {
+      "level": 3,
+      "title": "C.2.34 @CBR_InstanceBlock（オブジェクトインスタンスの獲得方法の指定）",
+      "page": 662,
+      "approx_chars": 609
+    },
+    {
+      "level": 3,
+      "title": "C.2.35 @CBR_JOBDATE（任意の日付を取得）",
+      "page": 663,
+      "approx_chars": 478
+    },
+    {
+      "level": 3,
+      "title": "C.2.36 @CBR_JUSTINTIME_DEBUG（異常終了時に診断機能を使って調査を行う指定）",
+      "page": 663,
+      "approx_chars": 789
+    },
+    {
+      "level": 3,
+      "title": "C.2.37 @CBR_MESSAGE（実行時メッセージの出力先の指定）",
+      "page": 664,
+      "approx_chars": 1242
+    },
+    {
+      "level": 3,
+      "title": "C.2.38 @CBR_MESS_LEVEL_CONSOLE（実行時メッセージの重大度指定）",
+      "page": 664,
+      "approx_chars": 1118
+    },
+    {
+      "level": 3,
+      "title": "C.2.39 @CBR_MESS_LEVEL_EVENTLOG（実行時メッセージの重大度指定）",
+      "page": 665,
+      "approx_chars": 916
+    },
+    {
+      "level": 3,
+      "title": "C.2.40 @CBR_MEMORY_CHECK（メモリチェック機能を使って検査を行う指定）",
+      "page": 666,
+      "approx_chars": 410
+    },
+    {
+      "level": 3,
+      "title": "C.2.41 @CBR_OverlayPrintOffset（I制御レコードのとじしろ方向、とじしろ幅および印刷原点位置指定をフォームオーバレイに対して有効または無効にする指定）",
+      "page": 667,
+      "approx_chars": 1016
+    },
+    {
+      "level": 3,
+      "title": "C.2.42 @CBR_PrinterANK_Size（ANK文字サイズの指定）",
+      "page": 668,
+      "approx_chars": 849
+    },
+    {
+      "level": 3,
+      "title": "C.2.43 @CBR_PrintFontTable（印刷ファイルで使用するフォントテーブルの指定）",
+      "page": 668,
+      "approx_chars": 644
+    },
+    {
+      "level": 3,
+      "title": "C.2.44 @CBR_PrintInfoFile（ASSIGN句にPRINTERを指定したファイルに対して有効な印刷情報ファイルの指定）",
+      "page": 669,
+      "approx_chars": 614
+    },
+    {
+      "level": 3,
+      "title": "C.2.45 @CBR_PrintTextPosition（文字配置座標の計算方法の指定）",
+      "page": 669,
+      "approx_chars": 683
+    },
+    {
+      "level": 3,
+      "title": "C.2.46 @CBR_SCR_KEYDEFFILE （スクリーン操作のキー定義ファイルの指定)",
+      "page": 670,
+      "approx_chars": 452
+    },
+    {
+      "level": 3,
+      "title": "C.2.47 @CBR_SCREEN_POSITION（スクリーン画面の表示位置の指定）",
+      "page": 670,
+      "approx_chars": 517
+    },
+    {
+      "level": 3,
+      "title": "C.2.48 @CBR_SSIN_FILE (スレッド単位に入力ファイルをオープンする指定)",
+      "page": 670,
+      "approx_chars": 373
+    },
+    {
+      "level": 3,
+      "title": "C.2.49 @CBR_SYMFOWARE_THREAD(Symfoware連携でマルチスレッド動作可能にする指定)",
+      "page": 670,
+      "approx_chars": 435
+    },
+    {
+      "level": 3,
+      "title": "C.2.50 @CBR_SYSERR_EXTEND（SYSERR出力情報の拡張の指定）",
+      "page": 671,
+      "approx_chars": 352
+    },
+    {
+      "level": 3,
+      "title": "C.2.51 @CBR_TextAlign（文字行内配置時の上端/下端合わせの指定）",
+      "page": 671,
+      "approx_chars": 452
+    },
+    {
+      "level": 3,
+      "title": "C.2.52 @CBR_THREAD_MODE (スレッドモードの指定)",
+      "page": 671,
+      "approx_chars": 470
+    },
+    {
+      "level": 3,
+      "title": "C.2.53 @CBR_THREAD_TIMEOUT (スレッド同期制御サブルーチンの待ち時間の指定)",
+      "page": 671,
+      "approx_chars": 450
+    },
+    {
+      "level": 3,
+      "title": "C.2.54 @CBR_TRACE_FILE（トレース情報の出力ファイルの指定）",
+      "page": 671,
+      "approx_chars": 546
+    },
+    {
+      "level": 3,
+      "title": "C.2.55 @CBR_TRACE_PROCESS_MODE（TRACEファイルのプロセス毎の出力指定）",
+      "page": 672,
+      "approx_chars": 590
+    },
+    {
+      "level": 3,
+      "title": "C.2.56 @CBR_TRAILING_BLANK_RECORD（行順ファイルのレコード内後置空白を取り除くまたは有効にする指定）",
+      "page": 672,
+      "approx_chars": 629
+    },
+    {
+      "level": 3,
+      "title": "C.2.57 @CnslBufLine（コンソールウィンドウのバッファ数の指定）",
+      "page": 672,
+      "approx_chars": 551
+    },
+    {
+      "level": 3,
+      "title": "C.2.58 @CnslFont（コンソールウィンドウのフォントの指定）",
+      "page": 673,
+      "approx_chars": 586
+    },
+    {
+      "level": 3,
+      "title": "C.2.59 @CnslWinSize（コンソールウィンドウの大きさの指定）",
+      "page": 673,
+      "approx_chars": 535
+    },
+    {
+      "level": 3,
+      "title": "C.2.60 @DefaultFCB_Name（デフォルトFCB名の指定）",
+      "page": 673,
+      "approx_chars": 649
+    },
+    {
+      "level": 3,
+      "title": "C.2.61 @ExitSessionMSG（COBOLアプリケーション起動中のWindows終了指定）",
+      "page": 674,
+      "approx_chars": 615
+    },
+    {
+      "level": 3,
+      "title": "C.2.62 @GOPT（実行時オプションの指定）",
+      "page": 674,
+      "approx_chars": 483
+    },
+    {
+      "level": 3,
+      "title": "C.2.63 @IconDLL（アイコンリソースのDLL名の指定）",
+      "page": 675,
+      "approx_chars": 642
+    },
+    {
+      "level": 3,
+      "title": "C.2.64 @IconName（アイコンリソースの識別名の指定）",
+      "page": 675,
+      "approx_chars": 667
+    },
+    {
+      "level": 3,
+      "title": "C.2.65 @MessOutFile（メッセージを出力するファイルの指定）",
+      "page": 676,
+      "approx_chars": 869
+    },
+    {
+      "level": 3,
+      "title": "C.2.66 @MGPRM（OSIV系形式の実行時パラメタの指定）",
+      "page": 676,
+      "approx_chars": 629
+    },
+    {
+      "level": 3,
+      "title": "C.2.67 @NoMessage（実行時メッセージおよびSYSERRの出力抑止指定）",
+      "page": 677,
+      "approx_chars": 488
+    },
+    {
+      "level": 3,
+      "title": "C.2.68 @ODBC_Inf（ODBC情報ファイルの指定）",
+      "page": 677,
+      "approx_chars": 433
+    },
+    {
+      "level": 3,
+      "title": "C.2.69 @PrinterFontName（印刷ファイルで使用するフォントの指定）",
+      "page": 677,
+      "approx_chars": 1030
+    },
+    {
+      "level": 3,
+      "title": "C.2.70 @PRN_FormName_xxx（用紙名の指定）",
+      "page": 678,
+      "approx_chars": 1036
+    },
+    {
+      "level": 3,
+      "title": "C.2.71 @ScrnFont（スクリーン操作で使用するフォントの指定）",
+      "page": 679,
+      "approx_chars": 321
+    },
+    {
+      "level": 3,
+      "title": "C.2.72 @ScrnSize（スクリーン操作の論理画面の大きさの指定）",
+      "page": 679,
+      "approx_chars": 449
+    },
+    {
+      "level": 3,
+      "title": "C.2.73 @ShowIcon（NetCOBOLのアイコン表示の抑止指定）",
+      "page": 679,
+      "approx_chars": 673
+    },
+    {
+      "level": 3,
+      "title": "C.2.74 @WinCloseMsg（ウィンドウを閉じるときのメッセージ表示の指定）",
+      "page": 679,
+      "approx_chars": 402
+    },
+    {
+      "level": 3,
+      "title": "C.2.75 ファイル識別名（プログラムで使用するファイルの指定）",
+      "page": 680,
+      "approx_chars": 1048
+    },
+    {
+      "level": 3,
+      "title": "C.2.76 ファイル識別名（表示ファイルから使用する情報ファイルの指定）",
+      "page": 680,
+      "approx_chars": 682
+    },
+    {
+      "level": 3,
+      "title": "C.2.77 ファイル識別名（プログラムで使用するプリンタ情報ファイルおよび各種パラメタの指定）",
+      "page": 681,
+      "approx_chars": 1269
+    },
+    {
+      "level": 3,
+      "title": "C.2.78 ファイル識別名（プログラムで使用するプリンタおよび各種パラメタの指定）",
+      "page": 682,
+      "approx_chars": 2772
+    },
+    {
+      "level": 3,
+      "title": "C.2.79 FCBxxxx（FCB制御文の指定）",
+      "page": 685,
+      "approx_chars": 331
+    },
+    {
+      "level": 3,
+      "title": "C.2.80 FOVLDIR（フォームオーバレイパターンのフォルダの指定）",
+      "page": 685,
+      "approx_chars": 379
+    },
+    {
+      "level": 3,
+      "title": "C.2.81 FOVLTYPE（フォームオーバレイパターンのファイル名の形式の指定）",
+      "page": 685,
+      "approx_chars": 393
+    },
+    {
+      "level": 3,
+      "title": "C.2.82 FOVLNAME（フォームオーバレイパターンのファイル名の指定）",
+      "page": 685,
+      "approx_chars": 466
+    },
+    {
+      "level": 3,
+      "title": "C.2.83 OVD_SUFFIX（フォームオーバレイパターンのファイルの拡張子の指定）",
+      "page": 685,
+      "approx_chars": 403
+    },
+    {
+      "level": 3,
+      "title": "C.2.84 SYSCOUNT（COUNT情報の出力ファイルの指定）",
+      "page": 686,
+      "approx_chars": 810
+    },
+    {
+      "level": 3,
+      "title": "C.2.85 SYSINのアクセス名（小入出力機能の入力ファイルの指定）",
+      "page": 686,
+      "approx_chars": 701
+    },
+    {
+      "level": 3,
+      "title": "C.2.86 SYSOUTのアクセス名（小入出力機能の出力ファイルの指定）",
+      "page": 687,
+      "approx_chars": 788
+    },
+    {
+      "level": 1,
+      "title": "付録D 入出力状態一覧",
+      "page": 688,
+      "approx_chars": 3850
+    },
+    {
+      "level": 1,
+      "title": "付録E 定量制限",
+      "page": 691,
+      "approx_chars": 4714
+    },
+    {
+      "level": 2,
+      "title": "E.1 正書法",
+      "page": 691,
+      "approx_chars": 69
+    },
+    {
+      "level": 2,
+      "title": "E.2 中核のデータ部",
+      "page": 691,
+      "approx_chars": 466
+    },
+    {
+      "level": 2,
+      "title": "E.3 中核の手続き部",
+      "page": 691,
+      "approx_chars": 674
+    },
+    {
+      "level": 2,
+      "title": "E.4 順ファイル",
+      "page": 692,
+      "approx_chars": 346
+    },
+    {
+      "level": 2,
+      "title": "E.5 印刷ファイル",
+      "page": 692,
+      "approx_chars": 149
+    },
+    {
+      "level": 2,
+      "title": "E.6 行順ファイル",
+      "page": 692,
+      "approx_chars": 211
+    },
+    {
+      "level": 2,
+      "title": "E.7 相対ファイル",
+      "page": 692,
+      "approx_chars": 124
+    },
+    {
+      "level": 2,
+      "title": "E.8 索引ファイル",
+      "page": 693,
+      "approx_chars": 930
+    },
+    {
+      "level": 2,
+      "title": "E.9 表示ファイル",
+      "page": 693,
+      "approx_chars": 57
+    },
+    {
+      "level": 2,
+      "title": "E.10 プログラム間連絡",
+      "page": 693,
+      "approx_chars": 269
+    },
+    {
+      "level": 2,
+      "title": "E.11 整列併合",
+      "page": 694,
+      "approx_chars": 301
+    },
+    {
+      "level": 2,
+      "title": "E.12 原始文操作",
+      "page": 694,
+      "approx_chars": 126
+    },
+    {
+      "level": 2,
+      "title": "E.13 オブジェクト指向プログラミング",
+      "page": 694,
+      "approx_chars": 221
+    },
+    {
+      "level": 2,
+      "title": "E.14 ODBC情報ファイル",
+      "page": 694,
+      "approx_chars": 197
+    },
+    {
+      "level": 2,
+      "title": "E.15 埋込みSQL文",
+      "page": 695,
+      "approx_chars": 339
+    },
+    {
+      "level": 2,
+      "title": "E.16 実行時パラメタ",
+      "page": 695,
+      "approx_chars": 114
+    },
+    {
+      "level": 1,
+      "title": "付録F 広域最適化",
+      "page": 696,
+      "approx_chars": 4003
+    },
+    {
+      "level": 2,
+      "title": "F.1 最適化の項目",
+      "page": 696,
+      "approx_chars": 239
+    },
+    {
+      "level": 2,
+      "title": "F.2 共通式の除去",
+      "page": 696,
+      "approx_chars": 905
+    },
+    {
+      "level": 2,
+      "title": "F.3 不変式の移動",
+      "page": 697,
+      "approx_chars": 412
+    },
+    {
+      "level": 2,
+      "title": "F.4 誘導変数の最適化",
+      "page": 697,
+      "approx_chars": 654
+    },
+    {
+      "level": 2,
+      "title": "F.5 PERFORM文の最適化",
+      "page": 697,
+      "approx_chars": 204
+    },
+    {
+      "level": 2,
+      "title": "F.6 隣接転記の統合",
+      "page": 698,
+      "approx_chars": 406
+    },
+    {
+      "level": 2,
+      "title": "F.7 無駄な代入の除去",
+      "page": 698,
+      "approx_chars": 72
+    },
+    {
+      "level": 2,
+      "title": "F.8 広域最適化での注意事項",
+      "page": 698,
+      "approx_chars": 1041
+    },
+    {
+      "level": 1,
+      "title": "付録G 特殊な定数および利用者語の書き方",
+      "page": 700,
+      "approx_chars": 2364
+    },
+    {
+      "level": 2,
+      "title": "G.1 プログラム名定数",
+      "page": 700,
+      "approx_chars": 175
+    },
+    {
+      "level": 2,
+      "title": "G.2 原文名定数",
+      "page": 700,
+      "approx_chars": 599
+    },
+    {
+      "level": 2,
+      "title": "G.3 ファイル識別名定数",
+      "page": 700,
+      "approx_chars": 740
+    },
+    {
+      "level": 2,
+      "title": "G.4 外部名を指定するための定数",
+      "page": 701,
+      "approx_chars": 322
+    },
+    {
+      "level": 2,
+      "title": "G.5 外部名を指定するための利用者語",
+      "page": 701,
+      "approx_chars": 182
+    },
+    {
+      "level": 2,
+      "title": "G.6 外部名の規則",
+      "page": 702,
+      "approx_chars": 236
+    },
+    {
+      "level": 1,
+      "title": "付録H 関数",
+      "page": 703,
+      "approx_chars": 85821
+    },
+    {
+      "level": 2,
+      "title": "H.1 組込み関数",
+      "page": 703,
+      "approx_chars": 7003
+    },
+    {
+      "level": 3,
+      "title": "H.1.1 組込み関数一覧",
+      "page": 703,
+      "approx_chars": 1732
+    },
+    {
+      "level": 3,
+      "title": "H.1.2 組込み関数の型と記述の関係",
+      "page": 704,
+      "approx_chars": 1775
+    },
+    {
+      "level": 3,
+      "title": "H.1.3 引数の型によって決定される関数の型",
+      "page": 706,
+      "approx_chars": 579
+    },
+    {
+      "level": 3,
+      "title": "H.1.4 組込み関数の便利な使い方",
+      "page": 706,
+      "approx_chars": 2776
+    },
+    {
+      "level": 2,
+      "title": "H.2 索引ファイル復旧関数",
+      "page": 709,
+      "approx_chars": 7309
+    },
+    {
+      "level": 3,
+      "title": "H.2.1 索引ファイル復旧関数（CFURCOV）",
+      "page": 709,
+      "approx_chars": 1464
+    },
+    {
+      "level": 3,
+      "title": "H.2.2 索引ファイル簡易復旧関数（CFURCOVS）",
+      "page": 710,
+      "approx_chars": 1068
+    },
+    {
+      "level": 3,
+      "title": "H.2.3 注意事項",
+      "page": 711,
+      "approx_chars": 552
+    },
+    {
+      "level": 3,
+      "title": "H.2.4 COBOLから呼び出す場合の使用例",
+      "page": 711,
+      "approx_chars": 3514
+    },
+    {
+      "level": 3,
+      "title": "H.2.5 メッセージの内容とコード",
+      "page": 713,
+      "approx_chars": 674
+    },
+    {
+      "level": 2,
+      "title": "H.3 COBOLファイルユーティリティ関数",
+      "page": 714,
+      "approx_chars": 14827
+    },
+    {
+      "level": 3,
+      "title": "H.3.1 ファイル変換関数 (COB_FILE_CONVERT)",
+      "page": 715,
+      "approx_chars": 3737
+    },
+    {
+      "level": 3,
+      "title": "H.3.2 ファイルロード関数 (COB_FILE_LOAD)",
+      "page": 718,
+      "approx_chars": 3341
+    },
+    {
+      "level": 3,
+      "title": "H.3.3 ファイルアンロード関数 (COB_FILE_UNLOAD)",
+      "page": 721,
+      "approx_chars": 1131
+    },
+    {
+      "level": 3,
+      "title": "H.3.4 ファイル整列関数 (COB_FILE_SORT)",
+      "page": 722,
+      "approx_chars": 2885
+    },
+    {
+      "level": 3,
+      "title": "H.3.5 ファイル再編成関数 (COB_FILE_REORGANIZE)",
+      "page": 725,
+      "approx_chars": 755
+    },
+    {
+      "level": 3,
+      "title": "H.3.6 ファイルコピー関数 (COB_FILE_COPY)",
+      "page": 725,
+      "approx_chars": 677
+    },
+    {
+      "level": 3,
+      "title": "H.3.7 ファイル移動関数 (COB_FILE_MOVE)",
+      "page": 726,
+      "approx_chars": 681
+    },
+    {
+      "level": 3,
+      "title": "H.3.8 ファイル削除関数 (COB_FILE_DELETE)",
+      "page": 727,
+      "approx_chars": 508
+    },
+    {
+      "level": 2,
+      "title": "H.4 COBOLファイルアクセスルーチン",
+      "page": 727,
+      "approx_chars": 56633
+    },
+    {
+      "level": 3,
+      "title": "H.4.1 COBOLファイルアクセスルーチンとは",
+      "page": 727,
+      "approx_chars": 422
+    },
+    {
+      "level": 3,
+      "title": "H.4.2 API関数一覧",
+      "page": 728,
+      "approx_chars": 1339
+    },
+    {
+      "level": 3,
+      "title": "H.4.3 API関数で使用する構造体",
+      "page": 729,
+      "approx_chars": 249
+    },
+    {
+      "level": 3,
+      "title": "H.4.4 準備するもの",
+      "page": 729,
+      "approx_chars": 104
+    },
+    {
+      "level": 3,
+      "title": "H.4.5 環境設定",
+      "page": 729,
+      "approx_chars": 404
+    },
+    {
+      "level": 3,
+      "title": "H.4.6 使い方",
+      "page": 729,
+      "approx_chars": 809
+    },
+    {
+      "level": 3,
+      "title": "H.4.7 ファイルのオープン (cobfa_open( ))",
+      "page": 730,
+      "approx_chars": 6833
+    },
+    {
+      "level": 3,
+      "title": "H.4.8 ファイルのオープン (cobfa_openW( ))",
+      "page": 735,
+      "approx_chars": 576
+    },
+    {
+      "level": 3,
+      "title": "H.4.9 ファイルのクローズ (cobfa_close( ))",
+      "page": 736,
+      "approx_chars": 803
+    },
+    {
+      "level": 3,
+      "title": "H.4.10 レコードの読込み (cobfa_rdkey( ))",
+      "page": 737,
+      "approx_chars": 2367
+    },
+    {
+      "level": 3,
+      "title": "H.4.11 レコードの読込み (cobfa_rdnext( ))",
+      "page": 739,
+      "approx_chars": 2041
+    },
+    {
+      "level": 3,
+      "title": "H.4.12 レコードの読込み (cobfa_rdrec( ))",
+      "page": 741,
+      "approx_chars": 1787
+    },
+    {
+      "level": 3,
+      "title": "H.4.13 レコードの書出し (cobfa_wrkey( ))",
+      "page": 742,
+      "approx_chars": 1293
+    },
+    {
+      "level": 3,
+      "title": "H.4.14 レコードの書出し (cobfa_wrnext( ))",
+      "page": 744,
+      "approx_chars": 1261
+    },
+    {
+      "level": 3,
+      "title": "H.4.15 レコードの書出し (cobfa_wrrec( ))",
+      "page": 745,
+      "approx_chars": 1301
+    },
+    {
+      "level": 3,
+      "title": "H.4.16 レコードの削除 (cobfa_delcurr( ))",
+      "page": 747,
+      "approx_chars": 1132
+    },
+    {
+      "level": 3,
+      "title": "H.4.17 レコードの削除 (cobfa_delkey( ))",
+      "page": 748,
+      "approx_chars": 1160
+    },
+    {
+      "level": 3,
+      "title": "H.4.18 レコードの削除 (cobfa_delrec( ))",
+      "page": 749,
+      "approx_chars": 1178
+    },
+    {
+      "level": 3,
+      "title": "H.4.19 レコードの書換え (cobfa_rewcurr( ))",
+      "page": 750,
+      "approx_chars": 1321
+    },
+    {
+      "level": 3,
+      "title": "H.4.20 レコードの書換え (cobfa_rewkey( ))",
+      "page": 752,
+      "approx_chars": 1192
+    },
+    {
+      "level": 3,
+      "title": "H.4.21 レコードの書換え (cobfa_rewrec( ))",
+      "page": 753,
+      "approx_chars": 1179
+    },
+    {
+      "level": 3,
+      "title": "H.4.22 レコードの位置決め (cobfa_stkey( ))",
+      "page": 754,
+      "approx_chars": 2681
+    },
+    {
+      "level": 3,
+      "title": "H.4.23 レコードの位置決め (cobfa_strec( ))",
+      "page": 757,
+      "approx_chars": 1514
+    },
+    {
+      "level": 3,
+      "title": "H.4.24 レコードロックの解除 (cobfa_release( ))",
+      "page": 758,
+      "approx_chars": 934
+    },
+    {
+      "level": 3,
+      "title": "H.4.25 ファイル情報の取得 (cobfa_indexinfo( ))",
+      "page": 759,
+      "approx_chars": 1404
+    },
+    {
+      "level": 3,
+      "title": "H.4.26 エラー番号の取得 (cobfa_errno( ))",
+      "page": 761,
+      "approx_chars": 417
+    },
+    {
+      "level": 3,
+      "title": "H.4.27 入出力状態の取得 (cobfa_stat( ))",
+      "page": 761,
+      "approx_chars": 284
+    },
+    {
+      "level": 3,
+      "title": "H.4.28 読込みレコード長の取得 (cobfa_reclen( ))",
+      "page": 762,
+      "approx_chars": 368
+    },
+    {
+      "level": 3,
+      "title": "H.4.29 相対レコード番号の取得 (cobfa_recnum( ))",
+      "page": 762,
+      "approx_chars": 387
+    },
+    {
+      "level": 3,
+      "title": "H.4.30 ファイルアクセスの排他ロック (LOCK_cobfa( ))",
+      "page": 762,
+      "approx_chars": 2665
+    },
+    {
+      "level": 3,
+      "title": "H.4.31 ファイルアクセスの排他ロック解除 (UNLOCK_cobfa( ))",
+      "page": 764,
+      "approx_chars": 568
+    },
+    {
+      "level": 3,
+      "title": "H.4.32 fa_keydesc構造体",
+      "page": 765,
+      "approx_chars": 4894
+    },
+    {
+      "level": 3,
+      "title": "H.4.33 fa_keylist構造体",
+      "page": 768,
+      "approx_chars": 2747
+    },
+    {
+      "level": 3,
+      "title": "H.4.34 fa_dictinfo構造体",
+      "page": 769,
+      "approx_chars": 1035
+    },
+    {
+      "level": 3,
+      "title": "H.4.35 ファイルの機能",
+      "page": 770,
+      "approx_chars": 2497
+    },
+    {
+      "level": 3,
+      "title": "H.4.36 エラー番号",
+      "page": 772,
+      "approx_chars": 2249
+    },
+    {
+      "level": 3,
+      "title": "H.4.37 入出力状態",
+      "page": 773,
+      "approx_chars": 189
+    },
+    {
+      "level": 3,
+      "title": "H.4.38 COBOLファイルアクセスルーチンの制限事項",
+      "page": 773,
+      "approx_chars": 254
+    },
+    {
+      "level": 3,
+      "title": "H.4.39 COBOLファイルアクセスルーチンの留意事項",
+      "page": 774,
+      "approx_chars": 2744
+    },
+    {
+      "level": 1,
+      "title": "付録I サブルーチン",
+      "page": 776,
+      "approx_chars": 22322
+    },
+    {
+      "level": 2,
+      "title": "I.1 サブルーチン一覧",
+      "page": 776,
+      "approx_chars": 1047
+    },
+    {
+      "level": 2,
+      "title": "I.2 COBOLプログラムから呼び出すサブルーチン",
+      "page": 777,
+      "approx_chars": 13328
+    },
+    {
+      "level": 3,
+      "title": "I.2.1 COB_ALLOC_MEMORY (メモリ割当てサブルーチン)",
+      "page": 777,
+      "approx_chars": 782
+    },
+    {
+      "level": 3,
+      "title": "I.2.2 COB_DEADLOCK_EXIT(デッドロック出口スケジュールサブルーチン)",
+      "page": 778,
+      "approx_chars": 926
+    },
+    {
+      "level": 3,
+      "title": "I.2.3 COB_EXIT_PROCESS(プロセス終了サブルーチン)",
+      "page": 778,
+      "approx_chars": 1193
+    },
+    {
+      "level": 3,
+      "title": "I.2.4 COB_FREE_MEMORY(メモリ解放サブルーチン)",
+      "page": 779,
+      "approx_chars": 630
+    },
+    {
+      "level": 3,
+      "title": "I.2.5 COB_GET_PROCESSID(プロセスID取得サブルーチン)",
+      "page": 780,
+      "approx_chars": 599
+    },
+    {
+      "level": 3,
+      "title": "I.2.6 COB_GET_THREADID(スレッドID取得サブルーチン)",
+      "page": 780,
+      "approx_chars": 600
+    },
+    {
+      "level": 3,
+      "title": "I.2.7 COB_LOCK_DATA(データロック獲得サブルーチン)",
+      "page": 781,
+      "approx_chars": 880
+    },
+    {
+      "level": 3,
+      "title": "I.2.8 COB_LOCK_OBJECT(オブジェクトロック獲得サブルーチン)",
+      "page": 782,
+      "approx_chars": 856
+    },
+    {
+      "level": 3,
+      "title": "I.2.9 COB_REPORT_EVENT(イベントログ出力サブルーチン)",
+      "page": 782,
+      "approx_chars": 2156
+    },
+    {
+      "level": 3,
+      "title": "I.2.10 COB_UNLOCK_DATA(データロック解放サブルーチン)",
+      "page": 784,
+      "approx_chars": 683
+    },
+    {
+      "level": 3,
+      "title": "I.2.11 COB_UNLOCK_OBJECT(オブジェクトロック解放サブルーチン)",
+      "page": 784,
+      "approx_chars": 798
+    },
+    {
+      "level": 3,
+      "title": "I.2.12 JMPBGWDH(ウィンドウハンドル獲得サブルーチン)",
+      "page": 785,
+      "approx_chars": 1466
+    },
+    {
+      "level": 3,
+      "title": "I.2.13 JMPBWINS(インスタンスハンドル獲得サブルーチン)",
+      "page": 787,
+      "approx_chars": 537
+    },
+    {
+      "level": 3,
+      "title": "I.2.14 #NATLETOBE(ビッグエンディアン変換サブルーチン)",
+      "page": 787,
+      "approx_chars": 584
+    },
+    {
+      "level": 3,
+      "title": "I.2.15 #NATBETOLE(リトルエンディアン変換サブルーチン)",
+      "page": 788,
+      "approx_chars": 577
+    },
+    {
+      "level": 2,
+      "title": "I.3 他言語連携で使用するサブルーチン",
+      "page": 788,
+      "approx_chars": 3429
+    },
+    {
+      "level": 3,
+      "title": "I.3.1 COB_GETRUNIT(COBOL実行単位ハンドル取得サブルーチン)",
+      "page": 788,
+      "approx_chars": 457
+    },
+    {
+      "level": 3,
+      "title": "I.3.2 COB_SETRUNIT(COBOL実行単位ハンドル設定サブルーチン)",
+      "page": 789,
+      "approx_chars": 541
+    },
+    {
+      "level": 3,
+      "title": "I.3.3 JMPCINT2(実行単位の開始サブルーチン)",
+      "page": 790,
+      "approx_chars": 781
+    },
+    {
+      "level": 3,
+      "title": "I.3.4 JMPCINT3(実行単位の終了サブルーチン)",
+      "page": 791,
+      "approx_chars": 765
+    },
+    {
+      "level": 3,
+      "title": "I.3.5 JMPCINT4(実行環境の閉鎖サブルーチン)",
+      "page": 792,
+      "approx_chars": 796
+    },
+    {
+      "level": 2,
+      "title": "I.4 メモリ関連サブルーチンの使い方",
+      "page": 793,
+      "approx_chars": 2229
+    },
+    {
+      "level": 3,
+      "title": "I.4.1 シングルスレッドモードのプログラム",
+      "page": 793,
+      "approx_chars": 690
+    },
+    {
+      "level": 3,
+      "title": "I.4.2 マルチスレッドモードのプログラム",
+      "page": 795,
+      "approx_chars": 849
+    },
+    {
+      "level": 2,
+      "title": "I.5 スレッド同期制御サブルーチンの使い方",
+      "page": 798,
+      "approx_chars": 2228
+    },
+    {
+      "level": 3,
+      "title": "I.5.1 データロックサブルーチン",
+      "page": 798,
+      "approx_chars": 697
+    },
+    {
+      "level": 3,
+      "title": "I.5.2 オブジェクトロックサブルーチン",
+      "page": 798,
+      "approx_chars": 635
+    },
+    {
+      "level": 3,
+      "title": "I.5.3 スレッド同期制御サブルーチンのエラーコード",
+      "page": 798,
+      "approx_chars": 797
+    },
+    {
+      "level": 1,
+      "title": "付録J コマンド",
+      "page": 800,
+      "approx_chars": 48181
+    },
+    {
+      "level": 2,
+      "title": "J.1 COBOLコマンド",
+      "page": 800,
+      "approx_chars": 8273
+    },
+    {
+      "level": 3,
+      "title": "J.1.1 COBOLコマンドの復帰コード",
+      "page": 802,
+      "approx_chars": 167
+    },
+    {
+      "level": 3,
+      "title": "J.1.2 翻訳コマンドのオプション一覧",
+      "page": 802,
+      "approx_chars": 774
+    },
+    {
+      "level": 3,
+      "title": "J.1.3 -CV(翻訳前ソース変換機能を使用する指定)",
+      "page": 803,
+      "approx_chars": 389
+    },
+    {
+      "level": 3,
+      "title": "J.1.4 -Dc(COUNT機能を使用する指定)",
+      "page": 803,
+      "approx_chars": 311
+    },
+    {
+      "level": 3,
+      "title": "J.1.5 -dd(デバッグ情報ファイルのフォルダの指定)",
+      "page": 803,
+      "approx_chars": 279
+    },
+    {
+      "level": 3,
+      "title": "J.1.6 -Dk(CHECK機能を使用する指定)",
+      "page": 804,
+      "approx_chars": 320
+    },
+    {
+      "level": 3,
+      "title": "J.1.7 -do(オブジェクトファイルのフォルダの指定)",
+      "page": 804,
+      "approx_chars": 213
+    },
+    {
+      "level": 3,
+      "title": "J.1.8 -dp(翻訳リストファイルのフォルダの指定)",
+      "page": 804,
+      "approx_chars": 695
+    },
+    {
+      "level": 3,
+      "title": "J.1.9 -Dr(TRACE機能を使用する指定)",
+      "page": 805,
+      "approx_chars": 310
+    },
+    {
+      "level": 3,
+      "title": "J.1.10 -dr(リポジトリファイルの入出力先フォルダの指定)",
+      "page": 805,
+      "approx_chars": 225
+    },
+    {
+      "level": 3,
+      "title": "J.1.11 -ds(ソース解析情報ファイルのフォルダの指定)",
+      "page": 805,
+      "approx_chars": 220
+    },
+    {
+      "level": 3,
+      "title": "J.1.12 -Dt(デバッグ機能および診断機能を使用する指定)",
+      "page": 806,
+      "approx_chars": 414
+    },
+    {
+      "level": 3,
+      "title": "J.1.13 -I(登録集ファイルのフォルダの指定)",
+      "page": 806,
+      "approx_chars": 451
+    },
+    {
+      "level": 3,
+      "title": "J.1.14 -M(主プログラムを翻訳するときの指定)",
+      "page": 806,
+      "approx_chars": 192
+    },
+    {
+      "level": 3,
+      "title": "J.1.15 -m(画面帳票定義体ファイルのフォルダの指定)",
+      "page": 807,
+      "approx_chars": 417
+    },
+    {
+      "level": 3,
+      "title": "J.1.16 -O(広域最適化を適用する指定)",
+      "page": 807,
+      "approx_chars": 204
+    },
+    {
+      "level": 3,
+      "title": "J.1.17 -P(各種翻訳リストの出力および出力先の指定)",
+      "page": 807,
+      "approx_chars": 501
+    },
+    {
+      "level": 3,
+      "title": "J.1.18 -R(リポジトリファイルの入力先フォルダの指定)",
+      "page": 808,
+      "approx_chars": 343
+    },
+    {
+      "level": 3,
+      "title": "J.1.19 -ｖ(各種情報を出力する指定)",
+      "page": 808,
+      "approx_chars": 264
+    },
+    {
+      "level": 3,
+      "title": "J.1.20 -WC(翻訳オプションの指定)",
+      "page": 808,
+      "approx_chars": 382
+    },
+    {
+      "level": 2,
+      "title": "J.2 LINKコマンド",
+      "page": 808,
+      "approx_chars": 2513
+    },
+    {
+      "level": 3,
+      "title": "J.2.1 LINKコマンドのオプション",
+      "page": 809,
+      "approx_chars": 578
+    },
+    {
+      "level": 3,
+      "title": "J.2.2 /DUMPオプション",
+      "page": 810,
+      "approx_chars": 1184
+    },
+    {
+      "level": 2,
+      "title": "J.3 COBOLファイルユーティリティコマンド",
+      "page": 811,
+      "approx_chars": 16753
+    },
+    {
+      "level": 3,
+      "title": "J.3.1 ファイル変換コマンド(cobfconv)",
+      "page": 811,
+      "approx_chars": 4128
+    },
+    {
+      "level": 3,
+      "title": "J.3.2 ファイルロードコマンド(cobfload)",
+      "page": 815,
+      "approx_chars": 2130
+    },
+    {
+      "level": 3,
+      "title": "J.3.3 ファイルアンロードコマンド(cobfulod)",
+      "page": 817,
+      "approx_chars": 914
+    },
+    {
+      "level": 3,
+      "title": "J.3.4 ファイル表示コマンド(cobfbrws)",
+      "page": 818,
+      "approx_chars": 4398
+    },
+    {
+      "level": 3,
+      "title": "J.3.5 ファイル整列コマンド(cobfsort)",
+      "page": 821,
+      "approx_chars": 3432
+    },
+    {
+      "level": 3,
+      "title": "J.3.6 ファイル属性コマンド(cobfattr)",
+      "page": 825,
+      "approx_chars": 264
+    },
+    {
+      "level": 3,
+      "title": "J.3.7 ファイル復旧コマンド(cobfrcov)",
+      "page": 826,
+      "approx_chars": 584
+    },
+    {
+      "level": 3,
+      "title": "J.3.8 ファイル再編成コマンド(cobfreog)",
+      "page": 827,
+      "approx_chars": 436
+    },
+    {
+      "level": 2,
+      "title": "J.4 INSDBINFコマンド",
+      "page": 827,
+      "approx_chars": 4046
+    },
+    {
+      "level": 2,
+      "title": "J.5 cobmkmfコマンド",
+      "page": 829,
+      "approx_chars": 5012
+    },
+    {
+      "level": 2,
+      "title": "J.6 UTF-32用定義体変換コマンド",
+      "page": 833,
+      "approx_chars": 2839
+    },
+    {
+      "level": 2,
+      "title": "J.7 COBPRECONVコマンド",
+      "page": 835,
+      "approx_chars": 2439
+    },
+    {
+      "level": 2,
+      "title": "J.8 COBCMPOコマンド",
+      "page": 837,
+      "approx_chars": 2240
+    },
+    {
+      "level": 2,
+      "title": "J.9 COBDUMPコマンド",
+      "page": 839,
+      "approx_chars": 2749
+    },
+    {
+      "level": 1,
+      "title": "付録K OSIV系システムとの機能比較",
+      "page": 842,
+      "approx_chars": 6093
+    },
+    {
+      "level": 2,
+      "title": "K.1 機能比較一覧",
+      "page": 842,
+      "approx_chars": 3664
+    },
+    {
+      "level": 2,
+      "title": "K.2 プログラムの動作確認における注意事項",
+      "page": 846,
+      "approx_chars": 2213
+    },
+    {
+      "level": 3,
+      "title": "K.2.1 プログラムの起動時にOSIV系システムのパラメタを渡す",
+      "page": 847,
+      "approx_chars": 616
+    },
+    {
+      "level": 3,
+      "title": "K.2.2 OSIV系システム固有機能を使ったプログラムを本システム上で動作させる",
+      "page": 847,
+      "approx_chars": 309
+    },
+    {
+      "level": 3,
+      "title": "K.2.3 符号付き外部10進項目を比較対象にしているプログラム",
+      "page": 847,
+      "approx_chars": 1089
+    },
+    {
+      "level": 1,
+      "title": "付録L 文字コードの留意点",
+      "page": 849,
+      "approx_chars": 17018
+    },
+    {
+      "level": 2,
+      "title": "L.1 文字コードの概説",
+      "page": 849,
+      "approx_chars": 2605
+    },
+    {
+      "level": 3,
+      "title": "L.1.1 文字を表現するバイト数の違いによるコード系の分類",
+      "page": 849,
+      "approx_chars": 1229
+    },
+    {
+      "level": 3,
+      "title": "L.1.2 文字種の混在方式による分類",
+      "page": 850,
+      "approx_chars": 1195
+    },
+    {
+      "level": 2,
+      "title": "L.2 文字コード変換",
+      "page": 851,
+      "approx_chars": 643
+    },
+    {
+      "level": 2,
+      "title": "L.3 シフトJISへのコード変換時の問題",
+      "page": 853,
+      "approx_chars": 1147
+    },
+    {
+      "level": 2,
+      "title": "L.4 他システムからの移行上の注意",
+      "page": 856,
+      "approx_chars": 3790
+    },
+    {
+      "level": 3,
+      "title": "L.4.1 日本語空白と英数字空白の文字コード",
+      "page": 856,
+      "approx_chars": 3218
+    },
+    {
+      "level": 3,
+      "title": "L.4.2 JIS非漢字の負号について",
+      "page": 859,
+      "approx_chars": 527
+    },
+    {
+      "level": 2,
+      "title": "L.5 文字コードに関するコーディング上の留意点",
+      "page": 859,
+      "approx_chars": 5965
+    },
+    {
+      "level": 3,
+      "title": "L.5.1 日本語16進文字定数",
+      "page": 860,
+      "approx_chars": 431
+    },
+    {
+      "level": 3,
+      "title": "L.5.2 表意定数",
+      "page": 860,
+      "approx_chars": 151
+    },
+    {
+      "level": 3,
+      "title": "L.5.3 文字の泣き別れ",
+      "page": 860,
+      "approx_chars": 459
+    },
+    {
+      "level": 3,
+      "title": "L.5.4 日本語文字定数",
+      "page": 860,
+      "approx_chars": 396
+    },
+    {
+      "level": 3,
+      "title": "L.5.5 項目の再定義",
+      "page": 860,
+      "approx_chars": 752
+    },
+    {
+      "level": 3,
+      "title": "L.5.6 集団項目転記",
+      "page": 861,
+      "approx_chars": 503
+    },
+    {
+      "level": 3,
+      "title": "L.5.7 空白づめ",
+      "page": 861,
+      "approx_chars": 638
+    },
+    {
+      "level": 3,
+      "title": "L.5.8 集団項目比較",
+      "page": 861,
+      "approx_chars": 391
+    },
+    {
+      "level": 3,
+      "title": "L.5.9 大小比較",
+      "page": 862,
+      "approx_chars": 729
+    },
+    {
+      "level": 3,
+      "title": "L.5.10 プログラムの作成・編集",
+      "page": 862,
+      "approx_chars": 405
+    },
+    {
+      "level": 3,
+      "title": "L.5.11 半角カナ",
+      "page": 862,
+      "approx_chars": 134
+    },
+    {
+      "level": 3,
+      "title": "L.5.12 小入出力",
+      "page": 862,
+      "approx_chars": 516
+    },
+    {
+      "level": 3,
+      "title": "L.5.13 COBOLファイル",
+      "page": 863,
+      "approx_chars": 145
+    },
+    {
+      "level": 2,
+      "title": "L.6 Windowsシステムにおけるシステムロケール",
+      "page": 863,
+      "approx_chars": 2253
+    },
+    {
+      "level": 1,
+      "title": "付録M セキュリティ",
+      "page": 865,
+      "approx_chars": 1738
+    },
+    {
+      "level": 2,
+      "title": "M.1 資源の保護",
+      "page": 865,
+      "approx_chars": 285
+    },
+    {
+      "level": 2,
+      "title": "M.2 アプリケーション作成のための指針",
+      "page": 865,
+      "approx_chars": 1103
+    },
+    {
+      "level": 2,
+      "title": "M.3 リモート開発機能",
+      "page": 866,
+      "approx_chars": 173
+    },
+    {
+      "level": 1,
+      "title": "付録N 浮動小数点の形式",
+      "page": 867,
+      "approx_chars": 2453
+    },
+    {
+      "level": 2,
+      "title": "N.1 内部浮動小数点項目",
+      "page": 867,
+      "approx_chars": 1186
+    },
+    {
+      "level": 2,
+      "title": "N.2 演算結果の違い",
+      "page": 868,
+      "approx_chars": 511
+    },
+    {
+      "level": 2,
+      "title": "N.3 富士通メインフレーム形式の浮動小数点の使い方",
+      "page": 868,
+      "approx_chars": 534
+    },
+    {
+      "level": 1,
+      "title": "索 引",
+      "page": 870,
+      "approx_chars": 133655
+    }
+  ]
+}

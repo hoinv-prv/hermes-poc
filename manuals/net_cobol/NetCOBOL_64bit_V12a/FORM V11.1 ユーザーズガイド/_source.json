@@ -1,0 +1,402 @@
+{
+  "source_file": "formwu64.pdf",
+  "title": "FORM V11.1 ユーザーズガイド",
+  "product": "",
+  "full_title": "FORM V11.1 ユーザーズガイド",
+  "pages": 225,
+  "approx_chars": 188157,
+  "outline_entries_total": 135,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 101
+    },
+    {
+      "level": 1,
+      "title": "ごあいさつ",
+      "page": 2,
+      "approx_chars": 2096
+    },
+    {
+      "level": 1,
+      "title": "関連マニュアル",
+      "page": 4,
+      "approx_chars": 596
+    },
+    {
+      "level": 1,
+      "title": "本書の構成／読み方",
+      "page": 5,
+      "approx_chars": 4377
+    },
+    {
+      "level": 1,
+      "title": "目次",
+      "page": 9,
+      "approx_chars": 17158
+    },
+    {
+      "level": 1,
+      "title": "第1部 FORM編",
+      "page": 13,
+      "approx_chars": 57888
+    },
+    {
+      "level": 2,
+      "title": "第1章 画面・帳票定義体とは",
+      "page": 14,
+      "approx_chars": 8213
+    },
+    {
+      "level": 3,
+      "title": "1.1 プログラムと画面・帳票定義体の関係",
+      "page": 15,
+      "approx_chars": 1153
+    },
+    {
+      "level": 3,
+      "title": "1.2 画面定義体／帳票定義体の構成要素",
+      "page": 17,
+      "approx_chars": 972
+    },
+    {
+      "level": 3,
+      "title": "1.3 注意事項",
+      "page": 18,
+      "approx_chars": 5387
+    },
+    {
+      "level": 2,
+      "title": "第2章 画面・帳票定義体を作成しよう ～名刺入力画面／住所録帳票～",
+      "page": 21,
+      "approx_chars": 16451
+    },
+    {
+      "level": 3,
+      "title": "2.1 画面定義体の作成手順を知ろう",
+      "page": 22,
+      "approx_chars": 9174
+    },
+    {
+      "level": 3,
+      "title": "2.2 帳票定義体の作成手順を知ろう",
+      "page": 36,
+      "approx_chars": 6648
+    },
+    {
+      "level": 2,
+      "title": "第3章 FORMの基本的な操作を知ろう",
+      "page": 46,
+      "approx_chars": 11938
+    },
+    {
+      "level": 3,
+      "title": "3.1 FORMの起動／終了方法と画面・帳票定義体の作成／ 保存",
+      "page": 47,
+      "approx_chars": 3158
+    },
+    {
+      "level": 3,
+      "title": "3.2 定義画面の種類",
+      "page": 51,
+      "approx_chars": 1893
+    },
+    {
+      "level": 3,
+      "title": "3.3 シンボルメニューの使い方",
+      "page": 54,
+      "approx_chars": 1175
+    },
+    {
+      "level": 3,
+      "title": "3.4 カーソル操作",
+      "page": 56,
+      "approx_chars": 1715
+    },
+    {
+      "level": 3,
+      "title": "3.5 編集画面表示状態の変更方法",
+      "page": 58,
+      "approx_chars": 2832
+    },
+    {
+      "level": 2,
+      "title": "第4章 FORMの機能を知ろう",
+      "page": 62,
+      "approx_chars": 17657
+    },
+    {
+      "level": 3,
+      "title": "4.1 画面定義体に定義できる機能",
+      "page": 63,
+      "approx_chars": 3867
+    },
+    {
+      "level": 3,
+      "title": "4.2 帳票定義体に定義できる機能",
+      "page": 68,
+      "approx_chars": 2436
+    },
+    {
+      "level": 3,
+      "title": "4.3 画面／帳票の種類 ～定義体形式～",
+      "page": 72,
+      "approx_chars": 9994
+    },
+    {
+      "level": 3,
+      "title": "4.4 レコード領域を知る ～レコード定義～",
+      "page": 85,
+      "approx_chars": 400
+    },
+    {
+      "level": 2,
+      "title": "第5章 定義体の動作イメージを確認する（試験）",
+      "page": 86,
+      "approx_chars": 2676
+    },
+    {
+      "level": 3,
+      "title": "5.1 試験でできること",
+      "page": 87,
+      "approx_chars": 453
+    },
+    {
+      "level": 3,
+      "title": "5.2 試験の各機能とFORM，MeFtとの関係",
+      "page": 88,
+      "approx_chars": 1080
+    },
+    {
+      "level": 3,
+      "title": "5.3 試験の画面",
+      "page": 91,
+      "approx_chars": 305
+    },
+    {
+      "level": 1,
+      "title": "第2部 FORMオーバレイオプション編",
+      "page": 92,
+      "approx_chars": 25703
+    },
+    {
+      "level": 2,
+      "title": "第6章 FORMオーバレイオプションとは",
+      "page": 93,
+      "approx_chars": 3711
+    },
+    {
+      "level": 3,
+      "title": "6.1 FORMとFORMオーバレイオプションの関係",
+      "page": 94,
+      "approx_chars": 2589
+    },
+    {
+      "level": 3,
+      "title": "6.2 利用者プログラムとの関係",
+      "page": 97,
+      "approx_chars": 593
+    },
+    {
+      "level": 2,
+      "title": "第7章 オーバレイ定義体を作成しよう",
+      "page": 98,
+      "approx_chars": 9417
+    },
+    {
+      "level": 3,
+      "title": "7.1 オーバレイパターンテーブルを作成しよう",
+      "page": 99,
+      "approx_chars": 6095
+    },
+    {
+      "level": 3,
+      "title": "7.2 オーバレイパターングループを作成しよう",
+      "page": 108,
+      "approx_chars": 2681
+    },
+    {
+      "level": 2,
+      "title": "第8章 FORMオーバレイオプションの基本的な操 作を知ろう",
+      "page": 111,
+      "approx_chars": 4698
+    },
+    {
+      "level": 3,
+      "title": "8.1 FORMの起動／終了方法とオーバレイ定義体の作成／ 保存方法",
+      "page": 112,
+      "approx_chars": 3623
+    },
+    {
+      "level": 3,
+      "title": "8.2 定義画面の種類",
+      "page": 116,
+      "approx_chars": 474
+    },
+    {
+      "level": 2,
+      "title": "第9章 FORMオーバレイオプションの機能を知ろ う",
+      "page": 117,
+      "approx_chars": 3605
+    },
+    {
+      "level": 3,
+      "title": "9.1 オーバレイパターンテーブルで設定できる機能",
+      "page": 118,
+      "approx_chars": 2006
+    },
+    {
+      "level": 3,
+      "title": "9.2 オーバレイパターングループに設定できるもの",
+      "page": 121,
+      "approx_chars": 1029
+    },
+    {
+      "level": 2,
+      "title": "第10章 オーバレイ定義体の運用方法",
+      "page": 122,
+      "approx_chars": 3014
+    },
+    {
+      "level": 3,
+      "title": "10.1 COBOLの出力帳票に重ねて出力する方法",
+      "page": 123,
+      "approx_chars": 2214
+    },
+    {
+      "level": 3,
+      "title": "10.2 MeFtの出力帳票に重ねて出力する方法",
+      "page": 125,
+      "approx_chars": 212
+    },
+    {
+      "level": 1,
+      "title": "付録",
+      "page": 126,
+      "approx_chars": 75488
+    },
+    {
+      "level": 2,
+      "title": "付録A FORMのコード系",
+      "page": 127,
+      "approx_chars": 5381
+    },
+    {
+      "level": 3,
+      "title": "A.1 FORMで扱えるコード系",
+      "page": 128,
+      "approx_chars": 101
+    },
+    {
+      "level": 3,
+      "title": "A.2 コード変換",
+      "page": 128,
+      "approx_chars": 4775
+    },
+    {
+      "level": 2,
+      "title": "付録B 画面・帳票定義体のサイズ削減方法",
+      "page": 139,
+      "approx_chars": 1461
+    },
+    {
+      "level": 2,
+      "title": "付録C 画面・帳票定義体のサイズ概算方法",
+      "page": 141,
+      "approx_chars": 3947
+    },
+    {
+      "level": 2,
+      "title": "付録D PowerFORMフリーフレーム形式サンプル 作成手引き",
+      "page": 145,
+      "approx_chars": 19252
+    },
+    {
+      "level": 3,
+      "title": "D.1 フリーフレーム形式の特長",
+      "page": 146,
+      "approx_chars": 1905
+    },
+    {
+      "level": 3,
+      "title": "D.2 サンプル作成手順",
+      "page": 150,
+      "approx_chars": 16789
+    },
+    {
+      "level": 2,
+      "title": "付録E FORMオーバレイ定義体移行時の留意事項",
+      "page": 180,
+      "approx_chars": 3416
+    },
+    {
+      "level": 2,
+      "title": "付録F PowerFORMオーバレイ定義体移行時の留 意事項",
+      "page": 182,
+      "approx_chars": 2900
+    },
+    {
+      "level": 3,
+      "title": "F.1 Windows移行前の留意事項",
+      "page": 183,
+      "approx_chars": 291
+    },
+    {
+      "level": 3,
+      "title": "F.2 PowerFORMで他システムで作成したオーバレイ定 義体を扱う場合の留意事項",
+      "page": 183,
+      "approx_chars": 892
+    },
+    {
+      "level": 3,
+      "title": "F.3 ターゲットシステムがWindows以外の場合の注意事 項",
+      "page": 184,
+      "approx_chars": 523
+    },
+    {
+      "level": 3,
+      "title": "F.4 他システムに移行後の注意事項",
+      "page": 184,
+      "approx_chars": 389
+    },
+    {
+      "level": 2,
+      "title": "付録G PowerFORMコンバータ対応表",
+      "page": 185,
+      "approx_chars": 24310
+    },
+    {
+      "level": 2,
+      "title": "付録H PowerFORM形式による機能比較表",
+      "page": 207,
+      "approx_chars": 7477
+    },
+    {
+      "level": 2,
+      "title": "付録I PowerFORMターゲットシステムによる機 能比較表",
+      "page": 216,
+      "approx_chars": 6035
+    },
+    {
+      "level": 3,
+      "title": "I.1 ターゲットシステムごとのオーバレイ定義機能の違 いについて",
+      "page": 217,
+      "approx_chars": 2763
+    },
+    {
+      "level": 3,
+      "title": "I.2 ターゲットシステムによるPowerFORMで使用でき るコマンドの違いについて",
+      "page": 220,
+      "approx_chars": 2925
+    },
+    {
+      "level": 1,
+      "title": "索引",
+      "page": 224,
+      "approx_chars": 4750
+    }
+  ]
+}

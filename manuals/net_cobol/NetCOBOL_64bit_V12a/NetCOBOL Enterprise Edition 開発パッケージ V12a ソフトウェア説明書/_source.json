@@ -1,0 +1,606 @@
+{
+  "source_file": "SoftwareGuide_EE.pdf",
+  "title": "ソフトウェア説明書",
+  "product": "NetCOBOL Enterprise Edition 開発パッケージ V12a",
+  "full_title": "NetCOBOL Enterprise Edition 開発パッケージ V12a ソフトウェア説明書",
+  "pages": 122,
+  "approx_chars": 301446,
+  "outline_entries_total": 118,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 139
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 4219
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 5,
+      "approx_chars": 19748
+    },
+    {
+      "level": 1,
+      "title": "第1章 製品概要",
+      "page": 8,
+      "approx_chars": 2044
+    },
+    {
+      "level": 1,
+      "title": "第2章 製品構成",
+      "page": 10,
+      "approx_chars": 1154
+    },
+    {
+      "level": 2,
+      "title": "2.1 製品パッケージに含まれるメディアの種類",
+      "page": 10,
+      "approx_chars": 367
+    },
+    {
+      "level": 2,
+      "title": "2.2 構成コンポーネント",
+      "page": 10,
+      "approx_chars": 763
+    },
+    {
+      "level": 1,
+      "title": "第3章 適用マニュアル",
+      "page": 11,
+      "approx_chars": 2425
+    },
+    {
+      "level": 2,
+      "title": "3.1 オンラインマニュアル",
+      "page": 11,
+      "approx_chars": 2123
+    },
+    {
+      "level": 2,
+      "title": "3.2 セットアップディスク上のオンラインマニュアル",
+      "page": 12,
+      "approx_chars": 272
+    },
+    {
+      "level": 1,
+      "title": "第4章 ソフトウェア環境",
+      "page": 13,
+      "approx_chars": 14762
+    },
+    {
+      "level": 2,
+      "title": "4.1 基本ソフトウェア",
+      "page": 13,
+      "approx_chars": 1161
+    },
+    {
+      "level": 2,
+      "title": "4.2 必須ソフトウェア",
+      "page": 14,
+      "approx_chars": 13489
+    },
+    {
+      "level": 3,
+      "title": "4.2.1 ソフトウェア",
+      "page": 14,
+      "approx_chars": 4637
+    },
+    {
+      "level": 3,
+      "title": "4.2.2 データベースアクセス環境",
+      "page": 17,
+      "approx_chars": 2905
+    },
+    {
+      "level": 3,
+      "title": "4.2.3 マルチスレッド動作環境",
+      "page": 19,
+      "approx_chars": 211
+    },
+    {
+      "level": 3,
+      "title": "4.2.4 Unicode動作環境",
+      "page": 20,
+      "approx_chars": 587
+    },
+    {
+      "level": 3,
+      "title": "4.2.5 Eclipseプラグイン",
+      "page": 20,
+      "approx_chars": 560
+    },
+    {
+      "level": 3,
+      "title": "4.2.6 MeFt/Web HTML変換方式 動作環境",
+      "page": 20,
+      "approx_chars": 317
+    },
+    {
+      "level": 3,
+      "title": "4.2.7 Microsoft社製ツール/Windows 10 SDK",
+      "page": 21,
+      "approx_chars": 212
+    },
+    {
+      "level": 3,
+      "title": "4.2.8 NetCOBOL Studioが利用するOpenJDK/JRE",
+      "page": 21,
+      "approx_chars": 3933
+    },
+    {
+      "level": 2,
+      "title": "4.3 修正情報",
+      "page": 23,
+      "approx_chars": 33
+    },
+    {
+      "level": 2,
+      "title": "4.4 排他ソフトウェア",
+      "page": 23,
+      "approx_chars": 47
+    },
+    {
+      "level": 1,
+      "title": "第5章 ハードウェア環境",
+      "page": 24,
+      "approx_chars": 238
+    },
+    {
+      "level": 1,
+      "title": "第6章 制限事項",
+      "page": 25,
+      "approx_chars": 41
+    },
+    {
+      "level": 1,
+      "title": "第7章 移行上の注意事項",
+      "page": 26,
+      "approx_chars": 82
+    },
+    {
+      "level": 1,
+      "title": "第8章 留意事項",
+      "page": 27,
+      "approx_chars": 19901
+    },
+    {
+      "level": 2,
+      "title": "8.1 非サポート機能",
+      "page": 27,
+      "approx_chars": 265
+    },
+    {
+      "level": 3,
+      "title": "8.1.1 簡易アプリ間通信機能の使用について",
+      "page": 27,
+      "approx_chars": 77
+    },
+    {
+      "level": 3,
+      "title": "8.1.2 Web連携機能(Webサブルーチン)の使用について",
+      "page": 27,
+      "approx_chars": 101
+    },
+    {
+      "level": 3,
+      "title": "8.1.3 COM機能について",
+      "page": 27,
+      "approx_chars": 56
+    },
+    {
+      "level": 2,
+      "title": "8.2 コンポーネント共通",
+      "page": 27,
+      "approx_chars": 980
+    },
+    {
+      "level": 3,
+      "title": "8.2.1 Windowsのアップグレードについて",
+      "page": 27,
+      "approx_chars": 211
+    },
+    {
+      "level": 3,
+      "title": "8.2.2 セキュリティについて",
+      "page": 27,
+      "approx_chars": 192
+    },
+    {
+      "level": 3,
+      "title": "8.2.3 本製品のサポートについて",
+      "page": 27,
+      "approx_chars": 356
+    },
+    {
+      "level": 3,
+      "title": "8.2.4 本製品に含まれるオープンソースソフトウェアについて",
+      "page": 27,
+      "approx_chars": 186
+    },
+    {
+      "level": 2,
+      "title": "8.3 NetCOBOL",
+      "page": 28,
+      "approx_chars": 10883
+    },
+    {
+      "level": 3,
+      "title": "8.3.1 機能仕様",
+      "page": 28,
+      "approx_chars": 3402
+    },
+    {
+      "level": 3,
+      "title": "8.3.2 ODBCインタフェースによるリモートデータベースアクセス",
+      "page": 30,
+      "approx_chars": 1589
+    },
+    {
+      "level": 3,
+      "title": "8.3.3 INSDBINFコマンド",
+      "page": 30,
+      "approx_chars": 667
+    },
+    {
+      "level": 3,
+      "title": "8.3.4 Actian 製品について",
+      "page": 31,
+      "approx_chars": 180
+    },
+    {
+      "level": 3,
+      "title": "8.3.5 開発環境",
+      "page": 31,
+      "approx_chars": 4421
+    },
+    {
+      "level": 3,
+      "title": "8.3.6 アプリケーションの置き換え",
+      "page": 33,
+      "approx_chars": 149
+    },
+    {
+      "level": 3,
+      "title": "8.3.7 32ビットWindows版NetCOBOL製品との共存について",
+      "page": 33,
+      "approx_chars": 203
+    },
+    {
+      "level": 3,
+      "title": "8.3.8 ファイルの関連付けについて",
+      "page": 34,
+      "approx_chars": 239
+    },
+    {
+      "level": 2,
+      "title": "8.4 FORM",
+      "page": 34,
+      "approx_chars": 2481
+    },
+    {
+      "level": 3,
+      "title": "8.4.1 Windows 10、Windows Server 2016、およびWindows Server 2019利用時の注意事項",
+      "page": 34,
+      "approx_chars": 230
+    },
+    {
+      "level": 3,
+      "title": "8.4.2 画面定義時の背景色と前面色の指定について",
+      "page": 34,
+      "approx_chars": 1036
+    },
+    {
+      "level": 3,
+      "title": "8.4.3 ファイルの関連付けについて",
+      "page": 34,
+      "approx_chars": 1035
+    },
+    {
+      "level": 2,
+      "title": "8.5 MeFt",
+      "page": 35,
+      "approx_chars": 3061
+    },
+    {
+      "level": 3,
+      "title": "8.5.1 64bit版MeFtの注意事項",
+      "page": 35,
+      "approx_chars": 1095
+    },
+    {
+      "level": 3,
+      "title": "8.5.2 Windows 10 利用時の注意事項",
+      "page": 36,
+      "approx_chars": 234
+    },
+    {
+      "level": 3,
+      "title": "8.5.3 印刷に関する注意事項",
+      "page": 36,
+      "approx_chars": 983
+    },
+    {
+      "level": 3,
+      "title": "8.5.4 ファイル名に関する注意事項",
+      "page": 36,
+      "approx_chars": 99
+    },
+    {
+      "level": 3,
+      "title": "8.5.5 IPv6サポートについて",
+      "page": 36,
+      "approx_chars": 140
+    },
+    {
+      "level": 3,
+      "title": "8.5.6 IVSを利用した文字について",
+      "page": 36,
+      "approx_chars": 171
+    },
+    {
+      "level": 3,
+      "title": "8.5.7 その他",
+      "page": 36,
+      "approx_chars": 314
+    },
+    {
+      "level": 2,
+      "title": "8.6 MeFt/Web",
+      "page": 37,
+      "approx_chars": 1528
+    },
+    {
+      "level": 3,
+      "title": "8.6.1 Windows 10 利用時の注意事項",
+      "page": 37,
+      "approx_chars": 197
+    },
+    {
+      "level": 3,
+      "title": "8.6.2 ActiveXコントロールについて",
+      "page": 37,
+      "approx_chars": 328
+    },
+    {
+      "level": 3,
+      "title": "8.6.3 IPv6 使用上の留意事項",
+      "page": 37,
+      "approx_chars": 113
+    },
+    {
+      "level": 3,
+      "title": "8.6.4 Internet Explorer 11 利用時のMeFt/Webにおける注意事項",
+      "page": 37,
+      "approx_chars": 857
+    },
+    {
+      "level": 2,
+      "title": "8.7 SIMPLIA/COBOL支援キット",
+      "page": 37,
+      "approx_chars": 112
+    },
+    {
+      "level": 2,
+      "title": "8.8 PowerSORT Server",
+      "page": 38,
+      "approx_chars": 567
+    },
+    {
+      "level": 3,
+      "title": "8.8.1 PowerSORTの同一システム内の共存について",
+      "page": 38,
+      "approx_chars": 302
+    },
+    {
+      "level": 3,
+      "title": "8.8.2 コマンドの起動方法について",
+      "page": 38,
+      "approx_chars": 216
+    },
+    {
+      "level": 1,
+      "title": "第9章 インストール/アンインストール方法",
+      "page": 39,
+      "approx_chars": 402
+    },
+    {
+      "level": 1,
+      "title": "付録A 各種ユーティリティおよびツール",
+      "page": 40,
+      "approx_chars": 4056
+    },
+    {
+      "level": 2,
+      "title": "A.1 NetCOBOL",
+      "page": 40,
+      "approx_chars": 1849
+    },
+    {
+      "level": 2,
+      "title": "A.2 FORM",
+      "page": 41,
+      "approx_chars": 2161
+    },
+    {
+      "level": 1,
+      "title": "付録B サンプルプログラムについて",
+      "page": 43,
+      "approx_chars": 5404
+    },
+    {
+      "level": 2,
+      "title": "B.1 NetCOBOL",
+      "page": 43,
+      "approx_chars": 143
+    },
+    {
+      "level": 2,
+      "title": "B.2 Jアダプタクラスジェネレータ",
+      "page": 43,
+      "approx_chars": 163
+    },
+    {
+      "level": 2,
+      "title": "B.3 FORM",
+      "page": 43,
+      "approx_chars": 3720
+    },
+    {
+      "level": 2,
+      "title": "B.4 MeFt",
+      "page": 46,
+      "approx_chars": 250
+    },
+    {
+      "level": 2,
+      "title": "B.5 MeFt/Web",
+      "page": 46,
+      "approx_chars": 275
+    },
+    {
+      "level": 2,
+      "title": "B.6 MeFt/Web HTML変換方式",
+      "page": 47,
+      "approx_chars": 186
+    },
+    {
+      "level": 2,
+      "title": "B.7 SIMPLIA",
+      "page": 47,
+      "approx_chars": 522
+    },
+    {
+      "level": 1,
+      "title": "付録C 保守機能",
+      "page": 48,
+      "approx_chars": 1592
+    },
+    {
+      "level": 2,
+      "title": "C.1 FJQSS(資料採取ツール)",
+      "page": 48,
+      "approx_chars": 1222
+    },
+    {
+      "level": 2,
+      "title": "C.2 ファイルログ出力機能と索引ファイル解析ツール",
+      "page": 48,
+      "approx_chars": 346
+    },
+    {
+      "level": 1,
+      "title": "付録D 謝辞、免責文、ライセンス文",
+      "page": 50,
+      "approx_chars": 225239
+    },
+    {
+      "level": 2,
+      "title": "D.1 Eclipse SDKのライセンスについて",
+      "page": 50,
+      "approx_chars": 11795
+    },
+    {
+      "level": 2,
+      "title": "D.2 日本語言語パックについて",
+      "page": 52,
+      "approx_chars": 11831
+    },
+    {
+      "level": 2,
+      "title": "D.3 Orion SSH2のライセンスについて",
+      "page": 55,
+      "approx_chars": 5353
+    },
+    {
+      "level": 2,
+      "title": "D.4 libjpegについて",
+      "page": 57,
+      "approx_chars": 153
+    },
+    {
+      "level": 2,
+      "title": "D.5 CIRuntime Applicationに含まれるソフトウェアのライセンスについて",
+      "page": 57,
+      "approx_chars": 153648
+    },
+    {
+      "level": 3,
+      "title": "D.5.1 MiG Layout Manager for Java Swing and SWT 3.7.3.1",
+      "page": 57,
+      "approx_chars": 1757
+    },
+    {
+      "level": 3,
+      "title": "D.5.2 OpenJDK 8",
+      "page": 58,
+      "approx_chars": 151691
+    },
+    {
+      "level": 2,
+      "title": "D.6 Apache License, Version 2.0が適用されるソフトウェアについて",
+      "page": 106,
+      "approx_chars": 11527
+    },
+    {
+      "level": 2,
+      "title": "D.7 Crypto++のライセンスについて",
+      "page": 109,
+      "approx_chars": 1472
+    },
+    {
+      "level": 2,
+      "title": "D.8 Microsoft Visual Studio 再頒布可能コードについて",
+      "page": 110,
+      "approx_chars": 361
+    },
+    {
+      "level": 2,
+      "title": "D.9 Microsoft Visual Studio 2005 再頒布可能ファイルのソフトウェアライセンス条項について",
+      "page": 110,
+      "approx_chars": 3337
+    },
+    {
+      "level": 2,
+      "title": "D.10 Microsoft Visual Studio 2008 再頒布可能ファイルのソフトウェアライセンス条項について",
+      "page": 112,
+      "approx_chars": 3345
+    },
+    {
+      "level": 2,
+      "title": "D.11 Microsoft Visual Studio 2010 再頒布可能ファイルのソフトウェアライセンス条項について",
+      "page": 114,
+      "approx_chars": 3321
+    },
+    {
+      "level": 2,
+      "title": "D.12 Microsoft Visual Studio 2013 再頒布可能ファイルのソフトウェアライセンス条項について",
+      "page": 115,
+      "approx_chars": 3331
+    },
+    {
+      "level": 2,
+      "title": "D.13 Microsoft Visual Studio 2015 再頒布可能ファイルのソフトウェアライセンス条項について",
+      "page": 117,
+      "approx_chars": 6133
+    },
+    {
+      "level": 2,
+      "title": "D.14 MICROSOFT VISUAL STUDIO 2017 TOOLS, ADD-ONs and C++ REDISTRIBUTABLE",
+      "page": 120,
+      "approx_chars": 9382
+    },
+    {
+      "level": 2,
+      "title": "D.15 Windows SDKのライセンスについて",
+      "page": 122,
+      "approx_chars": 208
+    }
+  ]
+}

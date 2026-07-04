@@ -1,0 +1,1986 @@
+{
+  "source_file": "cobwsd64.pdf",
+  "title": "NetCOBOL Studio ユーザーズガイド",
+  "product": "NetCOBOL V12.2",
+  "full_title": "NetCOBOL V12.2 NetCOBOL Studio ユーザーズガイド",
+  "pages": 329,
+  "approx_chars": 449215,
+  "outline_entries_total": 452,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 109
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 5320
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 6,
+      "approx_chars": 77529
+    },
+    {
+      "level": 1,
+      "title": "第1章 概要",
+      "page": 15,
+      "approx_chars": 8218
+    },
+    {
+      "level": 2,
+      "title": "1.1 NetCOBOL Studioとは",
+      "page": 15,
+      "approx_chars": 2237
+    },
+    {
+      "level": 3,
+      "title": "1.1.1 NetCOBOL主体のアプリケーション開発に用いる場合",
+      "page": 15,
+      "approx_chars": 985
+    },
+    {
+      "level": 3,
+      "title": "1.1.2 Interstage StudioにNetCOBOL StudioのCOBOLプラグインを組み込む場合",
+      "page": 16,
+      "approx_chars": 665
+    },
+    {
+      "level": 2,
+      "title": "1.2 機能概要",
+      "page": 16,
+      "approx_chars": 2159
+    },
+    {
+      "level": 2,
+      "title": "1.3 動作環境の設定",
+      "page": 18,
+      "approx_chars": 2767
+    },
+    {
+      "level": 3,
+      "title": "1.3.1 NetCOBOL Studioの起動",
+      "page": 18,
+      "approx_chars": 2576
+    },
+    {
+      "level": 2,
+      "title": "1.4 開発の流れ",
+      "page": 20,
+      "approx_chars": 995
+    },
+    {
+      "level": 3,
+      "title": "1.4.1 開発形態",
+      "page": 20,
+      "approx_chars": 270
+    },
+    {
+      "level": 3,
+      "title": "1.4.2 ローカル開発の流れ",
+      "page": 20,
+      "approx_chars": 547
+    },
+    {
+      "level": 3,
+      "title": "1.4.3 リモート開発の流れ",
+      "page": 21,
+      "approx_chars": 100
+    },
+    {
+      "level": 1,
+      "title": "第2章 チュートリアル",
+      "page": 22,
+      "approx_chars": 9863
+    },
+    {
+      "level": 2,
+      "title": "2.1 COBOLプログラムの作成",
+      "page": 22,
+      "approx_chars": 4973
+    },
+    {
+      "level": 2,
+      "title": "2.2 リモート開発によるCOBOLプログラムの作成",
+      "page": 31,
+      "approx_chars": 4752
+    },
+    {
+      "level": 1,
+      "title": "第3章 COBOLパースペクティブ",
+      "page": 40,
+      "approx_chars": 40805
+    },
+    {
+      "level": 2,
+      "title": "3.1 [依存]ビュー",
+      "page": 41,
+      "approx_chars": 14690
+    },
+    {
+      "level": 3,
+      "title": "3.1.1 [依存]ビューの役割",
+      "page": 41,
+      "approx_chars": 4211
+    },
+    {
+      "level": 3,
+      "title": "3.1.2 [依存]ビューのコンテキストメニュー",
+      "page": 44,
+      "approx_chars": 9357
+    },
+    {
+      "level": 3,
+      "title": "3.1.3 依存関係の解析",
+      "page": 51,
+      "approx_chars": 1091
+    },
+    {
+      "level": 2,
+      "title": "3.2 [構造]ビュー",
+      "page": 52,
+      "approx_chars": 5125
+    },
+    {
+      "level": 3,
+      "title": "3.2.1 [構造]ビューの役割",
+      "page": 52,
+      "approx_chars": 700
+    },
+    {
+      "level": 3,
+      "title": "3.2.2 [構造]ビューのコンテキストメニュー",
+      "page": 53,
+      "approx_chars": 4394
+    },
+    {
+      "level": 2,
+      "title": "3.3 [ナビゲーター]ビュー",
+      "page": 56,
+      "approx_chars": 7411
+    },
+    {
+      "level": 3,
+      "title": "3.3.1 [ナビゲーター]ビューの役割",
+      "page": 56,
+      "approx_chars": 4490
+    },
+    {
+      "level": 3,
+      "title": "3.3.2 [ナビゲーター]ビューのツールバー",
+      "page": 59,
+      "approx_chars": 596
+    },
+    {
+      "level": 3,
+      "title": "3.3.3 [ナビゲーター]ビューのコンテキストメニュー",
+      "page": 60,
+      "approx_chars": 2286
+    },
+    {
+      "level": 2,
+      "title": "3.4 [プロパティー]ビュー",
+      "page": 62,
+      "approx_chars": 165
+    },
+    {
+      "level": 3,
+      "title": "3.4.1 [プロパティー]ビューの役割",
+      "page": 62,
+      "approx_chars": 126
+    },
+    {
+      "level": 2,
+      "title": "3.5 [アウトライン]ビュー",
+      "page": 62,
+      "approx_chars": 846
+    },
+    {
+      "level": 3,
+      "title": "3.5.1 [アウトライン]ビューの役割",
+      "page": 62,
+      "approx_chars": 471
+    },
+    {
+      "level": 3,
+      "title": "3.5.2 [アウトライン]ビューのツールバー",
+      "page": 63,
+      "approx_chars": 336
+    },
+    {
+      "level": 2,
+      "title": "3.6 [問題]ビュー",
+      "page": 63,
+      "approx_chars": 984
+    },
+    {
+      "level": 3,
+      "title": "3.6.1 [問題]ビューの役割",
+      "page": 63,
+      "approx_chars": 953
+    },
+    {
+      "level": 2,
+      "title": "3.7 [タスク]ビュー",
+      "page": 64,
+      "approx_chars": 1254
+    },
+    {
+      "level": 3,
+      "title": "3.7.1 [タスク]ビューの役割",
+      "page": 64,
+      "approx_chars": 1221
+    },
+    {
+      "level": 2,
+      "title": "3.8 [コンソール]ビュー",
+      "page": 65,
+      "approx_chars": 216
+    },
+    {
+      "level": 3,
+      "title": "3.8.1 [コンソール]ビューの役割",
+      "page": 65,
+      "approx_chars": 179
+    },
+    {
+      "level": 2,
+      "title": "3.9 [テンプレート]ビュー",
+      "page": 65,
+      "approx_chars": 9553
+    },
+    {
+      "level": 3,
+      "title": "3.9.1 [テンプレート]ビューの役割",
+      "page": 66,
+      "approx_chars": 7322
+    },
+    {
+      "level": 3,
+      "title": "3.9.2 [テンプレート]ビューのコンテキストメニュー",
+      "page": 73,
+      "approx_chars": 807
+    },
+    {
+      "level": 3,
+      "title": "3.9.3 [テンプレート]ページ",
+      "page": 73,
+      "approx_chars": 708
+    },
+    {
+      "level": 1,
+      "title": "第4章 プロジェクト",
+      "page": 75,
+      "approx_chars": 17959
+    },
+    {
+      "level": 2,
+      "title": "4.1 概要",
+      "page": 75,
+      "approx_chars": 2251
+    },
+    {
+      "level": 3,
+      "title": "4.1.1 COBOLソリューションプロジェクトとは",
+      "page": 75,
+      "approx_chars": 370
+    },
+    {
+      "level": 3,
+      "title": "4.1.2 COBOLプロジェクトとは",
+      "page": 75,
+      "approx_chars": 158
+    },
+    {
+      "level": 3,
+      "title": "4.1.3 COBOLリソースプロジェクトとは",
+      "page": 75,
+      "approx_chars": 801
+    },
+    {
+      "level": 3,
+      "title": "4.1.4 プロジェクト管理に関する注意事項",
+      "page": 76,
+      "approx_chars": 751
+    },
+    {
+      "level": 2,
+      "title": "4.2 ウィザード",
+      "page": 76,
+      "approx_chars": 7957
+    },
+    {
+      "level": 3,
+      "title": "4.2.1 COBOLソリューションプロジェクト生成ウィザード",
+      "page": 77,
+      "approx_chars": 803
+    },
+    {
+      "level": 3,
+      "title": "4.2.2 COBOLプロジェクト生成ウィザード",
+      "page": 77,
+      "approx_chars": 3812
+    },
+    {
+      "level": 3,
+      "title": "4.2.3 COBOLリソースプロジェクト生成ウィザード",
+      "page": 80,
+      "approx_chars": 537
+    },
+    {
+      "level": 3,
+      "title": "4.2.4 COBOLソース生成ウィザード",
+      "page": 80,
+      "approx_chars": 747
+    },
+    {
+      "level": 3,
+      "title": "4.2.5 オブジェクト指向COBOLソース生成ウィザード",
+      "page": 81,
+      "approx_chars": 848
+    },
+    {
+      "level": 3,
+      "title": "4.2.6 COBOL登録集生成ウィザード",
+      "page": 82,
+      "approx_chars": 575
+    },
+    {
+      "level": 2,
+      "title": "4.3 COBOLソリューションプロジェクト",
+      "page": 82,
+      "approx_chars": 2417
+    },
+    {
+      "level": 3,
+      "title": "4.3.1 COBOLプロジェクトの管理",
+      "page": 82,
+      "approx_chars": 1530
+    },
+    {
+      "level": 3,
+      "title": "4.3.2 プロジェクトに対する一括操作",
+      "page": 83,
+      "approx_chars": 343
+    },
+    {
+      "level": 3,
+      "title": "4.3.3 プロジェクトに対する共通オプションの設定",
+      "page": 83,
+      "approx_chars": 434
+    },
+    {
+      "level": 2,
+      "title": "4.4 COBOLプロジェクト",
+      "page": 84,
+      "approx_chars": 1696
+    },
+    {
+      "level": 3,
+      "title": "4.4.1 既存COBOL資産を追加する",
+      "page": 84,
+      "approx_chars": 1608
+    },
+    {
+      "level": 2,
+      "title": "4.5 COBOLリソースプロジェクト",
+      "page": 85,
+      "approx_chars": 1207
+    },
+    {
+      "level": 3,
+      "title": "4.5.1 既存COBOL資産を追加する",
+      "page": 85,
+      "approx_chars": 377
+    },
+    {
+      "level": 3,
+      "title": "4.5.2 他のプロジェクトから参照する",
+      "page": 85,
+      "approx_chars": 726
+    },
+    {
+      "level": 2,
+      "title": "4.6 新規プロジェクトのデフォルト値",
+      "page": 86,
+      "approx_chars": 720
+    },
+    {
+      "level": 2,
+      "title": "4.7 ファイル・コンテンツ",
+      "page": 86,
+      "approx_chars": 1683
+    },
+    {
+      "level": 1,
+      "title": "第5章 エディター",
+      "page": 88,
+      "approx_chars": 16055
+    },
+    {
+      "level": 2,
+      "title": "5.1 キーワードの強調表示",
+      "page": 88,
+      "approx_chars": 1890
+    },
+    {
+      "level": 2,
+      "title": "5.2 フォントの設定",
+      "page": 89,
+      "approx_chars": 666
+    },
+    {
+      "level": 2,
+      "title": "5.3 タブ幅の変更",
+      "page": 90,
+      "approx_chars": 294
+    },
+    {
+      "level": 2,
+      "title": "5.4 行番号の表示",
+      "page": 90,
+      "approx_chars": 341
+    },
+    {
+      "level": 2,
+      "title": "5.5 一連番号",
+      "page": 91,
+      "approx_chars": 1620
+    },
+    {
+      "level": 3,
+      "title": "5.5.1 一連番号の振り直し",
+      "page": 91,
+      "approx_chars": 432
+    },
+    {
+      "level": 3,
+      "title": "5.5.2 一連番号の初期値および増加値の変更",
+      "page": 92,
+      "approx_chars": 372
+    },
+    {
+      "level": 2,
+      "title": "5.6 水平方向ルーラーの表示",
+      "page": 92,
+      "approx_chars": 609
+    },
+    {
+      "level": 2,
+      "title": "5.7 垂直方向ルーラー",
+      "page": 93,
+      "approx_chars": 523
+    },
+    {
+      "level": 2,
+      "title": "5.8 概説ルーラー表示",
+      "page": 93,
+      "approx_chars": 554
+    },
+    {
+      "level": 2,
+      "title": "5.9 クイックDiff表示",
+      "page": 94,
+      "approx_chars": 329
+    },
+    {
+      "level": 2,
+      "title": "5.10 正書法",
+      "page": 95,
+      "approx_chars": 1731
+    },
+    {
+      "level": 2,
+      "title": "5.11 コードフォーマッタ",
+      "page": 96,
+      "approx_chars": 314
+    },
+    {
+      "level": 2,
+      "title": "5.12 コメントのスタイル",
+      "page": 96,
+      "approx_chars": 387
+    },
+    {
+      "level": 2,
+      "title": "5.13 入力支援候補一覧（コンテンツアシスト）",
+      "page": 97,
+      "approx_chars": 957
+    },
+    {
+      "level": 2,
+      "title": "5.14 挿入／上書きモード",
+      "page": 97,
+      "approx_chars": 137
+    },
+    {
+      "level": 2,
+      "title": "5.15 すべて選択",
+      "page": 97,
+      "approx_chars": 173
+    },
+    {
+      "level": 2,
+      "title": "5.16 元に戻す／やり直し",
+      "page": 98,
+      "approx_chars": 259
+    },
+    {
+      "level": 2,
+      "title": "5.17 左へシフト／右へシフト",
+      "page": 98,
+      "approx_chars": 419
+    },
+    {
+      "level": 2,
+      "title": "5.18 切り取り／コピー／貼り付け",
+      "page": 98,
+      "approx_chars": 397
+    },
+    {
+      "level": 2,
+      "title": "5.19 検索／置換",
+      "page": 98,
+      "approx_chars": 931
+    },
+    {
+      "level": 2,
+      "title": "5.20 指定行／一連番号へジャンプ",
+      "page": 99,
+      "approx_chars": 632
+    },
+    {
+      "level": 2,
+      "title": "5.21 ブックマーク",
+      "page": 100,
+      "approx_chars": 288
+    },
+    {
+      "level": 2,
+      "title": "5.22 タスク",
+      "page": 100,
+      "approx_chars": 423
+    },
+    {
+      "level": 2,
+      "title": "5.23 エディターの分割表示",
+      "page": 100,
+      "approx_chars": 403
+    },
+    {
+      "level": 2,
+      "title": "5.24 行の折り返し",
+      "page": 101,
+      "approx_chars": 136
+    },
+    {
+      "level": 2,
+      "title": "5.25 自動保管",
+      "page": 101,
+      "approx_chars": 364
+    },
+    {
+      "level": 2,
+      "title": "5.26 拡張子のCOBOLエディターへの関連付け",
+      "page": 101,
+      "approx_chars": 1034
+    },
+    {
+      "level": 1,
+      "title": "第6章 ビルド機能",
+      "page": 103,
+      "approx_chars": 23524
+    },
+    {
+      "level": 2,
+      "title": "6.1 COBOLコンパイラ",
+      "page": 103,
+      "approx_chars": 6892
+    },
+    {
+      "level": 3,
+      "title": "6.1.1 翻訳に関係するファイル",
+      "page": 103,
+      "approx_chars": 1777
+    },
+    {
+      "level": 3,
+      "title": "6.1.2 主プログラムの設定",
+      "page": 105,
+      "approx_chars": 1115
+    },
+    {
+      "level": 3,
+      "title": "6.1.3 翻訳オプションの設定",
+      "page": 106,
+      "approx_chars": 1435
+    },
+    {
+      "level": 3,
+      "title": "6.1.4 翻訳オプションファイルの利用",
+      "page": 107,
+      "approx_chars": 315
+    },
+    {
+      "level": 3,
+      "title": "6.1.5 登録集名の設定",
+      "page": 107,
+      "approx_chars": 1038
+    },
+    {
+      "level": 3,
+      "title": "6.1.6 ファイルの格納場所を指定する翻訳オプションの設定",
+      "page": 108,
+      "approx_chars": 1140
+    },
+    {
+      "level": 2,
+      "title": "6.2 プリコンパイラ",
+      "page": 108,
+      "approx_chars": 7788
+    },
+    {
+      "level": 3,
+      "title": "6.2.1 プリコンパイラ連携情報の初期値の設定・変更",
+      "page": 108,
+      "approx_chars": 1620
+    },
+    {
+      "level": 3,
+      "title": "6.2.2 INSDBINFコマンド",
+      "page": 110,
+      "approx_chars": 887
+    },
+    {
+      "level": 3,
+      "title": "6.2.3 プリコンパイラを使用したCOBOLプログラムの作成",
+      "page": 110,
+      "approx_chars": 5202
+    },
+    {
+      "level": 2,
+      "title": "6.3 リンカ",
+      "page": 113,
+      "approx_chars": 3275
+    },
+    {
+      "level": 3,
+      "title": "6.3.1 リンクオプションの設定",
+      "page": 114,
+      "approx_chars": 1862
+    },
+    {
+      "level": 3,
+      "title": "6.3.2 ターゲットオプションの設定",
+      "page": 115,
+      "approx_chars": 1238
+    },
+    {
+      "level": 2,
+      "title": "6.4 リソースコンパイラ",
+      "page": 116,
+      "approx_chars": 1632
+    },
+    {
+      "level": 3,
+      "title": "6.4.1 リソースコンパイラのビルドツールへの設定",
+      "page": 116,
+      "approx_chars": 1014
+    },
+    {
+      "level": 3,
+      "title": "6.4.2 リソースコンパイラの設定",
+      "page": 117,
+      "approx_chars": 383
+    },
+    {
+      "level": 2,
+      "title": "6.5 COBOLプログラムのビルド",
+      "page": 117,
+      "approx_chars": 2888
+    },
+    {
+      "level": 3,
+      "title": "6.5.1 手動ビルド",
+      "page": 117,
+      "approx_chars": 1867
+    },
+    {
+      "level": 3,
+      "title": "6.5.2 自動ビルド",
+      "page": 118,
+      "approx_chars": 166
+    },
+    {
+      "level": 3,
+      "title": "6.5.3 リポジトリファイルの依存関係の解析",
+      "page": 118,
+      "approx_chars": 720
+    },
+    {
+      "level": 2,
+      "title": "6.6 翻訳エラーの修正",
+      "page": 119,
+      "approx_chars": 250
+    },
+    {
+      "level": 1,
+      "title": "第7章 デバッグ機能",
+      "page": 120,
+      "approx_chars": 15015
+    },
+    {
+      "level": 2,
+      "title": "7.1 アプリケーションのデバッグ",
+      "page": 120,
+      "approx_chars": 4077
+    },
+    {
+      "level": 3,
+      "title": "7.1.1 デバッグ情報ファイルを作成する",
+      "page": 120,
+      "approx_chars": 571
+    },
+    {
+      "level": 3,
+      "title": "7.1.2 デバッグ開始時の起動構成",
+      "page": 120,
+      "approx_chars": 701
+    },
+    {
+      "level": 3,
+      "title": "7.1.3 デバッグを開始する",
+      "page": 121,
+      "approx_chars": 1870
+    },
+    {
+      "level": 3,
+      "title": "7.1.4 デバッグ時のパースペクティブ",
+      "page": 122,
+      "approx_chars": 230
+    },
+    {
+      "level": 3,
+      "title": "7.1.5 デバッグ機能の概要",
+      "page": 122,
+      "approx_chars": 185
+    },
+    {
+      "level": 3,
+      "title": "7.1.6 デバッグを終了する",
+      "page": 122,
+      "approx_chars": 182
+    },
+    {
+      "level": 3,
+      "title": "7.1.7 注意事項",
+      "page": 123,
+      "approx_chars": 295
+    },
+    {
+      "level": 2,
+      "title": "7.2 デバッグパースペクティブ",
+      "page": 123,
+      "approx_chars": 4498
+    },
+    {
+      "level": 3,
+      "title": "7.2.1 [デバッグ]ビュー",
+      "page": 124,
+      "approx_chars": 814
+    },
+    {
+      "level": 3,
+      "title": "7.2.2 [ブレークポイント]ビュー",
+      "page": 124,
+      "approx_chars": 1045
+    },
+    {
+      "level": 3,
+      "title": "7.2.3 [ウォッチ]ビュー",
+      "page": 125,
+      "approx_chars": 2175
+    },
+    {
+      "level": 3,
+      "title": "7.2.4 [アウトライン]ビュー",
+      "page": 127,
+      "approx_chars": 138
+    },
+    {
+      "level": 2,
+      "title": "7.3 デバッガの機能",
+      "page": 127,
+      "approx_chars": 6241
+    },
+    {
+      "level": 3,
+      "title": "7.3.1 ブレークポイント",
+      "page": 127,
+      "approx_chars": 1947
+    },
+    {
+      "level": 3,
+      "title": "7.3.2 実行",
+      "page": 128,
+      "approx_chars": 1886
+    },
+    {
+      "level": 3,
+      "title": "7.3.3 データ項目を扱うデバッグ機能",
+      "page": 130,
+      "approx_chars": 1738
+    },
+    {
+      "level": 3,
+      "title": "7.3.4 COBOLエディターからウォッチビューへの追加",
+      "page": 131,
+      "approx_chars": 390
+    },
+    {
+      "level": 3,
+      "title": "7.3.5 実行開始位置変更",
+      "page": 131,
+      "approx_chars": 231
+    },
+    {
+      "level": 1,
+      "title": "第8章 実行機能",
+      "page": 132,
+      "approx_chars": 2933
+    },
+    {
+      "level": 2,
+      "title": "8.1 実行環境情報",
+      "page": 132,
+      "approx_chars": 661
+    },
+    {
+      "level": 2,
+      "title": "8.2 COBOLプログラムの実行",
+      "page": 132,
+      "approx_chars": 2184
+    },
+    {
+      "level": 1,
+      "title": "第9章 リモート開発",
+      "page": 135,
+      "approx_chars": 58113
+    },
+    {
+      "level": 2,
+      "title": "9.1 リモート開発の概要",
+      "page": 135,
+      "approx_chars": 3043
+    },
+    {
+      "level": 3,
+      "title": "9.1.1 リモート開発とは",
+      "page": 135,
+      "approx_chars": 584
+    },
+    {
+      "level": 3,
+      "title": "9.1.2 リモート開発のメリット",
+      "page": 135,
+      "approx_chars": 439
+    },
+    {
+      "level": 3,
+      "title": "9.1.3 リモート開発の流れ",
+      "page": 135,
+      "approx_chars": 1218
+    },
+    {
+      "level": 3,
+      "title": "9.1.4 リモート開発の注意点",
+      "page": 138,
+      "approx_chars": 626
+    },
+    {
+      "level": 3,
+      "title": "9.1.5 サーバ側とクライアント側の組合せ",
+      "page": 138,
+      "approx_chars": 141
+    },
+    {
+      "level": 2,
+      "title": "9.2 サーバ側の作業",
+      "page": 138,
+      "approx_chars": 16414
+    },
+    {
+      "level": 3,
+      "title": "9.2.1 サービスの開始",
+      "page": 138,
+      "approx_chars": 9687
+    },
+    {
+      "level": 3,
+      "title": "9.2.2 サーバの環境設定",
+      "page": 145,
+      "approx_chars": 6696
+    },
+    {
+      "level": 2,
+      "title": "9.3 サーバに接続するための準備",
+      "page": 149,
+      "approx_chars": 7646
+    },
+    {
+      "level": 3,
+      "title": "9.3.1 NetCOBOL Studioの動作環境の設定",
+      "page": 149,
+      "approx_chars": 3676
+    },
+    {
+      "level": 3,
+      "title": "9.3.2 COBOLプロジェクトの動作環境の設定",
+      "page": 152,
+      "approx_chars": 1355
+    },
+    {
+      "level": 3,
+      "title": "9.3.3 Windowsファイアウォールの例外の登録",
+      "page": 153,
+      "approx_chars": 2440
+    },
+    {
+      "level": 2,
+      "title": "9.4 メイクファイルの生成と資産の転送",
+      "page": 154,
+      "approx_chars": 13345
+    },
+    {
+      "level": 3,
+      "title": "9.4.1 メイクファイルの生成手順",
+      "page": 154,
+      "approx_chars": 928
+    },
+    {
+      "level": 3,
+      "title": "9.4.2 メイクファイルの生成条件の変更",
+      "page": 155,
+      "approx_chars": 260
+    },
+    {
+      "level": 3,
+      "title": "9.4.3 [メイクファイル生成]ダイアログボックス",
+      "page": 155,
+      "approx_chars": 1420
+    },
+    {
+      "level": 3,
+      "title": "9.4.4 [オプション設定]ダイアログボックス",
+      "page": 156,
+      "approx_chars": 8439
+    },
+    {
+      "level": 3,
+      "title": "9.4.5 メイクファイルの編集",
+      "page": 163,
+      "approx_chars": 392
+    },
+    {
+      "level": 3,
+      "title": "9.4.6 メイクファイルの再生成",
+      "page": 163,
+      "approx_chars": 509
+    },
+    {
+      "level": 3,
+      "title": "9.4.7 資産の転送",
+      "page": 163,
+      "approx_chars": 1285
+    },
+    {
+      "level": 2,
+      "title": "9.5 リモートビルド",
+      "page": 164,
+      "approx_chars": 2458
+    },
+    {
+      "level": 3,
+      "title": "9.5.1 ビルドの実行",
+      "page": 164,
+      "approx_chars": 560
+    },
+    {
+      "level": 3,
+      "title": "9.5.2 ビルドモードの設定",
+      "page": 165,
+      "approx_chars": 459
+    },
+    {
+      "level": 3,
+      "title": "9.5.3 資産の転送",
+      "page": 165,
+      "approx_chars": 820
+    },
+    {
+      "level": 3,
+      "title": "9.5.4 翻訳エラーの修正",
+      "page": 166,
+      "approx_chars": 476
+    },
+    {
+      "level": 2,
+      "title": "9.6 リモートデバッグ",
+      "page": 166,
+      "approx_chars": 13071
+    },
+    {
+      "level": 3,
+      "title": "9.6.1 通常デバッグ",
+      "page": 166,
+      "approx_chars": 4467
+    },
+    {
+      "level": 3,
+      "title": "9.6.2 アタッチデバッグ",
+      "page": 169,
+      "approx_chars": 8154
+    },
+    {
+      "level": 2,
+      "title": "9.7 Unicode環境でシフトJISを扱うアプリケーション",
+      "page": 176,
+      "approx_chars": 1676
+    },
+    {
+      "level": 3,
+      "title": "9.7.1 サーバ情報の設定",
+      "page": 176,
+      "approx_chars": 291
+    },
+    {
+      "level": 3,
+      "title": "9.7.2 プロジェクトの作成",
+      "page": 176,
+      "approx_chars": 656
+    },
+    {
+      "level": 3,
+      "title": "9.7.3 プロジェクトのリモートサーバの設定",
+      "page": 177,
+      "approx_chars": 136
+    },
+    {
+      "level": 3,
+      "title": "9.7.4 メイクファイル生成",
+      "page": 177,
+      "approx_chars": 111
+    },
+    {
+      "level": 3,
+      "title": "9.7.5 リモートデバッグ",
+      "page": 177,
+      "approx_chars": 233
+    },
+    {
+      "level": 2,
+      "title": "9.8 リモート開発時の注意事項",
+      "page": 177,
+      "approx_chars": 401
+    },
+    {
+      "level": 1,
+      "title": "第10章 Eclipse 4.6基盤の利用",
+      "page": 178,
+      "approx_chars": 1848
+    },
+    {
+      "level": 2,
+      "title": "10.1 Eclipse 4.3基盤との仕様差",
+      "page": 178,
+      "approx_chars": 1709
+    },
+    {
+      "level": 1,
+      "title": "第11章 CORBA開発支援機能",
+      "page": 180,
+      "approx_chars": 92266
+    },
+    {
+      "level": 2,
+      "title": "11.1 概要",
+      "page": 180,
+      "approx_chars": 3640
+    },
+    {
+      "level": 3,
+      "title": "11.1.1 COBOLプラグインとは",
+      "page": 180,
+      "approx_chars": 1681
+    },
+    {
+      "level": 3,
+      "title": "11.1.2 CORBAアプリケーションとは",
+      "page": 182,
+      "approx_chars": 1889
+    },
+    {
+      "level": 2,
+      "title": "11.2 チュートリアル",
+      "page": 183,
+      "approx_chars": 22159
+    },
+    {
+      "level": 3,
+      "title": "11.2.1 環境の準備",
+      "page": 184,
+      "approx_chars": 517
+    },
+    {
+      "level": 3,
+      "title": "11.2.2 CORBAサーバアプリケーションの作成",
+      "page": 184,
+      "approx_chars": 12488
+    },
+    {
+      "level": 3,
+      "title": "11.2.3 CORBAクライアントアプリケーションの作成",
+      "page": 201,
+      "approx_chars": 8897
+    },
+    {
+      "level": 2,
+      "title": "11.3 CORBAアプリケーションの開発のための準備",
+      "page": 214,
+      "approx_chars": 1345
+    },
+    {
+      "level": 2,
+      "title": "11.4 CORBAアプリケーションの開発の流れ",
+      "page": 215,
+      "approx_chars": 1287
+    },
+    {
+      "level": 2,
+      "title": "11.5 CORBAサーバアプリケーションの開発",
+      "page": 217,
+      "approx_chars": 25216
+    },
+    {
+      "level": 3,
+      "title": "11.5.1 CORBAサーバアプリケーションの開発手順",
+      "page": 217,
+      "approx_chars": 19296
+    },
+    {
+      "level": 3,
+      "title": "11.5.2 CORBAサーバアプリケーション開発時の留意事項",
+      "page": 236,
+      "approx_chars": 5825
+    },
+    {
+      "level": 2,
+      "title": "11.6 CORBAクライアントアプリケーションの開発",
+      "page": 241,
+      "approx_chars": 18043
+    },
+    {
+      "level": 3,
+      "title": "11.6.1 CORBAクライアントアプリケーションの開発手順",
+      "page": 241,
+      "approx_chars": 17813
+    },
+    {
+      "level": 3,
+      "title": "11.6.2 CORBAクライアントアプリケーション開発時の留意事項",
+      "page": 255,
+      "approx_chars": 126
+    },
+    {
+      "level": 2,
+      "title": "11.7 リモート開発",
+      "page": 255,
+      "approx_chars": 2607
+    },
+    {
+      "level": 3,
+      "title": "11.7.1 メイクファイル生成",
+      "page": 255,
+      "approx_chars": 1311
+    },
+    {
+      "level": 3,
+      "title": "11.7.2 リモートデバッグ",
+      "page": 256,
+      "approx_chars": 1115
+    },
+    {
+      "level": 2,
+      "title": "11.8 CORBAアプリケーションの運用",
+      "page": 257,
+      "approx_chars": 2600
+    },
+    {
+      "level": 3,
+      "title": "11.8.1 CORBAサーバアプリケーションの運用",
+      "page": 257,
+      "approx_chars": 1172
+    },
+    {
+      "level": 3,
+      "title": "11.8.2 CORBAクライアントアプリケーションの運用",
+      "page": 258,
+      "approx_chars": 1377
+    },
+    {
+      "level": 2,
+      "title": "11.9 IDLエディター",
+      "page": 258,
+      "approx_chars": 4333
+    },
+    {
+      "level": 3,
+      "title": "11.9.1 入力支援候補一覧(コンテンツアシスト)",
+      "page": 259,
+      "approx_chars": 512
+    },
+    {
+      "level": 3,
+      "title": "11.9.2 強調表示",
+      "page": 259,
+      "approx_chars": 1463
+    },
+    {
+      "level": 3,
+      "title": "11.9.3 フォントの設定",
+      "page": 261,
+      "approx_chars": 411
+    },
+    {
+      "level": 3,
+      "title": "11.9.4 行番号の表示",
+      "page": 262,
+      "approx_chars": 270
+    },
+    {
+      "level": 3,
+      "title": "11.9.5 現在行の強調表示",
+      "page": 263,
+      "approx_chars": 239
+    },
+    {
+      "level": 3,
+      "title": "11.9.6 カーソル位置表示",
+      "page": 263,
+      "approx_chars": 91
+    },
+    {
+      "level": 3,
+      "title": "11.9.7 [編集]メニューのコマンド",
+      "page": 264,
+      "approx_chars": 1214
+    },
+    {
+      "level": 2,
+      "title": "11.10 COBOLサービスクラス(CDCORBAクラス)",
+      "page": 264,
+      "approx_chars": 5110
+    },
+    {
+      "level": 3,
+      "title": "11.10.1 メソッド一覧",
+      "page": 265,
+      "approx_chars": 509
+    },
+    {
+      "level": 3,
+      "title": "11.10.2 メソッド詳細",
+      "page": 265,
+      "approx_chars": 4377
+    },
+    {
+      "level": 2,
+      "title": "11.11 旧資産からの移行",
+      "page": 270,
+      "approx_chars": 2490
+    },
+    {
+      "level": 3,
+      "title": "11.11.1 コンポーネントデザイナーからの移行について",
+      "page": 270,
+      "approx_chars": 2344
+    },
+    {
+      "level": 2,
+      "title": "11.12 CORBAアプリケーションに関するトラブルシューティング",
+      "page": 271,
+      "approx_chars": 2186
+    },
+    {
+      "level": 1,
+      "title": "付録A 翻訳オプション",
+      "page": 273,
+      "approx_chars": 31053
+    },
+    {
+      "level": 2,
+      "title": "A.1 翻訳オプションの詳細",
+      "page": 273,
+      "approx_chars": 30765
+    },
+    {
+      "level": 3,
+      "title": "A.1.1 翻訳オプションの一覧",
+      "page": 273,
+      "approx_chars": 1746
+    },
+    {
+      "level": 3,
+      "title": "A.1.2 ALPHAL翻訳オプション",
+      "page": 275,
+      "approx_chars": 374
+    },
+    {
+      "level": 3,
+      "title": "A.1.3 ARITHMETIC翻訳オプション",
+      "page": 275,
+      "approx_chars": 633
+    },
+    {
+      "level": 3,
+      "title": "A.1.4 ASCOMP5翻訳オプション",
+      "page": 275,
+      "approx_chars": 471
+    },
+    {
+      "level": 3,
+      "title": "A.1.5 BINARY翻訳オプション",
+      "page": 276,
+      "approx_chars": 922
+    },
+    {
+      "level": 3,
+      "title": "A.1.6 CHECK翻訳オプション",
+      "page": 277,
+      "approx_chars": 2021
+    },
+    {
+      "level": 3,
+      "title": "A.1.7 CONF翻訳オプション",
+      "page": 278,
+      "approx_chars": 661
+    },
+    {
+      "level": 3,
+      "title": "A.1.8 CONVCHAR翻訳オプション",
+      "page": 279,
+      "approx_chars": 872
+    },
+    {
+      "level": 3,
+      "title": "A.1.9 COPY翻訳オプション",
+      "page": 279,
+      "approx_chars": 311
+    },
+    {
+      "level": 3,
+      "title": "A.1.10 COUNT翻訳オプション",
+      "page": 280,
+      "approx_chars": 370
+    },
+    {
+      "level": 3,
+      "title": "A.1.11 CURRENCY翻訳オプション",
+      "page": 280,
+      "approx_chars": 223
+    },
+    {
+      "level": 3,
+      "title": "A.1.12 DLOAD翻訳オプション",
+      "page": 280,
+      "approx_chars": 227
+    },
+    {
+      "level": 3,
+      "title": "A.1.13 DUPCHAR翻訳オプション",
+      "page": 281,
+      "approx_chars": 322
+    },
+    {
+      "level": 3,
+      "title": "A.1.14 ENCODE翻訳オプション",
+      "page": 281,
+      "approx_chars": 711
+    },
+    {
+      "level": 3,
+      "title": "A.1.15 EQUALS翻訳オプション",
+      "page": 281,
+      "approx_chars": 567
+    },
+    {
+      "level": 3,
+      "title": "A.1.16 FLAG翻訳オプション",
+      "page": 282,
+      "approx_chars": 558
+    },
+    {
+      "level": 3,
+      "title": "A.1.17 FLAGSW翻訳オプション",
+      "page": 282,
+      "approx_chars": 609
+    },
+    {
+      "level": 3,
+      "title": "A.1.18 FORMLIB翻訳オプション",
+      "page": 283,
+      "approx_chars": 471
+    },
+    {
+      "level": 3,
+      "title": "A.1.19 INITVALUE翻訳オプション",
+      "page": 283,
+      "approx_chars": 318
+    },
+    {
+      "level": 3,
+      "title": "A.1.20 LANGLVL翻訳オプション",
+      "page": 283,
+      "approx_chars": 285
+    },
+    {
+      "level": 3,
+      "title": "A.1.21 LIB翻訳オプション",
+      "page": 284,
+      "approx_chars": 416
+    },
+    {
+      "level": 3,
+      "title": "A.1.22 LINECOUNT翻訳オプション",
+      "page": 284,
+      "approx_chars": 273
+    },
+    {
+      "level": 3,
+      "title": "A.1.23 LINESIZE翻訳オプション",
+      "page": 284,
+      "approx_chars": 435
+    },
+    {
+      "level": 3,
+      "title": "A.1.24 LIST翻訳オプション",
+      "page": 285,
+      "approx_chars": 336
+    },
+    {
+      "level": 3,
+      "title": "A.1.25 MAP翻訳オプション",
+      "page": 285,
+      "approx_chars": 493
+    },
+    {
+      "level": 3,
+      "title": "A.1.26 MESSAGE翻訳オプション",
+      "page": 285,
+      "approx_chars": 305
+    },
+    {
+      "level": 3,
+      "title": "A.1.27 MODE翻訳オプション",
+      "page": 286,
+      "approx_chars": 348
+    },
+    {
+      "level": 3,
+      "title": "A.1.28 NCW翻訳オプション",
+      "page": 286,
+      "approx_chars": 613
+    },
+    {
+      "level": 3,
+      "title": "A.1.29 NSP翻訳オプション",
+      "page": 287,
+      "approx_chars": 289
+    },
+    {
+      "level": 3,
+      "title": "A.1.30 NSPCOMP翻訳オプション",
+      "page": 287,
+      "approx_chars": 820
+    },
+    {
+      "level": 3,
+      "title": "A.1.31 NUMBER翻訳オプション",
+      "page": 288,
+      "approx_chars": 675
+    },
+    {
+      "level": 3,
+      "title": "A.1.32 OBJECT翻訳オプション",
+      "page": 288,
+      "approx_chars": 756
+    },
+    {
+      "level": 3,
+      "title": "A.1.33 OPTIMIZE翻訳オプション",
+      "page": 289,
+      "approx_chars": 482
+    },
+    {
+      "level": 3,
+      "title": "A.1.34 PRECONV翻訳オプション",
+      "page": 289,
+      "approx_chars": 602
+    },
+    {
+      "level": 3,
+      "title": "A.1.35 PRINT翻訳オプション",
+      "page": 289,
+      "approx_chars": 359
+    },
+    {
+      "level": 3,
+      "title": "A.1.36 QUOTE/APOST翻訳オプション",
+      "page": 290,
+      "approx_chars": 368
+    },
+    {
+      "level": 3,
+      "title": "A.1.37 RCS翻訳オプション",
+      "page": 290,
+      "approx_chars": 964
+    },
+    {
+      "level": 3,
+      "title": "A.1.38 REP翻訳オプション",
+      "page": 291,
+      "approx_chars": 370
+    },
+    {
+      "level": 3,
+      "title": "A.1.39 REPIN翻訳オプション",
+      "page": 291,
+      "approx_chars": 414
+    },
+    {
+      "level": 3,
+      "title": "A.1.40 RSV翻訳オプション",
+      "page": 291,
+      "approx_chars": 503
+    },
+    {
+      "level": 3,
+      "title": "A.1.41 SAI翻訳オプション",
+      "page": 292,
+      "approx_chars": 553
+    },
+    {
+      "level": 3,
+      "title": "A.1.42 SDS翻訳オプション",
+      "page": 292,
+      "approx_chars": 535
+    },
+    {
+      "level": 3,
+      "title": "A.1.43 SHREXT翻訳オプション",
+      "page": 293,
+      "approx_chars": 386
+    },
+    {
+      "level": 3,
+      "title": "A.1.44 SMSIZE翻訳オプション",
+      "page": 293,
+      "approx_chars": 616
+    },
+    {
+      "level": 3,
+      "title": "A.1.45 SOURCE翻訳オプション",
+      "page": 294,
+      "approx_chars": 353
+    },
+    {
+      "level": 3,
+      "title": "A.1.46 SQLGRP翻訳オプション",
+      "page": 294,
+      "approx_chars": 585
+    },
+    {
+      "level": 3,
+      "title": "A.1.47 SRF翻訳オプション",
+      "page": 295,
+      "approx_chars": 367
+    },
+    {
+      "level": 3,
+      "title": "A.1.48 SSIN翻訳オプション",
+      "page": 295,
+      "approx_chars": 378
+    },
+    {
+      "level": 3,
+      "title": "A.1.49 SSOUT翻訳オプション",
+      "page": 295,
+      "approx_chars": 402
+    },
+    {
+      "level": 3,
+      "title": "A.1.50 STD1翻訳オプション",
+      "page": 296,
+      "approx_chars": 559
+    },
+    {
+      "level": 3,
+      "title": "A.1.51 TAB翻訳オプション",
+      "page": 296,
+      "approx_chars": 162
+    },
+    {
+      "level": 3,
+      "title": "A.1.52 TEST翻訳オプション",
+      "page": 296,
+      "approx_chars": 662
+    },
+    {
+      "level": 3,
+      "title": "A.1.53 THREAD翻訳オプション",
+      "page": 297,
+      "approx_chars": 257
+    },
+    {
+      "level": 3,
+      "title": "A.1.54 TRACE翻訳オプション",
+      "page": 297,
+      "approx_chars": 444
+    },
+    {
+      "level": 3,
+      "title": "A.1.55 TRUNC翻訳オプション",
+      "page": 297,
+      "approx_chars": 867
+    },
+    {
+      "level": 3,
+      "title": "A.1.56 XREF翻訳オプション",
+      "page": 298,
+      "approx_chars": 420
+    },
+    {
+      "level": 3,
+      "title": "A.1.57 ZWB翻訳オプション",
+      "page": 299,
+      "approx_chars": 496
+    },
+    {
+      "level": 1,
+      "title": "付録B トラブルシューティング",
+      "page": 300,
+      "approx_chars": 10984
+    },
+    {
+      "level": 2,
+      "title": "B.1 COBOLエディターに関する問題",
+      "page": 301,
+      "approx_chars": 358
+    },
+    {
+      "level": 3,
+      "title": "B.1.1 COBOLエディターで、漢字やカナが混在したデータ項目名をダブルクリックで正しく選択できない。",
+      "page": 301,
+      "approx_chars": 309
+    },
+    {
+      "level": 2,
+      "title": "B.2 ビルドに関する問題",
+      "page": 301,
+      "approx_chars": 1235
+    },
+    {
+      "level": 3,
+      "title": "B.2.1 外部エディターでリソースを変更した後に[プロジェクトのビルド]や[すべてビルド]を選択しても、ビルドが行われない。",
+      "page": 301,
+      "approx_chars": 442
+    },
+    {
+      "level": 3,
+      "title": "B.2.2 依存関係解析を実行すると、リポジトリファイル（*.rep）が無いというエラーメッセージが表示される。",
+      "page": 301,
+      "approx_chars": 505
+    },
+    {
+      "level": 3,
+      "title": "B.2.3 静的ライブラリ(lib)を作成することができない。",
+      "page": 301,
+      "approx_chars": 253
+    },
+    {
+      "level": 2,
+      "title": "B.3 デバッガに関する問題",
+      "page": 302,
+      "approx_chars": 1825
+    },
+    {
+      "level": 3,
+      "title": "B.3.1 デバッグ時に[実行]メニュー内のいくつかのメニュー項目が使用できない。",
+      "page": 302,
+      "approx_chars": 518
+    },
+    {
+      "level": 3,
+      "title": "B.3.2 デバッグ時にスコープ外のデータ項目も値が表示される。",
+      "page": 302,
+      "approx_chars": 150
+    },
+    {
+      "level": 3,
+      "title": "B.3.3 「実行ファイル\"ファイル名\"が見つからないためCOBOLプログラムを実行できません。」というエラーダイアログボックスが表示される。",
+      "page": 302,
+      "approx_chars": 805
+    },
+    {
+      "level": 3,
+      "title": "B.3.4 ブレークポイントでプログラムを停止後、プログラムの実行を再開できないことがある。",
+      "page": 303,
+      "approx_chars": 315
+    },
+    {
+      "level": 2,
+      "title": "B.4 実行に関する問題",
+      "page": 303,
+      "approx_chars": 447
+    },
+    {
+      "level": 3,
+      "title": "B.4.1 実行可能ファイルをダブルクリックして実行したとき、実行用の初期化ファイル(COBOL85.CBR)に相対パスで指定したファイルで実行時エラーが発生する。",
+      "page": 303,
+      "approx_chars": 414
+    },
+    {
+      "level": 2,
+      "title": "B.5 リモート開発に関する問題",
+      "page": 303,
+      "approx_chars": 2647
+    },
+    {
+      "level": 3,
+      "title": "B.5.1 サーバとの連携時にsttyコマンドがエラーとなる。",
+      "page": 303,
+      "approx_chars": 412
+    },
+    {
+      "level": 3,
+      "title": "B.5.2 サーバとの連携時にNetCOBOL Studioがフリーズする。",
+      "page": 304,
+      "approx_chars": 306
+    },
+    {
+      "level": 3,
+      "title": "B.5.3 「コマンドの送信中にエラーが発生しました。リモート側から接続がリセットされました。」のエラーが表示される。",
+      "page": 304,
+      "approx_chars": 408
+    },
+    {
+      "level": 3,
+      "title": "B.5.4 テキストファイルの転送で改行コードが変換されない。",
+      "page": 304,
+      "approx_chars": 436
+    },
+    {
+      "level": 3,
+      "title": "B.5.5 リモート開発の機能を使用すると「サーバのコマンドパラメタの指定に誤りがあります。」のエラーになる。",
+      "page": 304,
+      "approx_chars": 459
+    },
+    {
+      "level": 3,
+      "title": "B.5.6 リモートデバッグを開始するとローカル側のプロジェクトのビルドが実行されることがある。",
+      "page": 305,
+      "approx_chars": 382
+    },
+    {
+      "level": 3,
+      "title": "B.5.7 リモートビルドに失敗しているのに[問題]ビューに何も表示されない。",
+      "page": 305,
+      "approx_chars": 203
+    },
+    {
+      "level": 2,
+      "title": "B.6 NetCOBOL Studio一般に関する問題",
+      "page": 305,
+      "approx_chars": 2806
+    },
+    {
+      "level": 3,
+      "title": "B.6.1 エラーダイアログボックスに「詳細はログを参照してください。」と表示されるが、どうしたらいいかわからない。",
+      "page": 305,
+      "approx_chars": 877
+    },
+    {
+      "level": 3,
+      "title": "B.6.2 ZIPファイル形式でエクスポートした資産を解凍すると、ASCII以外の文字(日本語など)を含むファイル名が文字化けする。",
+      "page": 306,
+      "approx_chars": 363
+    },
+    {
+      "level": 3,
+      "title": "B.6.3 ヘルプ機能を利用するとき、漢字(マルチバイトコード)の用語が正しく検索できない。",
+      "page": 306,
+      "approx_chars": 322
+    },
+    {
+      "level": 3,
+      "title": "B.6.4 ダイアログボックスに表示されるメッセージの真ん中が\"...\"となってしまい、メッセージ全体が表示されない。",
+      "page": 306,
+      "approx_chars": 401
+    },
+    {
+      "level": 3,
+      "title": "B.6.5 ファイル、フォルダ、プロジェクトが削除できない。",
+      "page": 306,
+      "approx_chars": 385
+    },
+    {
+      "level": 3,
+      "title": "B.6.6 COBOLプロジェクトのエクスポートが失敗する。",
+      "page": 306,
+      "approx_chars": 395
+    },
+    {
+      "level": 2,
+      "title": "B.7 トレースログ",
+      "page": 307,
+      "approx_chars": 372
+    },
+    {
+      "level": 1,
+      "title": "付録C ワークスペースおよびプロジェクトの取り扱い",
+      "page": 308,
+      "approx_chars": 3035
+    },
+    {
+      "level": 2,
+      "title": "C.1 既定のワークスペースフォルダ",
+      "page": 308,
+      "approx_chars": 239
+    },
+    {
+      "level": 2,
+      "title": "C.2 ワークスペースの設定と切り替え",
+      "page": 308,
+      "approx_chars": 1903
+    },
+    {
+      "level": 3,
+      "title": "C.2.1 ワークスペースの設定",
+      "page": 308,
+      "approx_chars": 872
+    },
+    {
+      "level": 3,
+      "title": "C.2.2 ワークスペースの切り替え",
+      "page": 310,
+      "approx_chars": 518
+    },
+    {
+      "level": 2,
+      "title": "C.3 プロジェクトのインポート",
+      "page": 311,
+      "approx_chars": 797
+    },
+    {
+      "level": 1,
+      "title": "付録D デバッグ時に使用する各種指定形式",
+      "page": 312,
+      "approx_chars": 4890
+    },
+    {
+      "level": 2,
+      "title": "D.1 識別名",
+      "page": 312,
+      "approx_chars": 3206
+    },
+    {
+      "level": 2,
+      "title": "D.2 プログラム名",
+      "page": 315,
+      "approx_chars": 641
+    },
+    {
+      "level": 2,
+      "title": "D.3 条件式",
+      "page": 315,
+      "approx_chars": 961
+    },
+    {
+      "level": 1,
+      "title": "付録E プロジェクトマネージャからの移行",
+      "page": 317,
+      "approx_chars": 11960
+    },
+    {
+      "level": 2,
+      "title": "E.1 プロジェクトマネージャとNetCOBOL Studioとの違い",
+      "page": 317,
+      "approx_chars": 1191
+    },
+    {
+      "level": 2,
+      "title": "E.2 プロジェクトの移行手順",
+      "page": 318,
+      "approx_chars": 2766
+    },
+    {
+      "level": 2,
+      "title": "E.3 プロジェクト構成変換コマンドによるプロジェクトの移行",
+      "page": 320,
+      "approx_chars": 5179
+    },
+    {
+      "level": 3,
+      "title": "E.3.1 プロジェクト構成変換機能",
+      "page": 320,
+      "approx_chars": 2414
+    },
+    {
+      "level": 3,
+      "title": "E.3.2 COBOLリソースプロジェクト作成機能",
+      "page": 321,
+      "approx_chars": 438
+    },
+    {
+      "level": 3,
+      "title": "E.3.3 プロジェクト構成変換コマンド(PM2NSコマンド)の使い方",
+      "page": 322,
+      "approx_chars": 1545
+    },
+    {
+      "level": 3,
+      "title": "E.3.4 プロジェクト構成変換コマンドによるプロジェクト変換",
+      "page": 323,
+      "approx_chars": 462
+    },
+    {
+      "level": 2,
+      "title": "E.4 移行時の注意事項",
+      "page": 324,
+      "approx_chars": 2642
+    },
+    {
+      "level": 3,
+      "title": "E.4.1 移行できないプロジェクト",
+      "page": 324,
+      "approx_chars": 337
+    },
+    {
+      "level": 3,
+      "title": "E.4.2 NetCOBOL Studioでサポートされない機能を含むプロジェクト",
+      "page": 324,
+      "approx_chars": 2272
+    },
+    {
+      "level": 1,
+      "title": "索 引",
+      "page": 327,
+      "approx_chars": 17736
+    }
+  ]
+}

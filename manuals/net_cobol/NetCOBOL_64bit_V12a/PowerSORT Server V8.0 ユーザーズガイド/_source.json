@@ -1,0 +1,840 @@
+{
+  "source_file": "psortwu64.pdf",
+  "title": "ユーザーズガイド",
+  "product": "PowerSORT Server V8.0",
+  "full_title": "PowerSORT Server V8.0 ユーザーズガイド",
+  "pages": 255,
+  "approx_chars": 312400,
+  "outline_entries_total": 187,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 108
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 2339
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 4,
+      "approx_chars": 32726
+    },
+    {
+      "level": 1,
+      "title": "第1章 PowerSORTの概要",
+      "page": 8,
+      "approx_chars": 33655
+    },
+    {
+      "level": 2,
+      "title": "1.1 主要機能",
+      "page": 8,
+      "approx_chars": 291
+    },
+    {
+      "level": 2,
+      "title": "1.2 オプション機能",
+      "page": 8,
+      "approx_chars": 1612
+    },
+    {
+      "level": 2,
+      "title": "1.3 オプション機能と主要機能の組合せ",
+      "page": 10,
+      "approx_chars": 260
+    },
+    {
+      "level": 2,
+      "title": "1.4 環境変数",
+      "page": 11,
+      "approx_chars": 6313
+    },
+    {
+      "level": 2,
+      "title": "1.5 PowerSORTの入出力環境",
+      "page": 16,
+      "approx_chars": 1235
+    },
+    {
+      "level": 3,
+      "title": "1.5.1 対象となるファイル種別",
+      "page": 16,
+      "approx_chars": 608
+    },
+    {
+      "level": 3,
+      "title": "1.5.2 入力と出力のファイル種別の組合せについて",
+      "page": 16,
+      "approx_chars": 543
+    },
+    {
+      "level": 2,
+      "title": "1.6 フィールドとデータ形式",
+      "page": 17,
+      "approx_chars": 22304
+    },
+    {
+      "level": 3,
+      "title": "1.6.1 フィールドの種類",
+      "page": 17,
+      "approx_chars": 910
+    },
+    {
+      "level": 3,
+      "title": "1.6.2 フィールドの指定方法",
+      "page": 17,
+      "approx_chars": 2666
+    },
+    {
+      "level": 3,
+      "title": "1.6.3 データ形式",
+      "page": 19,
+      "approx_chars": 4698
+    },
+    {
+      "level": 3,
+      "title": "1.6.4 各フィールドで指定可能なデータ形式",
+      "page": 25,
+      "approx_chars": 13911
+    },
+    {
+      "level": 2,
+      "title": "1.7 環境設定",
+      "page": 36,
+      "approx_chars": 1459
+    },
+    {
+      "level": 3,
+      "title": "1.7.1 PowerSORTが使用するメモリ(作業域)の見積もり",
+      "page": 36,
+      "approx_chars": 851
+    },
+    {
+      "level": 3,
+      "title": "1.7.2 PowerSORTが使用する一時ファイル量の見積もり",
+      "page": 37,
+      "approx_chars": 528
+    },
+    {
+      "level": 1,
+      "title": "第2章 PowerSORTの使い方",
+      "page": 38,
+      "approx_chars": 1565
+    },
+    {
+      "level": 2,
+      "title": "2.1 コマンド(bsortコマンド、bsortexコマンド)を使用する方法",
+      "page": 38,
+      "approx_chars": 1032
+    },
+    {
+      "level": 2,
+      "title": "2.2 COBOLプログラムから使用する方法",
+      "page": 38,
+      "approx_chars": 152
+    },
+    {
+      "level": 2,
+      "title": "2.3 C言語プログラムから使用する方法",
+      "page": 38,
+      "approx_chars": 198
+    },
+    {
+      "level": 1,
+      "title": "第3章 PowerSORTのbsortコマンドを使用する",
+      "page": 39,
+      "approx_chars": 37748
+    },
+    {
+      "level": 2,
+      "title": "3.1 bsortコマンドの形式",
+      "page": 39,
+      "approx_chars": 2684
+    },
+    {
+      "level": 3,
+      "title": "3.1.1 ソート機能を使用する場合",
+      "page": 39,
+      "approx_chars": 725
+    },
+    {
+      "level": 3,
+      "title": "3.1.2 マージ機能を使用する場合",
+      "page": 39,
+      "approx_chars": 707
+    },
+    {
+      "level": 3,
+      "title": "3.1.3 コピー機能を使用する場合",
+      "page": 40,
+      "approx_chars": 565
+    },
+    {
+      "level": 3,
+      "title": "3.1.4 処理定義ファイルを使用する場合",
+      "page": 40,
+      "approx_chars": 108
+    },
+    {
+      "level": 2,
+      "title": "3.2 bsortコマンドオプション",
+      "page": 40,
+      "approx_chars": 34922
+    },
+    {
+      "level": 3,
+      "title": "3.2.1 アーギュメントファイルオプション（-a）",
+      "page": 40,
+      "approx_chars": 1058
+    },
+    {
+      "level": 3,
+      "title": "3.2.2 再編成フィールドオプション（-e）",
+      "page": 41,
+      "approx_chars": 5802
+    },
+    {
+      "level": 3,
+      "title": "3.2.3 入出力ファイルシステムオプション（-F）",
+      "page": 46,
+      "approx_chars": 1188
+    },
+    {
+      "level": 3,
+      "title": "3.2.4 先入力先出力（FIFO）機能オプション（-f）",
+      "page": 47,
+      "approx_chars": 407
+    },
+    {
+      "level": 3,
+      "title": "3.2.5 メッセージファイルオプション（-G）",
+      "page": 47,
+      "approx_chars": 385
+    },
+    {
+      "level": 3,
+      "title": "3.2.6 集約フィールドオプション（-g）",
+      "page": 47,
+      "approx_chars": 5319
+    },
+    {
+      "level": 3,
+      "title": "3.2.7 ヘルプオプション（-h）",
+      "page": 51,
+      "approx_chars": 189
+    },
+    {
+      "level": 3,
+      "title": "3.2.8 インデックス作成方法オプション（-I）",
+      "page": 51,
+      "approx_chars": 253
+    },
+    {
+      "level": 3,
+      "title": "3.2.9 入力ファイルオプション（infile）",
+      "page": 51,
+      "approx_chars": 507
+    },
+    {
+      "level": 3,
+      "title": "3.2.10 キーフィールドオプション（-key-def）",
+      "page": 52,
+      "approx_chars": 3339
+    },
+    {
+      "level": 3,
+      "title": "3.2.11 レコード分離文字オプション（-L）",
+      "page": 54,
+      "approx_chars": 380
+    },
+    {
+      "level": 3,
+      "title": "3.2.12 メッセージレベルオプション（-l）",
+      "page": 55,
+      "approx_chars": 790
+    },
+    {
+      "level": 3,
+      "title": "3.2.13 出力ファイルオプション（-o）",
+      "page": 55,
+      "approx_chars": 733
+    },
+    {
+      "level": 3,
+      "title": "3.2.14 処理定義ファイルオプション（-P）",
+      "page": 56,
+      "approx_chars": 574
+    },
+    {
+      "level": 3,
+      "title": "3.2.15 選択フィールドオプション（-p）",
+      "page": 57,
+      "approx_chars": 5143
+    },
+    {
+      "level": 3,
+      "title": "3.2.16 文字コード系変換オプション（-Q）",
+      "page": 60,
+      "approx_chars": 685
+    },
+    {
+      "level": 3,
+      "title": "3.2.17 入力コード系オプション（-q）",
+      "page": 61,
+      "approx_chars": 337
+    },
+    {
+      "level": 3,
+      "title": "3.2.18 レコード読み飛ばしオプション（-R）",
+      "page": 61,
+      "approx_chars": 587
+    },
+    {
+      "level": 3,
+      "title": "3.2.19 降順オプション（-r）",
+      "page": 62,
+      "approx_chars": 132
+    },
+    {
+      "level": 3,
+      "title": "3.2.20 フィールド分離文字16進オプション（-S）",
+      "page": 62,
+      "approx_chars": 517
+    },
+    {
+      "level": 3,
+      "title": "3.2.21 処理（ソート、マージ、コピー）オプション（-s、-m、-c）",
+      "page": 63,
+      "approx_chars": 222
+    },
+    {
+      "level": 3,
+      "title": "3.2.22 テキストファイルオプション（-T）",
+      "page": 63,
+      "approx_chars": 1273
+    },
+    {
+      "level": 3,
+      "title": "3.2.23 フィールド分離文字オプション（-t）",
+      "page": 64,
+      "approx_chars": 893
+    },
+    {
+      "level": 3,
+      "title": "3.2.24 サプレスオプション（-u）",
+      "page": 65,
+      "approx_chars": 339
+    },
+    {
+      "level": 3,
+      "title": "3.2.25 入出力上書きオプション（-v）",
+      "page": 65,
+      "approx_chars": 453
+    },
+    {
+      "level": 3,
+      "title": "3.2.26 標準出力オプション（-w）",
+      "page": 66,
+      "approx_chars": 156
+    },
+    {
+      "level": 3,
+      "title": "3.2.27 インデックス指定オプション（-X）",
+      "page": 66,
+      "approx_chars": 1308
+    },
+    {
+      "level": 3,
+      "title": "3.2.28 照合順序変更オプション（-x）",
+      "page": 67,
+      "approx_chars": 716
+    },
+    {
+      "level": 3,
+      "title": "3.2.29 メモリサイズオプション（-y）",
+      "page": 68,
+      "approx_chars": 405
+    },
+    {
+      "level": 3,
+      "title": "3.2.30 レコード形式オプション（-Z）",
+      "page": 68,
+      "approx_chars": 343
+    },
+    {
+      "level": 3,
+      "title": "3.2.31 レコード長オプション（-z）",
+      "page": 69,
+      "approx_chars": 411
+    },
+    {
+      "level": 1,
+      "title": "第4章 PowerSORTのbsortexコマンドを使用する",
+      "page": 70,
+      "approx_chars": 50078
+    },
+    {
+      "level": 2,
+      "title": "4.1 bsortexコマンドの形式",
+      "page": 70,
+      "approx_chars": 5353
+    },
+    {
+      "level": 3,
+      "title": "4.1.1 ソート機能を使用する場合",
+      "page": 70,
+      "approx_chars": 1725
+    },
+    {
+      "level": 3,
+      "title": "4.1.2 マージ機能を使用する場合",
+      "page": 71,
+      "approx_chars": 1627
+    },
+    {
+      "level": 3,
+      "title": "4.1.3 コピー機能を使用する場合",
+      "page": 71,
+      "approx_chars": 1459
+    },
+    {
+      "level": 2,
+      "title": "4.2 bsortexコマンドオプション",
+      "page": 72,
+      "approx_chars": 44575
+    },
+    {
+      "level": 3,
+      "title": "4.2.1 アーギュメントファイルオプション（-a）",
+      "page": 72,
+      "approx_chars": 1525
+    },
+    {
+      "level": 3,
+      "title": "4.2.2 コピーオプション（-copy）",
+      "page": 73,
+      "approx_chars": 177
+    },
+    {
+      "level": 3,
+      "title": "4.2.3 定義オプション（-define）",
+      "page": 73,
+      "approx_chars": 955
+    },
+    {
+      "level": 3,
+      "title": "4.2.4 ヘルプオプション（-h）",
+      "page": 74,
+      "approx_chars": 191
+    },
+    {
+      "level": 3,
+      "title": "4.2.5 入力ファイル情報オプション（-input）",
+      "page": 74,
+      "approx_chars": 16654
+    },
+    {
+      "level": 3,
+      "title": "4.2.6 マージオプション（-merge）",
+      "page": 87,
+      "approx_chars": 3878
+    },
+    {
+      "level": 3,
+      "title": "4.2.7 実行環境オプション（-option）",
+      "page": 90,
+      "approx_chars": 4697
+    },
+    {
+      "level": 3,
+      "title": "4.2.8 出力ファイル情報オプション（-output）",
+      "page": 94,
+      "approx_chars": 7237
+    },
+    {
+      "level": 3,
+      "title": "4.2.9 入力レコード情報オプション（-record）",
+      "page": 99,
+      "approx_chars": 2062
+    },
+    {
+      "level": 3,
+      "title": "4.2.10 ソートオプション（-sort）",
+      "page": 102,
+      "approx_chars": 348
+    },
+    {
+      "level": 3,
+      "title": "4.2.11 レコード集約オプション（-summary）",
+      "page": 102,
+      "approx_chars": 6767
+    },
+    {
+      "level": 1,
+      "title": "第5章 COBOLプログラムからPowerSORTを使用する",
+      "page": 108,
+      "approx_chars": 334
+    },
+    {
+      "level": 1,
+      "title": "第6章 C言語プログラムからPowerSORTを使用する",
+      "page": 109,
+      "approx_chars": 53909
+    },
+    {
+      "level": 2,
+      "title": "6.1 BSORT関数とは",
+      "page": 109,
+      "approx_chars": 910
+    },
+    {
+      "level": 2,
+      "title": "6.2 BSORT関数の使い方",
+      "page": 109,
+      "approx_chars": 3921
+    },
+    {
+      "level": 3,
+      "title": "6.2.1 ソート機能を使用する場合",
+      "page": 110,
+      "approx_chars": 1571
+    },
+    {
+      "level": 3,
+      "title": "6.2.2 マージ機能を使用する場合",
+      "page": 111,
+      "approx_chars": 2019
+    },
+    {
+      "level": 3,
+      "title": "6.2.3 コピー機能を使用する場合",
+      "page": 112,
+      "approx_chars": 234
+    },
+    {
+      "level": 2,
+      "title": "6.3 ユーザアプリケーション開発時の留意事項",
+      "page": 112,
+      "approx_chars": 569
+    },
+    {
+      "level": 2,
+      "title": "6.4 BSORT関数の種類",
+      "page": 113,
+      "approx_chars": 6452
+    },
+    {
+      "level": 3,
+      "title": "6.4.1 bsrtopen関数",
+      "page": 113,
+      "approx_chars": 2257
+    },
+    {
+      "level": 3,
+      "title": "6.4.2 bsrtclse関数",
+      "page": 115,
+      "approx_chars": 1195
+    },
+    {
+      "level": 3,
+      "title": "6.4.3 bsrtput関数",
+      "page": 116,
+      "approx_chars": 967
+    },
+    {
+      "level": 3,
+      "title": "6.4.4 bsrtget関数",
+      "page": 117,
+      "approx_chars": 1143
+    },
+    {
+      "level": 3,
+      "title": "6.4.5 bsrtmrge関数",
+      "page": 118,
+      "approx_chars": 825
+    },
+    {
+      "level": 2,
+      "title": "6.5 BSORT関数で使用する構造体",
+      "page": 119,
+      "approx_chars": 41847
+    },
+    {
+      "level": 3,
+      "title": "6.5.1 BSRTPRIM構造体",
+      "page": 120,
+      "approx_chars": 7112
+    },
+    {
+      "level": 3,
+      "title": "6.5.2 BSRTREC構造体",
+      "page": 126,
+      "approx_chars": 3162
+    },
+    {
+      "level": 3,
+      "title": "6.5.3 BSRTKEY構造体",
+      "page": 128,
+      "approx_chars": 545
+    },
+    {
+      "level": 3,
+      "title": "6.5.4 BSKEY構造体",
+      "page": 129,
+      "approx_chars": 3543
+    },
+    {
+      "level": 3,
+      "title": "6.5.5 BSCOL構造体",
+      "page": 131,
+      "approx_chars": 336
+    },
+    {
+      "level": 3,
+      "title": "6.5.6 BSRTFILE構造体",
+      "page": 131,
+      "approx_chars": 2361
+    },
+    {
+      "level": 3,
+      "title": "6.5.7 BSFILE構造体",
+      "page": 133,
+      "approx_chars": 586
+    },
+    {
+      "level": 3,
+      "title": "6.5.8 BSFSYS構造体",
+      "page": 134,
+      "approx_chars": 1267
+    },
+    {
+      "level": 3,
+      "title": "6.5.9 BSIDX構造体",
+      "page": 134,
+      "approx_chars": 654
+    },
+    {
+      "level": 3,
+      "title": "6.5.10 BSIDXKEY構造体",
+      "page": 135,
+      "approx_chars": 1538
+    },
+    {
+      "level": 3,
+      "title": "6.5.11 BSFILE_EXT構造体",
+      "page": 136,
+      "approx_chars": 1725
+    },
+    {
+      "level": 3,
+      "title": "6.5.12 BSFILE_BASE構造体",
+      "page": 138,
+      "approx_chars": 528
+    },
+    {
+      "level": 3,
+      "title": "6.5.13 BSRTOPT構造体",
+      "page": 138,
+      "approx_chars": 940
+    },
+    {
+      "level": 3,
+      "title": "6.5.14 BSRTSUM構造体",
+      "page": 139,
+      "approx_chars": 994
+    },
+    {
+      "level": 3,
+      "title": "6.5.15 BSSUM構造体",
+      "page": 140,
+      "approx_chars": 4759
+    },
+    {
+      "level": 3,
+      "title": "6.5.16 BSRTSELE構造体",
+      "page": 143,
+      "approx_chars": 442
+    },
+    {
+      "level": 3,
+      "title": "6.5.17 BSSELE構造体",
+      "page": 143,
+      "approx_chars": 5512
+    },
+    {
+      "level": 3,
+      "title": "6.5.18 BSRTRCON構造体",
+      "page": 147,
+      "approx_chars": 518
+    },
+    {
+      "level": 3,
+      "title": "6.5.19 BSRCON構造体",
+      "page": 148,
+      "approx_chars": 3156
+    },
+    {
+      "level": 3,
+      "title": "6.5.20 BSRTSKIP構造体",
+      "page": 150,
+      "approx_chars": 673
+    },
+    {
+      "level": 3,
+      "title": "6.5.21 BSRTFUNC構造体",
+      "page": 150,
+      "approx_chars": 1027
+    },
+    {
+      "level": 1,
+      "title": "第7章 メッセージとエラーコード",
+      "page": 152,
+      "approx_chars": 56743
+    },
+    {
+      "level": 2,
+      "title": "7.1 メッセージ",
+      "page": 152,
+      "approx_chars": 42659
+    },
+    {
+      "level": 3,
+      "title": "7.1.1 情報メッセージ",
+      "page": 152,
+      "approx_chars": 1819
+    },
+    {
+      "level": 3,
+      "title": "7.1.2 警告メッセージ",
+      "page": 155,
+      "approx_chars": 4566
+    },
+    {
+      "level": 3,
+      "title": "7.1.3 エラーメッセージ",
+      "page": 159,
+      "approx_chars": 34082
+    },
+    {
+      "level": 3,
+      "title": "7.1.4 アプリケーションログへの出力メッセージ",
+      "page": 204,
+      "approx_chars": 1063
+    },
+    {
+      "level": 2,
+      "title": "7.2 エラーコード",
+      "page": 205,
+      "approx_chars": 13963
+    },
+    {
+      "level": 3,
+      "title": "7.2.1 BSORT関数のエラー詳細コード",
+      "page": 205,
+      "approx_chars": 13316
+    },
+    {
+      "level": 3,
+      "title": "7.2.2 富士通COBOLファイルに関するエラーコード",
+      "page": 215,
+      "approx_chars": 424
+    },
+    {
+      "level": 1,
+      "title": "付録A 使用例",
+      "page": 216,
+      "approx_chars": 17266
+    },
+    {
+      "level": 2,
+      "title": "A.1 bsortコマンドの使用例",
+      "page": 216,
+      "approx_chars": 4720
+    },
+    {
+      "level": 2,
+      "title": "A.2 bsortexコマンドの使用例",
+      "page": 226,
+      "approx_chars": 7741
+    },
+    {
+      "level": 2,
+      "title": "A.3 BSORT関数の使用例",
+      "page": 240,
+      "approx_chars": 4783
+    },
+    {
+      "level": 1,
+      "title": "付録B 留意事項",
+      "page": 243,
+      "approx_chars": 8452
+    },
+    {
+      "level": 2,
+      "title": "B.1 メモリ不足への対処方法",
+      "page": 243,
+      "approx_chars": 717
+    },
+    {
+      "level": 2,
+      "title": "B.2 一時ファイルのフォルダ指定方法",
+      "page": 243,
+      "approx_chars": 471
+    },
+    {
+      "level": 2,
+      "title": "B.3 フィールドの指定方法",
+      "page": 244,
+      "approx_chars": 742
+    },
+    {
+      "level": 2,
+      "title": "B.4 英字と数字の連結データに関する留意事項",
+      "page": 244,
+      "approx_chars": 1314
+    },
+    {
+      "level": 2,
+      "title": "B.5 ASCIIコードをEBCDICコード順、EBCDICコードをASCIIコード順に並べる場合の指定方法",
+      "page": 245,
+      "approx_chars": 1755
+    },
+    {
+      "level": 2,
+      "title": "B.6 ファイル種別に関する留意事項",
+      "page": 246,
+      "approx_chars": 685
+    },
+    {
+      "level": 2,
+      "title": "B.7 富士通COBOLファイルシステムに関する留意事項",
+      "page": 247,
+      "approx_chars": 1685
+    },
+    {
+      "level": 2,
+      "title": "B.8 結果が不定となる機能に関する留意事項",
+      "page": 248,
+      "approx_chars": 1059
+    },
+    {
+      "level": 1,
+      "title": "用語集",
+      "page": 250,
+      "approx_chars": 2717
+    },
+    {
+      "level": 1,
+      "title": "索 引",
+      "page": 253,
+      "approx_chars": 14760
+    }
+  ]
+}

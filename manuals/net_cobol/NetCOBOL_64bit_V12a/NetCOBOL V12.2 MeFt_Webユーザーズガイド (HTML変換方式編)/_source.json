@@ -1,0 +1,918 @@
+{
+  "source_file": "mwhtmlw64.pdf",
+  "title": "MeFt/Webユーザーズガイド (HTML変換方式編)",
+  "product": "NetCOBOL V12.2",
+  "full_title": "NetCOBOL V12.2 MeFt/Webユーザーズガイド (HTML変換方式編)",
+  "pages": 144,
+  "approx_chars": 196676,
+  "outline_entries_total": 304,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 114
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 2856
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 5,
+      "approx_chars": 51077
+    },
+    {
+      "level": 1,
+      "title": "第1章 概要",
+      "page": 11,
+      "approx_chars": 6569
+    },
+    {
+      "level": 2,
+      "title": "1.1 MeFt/Web HTML変換方式とは",
+      "page": 11,
+      "approx_chars": 752
+    },
+    {
+      "level": 2,
+      "title": "1.2 画面入出力機能",
+      "page": 11,
+      "approx_chars": 355
+    },
+    {
+      "level": 2,
+      "title": "1.3 管理者機能",
+      "page": 11,
+      "approx_chars": 359
+    },
+    {
+      "level": 2,
+      "title": "1.4 エンハンス機能",
+      "page": 12,
+      "approx_chars": 5083
+    },
+    {
+      "level": 3,
+      "title": "1.4.1 V12.1.0からV12.2.0へのエンハンス機能",
+      "page": 12,
+      "approx_chars": 389
+    },
+    {
+      "level": 3,
+      "title": "1.4.2 V12.0.0からV12.1.0へのエンハンス機能",
+      "page": 12,
+      "approx_chars": 4663
+    },
+    {
+      "level": 1,
+      "title": "第2章 機能",
+      "page": 16,
+      "approx_chars": 32352
+    },
+    {
+      "level": 2,
+      "title": "2.1 画面出力時の装飾",
+      "page": 16,
+      "approx_chars": 6951
+    },
+    {
+      "level": 3,
+      "title": "2.1.1 文字色",
+      "page": 16,
+      "approx_chars": 890
+    },
+    {
+      "level": 3,
+      "title": "2.1.2 文字の背景色表示",
+      "page": 17,
+      "approx_chars": 193
+    },
+    {
+      "level": 3,
+      "title": "2.1.3 文字の強調表示",
+      "page": 17,
+      "approx_chars": 359
+    },
+    {
+      "level": 3,
+      "title": "2.1.4 フォントの指定",
+      "page": 17,
+      "approx_chars": 97
+    },
+    {
+      "level": 3,
+      "title": "2.1.5 フォントサイズの指定",
+      "page": 17,
+      "approx_chars": 145
+    },
+    {
+      "level": 3,
+      "title": "2.1.6 文字サイズの指定",
+      "page": 18,
+      "approx_chars": 336
+    },
+    {
+      "level": 3,
+      "title": "2.1.7 初期値表示",
+      "page": 18,
+      "approx_chars": 185
+    },
+    {
+      "level": 3,
+      "title": "2.1.8 数値編集",
+      "page": 18,
+      "approx_chars": 4100
+    },
+    {
+      "level": 3,
+      "title": "2.1.9 文字引伸し編集",
+      "page": 20,
+      "approx_chars": 205
+    },
+    {
+      "level": 3,
+      "title": "2.1.10 3D表示",
+      "page": 20,
+      "approx_chars": 408
+    },
+    {
+      "level": 2,
+      "title": "2.2 罫線の表示",
+      "page": 20,
+      "approx_chars": 463
+    },
+    {
+      "level": 2,
+      "title": "2.3 網がけの表示",
+      "page": 21,
+      "approx_chars": 365
+    },
+    {
+      "level": 2,
+      "title": "2.4 画面入力時の装飾",
+      "page": 21,
+      "approx_chars": 2428
+    },
+    {
+      "level": 3,
+      "title": "2.4.1 入力強調",
+      "page": 21,
+      "approx_chars": 364
+    },
+    {
+      "level": 3,
+      "title": "2.4.2 右詰め入力",
+      "page": 22,
+      "approx_chars": 349
+    },
+    {
+      "level": 3,
+      "title": "2.4.3 自動入力",
+      "page": 22,
+      "approx_chars": 269
+    },
+    {
+      "level": 3,
+      "title": "2.4.4 脱出要求",
+      "page": 22,
+      "approx_chars": 369
+    },
+    {
+      "level": 3,
+      "title": "2.4.5 項目属性不変",
+      "page": 23,
+      "approx_chars": 193
+    },
+    {
+      "level": 3,
+      "title": "2.4.6 フォントの指定",
+      "page": 23,
+      "approx_chars": 97
+    },
+    {
+      "level": 3,
+      "title": "2.4.7 フォントサイズの指定",
+      "page": 23,
+      "approx_chars": 140
+    },
+    {
+      "level": 3,
+      "title": "2.4.8 文字サイズの指定",
+      "page": 23,
+      "approx_chars": 192
+    },
+    {
+      "level": 3,
+      "title": "2.4.9 パスワード入力の指定",
+      "page": 23,
+      "approx_chars": 422
+    },
+    {
+      "level": 2,
+      "title": "2.5 入力完了後の処理",
+      "page": 23,
+      "approx_chars": 4248
+    },
+    {
+      "level": 3,
+      "title": "2.5.1 入力完了後の状態を知るには(通知コードの獲得)",
+      "page": 23,
+      "approx_chars": 154
+    },
+    {
+      "level": 3,
+      "title": "2.5.2 入力が完了した条件を調べるには(アテンション情報の獲得)",
+      "page": 24,
+      "approx_chars": 1597
+    },
+    {
+      "level": 3,
+      "title": "2.5.3 入力データの格納形式について",
+      "page": 25,
+      "approx_chars": 1769
+    },
+    {
+      "level": 3,
+      "title": "2.5.4 入力完了後の項目の状態を知るには",
+      "page": 27,
+      "approx_chars": 443
+    },
+    {
+      "level": 3,
+      "title": "2.5.5 論理アテンションの登録",
+      "page": 27,
+      "approx_chars": 127
+    },
+    {
+      "level": 3,
+      "title": "2.5.6 論理アテンションの追加",
+      "page": 27,
+      "approx_chars": 125
+    },
+    {
+      "level": 2,
+      "title": "2.6 選択項目の作り方",
+      "page": 27,
+      "approx_chars": 2888
+    },
+    {
+      "level": 3,
+      "title": "2.6.1 選択群種別について",
+      "page": 27,
+      "approx_chars": 671
+    },
+    {
+      "level": 3,
+      "title": "2.6.2 選択項目の表示について",
+      "page": 28,
+      "approx_chars": 843
+    },
+    {
+      "level": 3,
+      "title": "2.6.3 選択項目の操作について",
+      "page": 28,
+      "approx_chars": 641
+    },
+    {
+      "level": 3,
+      "title": "2.6.4 選択項目による入力完了",
+      "page": 29,
+      "approx_chars": 305
+    },
+    {
+      "level": 2,
+      "title": "2.7 カーソル位置の獲得",
+      "page": 29,
+      "approx_chars": 108
+    },
+    {
+      "level": 2,
+      "title": "2.8 オペレータスクロールについて",
+      "page": 29,
+      "approx_chars": 1072
+    },
+    {
+      "level": 2,
+      "title": "2.9 メニューについて",
+      "page": 30,
+      "approx_chars": 569
+    },
+    {
+      "level": 2,
+      "title": "2.10 分割スクロール画面",
+      "page": 31,
+      "approx_chars": 2873
+    },
+    {
+      "level": 3,
+      "title": "2.10.1 分割スクロールについて",
+      "page": 31,
+      "approx_chars": 571
+    },
+    {
+      "level": 3,
+      "title": "2.10.2 分割パターンと表示優先順位",
+      "page": 31,
+      "approx_chars": 1575
+    },
+    {
+      "level": 3,
+      "title": "2.10.3 分割スクロール形式画面のスクロールについて",
+      "page": 34,
+      "approx_chars": 530
+    },
+    {
+      "level": 3,
+      "title": "2.10.4 分割スクロール形式画面の表示範囲設定",
+      "page": 35,
+      "approx_chars": 160
+    },
+    {
+      "level": 2,
+      "title": "2.11 画像ファイルを表示する",
+      "page": 36,
+      "approx_chars": 5864
+    },
+    {
+      "level": 3,
+      "title": "2.11.1 クリッピングと中央表示",
+      "page": 38,
+      "approx_chars": 285
+    },
+    {
+      "level": 3,
+      "title": "2.11.2 ビットマップの表示",
+      "page": 38,
+      "approx_chars": 730
+    },
+    {
+      "level": 3,
+      "title": "2.11.3 JPEGの表示",
+      "page": 39,
+      "approx_chars": 700
+    },
+    {
+      "level": 3,
+      "title": "2.11.4 TIFFの表示",
+      "page": 39,
+      "approx_chars": 706
+    },
+    {
+      "level": 3,
+      "title": "2.11.5 PNGの表示",
+      "page": 40,
+      "approx_chars": 499
+    },
+    {
+      "level": 3,
+      "title": "2.11.6 GIFの表示",
+      "page": 40,
+      "approx_chars": 499
+    },
+    {
+      "level": 2,
+      "title": "2.12 画面の背景にビットマップを表示する",
+      "page": 40,
+      "approx_chars": 449
+    },
+    {
+      "level": 2,
+      "title": "2.13 URL画面を表示する",
+      "page": 41,
+      "approx_chars": 1560
+    },
+    {
+      "level": 3,
+      "title": "2.13.1 ハイパーリンク",
+      "page": 41,
+      "approx_chars": 814
+    },
+    {
+      "level": 3,
+      "title": "2.13.2 URLのマクロ表記",
+      "page": 42,
+      "approx_chars": 707
+    },
+    {
+      "level": 2,
+      "title": "2.14 画面表示形式",
+      "page": 42,
+      "approx_chars": 2494
+    },
+    {
+      "level": 3,
+      "title": "2.14.1 マルチウィンドウ機能",
+      "page": 43,
+      "approx_chars": 1379
+    },
+    {
+      "level": 3,
+      "title": "2.14.2 オーナーウィンドウの指定",
+      "page": 45,
+      "approx_chars": 564
+    },
+    {
+      "level": 3,
+      "title": "2.14.3 入力待ち状態ではない疑似ウィンドウの表示",
+      "page": 46,
+      "approx_chars": 112
+    },
+    {
+      "level": 1,
+      "title": "第3章 環境定義",
+      "page": 47,
+      "approx_chars": 2412
+    },
+    {
+      "level": 2,
+      "title": "3.1 Web環境の構築と環境設定",
+      "page": 47,
+      "approx_chars": 1370
+    },
+    {
+      "level": 3,
+      "title": "3.1.1 CGIのコピーとセキュリティ設定",
+      "page": 47,
+      "approx_chars": 243
+    },
+    {
+      "level": 3,
+      "title": "3.1.2 IISの事前設定",
+      "page": 47,
+      "approx_chars": 232
+    },
+    {
+      "level": 3,
+      "title": "3.1.3 CGI用仮想ディレクトリの設定",
+      "page": 47,
+      "approx_chars": 398
+    },
+    {
+      "level": 3,
+      "title": "3.1.4 CGI実行許可の設定",
+      "page": 48,
+      "approx_chars": 389
+    },
+    {
+      "level": 2,
+      "title": "3.2 画面帳票資産の格納先の設定",
+      "page": 49,
+      "approx_chars": 1018
+    },
+    {
+      "level": 1,
+      "title": "第4章 起動",
+      "page": 51,
+      "approx_chars": 10301
+    },
+    {
+      "level": 2,
+      "title": "4.1 作業概要",
+      "page": 51,
+      "approx_chars": 677
+    },
+    {
+      "level": 2,
+      "title": "4.2 作業手順",
+      "page": 51,
+      "approx_chars": 1025
+    },
+    {
+      "level": 2,
+      "title": "4.3 管理サービスの動作環境設定",
+      "page": 53,
+      "approx_chars": 5669
+    },
+    {
+      "level": 3,
+      "title": "4.3.1 設定情報ファイル",
+      "page": 53,
+      "approx_chars": 4651
+    },
+    {
+      "level": 3,
+      "title": "4.3.2 仮想フォルダ一覧ファイルの記述内容",
+      "page": 56,
+      "approx_chars": 879
+    },
+    {
+      "level": 2,
+      "title": "4.4 セションタイムアウト値の設定",
+      "page": 56,
+      "approx_chars": 762
+    },
+    {
+      "level": 2,
+      "title": "4.5 リモート実行",
+      "page": 57,
+      "approx_chars": 439
+    },
+    {
+      "level": 3,
+      "title": "4.5.1 HTMLの表示",
+      "page": 57,
+      "approx_chars": 130
+    },
+    {
+      "level": 3,
+      "title": "4.5.2 プログラムの実行",
+      "page": 57,
+      "approx_chars": 224
+    },
+    {
+      "level": 2,
+      "title": "4.6 デバッグ",
+      "page": 58,
+      "approx_chars": 1623
+    },
+    {
+      "level": 3,
+      "title": "4.6.1 MeFt/Webアプリケーションのデバッグについて",
+      "page": 58,
+      "approx_chars": 135
+    },
+    {
+      "level": 3,
+      "title": "4.6.2 デバッグの準備",
+      "page": 58,
+      "approx_chars": 767
+    },
+    {
+      "level": 3,
+      "title": "4.6.3 デバッグの開始",
+      "page": 59,
+      "approx_chars": 513
+    },
+    {
+      "level": 3,
+      "title": "4.6.4 デバッグ操作",
+      "page": 59,
+      "approx_chars": 73
+    },
+    {
+      "level": 3,
+      "title": "4.6.5 デバッグの終了",
+      "page": 59,
+      "approx_chars": 74
+    },
+    {
+      "level": 1,
+      "title": "第5章 利用者資源",
+      "page": 60,
+      "approx_chars": 39894
+    },
+    {
+      "level": 2,
+      "title": "5.1 起動用HTML",
+      "page": 60,
+      "approx_chars": 1463
+    },
+    {
+      "level": 3,
+      "title": "5.1.1 業務起動コマンド",
+      "page": 60,
+      "approx_chars": 982
+    },
+    {
+      "level": 3,
+      "title": "5.1.2 業務起動用HTMLの例",
+      "page": 60,
+      "approx_chars": 450
+    },
+    {
+      "level": 2,
+      "title": "5.2 ウィンドウ情報ファイル",
+      "page": 61,
+      "approx_chars": 31653
+    },
+    {
+      "level": 3,
+      "title": "5.2.1 ウィンドウ形式情報",
+      "page": 62,
+      "approx_chars": 26738
+    },
+    {
+      "level": 3,
+      "title": "5.2.2 入力制御情報",
+      "page": 94,
+      "approx_chars": 549
+    },
+    {
+      "level": 3,
+      "title": "5.2.3 キー割り付け",
+      "page": 94,
+      "approx_chars": 1362
+    },
+    {
+      "level": 3,
+      "title": "5.2.4 定義体情報",
+      "page": 96,
+      "approx_chars": 473
+    },
+    {
+      "level": 3,
+      "title": "5.2.5 組込みメディア",
+      "page": 96,
+      "approx_chars": 332
+    },
+    {
+      "level": 3,
+      "title": "5.2.6 オーナーウィンドウ",
+      "page": 97,
+      "approx_chars": 889
+    },
+    {
+      "level": 3,
+      "title": "5.2.7 項目制御",
+      "page": 97,
+      "approx_chars": 237
+    },
+    {
+      "level": 2,
+      "title": "5.3 画面定義体",
+      "page": 98,
+      "approx_chars": 1293
+    },
+    {
+      "level": 2,
+      "title": "5.4 組込みメディア",
+      "page": 98,
+      "approx_chars": 170
+    },
+    {
+      "level": 2,
+      "title": "5.5 利用者プログラム",
+      "page": 99,
+      "approx_chars": 3985
+    },
+    {
+      "level": 3,
+      "title": "5.5.1 利用者プログラム作成上の注意点",
+      "page": 99,
+      "approx_chars": 205
+    },
+    {
+      "level": 3,
+      "title": "5.5.2 項目制御",
+      "page": 99,
+      "approx_chars": 3191
+    },
+    {
+      "level": 3,
+      "title": "5.5.3 画面制御",
+      "page": 102,
+      "approx_chars": 433
+    },
+    {
+      "level": 2,
+      "title": "5.6 ひな型のHTMLファイル",
+      "page": 103,
+      "approx_chars": 1304
+    },
+    {
+      "level": 3,
+      "title": "5.6.1 HTMLファイルの生成",
+      "page": 103,
+      "approx_chars": 123
+    },
+    {
+      "level": 3,
+      "title": "5.6.2 HTMLファイルのカスタマイズ",
+      "page": 103,
+      "approx_chars": 212
+    },
+    {
+      "level": 3,
+      "title": "5.6.3 HTMLファイルのカスタマイズ内容の妥当性確認",
+      "page": 103,
+      "approx_chars": 148
+    },
+    {
+      "level": 3,
+      "title": "5.6.4 HTMLファイル格納先",
+      "page": 103,
+      "approx_chars": 304
+    },
+    {
+      "level": 3,
+      "title": "5.6.5 注意事項",
+      "page": 103,
+      "approx_chars": 391
+    },
+    {
+      "level": 1,
+      "title": "第6章 運用",
+      "page": 105,
+      "approx_chars": 4687
+    },
+    {
+      "level": 2,
+      "title": "6.1 管理者機能",
+      "page": 105,
+      "approx_chars": 3884
+    },
+    {
+      "level": 3,
+      "title": "6.1.1 Webインタフェース",
+      "page": 105,
+      "approx_chars": 2040
+    },
+    {
+      "level": 3,
+      "title": "6.1.2 コマンドインタフェース",
+      "page": 107,
+      "approx_chars": 1425
+    },
+    {
+      "level": 2,
+      "title": "6.2 ログ",
+      "page": 109,
+      "approx_chars": 783
+    },
+    {
+      "level": 3,
+      "title": "6.2.1 ログファイルの出力形式",
+      "page": 109,
+      "approx_chars": 259
+    },
+    {
+      "level": 3,
+      "title": "6.2.2 ログの仕様",
+      "page": 109,
+      "approx_chars": 144
+    },
+    {
+      "level": 1,
+      "title": "第7章 注意事項",
+      "page": 110,
+      "approx_chars": 1627
+    },
+    {
+      "level": 1,
+      "title": "第8章 MeFT/Web(ActiveX方式)との機能差",
+      "page": 112,
+      "approx_chars": 3977
+    },
+    {
+      "level": 2,
+      "title": "8.1 非サポート機能",
+      "page": 112,
+      "approx_chars": 1488
+    },
+    {
+      "level": 3,
+      "title": "8.1.1 画面定義体",
+      "page": 112,
+      "approx_chars": 135
+    },
+    {
+      "level": 3,
+      "title": "8.1.2 ウィンドウ情報ファイル",
+      "page": 112,
+      "approx_chars": 1322
+    },
+    {
+      "level": 2,
+      "title": "8.2 ActiveX方式と動作が異なる機能",
+      "page": 113,
+      "approx_chars": 2397
+    },
+    {
+      "level": 3,
+      "title": "8.2.1 画面機能",
+      "page": 113,
+      "approx_chars": 1325
+    },
+    {
+      "level": 3,
+      "title": "8.2.2 印刷機能",
+      "page": 114,
+      "approx_chars": 58
+    },
+    {
+      "level": 3,
+      "title": "8.2.3 利用者資源",
+      "page": 114,
+      "approx_chars": 664
+    },
+    {
+      "level": 3,
+      "title": "8.2.4 利用者プログラム-項目制御",
+      "page": 115,
+      "approx_chars": 147
+    },
+    {
+      "level": 3,
+      "title": "8.2.5 画面定義体のサポート状況",
+      "page": 115,
+      "approx_chars": 150
+    },
+    {
+      "level": 1,
+      "title": "付録A HTML生成コマンド",
+      "page": 116,
+      "approx_chars": 5921
+    },
+    {
+      "level": 2,
+      "title": "A.1 環境設定",
+      "page": 116,
+      "approx_chars": 356
+    },
+    {
+      "level": 2,
+      "title": "A.2 インタフェース",
+      "page": 116,
+      "approx_chars": 1170
+    },
+    {
+      "level": 2,
+      "title": "A.3 HTML生成コマンドが生成するHTMLの構成",
+      "page": 117,
+      "approx_chars": 312
+    },
+    {
+      "level": 2,
+      "title": "A.4 カスタマイズ内容妥当性確認",
+      "page": 118,
+      "approx_chars": 2538
+    },
+    {
+      "level": 2,
+      "title": "A.5 エラーメッセージ",
+      "page": 120,
+      "approx_chars": 1389
+    },
+    {
+      "level": 1,
+      "title": "付録B エラー一覧",
+      "page": 122,
+      "approx_chars": 7424
+    },
+    {
+      "level": 2,
+      "title": "B.1 入出力状態",
+      "page": 122,
+      "approx_chars": 3352
+    },
+    {
+      "level": 2,
+      "title": "B.2 管理サービスが出力するエラー",
+      "page": 124,
+      "approx_chars": 2534
+    },
+    {
+      "level": 2,
+      "title": "B.3 管理者機能が出力するエラー",
+      "page": 126,
+      "approx_chars": 1512
+    },
+    {
+      "level": 1,
+      "title": "付録C サポート状況",
+      "page": 128,
+      "approx_chars": 7258
+    },
+    {
+      "level": 2,
+      "title": "C.1 画面定義体のサポート状況",
+      "page": 128,
+      "approx_chars": 2430
+    },
+    {
+      "level": 2,
+      "title": "C.2 ウィンドウ情報ファイルのサポート状況",
+      "page": 131,
+      "approx_chars": 4800
+    },
+    {
+      "level": 1,
+      "title": "付録D MeFt/Web HTML変換方式を使ったプログラム(MHTM01)",
+      "page": 137,
+      "approx_chars": 2412
+    },
+    {
+      "level": 2,
+      "title": "D.1 プログラムを実行する前に",
+      "page": 138,
+      "approx_chars": 777
+    },
+    {
+      "level": 2,
+      "title": "D.2 サンプルプログラムの翻訳から実行まで",
+      "page": 138,
+      "approx_chars": 588
+    },
+    {
+      "level": 1,
+      "title": "索 引",
+      "page": 142,
+      "approx_chars": 17795
+    }
+  ]
+}

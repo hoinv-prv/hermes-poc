@@ -1,0 +1,138 @@
+{
+  "source_file": "simpwu64.pdf",
+  "title": "ユーザーズガイド",
+  "product": "SIMPLIA/COBOL 支援キット V12.2",
+  "full_title": "SIMPLIA/COBOL 支援キット V12.2 ユーザーズガイド",
+  "pages": 16,
+  "approx_chars": 20348,
+  "outline_entries_total": 21,
+  "outline_levels_captured": 3,
+  "outline": [
+    {
+      "level": 1,
+      "title": "表紙",
+      "page": 1,
+      "approx_chars": 104
+    },
+    {
+      "level": 1,
+      "title": "まえがき",
+      "page": 2,
+      "approx_chars": 3344
+    },
+    {
+      "level": 1,
+      "title": "目 次",
+      "page": 5,
+      "approx_chars": 3225
+    },
+    {
+      "level": 1,
+      "title": "第1章 製品概要",
+      "page": 6,
+      "approx_chars": 3370
+    },
+    {
+      "level": 2,
+      "title": "1.1 SIMPLIAとは",
+      "page": 6,
+      "approx_chars": 483
+    },
+    {
+      "level": 2,
+      "title": "1.2 SIMPLIA/COBOL支援キットとは",
+      "page": 6,
+      "approx_chars": 2863
+    },
+    {
+      "level": 3,
+      "title": "1.2.1 SIMPLIA TF-LINDA",
+      "page": 6,
+      "approx_chars": 486
+    },
+    {
+      "level": 3,
+      "title": "1.2.2 SIMPLIA TF-MDPORT",
+      "page": 6,
+      "approx_chars": 779
+    },
+    {
+      "level": 3,
+      "title": "1.2.3 SIMPLIA TF-EXCOUNTER",
+      "page": 7,
+      "approx_chars": 482
+    },
+    {
+      "level": 3,
+      "title": "1.2.4 SIMPLIA MF-STEPCOUNTER",
+      "page": 7,
+      "approx_chars": 960
+    },
+    {
+      "level": 1,
+      "title": "第2章 各製品のユーザーズガイド",
+      "page": 9,
+      "approx_chars": 757
+    },
+    {
+      "level": 1,
+      "title": "第3章 アイコンおよびフォルダについて",
+      "page": 10,
+      "approx_chars": 969
+    },
+    {
+      "level": 2,
+      "title": "3.1 アイコンについて",
+      "page": 10,
+      "approx_chars": 288
+    },
+    {
+      "level": 2,
+      "title": "3.2 フォルダ構成について",
+      "page": 10,
+      "approx_chars": 635
+    },
+    {
+      "level": 1,
+      "title": "第4章 注意事項",
+      "page": 11,
+      "approx_chars": 8435
+    },
+    {
+      "level": 2,
+      "title": "4.1 SIMPLIA共通の注意事項",
+      "page": 11,
+      "approx_chars": 1251
+    },
+    {
+      "level": 2,
+      "title": "4.2 SIMPLIA TF-LINDAの注意事項",
+      "page": 11,
+      "approx_chars": 3120
+    },
+    {
+      "level": 2,
+      "title": "4.3 SIMPLIA TF-MDPORTの注意事項",
+      "page": 13,
+      "approx_chars": 3490
+    },
+    {
+      "level": 2,
+      "title": "4.4 SIMPLIA TF-EXCOUNTERの注意事項",
+      "page": 15,
+      "approx_chars": 177
+    },
+    {
+      "level": 2,
+      "title": "4.5 SIMPLIA MF-STEPCOUNTERの注意事項",
+      "page": 15,
+      "approx_chars": 373
+    },
+    {
+      "level": 1,
+      "title": "第5章 SIMPLIA製品に関する情報",
+      "page": 16,
+      "approx_chars": 144
+    }
+  ]
+}

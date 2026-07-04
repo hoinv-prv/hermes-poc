@@ -1,0 +1,38 @@
+---
+artifact_type: wiki_source_meta
+source_id: SRC-NC-V12A-meft-ch5
+title: 第5章 印刷機能 — MeFt V12.2
+source_type: net_cobol_vendor_manual
+artifact_locator: __PROJECT_ROOT__/manuals/net_cobol/NetCOBOL_64bit_V12a/MeFt V12.2 ユーザーズガイド/MeFt V12.2 ユーザーズガイド.md
+profile_id: net_cobol
+status: active
+updated_at: 2026-06-26
+---
+# Wiki Source Meta — 第5章 印刷機能 — MeFt V12.2
+
+## Summary
+印刷機能 — đơn vị MeFt V12.2 (帳票/display/SORT). Backing reference cho conversion/review ASP COBOL → NetCOBOL (Tier B, L2/L3 selective); KHÔNG duplicate migration_policy.
+
+## Knowledge Targets
+- reference
+- domain
+- pattern
+
+## Lookup Keys
+- 印刷機能
+- 第5章 印刷機能
+- MeFt
+- 画面帳票定義体
+- 画面機能
+- プログラムインタフェース
+- ウィンドウ情報ファイル
+- プリンタ情報ファイル
+- MeFt V12.2
+- NetCOBOL V12.2
+
+## Source-Specific Hints
+- «第5章 印刷機能» — page 131 trong MeFt V12.2 ユーザーズガイド.md.
+
+## Related Sources
+- **SRC-NC-V12A-meft-v12-2-ug** — role: part_of — Thuộc MeFt V12.2 ユーザーズガイド (manual gốc).
+- **SRC-MIG-POLICY-mfg-smd** — role: related — Phương châm migration liên quan (cross-ref).
