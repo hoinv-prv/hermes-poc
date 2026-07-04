@@ -34,6 +34,17 @@ Always follow these rules before proposing code, edits, or reviews.
   2. Then use targeted glob/grep in hinted artifact paths.
   3. Do not stop after a single miss.
 
+## Net COBOL manuals lookup
+- Net COBOL wiki meta lives at .ai-work/wiki_sources/net_cobol/.
+- Net COBOL index file is .ai-work/wiki_sources/index.net_cobol.jsonl.
+- Important: Net COBOL manuals include Japanese source documents. Prefer adding Japanese query terms to improve lookup recall.
+- For Net COBOL topics (COPY, PERFORM, CALL, FILE I/O, FORM), prefer lookup against this index first:
+  - python .ai-work/tooling/lookup_wiki_source.py --query "COPY" --mode lexical --index .ai-work/wiki_sources/index.net_cobol.jsonl
+  - python .ai-work/tooling/lookup_wiki_source.py --query "COPY REPLACING" --mode semantic --index .ai-work/wiki_sources/index.net_cobol.jsonl
+  - python .ai-work/tooling/lookup_wiki_source.py --query "COPY文 REPLACING" --mode lexical --index .ai-work/wiki_sources/index.net_cobol.jsonl
+- If cross-check with AIWS docs is needed, query multiple indices in one command:
+  - python .ai-work/tooling/lookup_wiki_source.py --query "COPY" --index .ai-work/wiki_sources/index.net_cobol.jsonl,.ai-work/wiki_sources/index.aiws.jsonl
+
 ## AIP stability rules (strict)
 - AIP is stable control artifact, not runtime notebook.
 - Do not mark Done Criteria checkboxes as runtime progress.

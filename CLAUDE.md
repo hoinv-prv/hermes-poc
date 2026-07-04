@@ -80,3 +80,26 @@ Khi user h?i v? AI Work System ho?c c?n t?o AIP template, tim trong cac source s
 - Preset Knowledge: .ai-work/preset_knowledge/
   Dung khi: t?o AIP m?i - tim AIP exec template ho?c sample phu h?p
   Nav: aip_exec/ (exec templates), aip_samples/ (samples), AIP_SELECTION_GUIDE.md
+
+## Net COBOL Knowledge Source (manuals)
+
+Khi user hoi ve Net COBOL (COPY, PERFORM, CALL, FILE I/O, SCREEN/FORM), uu tien wiki lookup tren Net COBOL meta/index:
+
+- Luu y: bo manuals Net COBOL nay co tai lieu goc bang tieng Nhat. Khi lookup nen uu tien them tu khoa tieng Nhat de tang recall.
+
+- Meta dir: .ai-work/wiki_sources/net_cobol/
+- Index file: .ai-work/wiki_sources/index.net_cobol.jsonl
+- Artifact root: manuals/net_cobol/
+
+Lenh lookup khuyen nghi:
+
+- Lexical:
+  python .ai-work/tooling/lookup_wiki_source.py --query "COPY" --mode lexical --index .ai-work/wiki_sources/index.net_cobol.jsonl
+- Semantic:
+  python .ai-work/tooling/lookup_wiki_source.py --query "cach dung COPY trong Net COBOL" --mode semantic --index .ai-work/wiki_sources/index.net_cobol.jsonl
+- Japanese keywords:
+  python .ai-work/tooling/lookup_wiki_source.py --query "COPY文 REPLACING" --mode lexical --index .ai-work/wiki_sources/index.net_cobol.jsonl
+
+Neu can tim ca Net COBOL va AIWS docs trong cung mot lan tra cuu, dung nhieu index:
+
+- python .ai-work/tooling/lookup_wiki_source.py --query "COPY REPLACING" --index .ai-work/wiki_sources/index.net_cobol.jsonl,.ai-work/wiki_sources/index.aiws.jsonl
